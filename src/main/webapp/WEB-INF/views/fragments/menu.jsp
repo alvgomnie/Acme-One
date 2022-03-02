@@ -20,6 +20,8 @@
 	<acme:menu-left>
 		<acme:menu-option code="master.menu.anonymous" access="isAnonymous()">
 			<acme:menu-suboption code="master.menu.anonymous.favourite-link" action="http://www.example.com/"/>
+			<acme:menu-suboption code="master.menu.anonymous.link.alvgomnie" action="http://www.github.com/"/>
+			<acme:menu-suboption code="master.menu.anonymous.link.juacasalb" action="https://es.wikipedia.org/wiki/Canis_familiaris"/>
 		</acme:menu-option>
 
 		<acme:menu-option code="master.menu.administrator" access="hasRole('Administrator')">

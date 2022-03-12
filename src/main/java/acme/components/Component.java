@@ -7,6 +7,7 @@ import javax.validation.constraints.Pattern;
 import javax.validation.constraints.Positive;
 
 import org.hibernate.validator.constraints.Length;
+import org.hibernate.validator.constraints.URL;
 
 import acme.framework.entities.AbstractEntity;
 import lombok.Getter;
@@ -38,6 +39,7 @@ public class Component extends AbstractEntity{
 	@Positive
 	protected double retailPrice;
 	
+	@URL
 	protected String link;
 
 }

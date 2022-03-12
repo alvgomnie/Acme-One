@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>8</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>224</x>
+      <y>232</y>
+      <w>200</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Entity&gt;&gt;
+Tool
+--
++ name: String {NotBlank}
++ code: String {Unique}
++ technology: String {NotBlank}
++ description: String {NotBlank}
++ retailPrice: double {PositiveOrZero}
++ link: String {URL}
+bg=green</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>24</x>
+      <y>232</y>
+      <w>176</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Entity&gt;&gt;
+Component
+--
++ name: String {NotBlank}
++ code: String {Unique}
++ technology: String {NotBlank}
++ description: String {NotBlank}
++ retailPrice: double {Positive}
++ link: String {URL}
+bg=green</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>24</x>
+      <y>80</y>
+      <w>328</w>
+      <h>104</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Entity&gt;&gt;
+Chirp
+--
++ creationMoment: Date {NotNull, Temporal(TIMESTAMP)}
++ title: String {NotNull}
++ author: String {NotNull}
++ body: String {NotNull}
++ emailAddress: String {Email}
+bg=green</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>384</x>
+      <y>80</y>
+      <w>168</w>
+      <h>88</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Entity&gt;&gt;
+Announcement
+--
++ title: String {NotNull}
++ body: String {NotNull}
++ / critical: boolean
++ link: String {URL}
+bg=green</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>456</x>
+      <y>232</y>
+      <w>200</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Entity&gt;&gt;
+Toolkit
+--
++ code: String {Unique}
++ title: String {NotNull}
++ description: String {NotBlank}
++ assemblyNotes: String {NotBlank}
++ link: String {URL}
+bg=green</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>688</x>
+      <y>232</y>
+      <w>304</w>
+      <h>144</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Entity&gt;&gt;
+Patronage
+--
++ creationMoment: Date {NotNull, Temporal(TIMESTAMP)}
++ status: Status
++ code: String {Unique}
++ legalStuff: String {NotBlank}
++ budget: double {Positive}
++ startingDate: Date {Temporal(TIMESTAMP)}
++ finishingDate: Date {Temporal(TIMESTAMP)}
++ link: String {URL}
+bg=green</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>592</x>
+      <y>80</y>
+      <w>88</w>
+      <h>88</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Enum&gt;&gt;
+Status
+--
++ PROPOSED
++ ACCEPTED
++ DENIED
+bg=orange</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>848</x>
+      <y>448</y>
+      <w>144</w>
+      <h>64</h>
+    </coordinates>
+    <panel_attributes>the startingDate must 
+be at minimun one month 
+after the creationMoment
+bg=blue</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>904</x>
+      <y>368</y>
+      <w>24</w>
+      <h>96</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;10.0;10.0;100.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>688</x>
+      <y>448</y>
+      <w>152</w>
+      <h>64</h>
+    </coordinates>
+    <panel_attributes>there must be at maximum
+30 days between 
+finishingDate and 
+startingDate
+bg=blue</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>744</x>
+      <y>368</y>
+      <w>24</w>
+      <h>96</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;10.0;10.0;100.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>24</x>
+      <y>400</y>
+      <w>304</w>
+      <h>144</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Entity&gt;&gt;
+Patronage Report
+--
++ seqNumber: int {NotBlank, Pattern}
++ creationMoment: Date {NotNull, Temporal(TIMESTAMP), Past}
++ memorandum: String {NotNull}
++ link: String {URL}
+bg=green</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>360</x>
+      <y>400</y>
+      <w>200</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Entity&gt;&gt;
+Principal
+--
++ / isPatron: boolean
++ / isInventor: boolean
++ role: FrameworkRoles
++ company: String {NotBlank}
++ statement: String {NotBlank}
++ link: String {URL}
+bg=green</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>720</x>
+      <y>80</y>
+      <w>128</w>
+      <h>88</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Enum&gt;&gt;
+FrameworkRoles
+--
++ ANONYMUS
++ AUTHENTICATED
++ ADMINISTRATOR
+bg=orange</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

@@ -5,9 +5,9 @@ import javax.validation.constraints.NotBlank;
 import org.hibernate.validator.constraints.Length;
 import org.hibernate.validator.constraints.URL;
 
-import acme.framework.entities.AbstractEntity;
+import acme.framework.roles.UserRole;
 
-public class Patron extends AbstractEntity{
+public class Patron extends UserRole{
 	
 	private static final long serialVersionUID = 1L;
 

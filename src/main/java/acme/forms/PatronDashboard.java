@@ -3,6 +3,9 @@ package acme.forms;
 import java.io.Serializable;
 import java.util.Map;
 
+import org.springframework.data.util.Pair;
+
+import acme.entities.PatronageStatus;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -12,24 +15,14 @@ public class PatronDashboard implements Serializable{
 	
 	private static final long serialVersionUID = 1L;
 	
-	Integer totalNumberOfProposedPatronages;
-	Integer totalNumberOfAcceptedPatronages;
-	Integer totalNumberOfDeniedPatronages;
+	Pair<PatronageStatus, Integer> totalNumberOfPatronages;
 
-	Map<String, Double> averageBudgetOfProposedPatronagesGroupedByCurrency;
-	Map<String, Double> averageBudgetOfAcceptedPatronagesGroupedByCurrency;
-	Map<String, Double> averageBudgetOfDeniedPatronagesGroupedByCurrency;
+	Map<String, Pair<PatronageStatus, Double>> averageBudgetOfPatronagesGroupedByCurrency;
 	
-	Map<String, Double> deviationBudgetOfProposedPatronagesGroupedByCurrency;
-	Map<String, Double> deviationBudgetOfAcceptedPatronagesGroupedByCurrency;
-	Map<String, Double> deviationBudgetOfDeniedPatronagesGroupedByCurrency;
+	Map<String, Pair<PatronageStatus, Double>> deviationBudgetOfPatronagesGroupedByCurrency;
 	
-	Map<String, Double> minimumBudgetOfProposedPatronagesGroupedByCurrency;
-	Map<String, Double> minimumBudgetOfAcceptedPatronagesGroupedByCurrency;
-	Map<String, Double> minimumBudgetOfDeniedPatronagesGroupedByCurrency;	
+	Map<String, Pair<PatronageStatus, Double>> minimumBudgetOfPatronagesGroupedByCurrency;
 	
-	Map<String, Double> maximumBudgetOfProposedPatronagesGroupedByCurrency;
-	Map<String, Double> maximumBudgetOfAcceptedPatronagesGroupedByCurrency;
-	Map<String, Double> maximumBudgetOfDeniedPatronagesGroupedByCurrency;
+	Map<String, Pair<PatronageStatus, Double>> maximumBudgetOfPatronagesGroupedByCurrency;
 
 }

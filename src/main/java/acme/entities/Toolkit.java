@@ -2,8 +2,6 @@ package acme.entities;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
-import javax.persistence.OneToOne;
-import javax.validation.Valid;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Pattern;
@@ -28,31 +26,25 @@ public class Toolkit extends AbstractEntity{
 	protected String code;
 
 	@NotBlank
-	@Length(max=100)
+	@Length(min=1, max=100)
 	protected String title;
 	
 	@NotBlank
-	@Length(max=255)
+	@Length(min=1, max=255)
 	protected String description;
 	
 	@NotBlank
-	@Length(max=255)
-	protected String notes;
+	@Length(min=1, max=255)
+	protected String assemblyNotes;
+	
+	@NotNull
+	protected boolean publish;
 	
 	@URL
 	protected String link;
 	
-	/*
-	@NotNull
-	@Valid
-	@ManyToOne(optional=true)
-	protected Component component;
-	*/
 	
-	@NotNull
-	@Valid
-	@OneToOne(optional=false)
-	protected Tool tool;
+	
 	
 	
 	

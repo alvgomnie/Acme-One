@@ -15,5 +15,5 @@ public class PatronDashboard implements Serializable{
 	
 	Map<String, Integer> totalNumber;
 	Map<String, List<Double>>patronageData;
-
+	
 }

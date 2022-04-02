@@ -7,3 +7,5 @@ user-account-inventor-01,true,"UserIdentity{name: 'I1', surname: 'Acme', email: 
 user-account-inventor-02,true,"UserIdentity{name: 'I2', surname: 'Acme', email: 'i2@acme.com'}",inventor2,inventor2
 user-account-inventor-03,true,"UserIdentity{name: 'I3', surname: 'Acme', email: 'i3@acme.com'}",inventor3,inventor3
 user-account-inventor-04,true,"UserIdentity{name: 'I4', surname: 'Acme', email: 'i4@acme.com'}",inventor4,inventor4
+user-account-consumer-01,true,"UserIdentity{name: 'C1', surname: 'Acme', email: 'c1@acme.com'}",consumer1,consumer1
+user-account-consumer-02,true,"UserIdentity{name: 'C2', surname: 'Acme', email: 'c2@acme.com'}",consumer2,consumer2

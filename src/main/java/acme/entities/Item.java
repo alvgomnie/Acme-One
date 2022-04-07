@@ -55,17 +55,7 @@ public class Item extends AbstractEntity{
 	@NotNull
 	@Valid
 	@ManyToOne(optional=false)
-	protected Quantity quantity;
-	
-	@NotNull
-	@Valid
-	@ManyToOne(optional=false)
 	protected Inventor inventor;
-	
-	@NotNull
-	@Valid
-	@ManyToOne(optional=false)
-	protected Toolkit toolkit;
 	
 	
 	public static boolean positiveMoney(final Money m) {

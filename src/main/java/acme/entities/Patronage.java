@@ -18,6 +18,7 @@ import org.hibernate.validator.constraints.Length;
 import org.hibernate.validator.constraints.URL;
 
 import acme.framework.entities.AbstractEntity;
+import acme.roles.Inventor;
 import acme.roles.Patron;
 import lombok.Getter;
 import lombok.Setter;
@@ -61,5 +62,10 @@ public class Patronage extends AbstractEntity{
 	@Valid
 	@ManyToOne(optional=false)
 	protected Patron patron;
+	
+	@NotNull
+	@Valid
+	@ManyToOne(optional=false)
+	protected Inventor inventor;
 
 }

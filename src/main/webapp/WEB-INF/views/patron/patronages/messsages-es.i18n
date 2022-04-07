@@ -1,0 +1,10 @@
+patron.patronages.list.label.status = Estado
+patron.patronages.list.label.code = Codigo
+
+patron.patronages.form.label.status = Estado
+patron.patronages.form.label.code = Codigo
+patron.patronages.form.label.legalStuff = Aspectos Legales
+patron.patronages.form.label.budget = Presupuesto
+patron.patronages.form.label.startDate = Fecha de inicio
+patron.patronages.form.label.finishDate = Fecha de fin
+patron.patronages.form.label.info = Mas informacion (Opcional) 

@@ -25,6 +25,11 @@
 			<acme:menu-suboption code="master.menu.anonymous.link.fraprapra1" action="https://elpais.com/"/>
 			<acme:menu-suboption code="master.menu.anonymous.link.miggavmar" action="https://okdiario.com/"/>
 		</acme:menu-option>
+		
+		<acme:menu-option code="master.menu.any.chirps">
+			<acme:menu-suboption code="master.menu.any.chirps.list" action="/any/chirp/list"/>
+			<acme:menu-separator/>
+		</acme:menu-option>
 
 		<acme:menu-option code="master.menu.administrator" access="hasRole('Administrator')">
 			<acme:menu-suboption code="master.menu.administrator.user-accounts" action="/administrator/user-account/list"/>

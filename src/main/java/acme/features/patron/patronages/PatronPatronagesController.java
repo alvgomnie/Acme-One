@@ -20,8 +20,8 @@ public class PatronPatronagesController extends AbstractController<Patron, Patro
 	
 	@PostConstruct
 	protected void initialise() {
-		super.addCommand("listPatronages", this.listPatronagesService);
-		super.addCommand("showPatronages", this.showPatronagesService);
+		super.addCommand("list", this.listPatronagesService);
+		super.addCommand("show", this.showPatronagesService);
 	}
 
 }

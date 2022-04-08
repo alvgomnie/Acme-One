@@ -44,7 +44,7 @@ public class PatronageReport extends AbstractEntity{
 	protected String memorandum;
 	
 	@URL
-	protected String infoURL;
+	protected String link;
 	
 	
 	

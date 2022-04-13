@@ -1,6 +1,6 @@
 package acme.components;
 
 
-public enum systemCurrency {
+public enum SystemCurrency {
 	EUR, USD, GBP
 }

@@ -1,0 +1,3 @@
+authenticated.spam.list.label.spamTerm = Término spam
+authenticated.spam.list.label.isStrong = Explicitud
+authenticated.spam.list.label.threshold = Umbral

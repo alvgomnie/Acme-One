@@ -53,6 +53,12 @@ master.menu.user-account.consumer = Consumer data
 master.menu.user-account.become-consumer = Become a consumer
 master.menu.user-account.announcements.list = Announcement
 
+# master.menu.authenticated ###################################################
+
+master.menu.authenticated.configuration = Configuration
+master.menu.authenticated.configuration.list-spam = Spam List
+master.menu.authenticated.configuration.list-currency = Currency List
+
 # master.menu.any ##########################################################
 
 master.menu.any.chirps = Chirps

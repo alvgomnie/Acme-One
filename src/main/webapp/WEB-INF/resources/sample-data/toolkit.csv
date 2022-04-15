@@ -1,2 +1,2 @@
-key,code,title,description,assemblyNotes,publish,link
-toolkit-01,AAA-000,"1","Toolkit 1","ejemplo",false,http://www.google.com
+key,code,title,description,assemblyNotes,publish,link,key:item
+toolkit-01,AAA-000,"1","Toolkit 1","ejemplo",false,http://www.google.com,item-01

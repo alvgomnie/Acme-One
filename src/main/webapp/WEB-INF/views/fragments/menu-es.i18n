@@ -63,6 +63,8 @@ master.menu.authenticated.configuration.list-currency = Lista de divisas
 
 master.menu.any.chirps = Chirps
 master.menu.any.chirps.list = Lista de chirps
+master.menu.any.toolkits = Toolkits
+master.menu.any.toolkits.list = Lista de toolkits
 
 # master.menu.inventor #############################################
 

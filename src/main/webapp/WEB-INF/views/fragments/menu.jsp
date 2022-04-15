@@ -30,6 +30,10 @@
 			<acme:menu-suboption code="master.menu.any.chirps.list" action="/any/chirp/list"/>
 			<acme:menu-separator/>
 		</acme:menu-option>
+		
+		<acme:menu-option code="master.menu.any.toolkits">
+			<acme:menu-suboption code="master.menu.any.toolkits.list" action="/any/toolkit/list"/>		
+		</acme:menu-option>
 
 		<acme:menu-option code="master.menu.administrator" access="hasRole('Administrator')">
 			<acme:menu-suboption code="master.menu.administrator.user-accounts" action="/administrator/user-account/list"/>

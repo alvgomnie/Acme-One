@@ -28,7 +28,12 @@
 		
 		<acme:menu-option code="master.menu.any.chirps">
 			<acme:menu-suboption code="master.menu.any.chirps.list" action="/any/chirp/list"/>
+		</acme:menu-option>
+		
+		<acme:menu-option code="master.menu.any.items">
+			<acme:menu-suboption code="master.menu.any.items.components" action="/any/item/list?type=component"/>
 			<acme:menu-separator/>
+			<acme:menu-suboption code="master.menu.any.items.tools" action="/any/item/list?type=tool"/>
 		</acme:menu-option>
 
 		<acme:menu-option code="master.menu.administrator" access="hasRole('Administrator')">

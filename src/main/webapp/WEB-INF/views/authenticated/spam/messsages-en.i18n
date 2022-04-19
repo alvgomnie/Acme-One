@@ -1,0 +1,3 @@
+authenticated.spam.list.label.spamTerm = Spam Term
+authenticated.spam.list.label.isStrong = Strong
+authenticated.spam.list.label.threshold = Threshold

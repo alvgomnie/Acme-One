@@ -51,12 +51,21 @@ master.menu.user-account.provider = Datos de proveedor
 master.menu.user-account.become-provider = Hazte proveedor
 master.menu.user-account.consumer = Datos de consumidor
 master.menu.user-account.become-consumer = Hazte consumidor
+master.menu.user-account.announcements.list = Anuncios
+
+# master.menu.authenticated ###################################################
+
+master.menu.authenticated.configuration = Configuración
+master.menu.authenticated.configuration.list-spam = Lista de spam
+master.menu.authenticated.configuration.list-currency = Lista de divisas
 
 # master.menu.any ##########################################################
 
-master.meu.any = Cualquiera
+master.menu.any = Cualquiera
 master.menu.any.chirps = Chirps
 master.menu.any.chirps.list = Lista de chirps
+master.menu.any.toolkits = Toolkits
+master.menu.any.toolkits.list = Lista de toolkits
 master.menu.any.items = Items
 master.menu.any.items.components = Lista de Componentes
 master.menu.any.items.tools = Lista de Herramientas

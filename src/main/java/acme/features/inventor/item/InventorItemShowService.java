@@ -27,11 +27,11 @@ public class InventorItemShowService implements AbstractShowService<Inventor, It
 		assert request != null;
 	
 		Integer id;
-		Item artifact;
+		Item item;
 		id = request.getModel().getInteger("id");
-		artifact = this.repository.findItemById(id);
+		item = this.repository.findItemById(id);
 		
-		return artifact;
+		return item;
 	}
 
 	@Override

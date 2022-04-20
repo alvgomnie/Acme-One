@@ -53,6 +53,7 @@ master.menu.patron.patronages = Patronages
 master.menu.inventor = Inventor
 master.menu.inventor.item = Components and Tools
 master.menu.inventor.toolkit = Toolkits
+master.menu.inventor.patronages = Patronages
 
 # master.menu.user-account ####################################################
 

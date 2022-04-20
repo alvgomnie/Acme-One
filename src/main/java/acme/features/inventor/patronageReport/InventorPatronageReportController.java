@@ -1,26 +1,27 @@
-package acme.features.inventor.patronage;
+package acme.features.inventor.patronageReport;
 
 import javax.annotation.PostConstruct;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 
-import acme.entities.Patronage;
+import acme.entities.PatronageReport;
 import acme.framework.controllers.AbstractController;
 import acme.roles.Inventor;
 
 @Controller
-public class InventorPatronageController extends AbstractController<Inventor, Patronage>{
+public class InventorPatronageReportController extends AbstractController<Inventor, PatronageReport> {
 
 	@Autowired
-	protected InventorPatronageListService listService;
-	
+	protected InventorPatronageReportListService listService;
+
 	@Autowired
-	protected InventorPatronageShowService showService;
+	protected InventorPatronageReportShowService showService;
 
 	@PostConstruct
 	protected void initialise() {
 		super.addCommand("list", this.listService);
 		super.addCommand("show", this.showService);
 	}
+
 }

@@ -39,6 +39,13 @@
 		<acme:menu-option code="master.menu.any.toolkits">
 			<acme:menu-suboption code="master.menu.any.toolkits.list" action="/any/toolkit/list"/>		
 		</acme:menu-option>
+		
+		<acme:menu-option code="master.menu.any.user-account">
+			<acme:menu-suboption code="master.menu.any.user-account.consumer" action="/any/user-account/list?role=consumer"/>
+			<acme:menu-suboption code="master.menu.any.user-account.inventor" action="/any/user-account/list?role=inventor"/>
+			<acme:menu-suboption code="master.menu.any.user-account.patron" action="/any/user-account/list?role=patron"/>
+			<acme:menu-suboption code="master.menu.any.user-account.provider" action="/any/user-account/list?role=provider"/>
+		</acme:menu-option>
 
 		<acme:menu-option code="master.menu.administrator" access="hasRole('Administrator')">
 			<acme:menu-suboption code="master.menu.administrator.user-accounts" action="/administrator/user-account/list"/>

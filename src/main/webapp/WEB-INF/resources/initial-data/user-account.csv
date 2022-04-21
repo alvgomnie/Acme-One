@@ -11,3 +11,5 @@ user-account-inventor-03,true,"UserIdentity{name: 'I3', surname: 'Acme', email: 
 user-account-inventor-04,true,"UserIdentity{name: 'I4', surname: 'Acme', email: 'i4@acme.com'}",inventor4,inventor4
 user-account-consumer-01,true,"UserIdentity{name: 'C1', surname: 'Acme', email: 'c1@acme.com'}",consumer1,consumer1
 user-account-consumer-02,true,"UserIdentity{name: 'C2', surname: 'Acme', email: 'c2@acme.com'}",consumer2,consumer2
+user-account-provider-01,true,"UserIdentity{name: 'PR1', surname: 'Acme', email: 'pr1@acme.com'}",provider1,provider1
+user-account-provider-02,true,"UserIdentity{name: 'PR2', surname: 'Acme', email: 'pr2@acme.com'}",provider2,provider2

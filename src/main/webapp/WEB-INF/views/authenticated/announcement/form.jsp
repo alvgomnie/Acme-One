@@ -7,6 +7,5 @@
 	<acme:input-textbox code="authenticated.announcement.list.label.title" path="title"/>
 	<acme:input-textbox code="authenticated.announcement.list.label.creationMoment" path="creationMoment"/>
 	<acme:input-textbox code="authenticated.announcement.list.label.body" path="body"/>
-	<acme:input-textbox code="authenticated.announcement.list.label.critical" path="critical"/>
 	<acme:input-textbox code="authenticated.announcement.list.label.link" path="link"/>
 </acme:form>

@@ -1,0 +1,2 @@
+timestamp,test-class,test-method,time,description,result
+"2022-04-21 22:52:26.45","authenticated.currency.AuthenticatedCurrencyListTest","authenticatedListCurrency",11849,""[1] testIndex=0, name=Anuncio 2, byDefault=2022/04/08 20:00"","Expected value 'Anuncio 2' in attribute 0 of record 0, but found 'EUR'"

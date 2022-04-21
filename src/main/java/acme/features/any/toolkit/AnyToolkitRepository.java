@@ -11,9 +11,9 @@ import acme.framework.repositories.AbstractRepository;
 @Repository
 public interface AnyToolkitRepository extends AbstractRepository {
 
-	@Query("SELECT t FROM Toolkit t WHERE t.id = id")
+	@Query("SELECT t FROM Toolkit t WHERE t.id=:id")
 	Toolkit findOneToolkitById(int id);
 	
-	@Query("SELECT t FROM Toolkit t")
+	@Query("SELECT t FROM Toolkit t WHERE t.publish = true")
 	Collection<Toolkit> findAllToolkits();
 }

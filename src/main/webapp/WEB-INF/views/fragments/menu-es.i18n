@@ -69,6 +69,11 @@ master.menu.any.toolkits.list = Lista de toolkits
 master.menu.any.items = Items
 master.menu.any.items.components = Lista de Componentes
 master.menu.any.items.tools = Lista de Herramientas
+master.menu.any.user-account = Users
+master.menu.any.user-account.consumer = Lista de todos los consumidores
+master.menu.any.user-account.inventor = Lista de todos los inventores
+master.menu.any.user-account.patron = Lista de todos los patrones
+master.menu.any.user-account.provider = Lista de todos los proveedores
 
 # master.menu.inventor #############################################
 

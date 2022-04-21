@@ -40,7 +40,7 @@ public class Toolkit extends AbstractEntity{
 	protected String assemblyNotes;
 	
 	@NotNull
-	protected boolean publish;
+	protected Boolean publish;
 	
 	@URL
 	protected String link;

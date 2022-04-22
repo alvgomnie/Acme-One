@@ -1,0 +1,2 @@
+timestamp,test-class,test-method,time,description,result
+"2022-04-22 17:29:46.33","inventor.toolkit.InventorToolkitListCSVTest","positiveTest",28,""[1] recordIndex=AAA-000, code=1, title=Toolkit 1, description=ejemplo, assemblyNotes=false, publish=http://www.google.com"","Error converting parameter at index 0: Failed to convert String "AAA-000" to type java.lang.Integer"

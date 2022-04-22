@@ -28,9 +28,9 @@ public class PatronPatronageReportListService implements AbstractListService<Pat
 		assert request != null; 
 		 
 		final Collection<PatronageReport> result; 
-		final int UAId = request.getPrincipal().getAccountId();
-		final int PatronId = this.repository.findPatronByUserAccountId(UAId).getId();
-		result=this.repository.findPatronageReportsByPatronId(PatronId); 
+		final int accountId = request.getPrincipal().getAccountId();
+		final int patronId = this.repository.findPatronByUserAccountId(accountId).getId();
+		result=this.repository.findPatronageReportsByPatronId(patronId); 
 		
 		return result;
 	} 

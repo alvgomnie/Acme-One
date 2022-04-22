@@ -7,7 +7,7 @@
 	<h1>Patronage</h1>
 	<acme:input-textbox code="inventor.patronages.list.label.status" path="status"/>
 	<acme:input-textbox code="inventor.patronages.list.label.code" path="code"/>
-	<acme:input-textarea code="inventor.patronages.list.label.legalStuff" path="stuff"/>
+	<acme:input-textarea code="inventor.patronages.list.label.legalStuff" path="legalStuff"/>
 	<acme:input-money code="inventor.patronages.list.label.budget" path="budget"/>
 	<acme:input-moment code="inventor.patronages.list.label.startingDate" path="startingDate"/>
 	<acme:input-moment code="inventor.patronages.list.label.finishingDate" path="finishingDate"/>
@@ -16,5 +16,5 @@
 	<h1>Patron</h1>
 	<acme:input-textbox code="inventor.patronages.patron.list.label.company" path="patron.company"/>
 	<acme:input-textarea code="inventor.patronages.patron.list.label.statement" path="patron.statement"/>
-	<acme:input-url code="inventor.patronages.patron.list.label.optionalLink" path="patron.link"/>
+	<acme:input-url code="inventor.patronages.patron.list.label.link" path="patron.link"/>
 </acme:form>

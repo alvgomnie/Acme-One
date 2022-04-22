@@ -5,7 +5,12 @@
 
 <acme:list>
 
-	<acme:list-column code="patron.patronage.list.label.status" path="status"/>
-	<acme:list-column code="patron.patronage.list.label.code" path="code"/>
+	<acme:list-column code="patron.patronages.list.label.status" path="status"/>
+	<acme:list-column code="patron.patronages.list.label.code" path="code"/>
+	<acme:list-column code="patron.patronages.list.label.legalStuff" path="legalStuff"/>
+	<acme:list-column code="patron.patronages.list.label.budget" path="budget"/>
+	<acme:list-column code="patron.patronages.list.label.startingDate" path="startingDate"/>
+	<acme:list-column code="patron.patronages.list.label.finishingDate" path="finishingDate"/>
+	<acme:list-column code="patron.patronages.list.label.link" path="link"/>
 	
 </acme:list> 

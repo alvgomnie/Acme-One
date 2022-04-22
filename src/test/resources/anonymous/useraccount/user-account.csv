@@ -1,0 +1,13 @@
+testIndex,name,surname,email,username
+0,C1,Acme,c1@acme.com,consumer1
+1,C2,Acme,c2@acme.com,consumer2
+2,I1,Acme,i1@acme.com,inventor1
+3,I2,Acme,i2@acme.com,inventor2
+4,I3,Acme,i3@acme.com,inventor3
+5,I4,Acme,i4@acme.com,inventor4
+6,P1,Acme,p1@acme.com,patron1
+7,P2,Acme,p2@acme.com,patron2
+8,P3,Acme,p3@acme.com,patron3
+9,P4,Acme,p4@acme.com,patron4
+10,PR1,Acme,pr1@acme.com,provider1
+11,PR2,Acme,pr2@acme.com,provider2

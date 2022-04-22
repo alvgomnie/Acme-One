@@ -26,7 +26,7 @@ public class Chirp extends AbstractEntity{
 	@Temporal(TemporalType.TIMESTAMP)
 	@NotNull
 	@Past
-	protected Date creationMoment;
+	protected Date moment;
 	
 	@NotBlank
 	@Length(min = 1, max = 101)
@@ -41,7 +41,7 @@ public class Chirp extends AbstractEntity{
 	protected String body;
 	
 	@Email
-	protected String emailAddress;	
+	protected String email;	
 	
 
 }

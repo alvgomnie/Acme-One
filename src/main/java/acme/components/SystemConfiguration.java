@@ -5,13 +5,13 @@ import java.util.List;
 
 import javax.validation.constraints.NotBlank;
 
-public class systemConfiguration {
+public class SystemConfiguration {
 	
 	@NotBlank
-	protected static final systemCurrency defaultCurrency = systemCurrency.EUR;
+	protected static final SystemCurrency defaultCurrency = SystemCurrency.EUR;
 	
 	@NotBlank
-	protected static final List<String> acceptedCurrenciesList = Arrays.asList(systemCurrency.EUR.toString(), systemCurrency.USD.toString(), systemCurrency.GBP.toString());
+	protected static final List<String> acceptedCurrenciesList = Arrays.asList(SystemCurrency.EUR.toString(), SystemCurrency.USD.toString(), SystemCurrency.GBP.toString());
 	
 	@NotBlank
 	protected static final List<String> strongSpamTermsList = Arrays.asList("sex", "hard core", "viagra", "cialis");

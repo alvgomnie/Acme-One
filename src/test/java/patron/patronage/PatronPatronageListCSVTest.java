@@ -18,17 +18,13 @@ public class PatronPatronageListCSVTest extends TestHarness{
 		super.checkListingExists();
 		super.sortListing(0, "asc");
 		
-		super.checkColumnHasValue(recordIndex, 0, status);
-
-		super.clickOnListingRecord(recordIndex);
-		super.checkFormExists();
-		super.checkInputBoxHasValue("status", status);
-		super.checkInputBoxHasValue("code", code);
-		super.checkInputBoxHasValue("legalStuff", legalStuff);
-		super.checkInputBoxHasValue("budget", budget);
-		super.checkInputBoxHasValue("startingDate", startingDate);
-		super.checkInputBoxHasValue("finishingDate", finishingDate);
-		super.checkInputBoxHasValue("link", link);
+		super.checkColumnHasValue(0, 0, status);
+		super.checkColumnHasValue(0, 1, code);
+		super.checkColumnHasValue(0, 2, legalStuff);
+		super.checkColumnHasValue(0, 3, budget);
+		super.checkColumnHasValue(0, 4, startingDate);
+		super.checkColumnHasValue(0, 5, finishingDate);
+		super.checkColumnHasValue(0, 6, link);
 		
 		super.signOut();
 	}

@@ -18,16 +18,12 @@ public class InventorToolkitListCSVTest extends TestHarness{
 		super.checkListingExists();
 		super.sortListing(0, "asc");
 		
-		super.checkColumnHasValue(recordIndex, 0, code);
-
-		super.clickOnListingRecord(recordIndex);
-		super.checkFormExists();
-		super.checkInputBoxHasValue("code", code);
-		super.checkInputBoxHasValue("title", title);
-		super.checkInputBoxHasValue("description", description);
-		super.checkInputBoxHasValue("assemblyNotes", assemblyNotes);
-		super.checkInputBoxHasValue("publish", publish);
-		super.checkInputBoxHasValue("link", link);
+		super.checkColumnHasValue(0, 0, code);
+		super.checkColumnHasValue(0, 1, title);
+		super.checkColumnHasValue(0, 2, description);
+		super.checkColumnHasValue(0, 3, assemblyNotes);
+		super.checkColumnHasValue(0, 4, publish);
+		super.checkColumnHasValue(0, 5, link);
 	
 		super.signOut();
 	}

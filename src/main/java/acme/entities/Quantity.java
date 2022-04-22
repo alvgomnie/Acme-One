@@ -27,6 +27,11 @@ public class Quantity extends AbstractEntity{
 	
 	@NotNull
 	@Valid
+	@ManyToOne(optional = false)
+	protected Item item;
+	
+	@NotNull
+	@Valid
 	@ManyToOne(optional=false)
 	protected Toolkit toolkit;
 }

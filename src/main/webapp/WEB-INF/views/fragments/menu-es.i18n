@@ -49,13 +49,6 @@ master.menu.patron = Patron
 master.menu.patron.patronages = Patrocinio
 master.menu.patron.patronageReport = Informe de patrocinio
 
-# master.menu.inventor ##########################################################
-
-master.menu.inventor = Inventor
-master.menu.inventor.toolkit = Caja de herramientas
-master.menu.inventor.patronages = Patrocinios
-master.menu.inventor.patronageReport = Informe de patrocinio
-
 # master.menu.user-account ####################################################
 
 master.menu.user-account = Cuenta
@@ -95,3 +88,6 @@ master.menu.inventor.artifacts.components-link = Mis componentes
 master.menu.inventor = Inventor
 master.menu.inventor.components-link = Mis componentes
 master.menu.inventor.tools-link = Mis herramientas
+master.menu.inventor.toolkit = Caja de herramientas
+master.menu.inventor.patronages = Patrocinios
+master.menu.inventor.patronageReport = Informe de patrocinio

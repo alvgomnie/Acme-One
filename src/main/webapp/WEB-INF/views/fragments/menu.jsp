@@ -63,6 +63,9 @@
 		<acme:menu-option code="master.menu.inventor" access="hasRole('Inventor')">
 			<acme:menu-suboption code="master.menu.inventor.components-link" action="/inventor/item/list-my-components"/>
 			<acme:menu-suboption code="master.menu.inventor.tools-link" action="/inventor/item/list-my-tools"/>
+			<acme:menu-suboption code = "master.menu.inventor.toolkit" action = "/inventor/toolkit/list"/>
+			<acme:menu-suboption code = "master.menu.inventor.patronages" action = "/inventor/patronage/list"/>
+			<acme:menu-suboption code = "master.menu.inventor.patronageReport" action = "/inventor/patronage-report/list"/>
     	</acme:menu-option>
 
 		<acme:menu-option code="master.menu.consumer" access="hasRole('Consumer')">
@@ -72,12 +75,6 @@
 		<acme:menu-option code="master.menu.patron" access="hasRole('Patron')">
 			<acme:menu-suboption code="master.menu.patron.patronages" action="/patron/patronage/list"/>
 			<acme:menu-suboption code="master.menu.patron.patronageReport" action="/patron/patronage-report/list"/>
-		</acme:menu-option>
-		
-		<acme:menu-option code="master.menu.inventor" access="hasRole('Inventor')">
-			<acme:menu-suboption code = "master.menu.inventor.toolkit" action = "/inventor/toolkit/list"/>
-			<acme:menu-suboption code = "master.menu.inventor.patronages" action = "/inventor/patronage/list"/>
-			<acme:menu-suboption code = "master.menu.inventor.patronageReport" action = "/inventor/patronage-report/list"/>
 		</acme:menu-option>
 	</acme:menu-left>
 

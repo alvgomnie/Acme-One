@@ -1,5 +1,9 @@
-1650575790385	geckodriver	INFO	Listening on 127.0.0.1:33336
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\alvar\\AppData\\Local\\Temp\\rust_mozprofilerjT2uq\\search.json.mozlz4", (void 0)))
+1650622501263	geckodriver	INFO	Listening on 127.0.0.1:36307
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\34657\\AppData\\Local\\Temp\\rust_mozprofileid7jsN\\search.json.mozlz4", (void 0)))
 console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://localhost:8081"
-console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message forJ:a"v aScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeM"anager is nullhttp://localhost:8081"
-
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://Javalocalhost:8081"
+Script error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back Javto a synchronous mesaScript error: resource://gre/modules/Lsoagge forinM:" "hanagerParentttp://.jsm,local line host136: T:8081"
+ypeErrconsor: gole.Recipewarn: LoginRManager isecipes:  null
+"JgetavaSRcerciipptes: fal error: rling bacek to a ssourceynchron:/o/us mgreessa/mogdule fes/Logior:" nManag"ehrtPtapr:e/nt./jlocasm,l line host:8013681"
+: TypeError: gRecipeManager is null

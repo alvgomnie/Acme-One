@@ -1,2 +1,5 @@
 timestamp,test-class,test-method,time,description,result
-"2022-04-21 23:17:02.866","inventor.item.InventorToolsListTest","inventorListTools",13931,""[1] testIndex=0, name=Discord, price=GBP 5.00, type=TOOL"","OK"
+"2022-04-22 12:15:27.992","any.chirp.AnyChirpListTest","administratorListComponents",14387,""[1] testIndex=0, title=ejemplo, author=ejemplo, moment=2022/04/21 21:00, body=ejemplo, email=ejemplo01@acme.com"","OK"
+"2022-04-22 12:15:38.339","any.chirp.AnyChirpListTest","administratorListComponents",9649,""[2] testIndex=1, title=My Chirp, author=Don Chirp, moment=2022/04/05 22:30, body=Hola sot un Chirp!, email=creadordechirps@email.com"","OK"
+"2022-04-22 12:15:42.529","any.chirp.AnyChirpListTest","anonymousListComponents",3775,""[1] testIndex=0, title=ejemplo, author=ejemplo, moment=2022/04/21 21:00, body=ejemplo, email=ejemplo01@acme.com"","OK"
+"2022-04-22 12:15:46.626","any.chirp.AnyChirpListTest","anonymousListComponents",3710,""[2] testIndex=1, title=My Chirp, author=Don Chirp, moment=2022/04/05 22:30, body=Hola sot un Chirp!, email=creadordechirps@email.com"","OK"

@@ -1,12 +1,9 @@
-patron.patronage.list.label.status = Status
-patron.patronage.list.label.code = Code
+patron.patronages.form.label.status = Status
+patron.patronages.form.label.code = Code
+patron.patronages.form.label.legalStuff = Legal stuff
+patron.patronages.form.label.budget = Budget
+patron.patronages.form.label.startingtDate = Starting date
+patron.patronages.form.label.finishingDate = Finish date
+patron.patronages.form.label.link = Link
 
-patron.patronage.form.label.status = Status
-patron.patronage.form.label.code = Code
-patron.patronage.form.label.legalStuff = Legal stuff
-patron.patronage.form.label.budget = Budget
-patron.patronage.form.label.startDate = Start date
-patron.patronage.form.label.finishDate = Finish date
-patron.patronage.form.label.info = More info (Optional) 
-
-patron.patronage.form.button.inventor = Inventor
+patron.patronages.form.button.inventor = Inventor

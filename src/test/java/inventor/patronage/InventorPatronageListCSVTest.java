@@ -11,29 +11,21 @@ public class InventorPatronageListCSVTest extends TestHarness{
 	@ParameterizedTest
 	@CsvFileSource(resources = "/inventor/patronageTest.csv", encoding = "utf-8", numLinesToSkip = 1)
 	@Order(10)
-	public void positiveTest(final int recordIndex, final String status, final String code, final String legalStuff, final String budget, final String startingDate, final String finishingDate, final String link, final String company, final String statement, final String linkPatron) {
+	public void positiveTest(final int recordIndex, final String status, final String code, final String legalStuff, final String budget, final String startingDate, final String finishingDate, final String link) {
 		super.signIn("inventor1", "inventor1");
 
 		super.clickOnMenu("Inventor", "Patronages");
 		super.checkListingExists();
 		super.sortListing(0, "asc");
 		
-		super.checkColumnHasValue(recordIndex, 0, status);
+		super.checkColumnHasValue(0, 0, status);
+		super.checkColumnHasValue(0, 1, code);
+		super.checkColumnHasValue(0, 2, legalStuff);
+		super.checkColumnHasValue(0, 3, budget);
+		super.checkColumnHasValue(0, 4, startingDate);
+		super.checkColumnHasValue(0, 5, finishingDate);
+		super.checkColumnHasValue(0, 6, link);
 
-		super.clickOnListingRecord(recordIndex);
-		super.checkFormExists();
-		super.checkInputBoxHasValue("status", status);
-		super.checkInputBoxHasValue("code", code);
-		super.checkInputBoxHasValue("legalStuff", legalStuff);
-		super.checkInputBoxHasValue("budget", budget);
-		super.checkInputBoxHasValue("startingDate", startingDate);
-		super.checkInputBoxHasValue("finishingDate", finishingDate);
-		super.checkInputBoxHasValue("link", link);
-		
-		super.checkInputBoxHasValue("patron.company", company);
-		super.checkInputBoxHasValue("patron.statement", statement);
-		super.checkInputBoxHasValue("patron.link", linkPatron);
-	
 		super.signOut();
 	}
 

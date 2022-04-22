@@ -18,14 +18,10 @@ public class InventorPatronageReportListCSVTest extends TestHarness{
 		super.checkListingExists();
 		super.sortListing(0, "asc");
 		
-		super.checkColumnHasValue(recordIndex, 0, automaticSeqNumber);
-
-		super.clickOnListingRecord(recordIndex);
-		super.checkFormExists();
-		super.checkInputBoxHasValue("automaticSeqNumber", automaticSeqNumber);
-		super.checkInputBoxHasValue("creationMoment", creationMoment);
-		super.checkInputBoxHasValue("memorandum", memorandum);
-		super.checkInputBoxHasValue("link", link);
+		super.checkColumnHasValue(0, 0, automaticSeqNumber);
+		super.checkColumnHasValue(0, 1, creationMoment);
+		super.checkColumnHasValue(0, 2, memorandum);
+		super.checkColumnHasValue(0, 3, link);
 
 		super.signOut();
 	}

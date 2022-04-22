@@ -1,2 +1,2 @@
 timestamp,test-class,test-method,time,description,result
-"2022-04-22 20:17:00.557","patron.patronageReport.PatronPatronageReportListCSVTest","positiveTest",11597,""[1] recordIndex=0, automaticSeqNumber=null, creationMoment=2021/12/01 12:00, memorandum=Patronage accepted!, link=https://www.nano.com"","OK"
+"2022-04-22 20:53:04.863","patron.patronageReport.PatronPatronageReportListCSVTest","positiveTest",11362,""[1] recordIndex=0, automaticSeqNumber=null, creationMoment=2021/12/01 12:00, memorandum=Patronage accepted!, link=https://www.nano.com"","OK"

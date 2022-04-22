@@ -11,8 +11,8 @@ public class AnyToolListTest extends TestHarness {
 	@ParameterizedTest
 	@CsvFileSource(resources = "/any/item/tool.csv", encoding = "utf-8", numLinesToSkip = 1)
 	@Order(10)
-	public void anonymousListComponents(final int testIndex, final String name, final String type) {
-	
+	public void anonymousListComponents(final int testIndex, final String name, final String type, final String code, final String technology, final String description, final String retailPrice, final String link) {
+		
 		super.clickOnMenu("Items", "List of Tools");
 		super.checkListingExists();
 		super.sortListing(0, "asc");
@@ -25,13 +25,18 @@ public class AnyToolListTest extends TestHarness {
 		super.checkFormExists();
 		super.checkInputBoxHasValue("name", name);
 		super.checkInputBoxHasValue("type", type);
+		super.checkInputBoxHasValue("code", code);
+		super.checkInputBoxHasValue("technology", technology);
+		super.checkInputBoxHasValue("description", description);
+		super.checkInputBoxHasValue("retailPrice", retailPrice);
+		super.checkInputBoxHasValue("link", link);
 	}
 	
 	
 	@ParameterizedTest
 	@CsvFileSource(resources = "/any/item/tool.csv", encoding = "utf-8", numLinesToSkip = 1)
 	@Order(10)
-	public void administratorListComponents(final int testIndex, final String name, final String type) {
+	public void administratorListComponents(final int testIndex, final String name, final String type, final String code, final String technology, final String description, final String retailPrice, final String link) {
 
 		super.signIn("administrator", "administrator");
 	
@@ -47,8 +52,12 @@ public class AnyToolListTest extends TestHarness {
 		super.checkFormExists();
 		super.checkInputBoxHasValue("name", name);
 		super.checkInputBoxHasValue("type", type);
-
-	
+		super.checkInputBoxHasValue("code", code);
+		super.checkInputBoxHasValue("technology", technology);
+		super.checkInputBoxHasValue("description", description);
+		super.checkInputBoxHasValue("retailPrice", retailPrice);
+		super.checkInputBoxHasValue("link", link);
+		
 		super.signOut();
 		
 	}

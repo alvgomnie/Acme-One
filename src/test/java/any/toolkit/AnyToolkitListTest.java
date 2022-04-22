@@ -12,8 +12,9 @@ public class AnyToolkitListTest extends TestHarness {
 	@CsvFileSource(resources = "/any/toolkit/toolkit.csv", encoding = "utf-8", numLinesToSkip = 1)
 	@Order(10)
 	public void anonymousListComponents(final int testIndex, final String title, final String code,
-		final String description, final String assemblyNotes, final String link) {
-	
+		final String description, final String assemblyNotes, final String link, final String item, 
+		final String price) {
+		
 		super.clickOnMenu("Toolkits", "List of Toolkits");
 		super.checkListingExists();
 		super.sortListing(0, "asc");
@@ -23,7 +24,7 @@ public class AnyToolkitListTest extends TestHarness {
 		super.checkColumnHasValue(testIndex, 2, description);
 		super.checkColumnHasValue(testIndex, 3, assemblyNotes);
 		super.checkColumnHasValue(testIndex, 4, link);
-
+		super.checkColumnHasValue(testIndex, 5, item);
 		
 		super.clickOnListingRecord(testIndex);
 		
@@ -33,40 +34,45 @@ public class AnyToolkitListTest extends TestHarness {
 		super.checkInputBoxHasValue("description", description);
 		super.checkInputBoxHasValue("assemblyNotes", assemblyNotes);
 		super.checkInputBoxHasValue("link", link);
+		super.checkInputBoxHasValue("item.name", item);
+		super.checkInputBoxHasValue("item.retailPrice", price);
+		
 
 	}
 	
+	@ParameterizedTest
+	@CsvFileSource(resources = "/any/toolkit/toolkit.csv", encoding = "utf-8", numLinesToSkip = 1)
+	@Order(10)
+	public void administratorListComponents(final int testIndex, final String title, final String code,
+		final String description, final String assemblyNotes, final String link, final String item, 
+		final String price) {
+		
+		super.signIn("administrator", "administrator");
+			
+		super.clickOnMenu("Toolkits", "List of Toolkits");
+		super.checkListingExists();
+		super.sortListing(0, "asc");
+		
+		super.checkColumnHasValue(testIndex, 0, title);
+		super.checkColumnHasValue(testIndex, 1, code);
+		super.checkColumnHasValue(testIndex, 2, description);
+		super.checkColumnHasValue(testIndex, 3, assemblyNotes);
+		super.checkColumnHasValue(testIndex, 4, link);
+		super.checkColumnHasValue(testIndex, 5, item);
+		
+		super.clickOnListingRecord(testIndex);
+		
+		super.checkFormExists();
+		super.checkInputBoxHasValue("title", title);
+		super.checkInputBoxHasValue("code", code);
+		super.checkInputBoxHasValue("description", description);
+		super.checkInputBoxHasValue("assemblyNotes", assemblyNotes);
+		super.checkInputBoxHasValue("link", link);
+		super.checkInputBoxHasValue("item.name", item);
+		super.checkInputBoxHasValue("item.retailPrice", price);
+		
+		super.signOut();
+
+	}
 	
-//	@ParameterizedTest
-//	@CsvFileSource(resources = "/any/toolkit/toolkit.csv", encoding = "utf-8", numLinesToSkip = 1)
-//	@Order(10)
-//	public void administratorListComponents(final int testIndex, final String title, final String code, final String description, final String assemblyNotes, final String link, final String itemName) {
-//
-//		super.signIn("administrator", "administrator");
-//	
-//		super.clickOnMenu("Toolkits", "List toolkits");
-//		super.checkListingExists();
-//		super.sortListing(0, "asc");
-//		
-//		super.checkColumnHasValue(testIndex, 0, title);
-//		super.checkColumnHasValue(testIndex, 1, code);
-//		super.checkColumnHasValue(testIndex, 2, description);
-//		super.checkColumnHasValue(testIndex, 3, assemblyNotes);
-//		super.checkColumnHasValue(testIndex, 4, link);
-//		super.checkColumnHasValue(testIndex, 5, itemName);
-//		
-//		super.clickOnListingRecord(testIndex);
-//		
-//		super.checkFormExists();
-//		super.checkColumnHasValue(testIndex, 0, title);
-//		super.checkColumnHasValue(testIndex, 1, code);
-//		super.checkColumnHasValue(testIndex, 2, description);
-//		super.checkColumnHasValue(testIndex, 3, assemblyNotes);
-//		super.checkColumnHasValue(testIndex, 4, link);
-//		super.checkColumnHasValue(testIndex, 5, itemName);
-//
-//	
-//		super.signOut();
-//		
-//	}
 }

@@ -11,8 +11,10 @@ public class AuthenticatedAnnouncementListTest extends TestHarness {
 	@ParameterizedTest
 	@CsvFileSource(resources = "/authenticated/announcement/announcement.csv", encoding = "utf-8", numLinesToSkip = 1)
 	@Order(10)
-	public void anonymousListAnnouncements(final int testIndex, final String title, final String date) {
+	public void anonymousListAnnouncements(final int testIndex, final String title, final String date, final String body, final String link) {
 	
+		//Announcement 2 -> Invetor 1
+		
 		super.signIn("inventor1", "inventor1");
 		
 		super.clickOnMenu("Account", "Announcement");
@@ -26,6 +28,10 @@ public class AuthenticatedAnnouncementListTest extends TestHarness {
 		
 		super.checkFormExists();
 		super.checkInputBoxHasValue("title", title);
+		super.checkInputBoxHasValue("creationMoment", date);
+		super.checkInputBoxHasValue("body", body);
+		super.checkInputBoxHasValue("link", link);
+
 	}
 	
 }

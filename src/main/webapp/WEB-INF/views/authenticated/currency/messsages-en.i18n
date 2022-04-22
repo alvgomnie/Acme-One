@@ -1,2 +1,6 @@
 authenticated.currency.list.label.name = Name
 authenticated.currency.list.label.isDefault = By default
+
+authenticated.currency.form.label.name = Name
+authenticated.currency.form.label.isDefault = By default
+authenticated.currency.form.label.isAccepted = Is accepted

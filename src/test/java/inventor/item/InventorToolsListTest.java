@@ -11,7 +11,8 @@ public class InventorToolsListTest extends TestHarness{
 	@ParameterizedTest
 	@CsvFileSource(resources = "/inventor/item/tool.csv", encoding = "utf-8", numLinesToSkip = 1)
 	@Order(10)
-	public void inventorListTools(final int testIndex, final String name, final String price, final String type) {
+	public void inventorListTools(final int testIndex, final String name, final String price, final String type, final String code,
+		final String technology, final String description, final String link) {
 	
 		super.signIn("inventor2", "inventor2");
 		
@@ -27,7 +28,12 @@ public class InventorToolsListTest extends TestHarness{
 				
 		super.checkFormExists();
 		super.checkInputBoxHasValue("name", name);
+		super.checkInputBoxHasValue("retailPrice", price);
 		super.checkInputBoxHasValue("type", type);
+		super.checkInputBoxHasValue("code", code);
+		super.checkInputBoxHasValue("technology", technology);
+		super.checkInputBoxHasValue("description", description);
+		super.checkInputBoxHasValue("link", link);
 		
 	}
 	

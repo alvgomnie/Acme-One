@@ -11,7 +11,7 @@ public class AuthenticatedCurrencyListTest extends TestHarness{
 	@ParameterizedTest
 	@CsvFileSource(resources = "/authenticated/currency/currency.csv", encoding = "utf-8", numLinesToSkip = 1)
 	@Order(10)
-	public void authenticatedListCurrency(final int testIndex, final String name, final String byDefault) {
+	public void authenticatedListCurrency(final int testIndex, final String name, final String byDefault, final String byAccepted) {
 	
 		super.signIn("inventor1", "inventor1");
 		
@@ -23,6 +23,11 @@ public class AuthenticatedCurrencyListTest extends TestHarness{
 		super.checkColumnHasValue(testIndex, 1, byDefault);
 		
 		super.clickOnListingRecord(testIndex);
+		
+		super.checkFormExists();
+		super.checkInputBoxHasValue("name", name);
+		super.checkInputBoxHasValue("isDefault", byDefault);
+		super.checkInputBoxHasValue("isAccepted", byAccepted);
 		
 	}
 

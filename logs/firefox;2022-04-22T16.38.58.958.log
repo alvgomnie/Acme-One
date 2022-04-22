@@ -1,0 +1,9 @@
+1650638303146	geckodriver	INFO	Listening on 127.0.0.1:28012
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\LVARO~1\\AppData\\Local\\Temp\\rust_mozprofiletPdh0K\\search.json.mozlz4", (void 0)))
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://localhost:8081"
+console.warn: LoginRecipes: "getRecipes: falling backJavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+ to a synchronous message for:" "http://localhost:8081"
+console.warn: LoginRecipes: "geJavaScript error: resourtRecipes: falling back to a synchroce://gre/modules/LoginManagerParent.jsmnous messa,ge for:" "http://loc line 136: TypeError: gRecipeManager is null
+alhost:8081"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://localhost:8081"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null

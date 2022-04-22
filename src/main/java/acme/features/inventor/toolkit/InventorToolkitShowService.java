@@ -45,21 +45,12 @@ public class InventorToolkitShowService implements AbstractShowService<Inventor,
 		
 		Collection<Item> items;
 		int id;
-		final double amount = 0;
-		String currency = "";
 		
 		id = request.getModel().getInteger("id");
 		items = this.repository.findItemsByToolkitId(id);
 	
-		for(final Item i : items) {
-			currency=i.getRetailPrice().getCurrency();
-		}
 		
-		final Double retailPrice = amount;
-		
-		model.setAttribute("retailPrice", retailPrice);
-		model.setAttribute("currency", currency);
-		request.unbind(entity, model, "code", "title", "description", "assemblyNotes", "link");
+		request.unbind(entity, model, "code", "title", "description", "assemblyNotes", "publish", "link");
 		
 	}
 

@@ -52,7 +52,6 @@ master.menu.patron.patronageReport = Informe de patrocinio
 # master.menu.inventor ##########################################################
 
 master.menu.inventor = Inventor
-master.menu.inventor.item = Componentes y herramientas
 master.menu.inventor.toolkit = Caja de herramientas
 master.menu.inventor.patronages = Patrocinios
 master.menu.inventor.patronageReport = Informe de patrocinio

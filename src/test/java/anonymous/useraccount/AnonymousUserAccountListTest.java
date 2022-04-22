@@ -9,13 +9,11 @@ import acme.testing.TestHarness;
 public class AnonymousUserAccountListTest extends TestHarness {
 
 	@ParameterizedTest
-	@CsvFileSource(resources = "/anonymous/useraccount/user-account.csv", encoding = "utf-8", numLinesToSkip = 1)
+	@CsvFileSource(resources = "/anonymous/useraccount/consumer.csv", encoding = "utf-8", numLinesToSkip = 1)
 	@Order(10)
-	public void anonymousListComponents(final int testIndex, final String name, final String surname, final String email, final String username) {
-	
-		//                    PATRON                     //
+	public void consumerListComponents(final int testIndex, final String name, final String surname, final String email, final String username) {
 		
-		super.clickOnMenu("Users", "List all patrons");
+		super.clickOnMenu("Users", "List all consumers");
 		super.checkListingExists();
 		super.sortListing(0, "asc");
 		
@@ -26,12 +24,17 @@ public class AnonymousUserAccountListTest extends TestHarness {
 		super.clickOnListingRecord(testIndex);
 		
 		super.checkFormExists();
-		super.checkInputBoxHasValue("name", name);
-		super.checkInputBoxHasValue("surname", surname);
-		super.checkInputBoxHasValue("email", email);
+		super.checkInputBoxHasValue("identity.name", name);
+		super.checkInputBoxHasValue("identity.surname", surname);
+		super.checkInputBoxHasValue("identity.email", email);
 		super.checkInputBoxHasValue("username", username);
 		
-		//                   INVENTOR                    //
+	}
+	
+	@ParameterizedTest
+	@CsvFileSource(resources = "/anonymous/useraccount/inventor.csv", encoding = "utf-8", numLinesToSkip = 1)
+	@Order(10)
+	public void inventorListComponents(final int testIndex, final String name, final String surname, final String email, final String username) {
 		
 		super.clickOnMenu("Users", "List all inventors");
 		super.checkListingExists();
@@ -44,14 +47,19 @@ public class AnonymousUserAccountListTest extends TestHarness {
 		super.clickOnListingRecord(testIndex);
 		
 		super.checkFormExists();
-		super.checkInputBoxHasValue("name", name);
-		super.checkInputBoxHasValue("surname", surname);
-		super.checkInputBoxHasValue("email", email);
+		super.checkInputBoxHasValue("identity.name", name);
+		super.checkInputBoxHasValue("identity.surname", surname);
+		super.checkInputBoxHasValue("identity.email", email);
 		super.checkInputBoxHasValue("username", username);
 		
-		//                   CONSUMER                    //
-				
-		super.clickOnMenu("Users", "List all consumers");
+	}
+	
+	@ParameterizedTest
+	@CsvFileSource(resources = "/anonymous/useraccount/patron.csv", encoding = "utf-8", numLinesToSkip = 1)
+	@Order(10)
+	public void patronListComponents(final int testIndex, final String name, final String surname, final String email, final String username) {
+		
+		super.clickOnMenu("Users", "List all patrons");
 		super.checkListingExists();
 		super.sortListing(0, "asc");
 		
@@ -62,13 +70,18 @@ public class AnonymousUserAccountListTest extends TestHarness {
 		super.clickOnListingRecord(testIndex);
 		
 		super.checkFormExists();
-		super.checkInputBoxHasValue("name", name);
-		super.checkInputBoxHasValue("surname", surname);
-		super.checkInputBoxHasValue("email", email);
+		super.checkInputBoxHasValue("identity.name", name);
+		super.checkInputBoxHasValue("identity.surname", surname);
+		super.checkInputBoxHasValue("identity.email", email);
 		super.checkInputBoxHasValue("username", username);
 		
-		//                   PROVIDER                   //
-				
+	}
+	
+	@ParameterizedTest
+	@CsvFileSource(resources = "/anonymous/useraccount/provider.csv", encoding = "utf-8", numLinesToSkip = 1)
+	@Order(10)
+	public void providerListComponents(final int testIndex, final String name, final String surname, final String email, final String username) {
+		
 		super.clickOnMenu("Users", "List all providers");
 		super.checkListingExists();
 		super.sortListing(0, "asc");
@@ -80,10 +93,12 @@ public class AnonymousUserAccountListTest extends TestHarness {
 		super.clickOnListingRecord(testIndex);
 		
 		super.checkFormExists();
-		super.checkInputBoxHasValue("name", name);
-		super.checkInputBoxHasValue("surname", surname);
-		super.checkInputBoxHasValue("email", email);
+		super.checkInputBoxHasValue("identity.name", name);
+		super.checkInputBoxHasValue("identity.surname", surname);
+		super.checkInputBoxHasValue("identity.email", email);
 		super.checkInputBoxHasValue("username", username);
 		
 	}
+	
+	
 }

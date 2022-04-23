@@ -14,6 +14,6 @@ public class PatronDashboard implements Serializable{
 	private static final long serialVersionUID = 1L;
 	
 	Map<String, Integer> totalNumber;
-	Map<String, List<Double>>patronageData;
+	Map<String, List<Double>> patronageData;
 	
 }

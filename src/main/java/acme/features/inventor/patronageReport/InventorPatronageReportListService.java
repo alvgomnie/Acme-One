@@ -8,7 +8,6 @@ import org.springframework.stereotype.Service;
 import acme.entities.PatronageReport;
 import acme.framework.components.models.Model;
 import acme.framework.controllers.Request;
-import acme.framework.entities.Principal;
 import acme.framework.services.AbstractListService;
 import acme.roles.Inventor;
 
@@ -30,10 +29,14 @@ public class InventorPatronageReportListService implements AbstractListService<I
 		assert request != null;
 
 		Collection<PatronageReport> result;
-		Principal principal;
+		//final Principal principal;
 		
-		principal = request.getPrincipal();
-		result = this.repository.findPatronagesReportByInventorId(principal.getActiveRoleId());
+		final int accountId = request.getPrincipal().getAccountId();
+		final int inventorId = this.repository.findInventorByUserAccountId(accountId).getId();
+		result=this.repository.findPatronagesReportByInventorId(inventorId); 
+		
+//		principal = request.getPrincipal();
+//		result = this.repository.findPatronagesReportByInventorId(principal.getAccountId());
 
 		return result;
 	}

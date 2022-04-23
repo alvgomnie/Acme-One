@@ -1,0 +1,304 @@
+2022-04-22 19:36:09.471 INFO  [acme.Launcher@main] Starting Launcher using Java 1.8.0_281 on PORTATIL_ANITA with PID 10160 (C:\Users\Anita\Desktop\Javier\Workspace-22.0\Frameworks\Acme-Framework-22.3\target\classes started by Anita in C:\Users\Anita\Desktop\Javier\Workspace-22.0\Projects\Acme-One) 
+2022-04-22 19:36:09.472 DEBUG [acme.Launcher@main] Running with Spring Boot v2.4.2, Spring v5.3.3 
+2022-04-22 19:36:09.474 INFO  [acme.Launcher@main] The following profiles are active: development,default 
+2022-04-22 19:36:12.355 DEBUG [org.apache.jasper.servlet.JasperInitializer@main] Initializing Jasper for context [application] 
+2022-04-22 19:36:17.394 DEBUG [org.apache.jasper.servlet.JspServlet@main] Scratch dir for the JSP engine is: [C:\Users\Anita\AppData\Local\Temp\tomcat.8080.2758927045202531593\work\Tomcat\localhost\acme-one-2.0] 
+2022-04-22 19:36:17.395 DEBUG [org.apache.jasper.servlet.JspServlet@main] IMPORTANT: Do not modify the generated servlets 
+2022-04-22 19:36:17.402 INFO  [acme.Launcher@main] Started Launcher in 8.669 seconds (JVM running for 9.237) 
+2022-04-22 19:36:17.409 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/Anita/Desktop/Javier/Workspace-22.0/Projects/Acme-One/target/test-classes/' 
+2022-04-22 19:36:17.409 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/Anita/Desktop/Javier/Workspace-22.0/Projects/Acme-One/target/classes/' 
+2022-04-22 19:36:17.409 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/Anita/Desktop/Javier/Workspace-22.0/Frameworks/Acme-Framework-22.3/target/classes/' 
+2022-04-22 19:36:17.409 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/Anita/Desktop/Javier/Workspace-22.0/Frameworks/Acme-Framework-22.3/target/test-classes/' 
+2022-04-22 19:36:17.409 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/Anita/.m2/repository/org/springframework/boot/spring-boot-starter-tomcat/2.4.2/spring-boot-starter-tomcat-2.4.2.jar' 
+2022-04-22 19:36:17.409 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/Anita/.m2/repository/jakarta/annotation/jakarta.annotation-api/1.3.5/jakarta.annotation-api-1.3.5.jar' 
+2022-04-22 19:36:17.410 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/Anita/.m2/repository/org/apache/tomcat/embed/tomcat-embed-core/9.0.41/tomcat-embed-core-9.0.41.jar' 
+2022-04-22 19:36:17.410 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/Anita/.m2/repository/org/glassfish/jakarta.el/3.0.3/jakarta.el-3.0.3.jar' 
+2022-04-22 19:36:17.410 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/Anita/.m2/repository/org/apache/tomcat/embed/tomcat-embed-websocket/9.0.41/tomcat-embed-websocket-9.0.41.jar' 
+2022-04-22 19:36:17.410 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/Anita/.m2/repository/org/apache/tomcat/embed/tomcat-embed-jasper/9.0.41/tomcat-embed-jasper-9.0.41.jar' 
+2022-04-22 19:36:17.410 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/Anita/.m2/repository/org/apache/tomcat/embed/tomcat-embed-el/9.0.41/tomcat-embed-el-9.0.41.jar' 
+2022-04-22 19:36:17.410 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/Anita/.m2/repository/org/eclipse/jdt/ecj/3.18.0/ecj-3.18.0.jar' 
+2022-04-22 19:36:17.411 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/Anita/.m2/repository/javax/servlet/jstl/1.2/jstl-1.2.jar' 
+2022-04-22 19:36:17.411 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/Anita/.m2/repository/org/springframework/boot/spring-boot-starter-test/2.4.2/spring-boot-starter-test-2.4.2.jar' 
+2022-04-22 19:36:17.411 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/Anita/.m2/repository/org/springframework/boot/spring-boot-starter/2.4.2/spring-boot-starter-2.4.2.jar' 
+2022-04-22 19:36:17.411 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/Anita/.m2/repository/org/springframework/boot/spring-boot/2.4.2/spring-boot-2.4.2.jar' 
+2022-04-22 19:36:17.411 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/Anita/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/2.4.2/spring-boot-autoconfigure-2.4.2.jar' 
+2022-04-22 19:36:17.411 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/Anita/.m2/repository/org/springframework/boot/spring-boot-starter-logging/2.4.2/spring-boot-starter-logging-2.4.2.jar' 
+2022-04-22 19:36:17.411 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/Anita/.m2/repository/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar' 
+2022-04-22 19:36:17.411 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/Anita/.m2/repository/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar' 
+2022-04-22 19:36:17.412 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/Anita/.m2/repository/org/apache/logging/log4j/log4j-to-slf4j/2.13.3/log4j-to-slf4j-2.13.3.jar' 
+2022-04-22 19:36:17.412 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/Anita/.m2/repository/org/apache/logging/log4j/log4j-api/2.13.3/log4j-api-2.13.3.jar' 
+2022-04-22 19:36:17.412 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/Anita/.m2/repository/org/slf4j/jul-to-slf4j/1.7.30/jul-to-slf4j-1.7.30.jar' 
+2022-04-22 19:36:17.412 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/Anita/.m2/repository/org/yaml/snakeyaml/1.27/snakeyaml-1.27.jar' 
+2022-04-22 19:36:17.412 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/Anita/.m2/repository/org/springframework/boot/spring-boot-test/2.4.2/spring-boot-test-2.4.2.jar' 
+2022-04-22 19:36:17.412 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/Anita/.m2/repository/org/springframework/boot/spring-boot-test-autoconfigure/2.4.2/spring-boot-test-autoconfigure-2.4.2.jar' 
+2022-04-22 19:36:17.412 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/Anita/.m2/repository/com/jayway/jsonpath/json-path/2.4.0/json-path-2.4.0.jar' 
+2022-04-22 19:36:17.413 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/Anita/.m2/repository/net/minidev/json-smart/2.3/json-smart-2.3.jar' 
+2022-04-22 19:36:17.413 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/Anita/.m2/repository/net/minidev/accessors-smart/1.2/accessors-smart-1.2.jar' 
+2022-04-22 19:36:17.413 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/Anita/.m2/repository/org/ow2/asm/asm/5.0.4/asm-5.0.4.jar' 
+2022-04-22 19:36:17.413 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/Anita/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3/jakarta.xml.bind-api-2.3.3.jar' 
+2022-04-22 19:36:17.413 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/Anita/.m2/repository/jakarta/activation/jakarta.activation-api/1.2.2/jakarta.activation-api-1.2.2.jar' 
+2022-04-22 19:36:17.413 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/Anita/.m2/repository/org/assertj/assertj-core/3.18.1/assertj-core-3.18.1.jar' 
+2022-04-22 19:36:17.413 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/Anita/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar' 
+2022-04-22 19:36:17.413 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/Anita/.m2/repository/org/junit/jupiter/junit-jupiter/5.7.0/junit-jupiter-5.7.0.jar' 
+2022-04-22 19:36:17.414 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/Anita/.m2/repository/org/mockito/mockito-core/3.6.28/mockito-core-3.6.28.jar' 
+2022-04-22 19:36:17.414 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/Anita/.m2/repository/net/bytebuddy/byte-buddy-agent/1.10.19/byte-buddy-agent-1.10.19.jar' 
+2022-04-22 19:36:17.414 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/Anita/.m2/repository/org/objenesis/objenesis/3.1/objenesis-3.1.jar' 
+2022-04-22 19:36:17.414 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/Anita/.m2/repository/org/mockito/mockito-junit-jupiter/3.6.28/mockito-junit-jupiter-3.6.28.jar' 
+2022-04-22 19:36:17.414 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/Anita/.m2/repository/org/skyscreamer/jsonassert/1.5.0/jsonassert-1.5.0.jar' 
+2022-04-22 19:36:17.414 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/Anita/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar' 
+2022-04-22 19:36:17.414 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/Anita/.m2/repository/org/springframework/spring-core/5.3.3/spring-core-5.3.3.jar' 
+2022-04-22 19:36:17.415 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/Anita/.m2/repository/org/springframework/spring-jcl/5.3.3/spring-jcl-5.3.3.jar' 
+2022-04-22 19:36:17.415 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/Anita/.m2/repository/org/springframework/spring-test/5.3.3/spring-test-5.3.3.jar' 
+2022-04-22 19:36:17.415 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/Anita/.m2/repository/org/xmlunit/xmlunit-core/2.7.0/xmlunit-core-2.7.0.jar' 
+2022-04-22 19:36:17.415 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/Anita/.m2/repository/org/springframework/boot/spring-boot-starter-security/2.4.2/spring-boot-starter-security-2.4.2.jar' 
+2022-04-22 19:36:17.415 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/Anita/.m2/repository/org/springframework/spring-aop/5.3.3/spring-aop-5.3.3.jar' 
+2022-04-22 19:36:17.415 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/Anita/.m2/repository/org/springframework/security/spring-security-web/5.4.2/spring-security-web-5.4.2.jar' 
+2022-04-22 19:36:17.416 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/Anita/.m2/repository/org/springframework/security/spring-security-core/5.4.2/spring-security-core-5.4.2.jar' 
+2022-04-22 19:36:17.416 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/Anita/.m2/repository/org/springframework/spring-beans/5.3.3/spring-beans-5.3.3.jar' 
+2022-04-22 19:36:17.416 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/Anita/.m2/repository/org/springframework/spring-context/5.3.3/spring-context-5.3.3.jar' 
+2022-04-22 19:36:17.416 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/Anita/.m2/repository/org/springframework/spring-expression/5.3.3/spring-expression-5.3.3.jar' 
+2022-04-22 19:36:17.416 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/Anita/.m2/repository/org/springframework/spring-web/5.3.3/spring-web-5.3.3.jar' 
+2022-04-22 19:36:17.416 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/Anita/.m2/repository/org/springframework/security/spring-security-config/5.4.2/spring-security-config-5.4.2.jar' 
+2022-04-22 19:36:17.416 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/Anita/.m2/repository/org/springframework/security/spring-security-taglibs/5.4.2/spring-security-taglibs-5.4.2.jar' 
+2022-04-22 19:36:17.417 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/Anita/.m2/repository/org/springframework/security/spring-security-acl/5.4.2/spring-security-acl-5.4.2.jar' 
+2022-04-22 19:36:17.417 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/Anita/.m2/repository/org/springframework/spring-jdbc/5.3.3/spring-jdbc-5.3.3.jar' 
+2022-04-22 19:36:17.417 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/Anita/.m2/repository/org/springframework/spring-tx/5.3.3/spring-tx-5.3.3.jar' 
+2022-04-22 19:36:17.417 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/Anita/.m2/repository/org/springframework/boot/spring-boot-starter-web/2.4.2/spring-boot-starter-web-2.4.2.jar' 
+2022-04-22 19:36:17.417 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/Anita/.m2/repository/org/springframework/boot/spring-boot-starter-json/2.4.2/spring-boot-starter-json-2.4.2.jar' 
+2022-04-22 19:36:17.418 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/Anita/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.11.4/jackson-databind-2.11.4.jar' 
+2022-04-22 19:36:17.418 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/Anita/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.11.4/jackson-annotations-2.11.4.jar' 
+2022-04-22 19:36:17.418 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/Anita/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.11.4/jackson-core-2.11.4.jar' 
+2022-04-22 19:36:17.418 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/Anita/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.11.4/jackson-datatype-jdk8-2.11.4.jar' 
+2022-04-22 19:36:17.418 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/Anita/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.11.4/jackson-datatype-jsr310-2.11.4.jar' 
+2022-04-22 19:36:17.418 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/Anita/.m2/repository/com/fasterxml/jackson/module/jackson-module-parameter-names/2.11.4/jackson-module-parameter-names-2.11.4.jar' 
+2022-04-22 19:36:17.418 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/Anita/.m2/repository/org/springframework/spring-webmvc/5.3.3/spring-webmvc-5.3.3.jar' 
+2022-04-22 19:36:17.419 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/Anita/.m2/repository/org/apache/tiles/tiles-jsp/3.0.8/tiles-jsp-3.0.8.jar' 
+2022-04-22 19:36:17.419 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/Anita/.m2/repository/org/apache/tiles/tiles-servlet/3.0.8/tiles-servlet-3.0.8.jar' 
+2022-04-22 19:36:17.419 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/Anita/.m2/repository/org/apache/tiles/tiles-core/3.0.8/tiles-core-3.0.8.jar' 
+2022-04-22 19:36:17.419 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/Anita/.m2/repository/commons-digester/commons-digester/2.0/commons-digester-2.0.jar' 
+2022-04-22 19:36:17.419 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/Anita/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.30/jcl-over-slf4j-1.7.30.jar' 
+2022-04-22 19:36:17.419 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/Anita/.m2/repository/org/apache/tiles/tiles-request-servlet/1.0.7/tiles-request-servlet-1.0.7.jar' 
+2022-04-22 19:36:17.419 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/Anita/.m2/repository/org/apache/tiles/tiles-template/3.0.8/tiles-template-3.0.8.jar' 
+2022-04-22 19:36:17.419 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/Anita/.m2/repository/org/apache/tiles/tiles-api/3.0.8/tiles-api-3.0.8.jar' 
+2022-04-22 19:36:17.419 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/Anita/.m2/repository/org/apache/tiles/tiles-autotag-core-runtime/1.2/tiles-autotag-core-runtime-1.2.jar' 
+2022-04-22 19:36:17.420 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/Anita/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar' 
+2022-04-22 19:36:17.420 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/Anita/.m2/repository/org/apache/tiles/tiles-request-jsp/1.0.7/tiles-request-jsp-1.0.7.jar' 
+2022-04-22 19:36:17.420 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/Anita/.m2/repository/org/apache/tiles/tiles-request-api/1.0.7/tiles-request-api-1.0.7.jar' 
+2022-04-22 19:36:17.420 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/Anita/.m2/repository/org/springframework/boot/spring-boot-starter-data-jpa/2.4.2/spring-boot-starter-data-jpa-2.4.2.jar' 
+2022-04-22 19:36:17.420 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/Anita/.m2/repository/org/springframework/boot/spring-boot-starter-aop/2.4.2/spring-boot-starter-aop-2.4.2.jar' 
+2022-04-22 19:36:17.420 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/Anita/.m2/repository/org/aspectj/aspectjweaver/1.9.6/aspectjweaver-1.9.6.jar' 
+2022-04-22 19:36:17.420 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/Anita/.m2/repository/org/springframework/boot/spring-boot-starter-jdbc/2.4.2/spring-boot-starter-jdbc-2.4.2.jar' 
+2022-04-22 19:36:17.420 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/Anita/.m2/repository/jakarta/transaction/jakarta.transaction-api/1.3.3/jakarta.transaction-api-1.3.3.jar' 
+2022-04-22 19:36:17.420 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/Anita/.m2/repository/jakarta/persistence/jakarta.persistence-api/2.2.3/jakarta.persistence-api-2.2.3.jar' 
+2022-04-22 19:36:17.421 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/Anita/.m2/repository/org/hibernate/hibernate-core/5.4.27.Final/hibernate-core-5.4.27.Final.jar' 
+2022-04-22 19:36:17.421 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/Anita/.m2/repository/org/jboss/logging/jboss-logging/3.4.1.Final/jboss-logging-3.4.1.Final.jar' 
+2022-04-22 19:36:17.421 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/Anita/.m2/repository/org/javassist/javassist/3.27.0-GA/javassist-3.27.0-GA.jar' 
+2022-04-22 19:36:17.421 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/Anita/.m2/repository/antlr/antlr/2.7.7/antlr-2.7.7.jar' 
+2022-04-22 19:36:17.421 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/Anita/.m2/repository/org/jboss/jandex/2.1.3.Final/jandex-2.1.3.Final.jar' 
+2022-04-22 19:36:17.421 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/Anita/.m2/repository/com/fasterxml/classmate/1.5.1/classmate-1.5.1.jar' 
+2022-04-22 19:36:17.421 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/Anita/.m2/repository/org/dom4j/dom4j/2.1.3/dom4j-2.1.3.jar' 
+2022-04-22 19:36:17.422 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/Anita/.m2/repository/org/hibernate/common/hibernate-commons-annotations/5.1.2.Final/hibernate-commons-annotations-5.1.2.Final.jar' 
+2022-04-22 19:36:17.422 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/Anita/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.3/jaxb-runtime-2.3.3.jar' 
+2022-04-22 19:36:17.422 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/Anita/.m2/repository/org/glassfish/jaxb/txw2/2.3.3/txw2-2.3.3.jar' 
+2022-04-22 19:36:17.422 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/Anita/.m2/repository/com/sun/istack/istack-commons-runtime/3.0.11/istack-commons-runtime-3.0.11.jar' 
+2022-04-22 19:36:17.422 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/Anita/.m2/repository/com/sun/activation/jakarta.activation/1.2.2/jakarta.activation-1.2.2.jar' 
+2022-04-22 19:36:17.422 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/Anita/.m2/repository/org/springframework/data/spring-data-jpa/2.4.3/spring-data-jpa-2.4.3.jar' 
+2022-04-22 19:36:17.422 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/Anita/.m2/repository/org/springframework/data/spring-data-commons/2.4.3/spring-data-commons-2.4.3.jar' 
+2022-04-22 19:36:17.422 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/Anita/.m2/repository/org/springframework/spring-orm/5.3.3/spring-orm-5.3.3.jar' 
+2022-04-22 19:36:17.423 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/Anita/.m2/repository/org/springframework/spring-aspects/5.3.3/spring-aspects-5.3.3.jar' 
+2022-04-22 19:36:17.423 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/Anita/.m2/repository/org/springframework/boot/spring-boot-starter-validation/2.4.2/spring-boot-starter-validation-2.4.2.jar' 
+2022-04-22 19:36:17.423 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/Anita/.m2/repository/org/hibernate/validator/hibernate-validator/6.1.7.Final/hibernate-validator-6.1.7.Final.jar' 
+2022-04-22 19:36:17.423 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/Anita/.m2/repository/jakarta/validation/jakarta.validation-api/2.0.2/jakarta.validation-api-2.0.2.jar' 
+2022-04-22 19:36:17.423 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/Anita/.m2/repository/mysql/mysql-connector-java/8.0.22/mysql-connector-java-8.0.22.jar' 
+2022-04-22 19:36:17.423 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/Anita/.m2/repository/com/zaxxer/HikariCP/3.4.5/HikariCP-3.4.5.jar' 
+2022-04-22 19:36:17.423 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/Anita/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.7.0/junit-jupiter-engine-5.7.0.jar' 
+2022-04-22 19:36:17.423 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/Anita/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar' 
+2022-04-22 19:36:17.424 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/Anita/.m2/repository/org/junit/platform/junit-platform-engine/1.7.0/junit-platform-engine-1.7.0.jar' 
+2022-04-22 19:36:17.424 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/Anita/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.7.0/junit-jupiter-api-5.7.0.jar' 
+2022-04-22 19:36:17.424 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/Anita/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar' 
+2022-04-22 19:36:17.424 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/Anita/.m2/repository/org/junit/platform/junit-platform-commons/1.7.0/junit-platform-commons-1.7.0.jar' 
+2022-04-22 19:36:17.424 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/Anita/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.7.0/junit-jupiter-params-5.7.0.jar' 
+2022-04-22 19:36:17.424 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/Anita/.m2/repository/org/junit/platform/junit-platform-launcher/1.7.0/junit-platform-launcher-1.7.0.jar' 
+2022-04-22 19:36:17.424 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/Anita/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar' 
+2022-04-22 19:36:17.425 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/Anita/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar' 
+2022-04-22 19:36:17.425 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/Anita/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar' 
+2022-04-22 19:36:17.425 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/Anita/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar' 
+2022-04-22 19:36:17.425 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/Anita/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar' 
+2022-04-22 19:36:17.425 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/Anita/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar' 
+2022-04-22 19:36:17.425 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/Anita/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar' 
+2022-04-22 19:36:17.425 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/Anita/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar' 
+2022-04-22 19:36:17.425 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/Anita/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar' 
+2022-04-22 19:36:17.425 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/Anita/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar' 
+2022-04-22 19:36:17.426 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/Anita/.m2/repository/net/bytebuddy/byte-buddy/1.10.19/byte-buddy-1.10.19.jar' 
+2022-04-22 19:36:17.426 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/Anita/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar' 
+2022-04-22 19:36:17.426 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/Anita/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar' 
+2022-04-22 19:36:17.426 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/Anita/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar' 
+2022-04-22 19:36:17.426 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/Anita/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar' 
+2022-04-22 19:36:17.426 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/Anita/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar' 
+2022-04-22 19:36:17.426 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/Anita/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar' 
+2022-04-22 19:36:17.426 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/Anita/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar' 
+2022-04-22 19:36:17.427 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/Anita/.m2/repository/com/squareup/okhttp3/okhttp/3.14.9/okhttp-3.14.9.jar' 
+2022-04-22 19:36:17.427 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/Anita/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar' 
+2022-04-22 19:36:17.427 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/Anita/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar' 
+2022-04-22 19:36:17.427 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/Anita/.m2/repository/org/apache/commons/commons-text/1.8/commons-text-1.8.jar' 
+2022-04-22 19:36:17.427 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/Anita/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar' 
+2022-04-22 19:36:17.427 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/Anita/.m2/repository/commons-cli/commons-cli/1.4/commons-cli-1.4.jar' 
+2022-04-22 19:36:17.427 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/Anita/.m2/repository/org/projectlombok/lombok/1.18.16/lombok-1.18.16.jar' 
+2022-04-22 19:36:17.427 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/Anita/.m2/repository/com/opencsv/opencsv/5.4/opencsv-5.4.jar' 
+2022-04-22 19:36:17.428 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/Anita/.m2/repository/commons-beanutils/commons-beanutils/1.9.4/commons-beanutils-1.9.4.jar' 
+2022-04-22 19:36:17.428 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/Anita/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar' 
+2022-04-22 19:36:17.428 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/Anita/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar' 
+2022-04-22 19:36:17.428 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/Anita/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar' 
+2022-04-22 19:36:17.518 DEBUG [acme.Launcher@main] Found entity class 'acme.entities.Announcement 
+2022-04-22 19:36:17.518 DEBUG [acme.Launcher@main] Found entity class 'acme.entities.Chirp 
+2022-04-22 19:36:17.519 DEBUG [acme.Launcher@main] Found entity class 'acme.entities.Currency 
+2022-04-22 19:36:17.519 DEBUG [acme.Launcher@main] Found entity class 'acme.entities.Item 
+2022-04-22 19:36:17.519 DEBUG [acme.Launcher@main] Found entity class 'acme.entities.Patronage 
+2022-04-22 19:36:17.519 DEBUG [acme.Launcher@main] Found entity class 'acme.entities.PatronageReport 
+2022-04-22 19:36:17.519 DEBUG [acme.Launcher@main] Found entity class 'acme.entities.Quantity 
+2022-04-22 19:36:17.519 DEBUG [acme.Launcher@main] Found entity class 'acme.entities.Spam 
+2022-04-22 19:36:17.519 DEBUG [acme.Launcher@main] Found entity class 'acme.entities.Toolkit 
+2022-04-22 19:36:17.520 DEBUG [acme.Launcher@main] Found entity class 'acme.roles.Consumer 
+2022-04-22 19:36:17.520 DEBUG [acme.Launcher@main] Found entity class 'acme.roles.Inventor 
+2022-04-22 19:36:17.520 DEBUG [acme.Launcher@main] Found entity class 'acme.roles.Patron 
+2022-04-22 19:36:17.520 DEBUG [acme.Launcher@main] Found entity class 'acme.roles.Provider 
+2022-04-22 19:36:17.520 DEBUG [acme.Launcher@main] Found entity class 'acme.framework.entities.UserAccount 
+2022-04-22 19:36:17.520 DEBUG [acme.Launcher@main] Found entity class 'acme.framework.roles.Administrator 
+2022-04-22 19:36:17.520 DEBUG [acme.Launcher@main] Found entity class 'acme.framework.roles.Anonymous 
+2022-04-22 19:36:17.521 DEBUG [acme.Launcher@main] Found entity class 'acme.framework.roles.Any 
+2022-04-22 19:36:17.521 DEBUG [acme.Launcher@main] Found entity class 'acme.framework.roles.Authenticated 
+2022-04-22 19:36:17.526 INFO  [acme.Launcher@main] Running application (Standalone) 
+2022-04-22 19:36:31.252 DEBUG [acme.framework.components.tiles.DynamicTilesView@http-nio-8080-exec-1] View name 'fragments/welcome', model {} 
+2022-04-22 19:36:31.272 DEBUG [org.apache.tiles.definition.dao.BaseLocaleUrlDefinitionDAO@http-nio-8080-exec-1] File Resource file:/C:/Users/Anita/Desktop/Javier/Workspace-22.0/Projects/Acme-One/target/classes/WEB-INF/views/master/tiles_en.xml at file:/C:/Users/Anita/Desktop/Javier/Workspace-22.0/Projects/Acme-One/target/classes/WEB-INF/views/master/tiles_en.xml not found, continue 
+2022-04-22 19:36:31.281 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-1] JspEngine --> /WEB-INF/views/master/page.jsp 
+2022-04-22 19:36:31.282 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-1] ServletPath: /WEB-INF/views/master/page.jsp 
+2022-04-22 19:36:31.282 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-1] PathInfo: null 
+2022-04-22 19:36:31.284 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-1] RealPath: C:\Users\Anita\Desktop\Javier\Workspace-22.0\Projects\Acme-One\target\classes\WEB-INF\views\master\page.jsp 
+2022-04-22 19:36:31.284 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-1] RequestURI: /acme-one-2.0/WEB-INF/views/master/page.jsp 
+2022-04-22 19:36:31.285 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-1] QueryString: null 
+2022-04-22 19:36:35.070 DEBUG [acme.framework.configuration.ExtendedMessageSource@http-nio-8080-exec-1] Loading properties [C:\Users\Anita\Desktop\Javier\Workspace-22.0\Projects\Acme-One\target\classes\WEB-INF\views\administrator\user-account\messages-en.i18n] with encoding 'utf-8' 
+2022-04-22 19:36:35.071 DEBUG [acme.framework.configuration.ExtendedMessageSource@http-nio-8080-exec-1] Loading properties [C:\Users\Anita\Desktop\Javier\Workspace-22.0\Projects\Acme-One\target\classes\WEB-INF\views\any\chirp\mesagges-en.i18n] with encoding 'utf-8' 
+2022-04-22 19:36:35.072 DEBUG [acme.framework.configuration.ExtendedMessageSource@http-nio-8080-exec-1] Loading properties [C:\Users\Anita\Desktop\Javier\Workspace-22.0\Projects\Acme-One\target\classes\WEB-INF\views\any\item\mesagges-en.i18n] with encoding 'utf-8' 
+2022-04-22 19:36:35.073 DEBUG [acme.framework.configuration.ExtendedMessageSource@http-nio-8080-exec-1] Loading properties [C:\Users\Anita\Desktop\Javier\Workspace-22.0\Projects\Acme-One\target\classes\WEB-INF\views\any\toolkit\mesagges-en.i18n] with encoding 'utf-8' 
+2022-04-22 19:36:35.074 DEBUG [acme.framework.configuration.ExtendedMessageSource@http-nio-8080-exec-1] Loading properties [C:\Users\Anita\Desktop\Javier\Workspace-22.0\Projects\Acme-One\target\classes\WEB-INF\views\any\user-account\mesagges-en.i18n] with encoding 'utf-8' 
+2022-04-22 19:36:35.075 DEBUG [acme.framework.configuration.ExtendedMessageSource@http-nio-8080-exec-1] Loading properties [C:\Users\Anita\Desktop\Javier\Workspace-22.0\Projects\Acme-One\target\classes\WEB-INF\views\authenticated\announcement\messsages-en.i18n] with encoding 'utf-8' 
+2022-04-22 19:36:35.076 DEBUG [acme.framework.configuration.ExtendedMessageSource@http-nio-8080-exec-1] Loading properties [C:\Users\Anita\Desktop\Javier\Workspace-22.0\Projects\Acme-One\target\classes\WEB-INF\views\authenticated\consumer\messsages-en.i18n] with encoding 'utf-8' 
+2022-04-22 19:36:35.077 DEBUG [acme.framework.configuration.ExtendedMessageSource@http-nio-8080-exec-1] Loading properties [C:\Users\Anita\Desktop\Javier\Workspace-22.0\Projects\Acme-One\target\classes\WEB-INF\views\authenticated\currency\messsages-en.i18n] with encoding 'utf-8' 
+2022-04-22 19:36:35.078 DEBUG [acme.framework.configuration.ExtendedMessageSource@http-nio-8080-exec-1] Loading properties [C:\Users\Anita\Desktop\Javier\Workspace-22.0\Projects\Acme-One\target\classes\WEB-INF\views\authenticated\provider\messsages-en.i18n] with encoding 'utf-8' 
+2022-04-22 19:36:35.078 DEBUG [acme.framework.configuration.ExtendedMessageSource@http-nio-8080-exec-1] Loading properties [C:\Users\Anita\Desktop\Javier\Workspace-22.0\Projects\Acme-One\target\classes\WEB-INF\views\authenticated\spam\messsages-en.i18n] with encoding 'utf-8' 
+2022-04-22 19:36:35.079 DEBUG [acme.framework.configuration.ExtendedMessageSource@http-nio-8080-exec-1] Loading properties [C:\Users\Anita\Desktop\Javier\Workspace-22.0\Projects\Acme-One\target\classes\WEB-INF\views\fragments\banner-en.i18n] with encoding 'utf-8' 
+2022-04-22 19:36:35.080 DEBUG [acme.framework.configuration.ExtendedMessageSource@http-nio-8080-exec-1] Loading properties [C:\Users\Anita\Desktop\Javier\Workspace-22.0\Projects\Acme-One\target\classes\WEB-INF\views\fragments\company-en.i18n] with encoding 'utf-8' 
+2022-04-22 19:36:35.080 DEBUG [acme.framework.configuration.ExtendedMessageSource@http-nio-8080-exec-1] Loading properties [C:\Users\Anita\Desktop\Javier\Workspace-22.0\Projects\Acme-One\target\classes\WEB-INF\views\fragments\footer-en.i18n] with encoding 'utf-8' 
+2022-04-22 19:36:35.081 DEBUG [acme.framework.configuration.ExtendedMessageSource@http-nio-8080-exec-1] Loading properties [C:\Users\Anita\Desktop\Javier\Workspace-22.0\Projects\Acme-One\target\classes\WEB-INF\views\fragments\license-en.i18n] with encoding 'utf-8' 
+2022-04-22 19:36:35.082 DEBUG [acme.framework.configuration.ExtendedMessageSource@http-nio-8080-exec-1] Loading properties [C:\Users\Anita\Desktop\Javier\Workspace-22.0\Projects\Acme-One\target\classes\WEB-INF\views\fragments\menu-en.i18n] with encoding 'utf-8' 
+2022-04-22 19:36:35.084 DEBUG [acme.framework.configuration.ExtendedMessageSource@http-nio-8080-exec-1] Loading properties [C:\Users\Anita\Desktop\Javier\Workspace-22.0\Projects\Acme-One\target\classes\WEB-INF\views\fragments\messsages-en.i18n] with encoding 'utf-8' 
+2022-04-22 19:36:35.085 DEBUG [acme.framework.configuration.ExtendedMessageSource@http-nio-8080-exec-1] Loading properties [C:\Users\Anita\Desktop\Javier\Workspace-22.0\Projects\Acme-One\target\classes\WEB-INF\views\fragments\title-en.i18n] with encoding 'utf-8' 
+2022-04-22 19:36:35.087 DEBUG [acme.framework.configuration.ExtendedMessageSource@http-nio-8080-exec-1] Loading properties [C:\Users\Anita\Desktop\Javier\Workspace-22.0\Projects\Acme-One\target\classes\WEB-INF\views\fragments\welcome-en.i18n] with encoding 'utf-8' 
+2022-04-22 19:36:35.088 DEBUG [acme.framework.configuration.ExtendedMessageSource@http-nio-8080-exec-1] Loading properties [C:\Users\Anita\Desktop\Javier\Workspace-22.0\Projects\Acme-One\target\classes\WEB-INF\views\inventor\item\messagges-en.i18n] with encoding 'utf-8' 
+2022-04-22 19:36:35.089 DEBUG [acme.framework.configuration.ExtendedMessageSource@http-nio-8080-exec-1] Loading properties [C:\Users\Anita\Desktop\Javier\Workspace-22.0\Projects\Acme-One\target\classes\WEB-INF\views\inventor\patronage\messsages-en.i18n] with encoding 'utf-8' 
+2022-04-22 19:36:35.090 DEBUG [acme.framework.configuration.ExtendedMessageSource@http-nio-8080-exec-1] Loading properties [C:\Users\Anita\Desktop\Javier\Workspace-22.0\Projects\Acme-One\target\classes\WEB-INF\views\inventor\patronage-report\messsages-en.i18n] with encoding 'utf-8' 
+2022-04-22 19:36:35.091 DEBUG [acme.framework.configuration.ExtendedMessageSource@http-nio-8080-exec-1] Loading properties [C:\Users\Anita\Desktop\Javier\Workspace-22.0\Projects\Acme-One\target\classes\WEB-INF\views\inventor\toolkit\messsages-en.i18n] with encoding 'utf-8' 
+2022-04-22 19:36:35.092 DEBUG [acme.framework.configuration.ExtendedMessageSource@http-nio-8080-exec-1] Loading properties [C:\Users\Anita\Desktop\Javier\Workspace-22.0\Projects\Acme-One\target\classes\WEB-INF\views\master\defaults-en.i18n] with encoding 'utf-8' 
+2022-04-22 19:36:35.093 DEBUG [acme.framework.configuration.ExtendedMessageSource@http-nio-8080-exec-1] Loading properties [C:\Users\Anita\Desktop\Javier\Workspace-22.0\Projects\Acme-One\target\classes\WEB-INF\views\master\master-en.i18n] with encoding 'utf-8' 
+2022-04-22 19:36:35.094 DEBUG [acme.framework.configuration.ExtendedMessageSource@http-nio-8080-exec-1] Loading properties [C:\Users\Anita\Desktop\Javier\Workspace-22.0\Projects\Acme-One\target\classes\WEB-INF\views\master\throwables-en.i18n] with encoding 'utf-8' 
+2022-04-22 19:36:35.095 DEBUG [acme.framework.configuration.ExtendedMessageSource@http-nio-8080-exec-1] Loading properties [C:\Users\Anita\Desktop\Javier\Workspace-22.0\Projects\Acme-One\target\classes\WEB-INF\views\master\validation-en.i18n] with encoding 'utf-8' 
+2022-04-22 19:36:35.096 DEBUG [acme.framework.configuration.ExtendedMessageSource@http-nio-8080-exec-1] Loading properties [C:\Users\Anita\Desktop\Javier\Workspace-22.0\Projects\Acme-One\target\classes\WEB-INF\views\patron\inventor\messsages-en.i18n] with encoding 'utf-8' 
+2022-04-22 19:36:35.097 DEBUG [acme.framework.configuration.ExtendedMessageSource@http-nio-8080-exec-1] Loading properties [C:\Users\Anita\Desktop\Javier\Workspace-22.0\Projects\Acme-One\target\classes\WEB-INF\views\patron\patronage\messsages-en.i18n] with encoding 'utf-8' 
+2022-04-22 19:36:35.098 DEBUG [acme.framework.configuration.ExtendedMessageSource@http-nio-8080-exec-1] Loading properties [C:\Users\Anita\Desktop\Javier\Workspace-22.0\Projects\Acme-One\target\classes\WEB-INF\views\patron\patronage-report\messsages-en.i18n] with encoding 'utf-8' 
+2022-04-22 19:36:35.291 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-1] JspEngine --> /WEB-INF/views/fragments/welcome.jsp 
+2022-04-22 19:36:35.292 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-1] ServletPath: /WEB-INF/views/master/page.jsp 
+2022-04-22 19:36:35.292 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-1] PathInfo: null 
+2022-04-22 19:36:35.293 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-1] RealPath: C:\Users\Anita\Desktop\Javier\Workspace-22.0\Projects\Acme-One\target\classes\WEB-INF\views\fragments\welcome.jsp 
+2022-04-22 19:36:35.293 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-1] RequestURI: /acme-one-2.0/WEB-INF/views/master/page.jsp 
+2022-04-22 19:36:35.293 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-1] QueryString: null 
+2022-04-22 19:36:35.585 DEBUG [org.hibernate.SQL@http-nio-8080-exec-1] select useraccoun0_.id as id1_0_, useraccoun0_.version as version2_0_, useraccoun0_.enabled as enabled1_18_, useraccoun0_.identity as identity2_18_, useraccoun0_.password as password3_18_, useraccoun0_.username as username4_18_ from user_account useraccoun0_ where useraccoun0_.username=? 
+2022-04-22 19:36:35.604 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@http-nio-8080-exec-1] binding parameter [1] as [VARCHAR] - [anonymous] 
+2022-04-22 19:36:35.652 DEBUG [org.hibernate.SQL@http-nio-8080-exec-1] select roles0_.user_account_id as user_acc1_19_0_, roles0_.id as id1_19_0_, roles0_.id as id1_0_1_, roles0_.version as version2_0_1_, roles0_.user_account_id as user_acc1_19_1_, roles0_.company as company1_7_1_, roles0_.sector as sector2_7_1_, roles0_.company as company1_9_1_, roles0_.link as link2_9_1_, roles0_.statement as statemen3_9_1_, roles0_.company as company1_11_1_, roles0_.link as link2_11_1_, roles0_.statement as statemen3_11_1_, roles0_.company as company1_14_1_, roles0_.sector as sector2_14_1_, roles0_.clazz_ as clazz_1_ from ( select id, version, user_account_id, company, sector, null as link, null as statement, 11 as clazz_ from consumer union all select id, version, user_account_id, company, null as sector, link, statement, 12 as clazz_ from inventor union all select id, version, user_account_id, company, null as sector, link, statement, 13 as clazz_ from patron union all select id, version, user_account_id, company, sector, null as link, null as statement, 14 as clazz_ from provider union all select id, version, user_account_id, null as company, null as sector, null as link, null as statement, 16 as clazz_ from administrator union all select id, version, user_account_id, null as company, null as sector, null as link, null as statement, 17 as clazz_ from anonymous union all select id, version, user_account_id, null as company, null as sector, null as link, null as statement, 18 as clazz_ from any union all select id, version, user_account_id, null as company, null as sector, null as link, null as statement, 19 as clazz_ from authenticated ) roles0_ where roles0_.user_account_id=? 
+2022-04-22 19:36:35.653 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@http-nio-8080-exec-1] binding parameter [1] as [INTEGER] - [1] 
+2022-04-22 19:36:37.068 DEBUG [acme.framework.components.tiles.DynamicTilesView@http-nio-8080-exec-4] View name 'master/sign-in', model {username=, password=, remember=false} 
+2022-04-22 19:36:37.069 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-4] JspEngine --> /WEB-INF/views/master/page.jsp 
+2022-04-22 19:36:37.069 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-4] ServletPath: /WEB-INF/views/master/page.jsp 
+2022-04-22 19:36:37.069 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-4] PathInfo: null 
+2022-04-22 19:36:37.071 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-4] RealPath: C:\Users\Anita\Desktop\Javier\Workspace-22.0\Projects\Acme-One\target\classes\WEB-INF\views\master\page.jsp 
+2022-04-22 19:36:37.071 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-4] RequestURI: /acme-one-2.0/WEB-INF/views/master/page.jsp 
+2022-04-22 19:36:37.072 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-4] QueryString: null 
+2022-04-22 19:36:37.189 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-4] JspEngine --> /WEB-INF/views/master/sign-in.jsp 
+2022-04-22 19:36:37.190 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-4] ServletPath: /WEB-INF/views/master/page.jsp 
+2022-04-22 19:36:37.190 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-4] PathInfo: null 
+2022-04-22 19:36:37.191 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-4] RealPath: C:\Users\Anita\Desktop\Javier\Workspace-22.0\Projects\Acme-One\target\classes\WEB-INF\views\master\sign-in.jsp 
+2022-04-22 19:36:37.192 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-4] RequestURI: /acme-one-2.0/WEB-INF/views/master/page.jsp 
+2022-04-22 19:36:37.193 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-4] QueryString: null 
+2022-04-22 19:36:37.621 DEBUG [acme.framework.components.tiles.DynamicTilesView@http-nio-8080-exec-2] View name 'master/sign-in', model {username=, password=, remember=false} 
+2022-04-22 19:36:37.622 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-2] JspEngine --> /WEB-INF/views/master/page.jsp 
+2022-04-22 19:36:37.623 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-2] ServletPath: /WEB-INF/views/master/page.jsp 
+2022-04-22 19:36:37.623 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-2] PathInfo: null 
+2022-04-22 19:36:37.625 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-2] RealPath: C:\Users\Anita\Desktop\Javier\Workspace-22.0\Projects\Acme-One\target\classes\WEB-INF\views\master\page.jsp 
+2022-04-22 19:36:37.626 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-2] RequestURI: /acme-one-2.0/WEB-INF/views/master/page.jsp 
+2022-04-22 19:36:37.626 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-2] QueryString: null 
+2022-04-22 19:36:37.832 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-2] JspEngine --> /WEB-INF/views/master/sign-in.jsp 
+2022-04-22 19:36:37.833 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-2] ServletPath: /WEB-INF/views/master/page.jsp 
+2022-04-22 19:36:37.833 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-2] PathInfo: null 
+2022-04-22 19:36:37.835 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-2] RealPath: C:\Users\Anita\Desktop\Javier\Workspace-22.0\Projects\Acme-One\target\classes\WEB-INF\views\master\sign-in.jsp 
+2022-04-22 19:36:37.835 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-2] RequestURI: /acme-one-2.0/WEB-INF/views/master/page.jsp 
+2022-04-22 19:36:37.836 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-2] QueryString: null 
+2022-04-22 19:36:38.854 DEBUG [org.hibernate.SQL@http-nio-8080-exec-4] select useraccoun0_.id as id1_0_, useraccoun0_.version as version2_0_, useraccoun0_.enabled as enabled1_18_, useraccoun0_.identity as identity2_18_, useraccoun0_.password as password3_18_, useraccoun0_.username as username4_18_ from user_account useraccoun0_ where useraccoun0_.username=? 
+2022-04-22 19:36:38.854 DEBUG [org.hibernate.SQL@http-nio-8080-exec-2] select useraccoun0_.id as id1_0_, useraccoun0_.version as version2_0_, useraccoun0_.enabled as enabled1_18_, useraccoun0_.identity as identity2_18_, useraccoun0_.password as password3_18_, useraccoun0_.username as username4_18_ from user_account useraccoun0_ where useraccoun0_.username=? 
+2022-04-22 19:36:38.906 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@http-nio-8080-exec-4] binding parameter [1] as [VARCHAR] - [anonymous] 
+2022-04-22 19:36:38.907 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@http-nio-8080-exec-2] binding parameter [1] as [VARCHAR] - [anonymous] 
+2022-04-22 19:36:38.910 DEBUG [org.hibernate.SQL@http-nio-8080-exec-2] select roles0_.user_account_id as user_acc1_19_0_, roles0_.id as id1_19_0_, roles0_.id as id1_0_1_, roles0_.version as version2_0_1_, roles0_.user_account_id as user_acc1_19_1_, roles0_.company as company1_7_1_, roles0_.sector as sector2_7_1_, roles0_.company as company1_9_1_, roles0_.link as link2_9_1_, roles0_.statement as statemen3_9_1_, roles0_.company as company1_11_1_, roles0_.link as link2_11_1_, roles0_.statement as statemen3_11_1_, roles0_.company as company1_14_1_, roles0_.sector as sector2_14_1_, roles0_.clazz_ as clazz_1_ from ( select id, version, user_account_id, company, sector, null as link, null as statement, 11 as clazz_ from consumer union all select id, version, user_account_id, company, null as sector, link, statement, 12 as clazz_ from inventor union all select id, version, user_account_id, company, null as sector, link, statement, 13 as clazz_ from patron union all select id, version, user_account_id, company, sector, null as link, null as statement, 14 as clazz_ from provider union all select id, version, user_account_id, null as company, null as sector, null as link, null as statement, 16 as clazz_ from administrator union all select id, version, user_account_id, null as company, null as sector, null as link, null as statement, 17 as clazz_ from anonymous union all select id, version, user_account_id, null as company, null as sector, null as link, null as statement, 18 as clazz_ from any union all select id, version, user_account_id, null as company, null as sector, null as link, null as statement, 19 as clazz_ from authenticated ) roles0_ where roles0_.user_account_id=? 
+2022-04-22 19:36:38.910 DEBUG [org.hibernate.SQL@http-nio-8080-exec-4] select roles0_.user_account_id as user_acc1_19_0_, roles0_.id as id1_19_0_, roles0_.id as id1_0_1_, roles0_.version as version2_0_1_, roles0_.user_account_id as user_acc1_19_1_, roles0_.company as company1_7_1_, roles0_.sector as sector2_7_1_, roles0_.company as company1_9_1_, roles0_.link as link2_9_1_, roles0_.statement as statemen3_9_1_, roles0_.company as company1_11_1_, roles0_.link as link2_11_1_, roles0_.statement as statemen3_11_1_, roles0_.company as company1_14_1_, roles0_.sector as sector2_14_1_, roles0_.clazz_ as clazz_1_ from ( select id, version, user_account_id, company, sector, null as link, null as statement, 11 as clazz_ from consumer union all select id, version, user_account_id, company, null as sector, link, statement, 12 as clazz_ from inventor union all select id, version, user_account_id, company, null as sector, link, statement, 13 as clazz_ from patron union all select id, version, user_account_id, company, sector, null as link, null as statement, 14 as clazz_ from provider union all select id, version, user_account_id, null as company, null as sector, null as link, null as statement, 16 as clazz_ from administrator union all select id, version, user_account_id, null as company, null as sector, null as link, null as statement, 17 as clazz_ from anonymous union all select id, version, user_account_id, null as company, null as sector, null as link, null as statement, 18 as clazz_ from any union all select id, version, user_account_id, null as company, null as sector, null as link, null as statement, 19 as clazz_ from authenticated ) roles0_ where roles0_.user_account_id=? 
+2022-04-22 19:36:38.911 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@http-nio-8080-exec-2] binding parameter [1] as [INTEGER] - [1] 
+2022-04-22 19:36:38.911 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@http-nio-8080-exec-4] binding parameter [1] as [INTEGER] - [1] 
+2022-04-22 19:36:43.273 DEBUG [org.hibernate.SQL@http-nio-8080-exec-2] select useraccoun0_.id as id1_0_, useraccoun0_.version as version2_0_, useraccoun0_.enabled as enabled1_18_, useraccoun0_.identity as identity2_18_, useraccoun0_.password as password3_18_, useraccoun0_.username as username4_18_ from user_account useraccoun0_ where useraccoun0_.username=? 
+2022-04-22 19:36:43.275 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@http-nio-8080-exec-2] binding parameter [1] as [VARCHAR] - [inventor1] 
+2022-04-22 19:36:43.281 DEBUG [org.hibernate.SQL@http-nio-8080-exec-2] select roles0_.user_account_id as user_acc1_19_0_, roles0_.id as id1_19_0_, roles0_.id as id1_0_1_, roles0_.version as version2_0_1_, roles0_.user_account_id as user_acc1_19_1_, roles0_.company as company1_7_1_, roles0_.sector as sector2_7_1_, roles0_.company as company1_9_1_, roles0_.link as link2_9_1_, roles0_.statement as statemen3_9_1_, roles0_.company as company1_11_1_, roles0_.link as link2_11_1_, roles0_.statement as statemen3_11_1_, roles0_.company as company1_14_1_, roles0_.sector as sector2_14_1_, roles0_.clazz_ as clazz_1_ from ( select id, version, user_account_id, company, sector, null as link, null as statement, 11 as clazz_ from consumer union all select id, version, user_account_id, company, null as sector, link, statement, 12 as clazz_ from inventor union all select id, version, user_account_id, company, null as sector, link, statement, 13 as clazz_ from patron union all select id, version, user_account_id, company, sector, null as link, null as statement, 14 as clazz_ from provider union all select id, version, user_account_id, null as company, null as sector, null as link, null as statement, 16 as clazz_ from administrator union all select id, version, user_account_id, null as company, null as sector, null as link, null as statement, 17 as clazz_ from anonymous union all select id, version, user_account_id, null as company, null as sector, null as link, null as statement, 18 as clazz_ from any union all select id, version, user_account_id, null as company, null as sector, null as link, null as statement, 19 as clazz_ from authenticated ) roles0_ where roles0_.user_account_id=? 
+2022-04-22 19:36:43.282 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@http-nio-8080-exec-2] binding parameter [1] as [INTEGER] - [14] 
+2022-04-22 19:36:43.340 DEBUG [acme.framework.components.tiles.DynamicTilesView@http-nio-8080-exec-8] View name 'fragments/welcome', model {} 
+2022-04-22 19:36:43.343 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-8] JspEngine --> /WEB-INF/views/master/page.jsp 
+2022-04-22 19:36:43.344 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-8] ServletPath: /WEB-INF/views/master/page.jsp 
+2022-04-22 19:36:43.345 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-8] PathInfo: null 
+2022-04-22 19:36:43.349 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-8] RealPath: C:\Users\Anita\Desktop\Javier\Workspace-22.0\Projects\Acme-One\target\classes\WEB-INF\views\master\page.jsp 
+2022-04-22 19:36:43.350 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-8] RequestURI: /acme-one-2.0/WEB-INF/views/master/page.jsp 
+2022-04-22 19:36:43.350 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-8] QueryString: null 
+2022-04-22 19:36:43.598 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-8] JspEngine --> /WEB-INF/views/fragments/welcome.jsp 
+2022-04-22 19:36:43.599 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-8] ServletPath: /WEB-INF/views/master/page.jsp 
+2022-04-22 19:36:43.599 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-8] PathInfo: null 
+2022-04-22 19:36:43.600 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-8] RealPath: C:\Users\Anita\Desktop\Javier\Workspace-22.0\Projects\Acme-One\target\classes\WEB-INF\views\fragments\welcome.jsp 
+2022-04-22 19:36:43.600 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-8] RequestURI: /acme-one-2.0/WEB-INF/views/master/page.jsp 
+2022-04-22 19:36:43.600 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-8] QueryString: null 
+2022-04-22 19:36:48.383 DEBUG [acme.framework.controllers.AbstractController@http-nio-8080-exec-8] DISPATCHING GET /acme-one-2.0/inventor/patronage-report/list 
+2022-04-22 19:36:48.383 DEBUG [acme.framework.controllers.AbstractController@http-nio-8080-exec-8] Command: list 
+2022-04-22 19:36:48.383 DEBUG [acme.framework.controllers.AbstractController@http-nio-8080-exec-8] Model:   {} 
+2022-04-22 19:36:48.383 DEBUG [acme.framework.controllers.AbstractController@http-nio-8080-exec-8] Locale:  en 
+2022-04-22 19:36:48.416 DEBUG [org.hibernate.SQL@http-nio-8080-exec-8] select inventor0_.id as id1_0_, inventor0_.version as version2_0_, inventor0_.user_account_id as user_acc1_19_, inventor0_.company as company1_9_, inventor0_.link as link2_9_, inventor0_.statement as statemen3_9_ from inventor inventor0_ where inventor0_.user_account_id=? 
+2022-04-22 19:36:48.417 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@http-nio-8080-exec-8] binding parameter [1] as [INTEGER] - [14] 
+2022-04-22 19:36:48.418 DEBUG [org.hibernate.SQL@http-nio-8080-exec-8] select useraccoun0_.id as id1_0_0_, useraccoun0_.version as version2_0_0_, useraccoun0_.enabled as enabled1_18_0_, useraccoun0_.identity as identity2_18_0_, useraccoun0_.password as password3_18_0_, useraccoun0_.username as username4_18_0_ from user_account useraccoun0_ where useraccoun0_.id=? 
+2022-04-22 19:36:48.419 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@http-nio-8080-exec-8] binding parameter [1] as [INTEGER] - [14] 
+2022-04-22 19:36:48.428 DEBUG [acme.framework.controllers.AbstractController@http-nio-8080-exec-8] SERVING GET /acme-one-2.0/inventor/patronage-report/list 
+2022-04-22 19:36:48.428 DEBUG [acme.framework.controllers.AbstractController@http-nio-8080-exec-8] Result: ModelAndView [view="master/panic"; model={oops=java.lang.ClassCastException: acme.roles.Inventor cannot be cast to acme.roles.Patron}] 
+2022-04-22 19:36:48.434 DEBUG [acme.framework.components.tiles.DynamicTilesView@http-nio-8080-exec-8] View name 'master/panic', model {oops=java.lang.ClassCastException: acme.roles.Inventor cannot be cast to acme.roles.Patron, org.springframework.validation.BindingResult.oops=org.springframework.validation.BeanPropertyBindingResult: 0 errors} 
+2022-04-22 19:36:48.435 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-8] JspEngine --> /WEB-INF/views/master/page.jsp 
+2022-04-22 19:36:48.435 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-8] ServletPath: /WEB-INF/views/master/page.jsp 
+2022-04-22 19:36:48.436 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-8] PathInfo: null 
+2022-04-22 19:36:48.436 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-8] RealPath: C:\Users\Anita\Desktop\Javier\Workspace-22.0\Projects\Acme-One\target\classes\WEB-INF\views\master\page.jsp 
+2022-04-22 19:36:48.437 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-8] RequestURI: /acme-one-2.0/WEB-INF/views/master/page.jsp 
+2022-04-22 19:36:48.437 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-8] QueryString: null 
+2022-04-22 19:36:48.564 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-8] JspEngine --> /WEB-INF/views/master/panic.jsp 
+2022-04-22 19:36:48.565 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-8] ServletPath: /WEB-INF/views/master/page.jsp 
+2022-04-22 19:36:48.565 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-8] PathInfo: null 
+2022-04-22 19:36:48.565 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-8] RealPath: C:\Users\Anita\Desktop\Javier\Workspace-22.0\Projects\Acme-One\target\classes\WEB-INF\views\master\panic.jsp 
+2022-04-22 19:36:48.566 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-8] RequestURI: /acme-one-2.0/WEB-INF/views/master/page.jsp 
+2022-04-22 19:36:48.566 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-8] QueryString: null 
+2022-04-22 19:36:48.707 ERROR [org.apache.jsp.WEB_002dINF.views.master.panic_jsp@http-nio-8080-exec-8] HTTP GET /acme-one-2.0/WEB-INF/views/master/page.jsp HTTP/1.1 
+2022-04-22 19:36:48.708 ERROR [org.apache.jsp.WEB_002dINF.views.master.panic_jsp@http-nio-8080-exec-8] Status: 500 
+2022-04-22 19:36:48.710 ERROR [org.apache.jsp.WEB_002dINF.views.master.panic_jsp@http-nio-8080-exec-8] Exception: com.sun.proxy.$Proxy133.findInventorByUserAccountId(Unknown Source): acme.roles.Inventor cannot be cast to acme.roles.Patron 
+2022-04-22 19:39:01.560 INFO  [acme.Launcher@main] Starting Launcher using Java 1.8.0_281 on PORTATIL_ANITA with PID 6336 (C:\Users\Anita\Desktop\Javier\Workspace-22.0\Frameworks\Acme-Framework-22.3\target\classes started by Anita in C:\Users\Anita\Desktop\Javier\Workspace-22.0\Projects\Acme-One) 
+2022-04-22 19:39:01.562 DEBUG [acme.Launcher@main] Running with Spring Boot v2.4.2, Spring v5.3.3 
+2022-04-22 19:39:01.563 INFO  [acme.Launcher@main] The following profiles are active: development,default 
+2022-04-22 19:39:04.021 DEBUG [org.apache.jasper.servlet.JasperInitializer@main] Initializing Jasper for context [application] 
+2022-04-22 19:39:08.870 WARN  [org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use 
+2022-04-22 19:39:08.876 INFO  [acme.framework.configuration.ShutdownConfiguration@main] The system is shutting down... 
+2022-04-22 19:39:08.930 ERROR [org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter@main] ***************************\nAPPLICATION FAILED TO START\n***************************\nDescription:\nWeb server failed to start. Port 8080 was already in use.\nAction:\nIdentify and stop the process that's listening on port 8080 or configure this application to listen on another port. 
+2022-04-22 19:39:08.933 ERROR [acme.Launcher@main] org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:181): Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use\norg.springframework.boot.web.server.PortInUseException.lambda$throwIfPortBindingException$0(PortInUseException.java:70): Port 8080 is already in use\norg.apache.catalina.core.StandardService.addConnector(StandardService.java:244): standardService.connector.startFailed\norg.apache.catalina.connector.Connector.startInternal(Connector.java:1067): Protocol handler start failed\nsun.nio.ch.Net.bind0(Native Method): Address already in use: bind 
+2022-04-22 19:39:08.934 INFO  [acme.Launcher@main] The application log provides additional debugging messages! 
+2022-04-22 19:39:09.951 DEBUG [acme.Launcher@main] Exit code = 1 

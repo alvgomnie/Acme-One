@@ -1,0 +1,13 @@
+timestamp,test-class,test-method,time,description,result
+"2022-04-22 23:43:51.892","anonymous.useraccount.AnonymousUserAccountListTest","consumerListComponents",5032,""[1] testIndex=0, name=C1, surname=Acme, email=c1@acme.com, username=consumer1"","OK"
+"2022-04-22 23:43:54.912","anonymous.useraccount.AnonymousUserAccountListTest","consumerListComponents",2578,""[2] testIndex=1, name=C2, surname=Acme, email=c2@acme.com, username=consumer2"","OK"
+"2022-04-22 23:43:57.902","anonymous.useraccount.AnonymousUserAccountListTest","patronListComponents",2549,""[1] testIndex=0, name=P1, surname=Acme, email=p1@acme.com, username=patron1"","OK"
+"2022-04-22 23:44:00.876","anonymous.useraccount.AnonymousUserAccountListTest","patronListComponents",2580,""[2] testIndex=1, name=P2, surname=Acme, email=p2@acme.com, username=patron2"","OK"
+"2022-04-22 23:44:02.328","anonymous.useraccount.AnonymousUserAccountListTest","patronListComponents",1010,""[3] testIndex=2, name=P3, surname=Acme, email=p3@acme.com, username=patron3"","Record index 2 is out of range"
+"2022-04-22 23:44:03.742","anonymous.useraccount.AnonymousUserAccountListTest","patronListComponents",1022,""[4] testIndex=3, name=P4, surname=Acme, email=p4@acme.com, username=patron4"","Record index 3 is out of range"
+"2022-04-22 23:44:06.696","anonymous.useraccount.AnonymousUserAccountListTest","providerListComponents",2528,""[1] testIndex=0, name=PR1, surname=Acme, email=pr1@acme.com, username=provider1"","OK"
+"2022-04-22 23:44:09.647","anonymous.useraccount.AnonymousUserAccountListTest","providerListComponents",2524,""[2] testIndex=1, name=PR2, surname=Acme, email=pr2@acme.com, username=provider2"","OK"
+"2022-04-22 23:44:12.623","anonymous.useraccount.AnonymousUserAccountListTest","inventorListComponents",2524,""[1] testIndex=0, name=I1, surname=Acme, email=i1@acme.com, username=inventor1"","OK"
+"2022-04-22 23:44:15.571","anonymous.useraccount.AnonymousUserAccountListTest","inventorListComponents",2548,""[2] testIndex=1, name=I2, surname=Acme, email=i2@acme.com, username=inventor2"","OK"
+"2022-04-22 23:44:16.992","anonymous.useraccount.AnonymousUserAccountListTest","inventorListComponents",1011,""[3] testIndex=2, name=I3, surname=Acme, email=i3@acme.com, username=inventor3"","Record index 2 is out of range"
+"2022-04-22 23:44:18.389","anonymous.useraccount.AnonymousUserAccountListTest","inventorListComponents",1015,""[4] testIndex=3, name=I4, surname=Acme, email=i4@acme.com, username=inventor4"","Record index 3 is out of range"

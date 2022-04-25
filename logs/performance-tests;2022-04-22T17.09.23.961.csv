@@ -1,0 +1,4 @@
+timestamp,test-class,test-method,time,description,result
+"2022-04-22 17:05:43.864","authenticated.currency.AuthenticatedCurrencyListTest","authenticatedListCurrency",4977,""[1] testIndex=0, name=EUR, byDefault=true, byAccepted=true"","OK"
+"2022-04-22 17:05:48.539","authenticated.currency.AuthenticatedCurrencyListTest","authenticatedListCurrency",4409,""[2] testIndex=1, name=GBP, byDefault=false, byAccepted=true"","OK"
+"2022-04-22 17:05:53.187","authenticated.currency.AuthenticatedCurrencyListTest","authenticatedListCurrency",4388,""[3] testIndex=2, name=USD, byDefault=false, byAccepted=true"","OK"

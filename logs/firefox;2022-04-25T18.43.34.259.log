@@ -1,0 +1,13 @@
+1650903094398	geckodriver	INFO	Listening on 127.0.0.1:21375
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\alvar\\AppData\\Local\\Temp\\rust_mozprofiletAfAJ1\\search.json.mozlz4", (void 0)))
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://localhost:8081"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://localhost:8081"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getJavaScRript error: resource://gre/modules/LeoginManagerParent.jsm, line 136: TypecEiprrore:s: falling back to a synchronous message gRecipeManager is null
+ Jfor:" "http://localhost:8081"
+avaScript erroconsole.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "r: resource:/http://localhost:8081"
+/gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+Marionette threw an error: TypeError: browsingContext.currentWindowGlobal is null
+getMarionetteCommandsActorProxy/get/<@chrome://remote/content/marionette/actors/MarionetteCommandsParent.jsm:332:29
+observe@resource://gre/modules/AsyncShutdown.jsm:575:16
+

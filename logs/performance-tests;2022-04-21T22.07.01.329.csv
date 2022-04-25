@@ -1,0 +1,3 @@
+timestamp,test-class,test-method,time,description,result
+"2022-04-21 22:05:48.628","any.toolkit.AnyToolkitListTest","anonymousListComponents",14085,""[1] testIndex=0, title=1, code=AAA-000, description=Toolkit 1, assemblyNotes=ejemplo, link=http://www.google.com, name=Televition Xiaomi"","Cannot find 'By.id: list'"
+"2022-04-21 22:05:57.389","any.toolkit.AnyToolkitListTest","anonymousListComponents",7913,""[2] testIndex=1, title=2, code=BBB-111, description=Toolkit 2, assemblyNotes=ejemplo, link=http://www.google.com, name=Televition Xiaomi"","Cannot find 'By.id: list'"

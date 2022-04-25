@@ -1,3 +1,4 @@
+
 package acme.features.administrator.dashboard;
 
 import javax.annotation.PostConstruct;
@@ -22,3 +23,4 @@ public class AdminDashboardController extends AbstractController<Patron, AdminDa
 	}
 
 }
+

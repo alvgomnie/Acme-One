@@ -1,0 +1,5 @@
+timestamp,test-class,test-method,time,description,result
+"2022-04-21 18:32:52.202","any.item.AnyComponentListTest","administratorListComponents",10758,""[1] testIndex=0, name=Televition Xiaomi, type=COMPONENT"","OK"
+"2022-04-21 18:32:56.221","any.item.AnyComponentListTest","administratorListComponents",3438,""[2] testIndex=1, name=Discord, type=TOOL"","Record index 1 is out of range"
+"2022-04-21 18:32:58.835","any.item.AnyComponentListTest","anonymousListComponents",2219,""[1] testIndex=0, name=Televition Xiaomi, type=COMPONENT"","OK"
+"2022-04-21 18:33:00.318","any.item.AnyComponentListTest","anonymousListComponents",1029,""[2] testIndex=1, name=Discord, type=TOOL"","Record index 1 is out of range"

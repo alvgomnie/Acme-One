@@ -1,0 +1,4 @@
+timestamp,test-class,test-method,time,description,result
+"2022-04-21 22:56:40.063","authenticated.currency.AuthenticatedCurrencyListTest","authenticatedListCurrency",10706,""[1] testIndex=0, name=EUR, byDefault=false"","Expected value 'false' in attribute 1 of record 0, but found 'true'"
+"2022-04-21 22:56:50.869","authenticated.currency.AuthenticatedCurrencyListTest","authenticatedListCurrency",9991,""[2] testIndex=1, name=GBP, byDefault=false"","A form was expected, but doesn't exist"
+"2022-04-21 22:56:57.678","authenticated.currency.AuthenticatedCurrencyListTest","authenticatedListCurrency",6133,""[3] testIndex=2, name=USD, byDefault=true"","Expected value 'true' in attribute 1 of record 2, but found 'false'"

@@ -1,0 +1,7 @@
+timestamp,test-class,test-method,time,description,result
+"2022-04-21 21:22:20.933","any.item.AnyToolListTest","administratorListComponents",18594,""[1] testIndex=0, name=Discord, type=TOOL"","OK"
+"2022-04-21 21:22:25.408","any.item.AnyToolListTest","anonymousListComponents",3636,""[1] testIndex=0, name=Discord, type=TOOL"","OK"
+"2022-04-21 21:22:40.316","any.item.AnyComponentListTest","administratorListComponents",11887,""[1] testIndex=0, name=Televition Xiaomi, type=COMPONENT"","OK"
+"2022-04-21 21:22:45.376","any.item.AnyComponentListTest","anonymousListComponents",4148,""[1] testIndex=0, name=Televition Xiaomi, type=COMPONENT"","OK"
+"2022-04-21 21:22:49.848","acme.testing.FavouriteLinkTest","favouriteLink",1643,""favouriteLink()"","OK"
+"2022-04-21 21:23:10.066","acme.testing.SignUpTest","positiveSignUp",17341,""[1] username=johnny, password=johnny, name=Johnny, surname=López, email=john@mail.com, phone=Cash & Carry, Co"","OK"

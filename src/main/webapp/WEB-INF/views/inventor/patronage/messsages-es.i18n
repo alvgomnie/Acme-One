@@ -1,0 +1,11 @@
+inventor.patronages.list.label.status = Estado
+inventor.patronages.list.label.code= Codigo
+inventor.patronages.list.label.legalStuff= Cosas legales
+inventor.patronages.list.label.budget=Presupuesto
+inventor.patronages.list.label.startingDate=Fecha de inicio
+inventor.patronages.list.label.finishingDate=Fecha de fin
+inventor.patronages.list.label.link= Link
+
+inventor.patronages.patron.list.label.company=Compañia
+inventor.patronages.patron.list.label.statement=Declaración
+inventor.patronages.patron.list.label.optionalLink=Link

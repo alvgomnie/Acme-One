@@ -1,0 +1,5 @@
+1650652370943	geckodriver	INFO	Listening on 127.0.0.1:42891
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Anita\\AppData\\Local\\Temp\\rust_mozprofilerS0Nrj\\search.json.mozlz4", (void 0)))
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://localhost:8081"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://loJavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TcaypeError: gRecipeManager is null
+lhost:8081"

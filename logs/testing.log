@@ -2191,3 +2191,4 @@
 2022-04-22 23:48:53.211 INFO  [acme.framework.testing.Junit5Extension@main] Test case '[4] testIndex=3, name=I4, surname=Acme, email=i4@acme.com, username=inventor4' finished as expected 
 2022-04-22 23:48:53.214 INFO  [acme.framework.testing.Junit5Extension@main] Finishing test cases in test class 'AnonymousUserAccountListTest' finished 
 2022-04-22 23:48:53.548 INFO  [acme.framework.configuration.ShutdownConfiguration@SpringContextShutdownHook] The system is shutting down... 
+

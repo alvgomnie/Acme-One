@@ -1,0 +1,15 @@
+patron.dashboard.form.label.totalNProposedPatronages = Numero total de patronazgos propuestos
+patron.dashboard.form.label.totalNAcceptedPatronages = Numero total de patronazgos aceptados
+patron.dashboard.form.label.totalNDeniedPatronages = Numero total de patronazgos denegados
+patron.dashboard.form.label.averageBudgetProposedPatronages = Presupuesto promedio de patronazgos propuestos
+patron.dashboard.form.label.averageBudgetAcceptedPatronages = Presupuesto promedio de patronazgos aceptados
+patron.dashboard.form.label.averageBudgetDeniedPatronages = Presupuesto promedio de patronazgos denegados
+patron.dashboard.form.label.deviationBudgetProposedPatronages = Presupuesto de desviacion de patronazgos propuestos
+patron.dashboard.form.label.deviationBudgetAcceptedPatronages = Presupuesto de desviacion de patronazgos aceptadoss
+patron.dashboard.form.label.deviationBudgetDeniedPatronages = Presupuesto de desviacion de patronazgos denegados
+patron.dashboard.form.label.minBudgetProposedPatronages = Presupuesto minimo de patronazgos propuestos
+patron.dashboard.form.label.minBudgetAcceptedPatronages = Presupuesto minimo de patronazgos aceptados
+patron.dashboard.form.label.minBudgetDeniedPatronages = Presupuesto minimo de patronazgos denegados
+patron.dashboard.form.label.maxBudgetProposedPatronages = Presupuesto maximo de patronazgos propuestos
+patron.dashboard.form.label.maxBudgetAcceptedPatronages = Presupuesto maximo de patronazgos aceptados
+patron.dashboard.form.label.maxBudgetDeniedPatronages = Presupuesto maximo de patronazgos denegados

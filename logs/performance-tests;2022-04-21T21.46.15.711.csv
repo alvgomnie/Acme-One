@@ -1,0 +1,2 @@
+timestamp,test-class,test-method,time,description,result
+"2022-04-21 21:45:12.31","any.toolkit.AnyToolkitListTest","administratorListComponents",12941,""[1] testIndex=0, title=1, code=AAA-000, description=Toolkit 1, assemblyNotes=ejemplo, link=http://www.google.com, itemName=item-01"","Expected value 'item-01' in attribute 5 of record 0, but found 'Televition Xiaomi'"

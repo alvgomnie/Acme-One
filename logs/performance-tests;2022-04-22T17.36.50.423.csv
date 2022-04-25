@@ -1,0 +1,2 @@
+timestamp,test-class,test-method,time,description,result
+"2022-04-22 17:35:36.964","inventor.toolkit.InventorToolkitListCSVTest","positiveTest",6670,""[1] recordIndex=0, code=AAA-000, title=1, description=Toolkit 1, assemblyNotes=ejemplo, publish=false, link=http://www.google.com"","Expected value '1' in attribute 0 of record 0, but found 'AAA-000'"

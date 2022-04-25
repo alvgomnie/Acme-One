@@ -1,0 +1,2 @@
+timestamp,test-class,test-method,time,description,result
+"2022-04-21 22:58:18.932","authenticated.currency.AuthenticatedCurrencyListTest","authenticatedListCurrency",15195,""[1] testIndex=0, name=EUR, byDefault=true"","A form was expected, but doesn't exist"

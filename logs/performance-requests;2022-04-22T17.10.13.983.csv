@@ -1,0 +1,7 @@
+timestamp,simple-path,time
+"2022-04-22 17:09:27.569","/master/welcome",2494
+"2022-04-22 17:09:27.832","/master/welcome",219
+"2022-04-22 17:09:29.018","/master/sign-in",1075
+"2022-04-22 17:09:30.249","/master/welcome",553
+"2022-04-22 17:09:31.02","/authenticated/announcement/list",561
+"2022-04-22 17:09:32.384","/authenticated/announcement/show",553

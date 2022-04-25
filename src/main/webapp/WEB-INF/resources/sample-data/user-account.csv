@@ -1,9 +1,0 @@
-key,enabled,identity,password,username
-user-account-patron-01,true,"UserIdentity{name: 'P1', surname: 'Acme', email: 'p1@acme.com'}",patron1,patron1
-user-account-patron-02,true,"UserIdentity{name: 'P2', surname: 'Acme', email: 'p2@acme.com'}",patron2,patron2
-user-account-patron-03,true,"UserIdentity{name: 'P3', surname: 'Acme', email: 'p3@acme.com'}",patron3,patron3
-user-account-patron-04,true,"UserIdentity{name: 'P4', surname: 'Acme', email: 'p4@acme.com'}",patron4,patron4
-user-account-inventor-01,true,"UserIdentity{name: 'I1', surname: 'Acme', email: 'i1@acme.com'}",inventor1,inventor1
-user-account-inventor-02,true,"UserIdentity{name: 'I2', surname: 'Acme', email: 'i2@acme.com'}",inventor2,inventor2
-user-account-inventor-03,true,"UserIdentity{name: 'I3', surname: 'Acme', email: 'i3@acme.com'}",inventor3,inventor3
-user-account-inventor-04,true,"UserIdentity{name: 'I4', surname: 'Acme', email: 'i4@acme.com'}",inventor4,inventor4

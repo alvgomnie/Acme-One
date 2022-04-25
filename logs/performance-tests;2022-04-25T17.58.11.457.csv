@@ -1,0 +1,13 @@
+timestamp,test-class,test-method,time,description,result
+"2022-04-22 23:48:20.739","anonymous.useraccount.AnonymousUserAccountListTest","consumerListComponents",5344,""[1] testIndex=0, name=C1, surname=Acme, email=c1@acme.com, username=consumer1"","OK"
+"2022-04-22 23:48:23.79","anonymous.useraccount.AnonymousUserAccountListTest","consumerListComponents",2611,""[2] testIndex=1, name=C2, surname=Acme, email=c2@acme.com, username=consumer2"","OK"
+"2022-04-22 23:48:26.716","anonymous.useraccount.AnonymousUserAccountListTest","patronListComponents",2515,""[1] testIndex=0, name=P1, surname=Acme, email=p1@acme.com, username=patron1"","OK"
+"2022-04-22 23:48:29.681","anonymous.useraccount.AnonymousUserAccountListTest","patronListComponents",2551,""[2] testIndex=1, name=P2, surname=Acme, email=p2@acme.com, username=patron2"","OK"
+"2022-04-22 23:48:32.675","anonymous.useraccount.AnonymousUserAccountListTest","patronListComponents",2564,""[3] testIndex=2, name=P3, surname=Acme, email=p3@acme.com, username=patron3"","OK"
+"2022-04-22 23:48:35.587","anonymous.useraccount.AnonymousUserAccountListTest","patronListComponents",2538,""[4] testIndex=3, name=P4, surname=Acme, email=p4@acme.com, username=patron4"","OK"
+"2022-04-22 23:48:38.537","anonymous.useraccount.AnonymousUserAccountListTest","providerListComponents",2563,""[1] testIndex=0, name=PR1, surname=Acme, email=pr1@acme.com, username=provider1"","OK"
+"2022-04-22 23:48:41.479","anonymous.useraccount.AnonymousUserAccountListTest","providerListComponents",2552,""[2] testIndex=1, name=PR2, surname=Acme, email=pr2@acme.com, username=provider2"","OK"
+"2022-04-22 23:48:44.407","anonymous.useraccount.AnonymousUserAccountListTest","inventorListComponents",2531,""[1] testIndex=0, name=I1, surname=Acme, email=i1@acme.com, username=inventor1"","OK"
+"2022-04-22 23:48:47.344","anonymous.useraccount.AnonymousUserAccountListTest","inventorListComponents",2535,""[2] testIndex=1, name=I2, surname=Acme, email=i2@acme.com, username=inventor2"","OK"
+"2022-04-22 23:48:50.271","anonymous.useraccount.AnonymousUserAccountListTest","inventorListComponents",2531,""[3] testIndex=2, name=I3, surname=Acme, email=i3@acme.com, username=inventor3"","OK"
+"2022-04-22 23:48:53.211","anonymous.useraccount.AnonymousUserAccountListTest","inventorListComponents",2531,""[4] testIndex=3, name=I4, surname=Acme, email=i4@acme.com, username=inventor4"","OK"

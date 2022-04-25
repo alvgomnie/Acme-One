@@ -1,0 +1,3 @@
+timestamp,test-class,test-method,time,description,result
+"2022-04-22 17:00:43.87","inventor.item.InventorToolsListTest","inventorListTools",5948,""[1] testIndex=0, name=Discord, price=GBP 5.00, type=TOOL, code=DSC-455-H, technology=discord, description=A tool to bring easier communication among parners!, link=https://discord.com/"","OK"
+"2022-04-22 17:00:49.67","inventor.item.InventorComponentListTest","inventorListComponents",4901,""[1] testIndex=0, name=Televition Xiaomi, price=EUR 350.00, type=COMPONENT, code=DEF-484-C, technology=Xiaomi, description=A tv made from Xiaomi!, link=https://www.mi.com/es"","OK"

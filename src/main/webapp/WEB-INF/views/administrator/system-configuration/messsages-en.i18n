@@ -1,0 +1,8 @@
+administrator.system-configuration.form.label.defaultCurrency = Default Currency
+administrator.system-configuration.form.label.acceptedCurrenciesList = Accepted Currencies List
+administrator.system-configuration.form.label.strongSpamTermsList = Strong Spam Terms List
+administrator.system-configuration.form.label.strongSpamTermsTranslate = Strong Spam Terms Translate
+administrator.system-configuration.form.label.strongSpamTreshold = Strong Spam Treshold
+administrator.system-configuration.form.label.weakSpamTermsList = Weak Spam Terms List
+administrator.system-configuration.form.label.weakSpamTermsTranslate = Weak Spam Terms Translate
+administrator.system-configuration.form.label.weakSpamThreshold = Weak Spam Threshold

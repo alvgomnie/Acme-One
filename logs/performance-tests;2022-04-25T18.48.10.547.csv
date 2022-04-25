@@ -1,0 +1,2 @@
+timestamp,test-class,test-method,time,description,result
+"2022-04-25 18:46:22.721","patron.patronageReport.PatronPatronageReportShowCSVTest","positiveTest",18053,""[1] recordIndex=0, automaticSeqNumber=null, creationMoment=2021/12/01 12:00, memorandum=Patronage accepted!, link=https://www.nano.com"","OK"

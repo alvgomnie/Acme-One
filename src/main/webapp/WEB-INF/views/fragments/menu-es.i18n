@@ -43,6 +43,12 @@ master.menu.provider.favourite-link = Enlace favorito
 master.menu.consumer = Consumidor
 master.menu.consumer.favourite-link = Enlace favorito
 
+# master.menu.patron ##########################################################
+
+master.menu.patron = Patron
+master.menu.patron.patronages = Patrocinio
+master.menu.patron.patronageReport = Informe de patrocinio
+
 # master.menu.user-account ####################################################
 
 master.menu.user-account = Cuenta
@@ -51,3 +57,37 @@ master.menu.user-account.provider = Datos de proveedor
 master.menu.user-account.become-provider = Hazte proveedor
 master.menu.user-account.consumer = Datos de consumidor
 master.menu.user-account.become-consumer = Hazte consumidor
+master.menu.user-account.announcements.list = Anuncios
+
+# master.menu.authenticated ###################################################
+
+master.menu.authenticated.configuration = Configuración
+master.menu.authenticated.configuration.list-spam = Lista de spam
+master.menu.authenticated.configuration.list-currency = Lista de divisas
+
+# master.menu.any ##########################################################
+
+master.menu.any = Cualquiera
+master.menu.any.chirps = Chirps
+master.menu.any.chirps.list = Lista de chirps
+master.menu.any.toolkits = Toolkits
+master.menu.any.toolkits.list = Lista de toolkits
+master.menu.any.items = Items
+master.menu.any.items.components = Lista de Componentes
+master.menu.any.items.tools = Lista de Herramientas
+master.menu.any.user-account = Users
+master.menu.any.user-account.consumer = Lista de todos los consumidores
+master.menu.any.user-account.inventor = Lista de todos los inventores
+master.menu.any.user-account.patron = Lista de todos los patrones
+master.menu.any.user-account.provider = Lista de todos los proveedores
+
+# master.menu.inventor #############################################
+
+master.menu.inventor.artifacts = Mis artefactos
+master.menu.inventor.artifacts.components-link = Mis componentes
+master.menu.inventor = Inventor
+master.menu.inventor.components-link = Mis componentes
+master.menu.inventor.tools-link = Mis herramientas
+master.menu.inventor.toolkit = Caja de herramientas
+master.menu.inventor.patronages = Patrocinios
+master.menu.inventor.patronageReport = Informe de patrocinio

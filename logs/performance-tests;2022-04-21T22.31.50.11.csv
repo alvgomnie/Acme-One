@@ -1,0 +1,2 @@
+timestamp,test-class,test-method,time,description,result
+"2022-04-21 22:29:26.744","authenticated.announcement.AuthenticatedAnnouncementListTest","anonymousListAnnouncements",14364,""[1] testIndex=0, title=Anuncio 2, date=2022/04/08 20:00"","Cannot find 'By.name: date'"

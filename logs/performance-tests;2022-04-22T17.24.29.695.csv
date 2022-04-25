@@ -1,0 +1,3 @@
+timestamp,test-class,test-method,time,description,result
+"2022-04-22 17:22:44.46","any.toolkit.AnyToolkitListTest","anonymousListComponents",4487,""[1] testIndex=0, title=1, code=AAA-000, description=Toolkit 1, assemblyNotes=ejemplo, link=http://www.google.com"","OK"
+"2022-04-22 17:22:48.21","any.toolkit.AnyToolkitListTest","anonymousListComponents",3443,""[2] testIndex=1, title=2, code=BBB-111, description=Toolkit 2, assemblyNotes=ejemplo, link=http://www.google.com"","OK"

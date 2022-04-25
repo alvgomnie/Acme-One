@@ -1,0 +1,19 @@
+timestamp,simple-path,time
+"2022-04-22 16:39:05.898","/master/welcome",2529
+"2022-04-22 16:39:06.165","/master/welcome",221
+"2022-04-22 16:39:07.347","/master/sign-in",1073
+"2022-04-22 16:39:08.581","/master/welcome",563
+"2022-04-22 16:39:09.363","/authenticated/currency/list",556
+"2022-04-22 16:39:10.695","/authenticated/currency/show",553
+"2022-04-22 16:39:11.104","/master/welcome",219
+"2022-04-22 16:39:11.342","/master/welcome",206
+"2022-04-22 16:39:12.008","/master/sign-in",558
+"2022-04-22 16:39:13.213","/master/welcome",546
+"2022-04-22 16:39:13.968","/authenticated/currency/list",552
+"2022-04-22 16:39:15.264","/authenticated/currency/show",558
+"2022-04-22 16:39:15.641","/master/welcome",189
+"2022-04-22 16:39:15.877","/master/welcome",205
+"2022-04-22 16:39:16.532","/master/sign-in",550
+"2022-04-22 16:39:17.743","/master/welcome",552
+"2022-04-22 16:39:18.513","/authenticated/currency/list",549
+"2022-04-22 16:39:19.809","/authenticated/currency/show",558

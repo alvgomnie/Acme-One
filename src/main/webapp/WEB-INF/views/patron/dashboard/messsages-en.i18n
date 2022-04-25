@@ -1,0 +1,15 @@
+patron.dashboard.form.label.totalNProposedPatronages = Total Number of Proposed Patronages
+patron.dashboard.form.label.totalNAcceptedPatronages = Total Number of Accepted Patronages
+patron.dashboard.form.label.totalNDeniedPatronages = Total Number of Denied Patronages
+patron.dashboard.form.label.averageBudgetProposedPatronages = Average Budget of Proposed Patronages
+patron.dashboard.form.label.averageBudgetAcceptedPatronages = Average Budget of Accepted Patronages
+patron.dashboard.form.label.averageBudgetDeniedPatronages = Average Budget of Denied Patronages
+patron.dashboard.form.label.deviationBudgetProposedPatronages = Deviation Budget of Proposed Patronages
+patron.dashboard.form.label.deviationBudgetAcceptedPatronages = Deviation Budget of Accepted Patronages
+patron.dashboard.form.label.deviationBudgetDeniedPatronages = Deviation Budget of Denied Patronages
+patron.dashboard.form.label.minBudgetProposedPatronages = Minimum Budget of Proposed Patronages
+patron.dashboard.form.label.minBudgetAcceptedPatronages = Minimum Budget of Accepted Patronages
+patron.dashboard.form.label.minBudgetDeniedPatronages = Minimum Budget of Denied Patronages
+patron.dashboard.form.label.maxBudgetProposedPatronages = Maximum Budget of Proposed Patronages
+patron.dashboard.form.label.maxBudgetAcceptedPatronages = Maximum Budget of Accepted Patronages
+patron.dashboard.form.label.maxBudgetDeniedPatronages = Maximum Budget of Denied Patronages

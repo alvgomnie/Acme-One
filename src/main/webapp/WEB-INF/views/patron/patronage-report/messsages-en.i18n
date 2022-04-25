@@ -1,0 +1,4 @@
+patron.patronageReport.list.label.automaticSeqNumber = Sequence Number
+patron.patronageReport.list.label.creationMoment = Creation date
+patron.patronageReport.list.label.memorandum = Memorandum
+patron.patronageReport.list.label.link = Link

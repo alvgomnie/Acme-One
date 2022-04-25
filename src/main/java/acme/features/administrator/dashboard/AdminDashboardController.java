@@ -10,7 +10,7 @@ import acme.framework.controllers.AbstractController;
 import acme.roles.Patron;
 
 @Controller
-public class AdminSystemConfgController extends AbstractController<Patron, AdminDashboard> {
+public class AdminDashboardController extends AbstractController<Patron, AdminDashboard> {
 
 	
 	@Autowired

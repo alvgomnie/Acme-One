@@ -1,9 +1,11 @@
 package acme.forms;
 
 import java.io.Serializable;
-import java.util.List;
 import java.util.Map;
 
+import org.apache.commons.lang3.tuple.Pair;
+
+import acme.entities.PatronageStatus;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -13,10 +15,37 @@ public class AdminDashboard implements Serializable{
 
 	private static final long serialVersionUID = 1L;
 	
-	Map<String, List<Double>> componentsDataByTechnology;
-	Map<String, List<Double>> componentsDataByCurrency;
 	
-	Map<String, List<Double>> toolsDataByCurrency;
-	Map<String, List<Double>> numberDataPatronages; // proposed: numberOfProposed, deviationBudget, minimumBugdet, maximumBudget
+	Integer totalNComponents;
+	Integer totalNTools;
+	Integer totalNPatronages;
+	
+	Map<PatronageStatus, Integer> totalNPatronagesByStatus;
+	
 
+	Map<Pair<String,String>,Double> averageRetailPriceComponentsByTechAndCurrency;
+	Map<String,Double> averageRetailPriceToolByCurrency;
+	Map<PatronageStatus,Double> averageBudgetPatronagesByStatus;
+	
+	Map<Pair<String,String>,Double> deviationRetailPriceComponentByTechAndCurrency;
+	Map<String,Double> deviationRetailPriceToolByCurrency;
+	Map<PatronageStatus,Double> deviationBudgetPatronagesByStatus;
+	
+	Map<Pair<String,String>,Double> minRetailPriceComponentByTechAndCurrency;
+	Map<String,Double> minRetailPriceToolByCurrency;
+	Map<PatronageStatus,Double> minBudgetPatronagesByStatus;
+	
+	Map<Pair<String,String>,Double> maxRetailPriceComponentByTechAndCurrency;
+	Map<String,Double> maxRetailPriceToolByCurrency;
+	Map<PatronageStatus,Double> maxBudgetPatronagesByStatus;
+
+
+
+
+
+
+
+
+	
+	
 }

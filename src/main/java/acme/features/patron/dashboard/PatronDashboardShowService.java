@@ -1,8 +1,5 @@
 package acme.features.patron.dashboard;
 
-import java.util.List;
-import java.util.Map;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -31,14 +28,65 @@ public class PatronDashboardShowService implements AbstractShowService<Patron, P
 		
 		final PatronDashboard patronDashboard = new PatronDashboard();
 		
-		final Map<String, Integer> totalNumber;
-		final Map<String, List<Double>> patronageData;
+		final Integer totalNProposedPatronages;
+		final Integer totalNAcceptedPatronages;
+		final Integer totalNDeniedPatronages;
 		
-		totalNumber = this.repository.totalNumber();
-		patronageData = this.repository.patronageData();
+		final Double averageBudgetProposedPatronages;
+		final Double averageBudgetAcceptedPatronages;
+		final Double averageBudgetDeniedPatronages;
 		
-		patronDashboard.setTotalNumber(totalNumber);
-		patronDashboard.setPatronageData(patronageData);
+		final Double deviationBudgetProposedPatronages;
+		final Double deviationBudgetAcceptedPatronages;
+		final Double deviationBudgetDeniedPatronages;
+		
+		final Double minBudgetProposedPatronages;
+		final Double minBudgetAcceptedPatronages;
+		final Double minBudgetDeniedPatronages;
+		
+		final Double maxBudgetProposedPatronages;
+		final Double maxBudgetAcceptedPatronages;
+		final Double maxBudgetDeniedPatronages;
+		
+		totalNProposedPatronages = this.repository.totalNProposedPatronages();
+		totalNAcceptedPatronages = this.repository.totalNAcceptedPatronages();
+		totalNDeniedPatronages = this.repository.totalNDeniedPatronages();
+		
+		averageBudgetProposedPatronages = this.repository.averageBudgetProposedPatronages();
+		averageBudgetAcceptedPatronages = this.repository.averageBudgetAcceptedPatronages();
+		averageBudgetDeniedPatronages = this.repository.averageBudgetDeniedPatronages();
+		
+		deviationBudgetProposedPatronages = this.repository.deviationBudgetProposedPatronages();
+		deviationBudgetAcceptedPatronages = this.repository.deviationBudgetAcceptedPatronages();
+		deviationBudgetDeniedPatronages = this.repository.deviationBudgetDeniedPatronages();
+		
+		minBudgetProposedPatronages = this.repository.minBudgetProposedPatronages();
+		minBudgetAcceptedPatronages = this.repository.minBudgetAcceptedPatronages();
+		minBudgetDeniedPatronages = this.repository.minBudgetDeniedPatronages();
+		
+		maxBudgetProposedPatronages = this.repository.maxBudgetProposedPatronages();
+		maxBudgetAcceptedPatronages = this.repository.maxBudgetAcceptedPatronages();
+		maxBudgetDeniedPatronages = this.repository.maxBudgetDeniedPatronages();
+		
+		patronDashboard.setTotalNProposedPatronages(totalNProposedPatronages);
+		patronDashboard.setTotalNAcceptedPatronages(totalNAcceptedPatronages);
+		patronDashboard.setTotalNDeniedPatronages(totalNDeniedPatronages);
+		
+		patronDashboard.setAverageBudgetProposedPatronages(averageBudgetProposedPatronages);
+		patronDashboard.setAverageBudgetAcceptedPatronages(averageBudgetAcceptedPatronages);
+		patronDashboard.setAverageBudgetDeniedPatronages(averageBudgetDeniedPatronages);
+		
+		patronDashboard.setDeviationBudgetProposedPatronages(deviationBudgetProposedPatronages);
+		patronDashboard.setDeviationBudgetAcceptedPatronages(deviationBudgetAcceptedPatronages);
+		patronDashboard.setDeviationBudgetDeniedPatronages(deviationBudgetDeniedPatronages);
+		
+		patronDashboard.setMinBudgetProposedPatronages(minBudgetProposedPatronages);
+		patronDashboard.setMinBudgetAcceptedPatronages(minBudgetAcceptedPatronages);
+		patronDashboard.setMinBudgetDeniedPatronages(minBudgetDeniedPatronages);
+		
+		patronDashboard.setMaxBudgetProposedPatronages(maxBudgetProposedPatronages);
+		patronDashboard.setMaxBudgetAcceptedPatronages(maxBudgetAcceptedPatronages);
+		patronDashboard.setMaxBudgetDeniedPatronages(maxBudgetDeniedPatronages);
 		
 		return patronDashboard;
 	}
@@ -49,7 +97,11 @@ public class PatronDashboardShowService implements AbstractShowService<Patron, P
 		assert patronDashboard != null;
 		assert model != null;
 		
-		request.unbind(patronDashboard, model, "totalNumber", "patronageData");
+		request.unbind(patronDashboard, model, "totalNProposedPatronages", "totalNAcceptedPatronages","totalNDeniedPatronages",
+			"averageBudgetProposedPatronages","averageBudgetAcceptedPatronages","averageBudgetDeniedPatronages",
+			"deviationBudgetProposedPatronages","deviationBudgetAcceptedPatronages","deviationBudgetDeniedPatronages",
+			"minBudgetProposedPatronages","minBudgetAcceptedPatronages","minBudgetDeniedPatronages",
+			"maxBudgetProposedPatronages","maxBudgetAcceptedPatronages","maxBudgetDeniedPatronages");
 		
 	}
 

@@ -41,7 +41,7 @@ public class AuthenticatedSpamListService implements AbstractListService<Authent
 		assert entity != null;
 		assert model != null;
 
-		request.unbind(entity, model, "spamTerm", "isStrong", "threshold");
+		request.unbind(entity, model, "spamTerm", "strong", "threshold");
 	}
 
 }

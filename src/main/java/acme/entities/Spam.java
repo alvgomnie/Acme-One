@@ -21,7 +21,7 @@ public class Spam extends AbstractEntity {
 	protected String spamTerm;
 
 	@NotNull
-	protected Boolean isStrong;
+	protected Boolean strong;
 	
 	@Min(1)
 	@Max(100)

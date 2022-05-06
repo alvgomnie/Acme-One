@@ -1,11 +1,24 @@
-inventor.patronages.list.label.status = Status
-inventor.patronages.list.label.code=Code
-inventor.patronages.list.label.legalStuff=Legal Stuff
-inventor.patronages.list.label.budget=Budget
-inventor.patronages.list.label.startingDate=Starting Date
-inventor.patronages.list.label.finishingDate=Finishing Date
-inventor.patronages.list.label.link=Link
+inventor.patronages.form.label.status = Status
+inventor.patronages.form.label.update-status = Change Status:
+inventor.patronages.form.label.code=Code
+inventor.patronages.form.label.legalStuff=Legal Stuff
+inventor.patronages.form.label.budget=Budget
+inventor.patronages.form.label.startingDate=Starting Date
+inventor.patronages.form.label.finishingDate=Finishing Date
+inventor.patronages.form.label.timeLapse=Time Lapse
+inventor.patronages.form.label.link=Link
 
-inventor.patronages.patron.list.label.company=Company
-inventor.patronages.patron.list.label.statement=Statement
-inventor.patronages.patron.list.label.optionalLink=Link
+inventor.patronages.patron.form.label.company=Company
+inventor.patronages.patron.form.label.statement=Statement
+inventor.patronages.patron.form.label.link=Link
+
+inventor.patronages.list.label.status = Status
+inventor.patronages.list.label.code = Code
+inventor.patronages.list.label.legalStuff = Legal Stuff
+inventor.patronages.list.label.budget = Budget
+inventor.patronages.list.label.startingDate = Starting Date
+inventor.patronages.list.label.finishingDate = Finishing Date
+inventor.patronages.list.label.timeLapse=Time Lapse
+inventor.patronages.list.label.link = Link
+
+inventor.patronages.form.button.update = Update

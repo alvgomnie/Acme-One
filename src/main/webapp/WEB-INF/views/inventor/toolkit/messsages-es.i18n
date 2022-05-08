@@ -5,4 +5,9 @@ inventor.toolkit.form.label.assemblyNotes=Notas de Ensamblaje
 inventor.toolkit.form.label.publish=Publicado
 inventor.toolkit.form.label.link=Link
 
-
+inventor.toolkit.list.label.code= Código
+inventor.toolkit.list.label.title=Título
+inventor.toolkit.list.label.description=Descripción
+inventor.toolkit.list.label.assemblyNotes=Notas de Ensamblaje
+inventor.toolkit.list.label.publish=Publicado
+inventor.toolkit.list.label.link=Link

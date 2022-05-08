@@ -1,11 +1,8 @@
 package acme.features.inventor.toolkit;
 
-import java.util.Collection;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import acme.entities.Item;
 import acme.entities.Toolkit;
 import acme.framework.components.models.Model;
 import acme.framework.controllers.Request;
@@ -42,13 +39,6 @@ public class InventorToolkitShowService implements AbstractShowService<Inventor,
 		assert request != null;
 		assert entity != null;
 		assert model != null;
-		
-		Collection<Item> items;
-		int id;
-		
-		id = request.getModel().getInteger("id");
-		items = this.repository.findItemsByToolkitId(id);
-	
 		
 		request.unbind(entity, model, "code", "title", "description", "assemblyNotes", "publish", "link");
 		

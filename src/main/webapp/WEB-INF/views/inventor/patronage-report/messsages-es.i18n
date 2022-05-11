@@ -1,4 +1,12 @@
-inventor.patronageReport.list.label.automaticSeqNumber = Numero de Sequencia
+inventor.patronageReport.form.label.automaticSeqNum = Numero de Sequencia
+inventor.patronageReport.form.label.creationMoment = Fecha de creacion
+inventor.patronageReport.form.label.memorandum = Memorandum
+inventor.patronageReport.form.label.link = Link
+inventor.patronageReport.form.label.confirmation = Confirmación
+
+inventor.patronageReport.list.label.automaticSeqNum = Numero de Sequencia
 inventor.patronageReport.list.label.creationMoment = Fecha de creacion
 inventor.patronageReport.list.label.memorandum = Memorandum
 inventor.patronageReport.list.label.link = Link
+
+inventor.patronageReport.form.button.create = Crear Informe de Mecenazgo

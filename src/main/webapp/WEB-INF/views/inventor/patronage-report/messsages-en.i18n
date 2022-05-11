@@ -1,4 +1,12 @@
-inventor.patronageReport.list.label.automaticSeqNumber = Sequence Number
+inventor.patronageReport.form.label.automaticSeqNum = Sequence Number
+inventor.patronageReport.form.label.creationMoment = Creation date
+inventor.patronageReport.form.label.memorandum = Memorandum
+inventor.patronageReport.form.label.link = Link
+inventor.patronageReport.form.label.confirmation = Confirmation
+
+inventor.patronageReport.list.label.automaticSeqNum = Sequence Number
 inventor.patronageReport.list.label.creationMoment = Creation date
 inventor.patronageReport.list.label.memorandum = Memorandum
 inventor.patronageReport.list.label.link = Link
+
+inventor.patronageReport.form.button.create = Create Patronage Report

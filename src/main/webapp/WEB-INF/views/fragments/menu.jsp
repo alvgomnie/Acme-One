@@ -19,7 +19,6 @@
 <acme:menu-bar code="master.menu.home">
 	<acme:menu-left>
 		<acme:menu-option code="master.menu.anonymous" access="isAnonymous()">
-			<acme:menu-suboption code="master.menu.anonymous.favourite-link" action="http://www.example.com/"/>
 			<acme:menu-suboption code="master.menu.anonymous.link.alvgomnie" action="http://www.github.com/"/>
 			<acme:menu-suboption code="master.menu.anonymous.link.juacasalb" action="https://es.wikipedia.org/wiki/Canis_familiaris"/>
 			<acme:menu-suboption code="master.menu.anonymous.link.fraprapra1" action="https://elpais.com/"/>
@@ -65,8 +64,10 @@
 			<acme:menu-suboption code="master.menu.inventor.components-link" action="/inventor/item/list-my-components"/>
 			<acme:menu-suboption code="master.menu.inventor.tools-link" action="/inventor/item/list-my-tools"/>
 			<acme:menu-suboption code = "master.menu.inventor.toolkit" action = "/inventor/toolkit/list"/>
+			<acme:menu-separator/>
+			<acme:menu-suboption code = "master.menu.inventor.patronageReport-create" action="/inventor/patronage-report/create"/>
 			<acme:menu-suboption code = "master.menu.inventor.patronages" action = "/inventor/patronage/list"/>
-			<acme:menu-suboption code = "master.menu.inventor.patronageReport" action = "/inventor/patronage-report/list"/>
+			<acme:menu-suboption code = "master.menu.inventor.patronageReport-list" action = "/inventor/patronage-report/list"/>
     	</acme:menu-option>
 
 		<acme:menu-option code="master.menu.consumer" access="hasRole('Consumer')">

@@ -91,4 +91,5 @@ master.menu.inventor.components-link = Mis componentes
 master.menu.inventor.tools-link = Mis herramientas
 master.menu.inventor.toolkit = Caja de herramientas
 master.menu.inventor.patronages = Patrocinios
-master.menu.inventor.patronageReport = Informe de patrocinio
+master.menu.inventor.patronageReport-list = Informe de patrocinio
+master.menu.inventor.patronageReport-create = Crear un informe de mecenazgo

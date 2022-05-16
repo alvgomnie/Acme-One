@@ -1,6 +1,9 @@
 inventor.item.list.label.name = Nombre
 inventor.item.list.label.retailPrice = Precio
 inventor.item.list.label.type = Tipo 
+inventor.item.list.label.published = Publicado
+
+inventor.item.list.button.create = Crear
 
 inventor.item.form.label.name = Nombre
 inventor.item.form.label.code = Codigo
@@ -8,3 +11,7 @@ inventor.item.form.label.technology = Tecnologia
 inventor.item.form.label.description = Descripcion
 inventor.item.form.label.retailPrice = Precio
 inventor.item.form.label.link = Link
+
+inventor.item.form.button.update = Actualizar
+inventor.item.form.button.delete = Borrar
+inventor.item.form.button.publish = Publicar

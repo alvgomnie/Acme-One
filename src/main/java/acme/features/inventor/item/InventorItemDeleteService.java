@@ -25,15 +25,15 @@ public class InventorItemDeleteService implements AbstractDeleteService<Inventor
 		
 		assert request != null;
 		
-		final boolean result;
+		boolean result;
 		int itemId;
 		Item item;
-		final Inventor inventor;
+		Inventor inventor;
 		
 		itemId = request.getModel().getInteger("id");
 		item = this.repository.findItemById(itemId);
 		inventor = item.getInventor();
-		result = (item.getPublished() && request.isPrincipal(inventor));
+		result = !item.getPublished() && request.isPrincipal(inventor);
 		
 		return result;
 		
@@ -46,7 +46,7 @@ public class InventorItemDeleteService implements AbstractDeleteService<Inventor
 		assert entity != null;
 		assert errors != null;
 
-		request.bind(entity, errors, "name", "type", "code", "technology", "description", "retailPrice", "link");		
+		request.bind(entity, errors, "name", "type", "code", "technology", "description", "retailPrice", "link", "published");		
 		
 	}
 	
@@ -57,7 +57,7 @@ public class InventorItemDeleteService implements AbstractDeleteService<Inventor
 		assert entity != null;
 		assert model != null;
 
-		request.unbind(entity, model, "name", "type", "code", "technology", "description", "retailPrice", "link");
+		request.unbind(entity, model, "name", "type", "code", "technology", "description", "retailPrice", "link", "published");
 	}
 	
 	@Override

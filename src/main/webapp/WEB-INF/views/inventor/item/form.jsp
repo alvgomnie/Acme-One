@@ -14,6 +14,10 @@
 	<acme:input-textarea code="inventor.item.form.label.description" path="description"/>
 	<acme:input-money code="inventor.item.form.label.retailPrice" path="retailPrice"/>
 	<acme:input-url code="inventor.item.form.label.link" path="link"/>
+	<acme:input-select code="inventor.item.list.label.published" path="published">
+		<acme:input-option code="true" value="true" selected="${published == true}"/>
+		<acme:input-option code="false" value="false" selected="${published == false }"/>
+	</acme:input-select>	
 
 	<jstl:choose>
 		<jstl:when test="${acme:anyOf(command, 'show, update, delete, publish') && published == false}">

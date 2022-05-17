@@ -19,6 +19,7 @@ public class InventorToolkitCreateService implements AbstractCreateService<Inven
 	@Override
 	public boolean authorise(final Request<Toolkit> request) {
 		assert request != null;
+
 		return true;
 	}
 
@@ -40,30 +41,26 @@ public class InventorToolkitCreateService implements AbstractCreateService<Inven
 
 	@Override
 	public Toolkit instantiate(final Request<Toolkit> request) {
+
 		assert request != null;
-
-		final Toolkit result;
-		final Inventor inventor;
-
+		
+		Toolkit result;
+		Inventor inventor;
+		
 		inventor = this.repository.findInventorById(request.getPrincipal().getActiveRoleId());
 		result = new Toolkit();
+		result.setPublish(false);;
 		result.setInventor(inventor);
-		result.setPublish(false);
-
+		
 		return result;
 	}
-
+	
 	@Override
 	public void validate(final Request<Toolkit> request, final Toolkit entity, final Errors errors) {
 		assert request != null;
 		assert entity != null;
 		assert errors != null;
 
-		if (!errors.hasErrors("code")) {
-			final Toolkit exist;
-			exist=this.repository.findToolkitByCode(entity.getCode());
-			errors.state(request, exist == null || exist.getId() == entity.getId(), "code", "inventor.toolkit.form.error.code-exists");
-		}
 	}
 
 	@Override

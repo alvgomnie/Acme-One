@@ -12,6 +12,7 @@ import org.hibernate.validator.constraints.Length;
 import org.hibernate.validator.constraints.URL;
 
 import acme.framework.entities.AbstractEntity;
+import acme.roles.Inventor;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -49,5 +50,10 @@ public class Toolkit extends AbstractEntity{
 	@Valid
 	@ManyToOne(optional=false)
 	protected Item item;
+	
+	@NotNull
+	@Valid
+	@ManyToOne(optional = false)
+	protected Inventor inventor;
 	
 }

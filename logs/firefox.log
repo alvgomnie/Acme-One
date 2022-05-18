@@ -1,20 +1,34 @@
-1650915467028	geckodriver	INFO	Listening on 127.0.0.1:10078
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Miguel\\AppData\\Local\\Temp\\rust_mozprofilez1vHGI\\search.json.mozlz4", (void 0)))
+1652899467589	geckodriver	INFO	Listening on 127.0.0.1:20335
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Miguel\\AppData\\Local\\Temp\\rust_mozprofilecQVJxt\\search.json.mozlz4", (void 0)))
+console.error: "Could not write session state file " (new OperationError("Could not move temporary file(C:\\Users\\Miguel\\AppData\\Local\\Temp\\rust_mozprofilecQVJxt\\sessionstore-backups\\recovery.jsonlz4.tmp) to destination(C:\\Users\\Miguel\\AppData\\Local\\Temp\\rust_mozprofilecQVJxt\\sessionstore-backups\\recovery.jsonlz4)", (void 0))) ""
 console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://localhost:8081"
-console.warn: LoginRecipes: "getReciJpesa:v afSaclrliinpgt b aecrkr otro:  a sryenscohurrocneo:u/s/ gmre/emsosdauglee sf/oLro:g"i n"Mhatntapg:e/r/Plaorceanlth.ojsstm:,8 0l8i1n"e 
-136: TypeError: gRecipeManager is null
-
-###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
-
-
-###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
-
-
-###!!! [Child][PContentChild] Error: Send(msgname=PBrowser::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
-
-
-###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
-
-
-###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
-
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://localhost:8081"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRJecaivpaeSsc:r ifpta elrlring obra:c kr etsoo uar csey:n/ch/rgorneo/umso dmuelsessa/gLeo gfionrM:a"n a"ghetrtPpa:r/e/nlto.cjaslmh,o slti:n8e08 11"36
+: TypeError: gRecipeManager is null
+console.warn:J aLvoagSicnrRiepcti eprerso:r :"getRe criepsouersc:e :f/a/lglre/miondgu lbeasc/kL otgio naM asynncahgreornPoaurse nmte.sjssamg,e  lfionre: "1 3"6h:t tTpy:p/e/Elrorcoar: gReclihpoesMta:n8ag081"
+er is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://localhost:8081"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:"JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+ "http://localhost:8081"
+console.warn: LogJinaRveacSicpreisp:t  "errorg:e trReecipseosu:r cfea:l/l/ignrge /bmaocdku lteos /aL osgyinncMharnoangoeursP amreesnsta.gjes mf,o rl:i"n e" h1t3t6p:: /T/ylpoecEarlrhoors:t :g8R0eci8p1e"Ma
+nager is null
+console.warn: LoginRecJipaevsa:S c"rgietptR eecrirpoers: fa:l lriensgo ubraccek: /t/og rae /smyondcuhlreosn/oLuosg imneMsasnaaggee rfPoarr:e"n t".hjtstmp,: /l/ilnoe c1a3l6h: TypeError: gRecipeManager is null
+ost:8081"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://localhost:8081"
+JavaScript error: resource://gre/modules/Logconsole.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://localhost:8081"
+inManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes:J "agveatSRcerciippte se: fallrirnogr :b arcek tsoo uar cseynchr:o/n/ogurse /mmeosdsualgees /fLoorg:i"n Ma"nhatgtepr:P/a/rleoncta.ljhsoms,t :l8i0n8e1 "13
+6: TypeError: gRecipeManager is null
+console.warn: LoginRecipes:J "avgetRaeSccriptip eersr: or:f allirnesgou rbcaec:k/ /tgor ea/ msoydunchlreosn/oLuosg inMmaesnsaagerParent.jsm, line 136: TypeError: gRecipeManager is null
+ge for:" "http://localhost:8081"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://localhost:8081"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message fJavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+or:" "http://localhost:8081"
+console.warn: LoginRecipes: "getRecipes: falling back to a sJayvnacShcrroinpotu se rmessargoer :f orers:o"u r"chet:t/p/:g/r/el/omcodaullheoss/tL:o8g0i8n1M"an
+agerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back tJo aa vsaySnccrhironoputs  emrersosra:g er efsooru:r"c e":h/t/tgpr:e///mloodcaullheoss/tL:o8g0i81n"Ma
+nagerParent.jsm, line 136: TypeError: gRecipeManager is null

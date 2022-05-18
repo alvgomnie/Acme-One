@@ -21,7 +21,25 @@ public class InventorItemDeleteTest extends TestHarness{
 		super.checkFormExists();
 		super.clickOnSubmit("Delete");
 		super.checkNotErrorsExist();
+				
+	}
+	
+	@Test
+	@Order(20)
+	public void negativeDeleteItem() {
+	
+		super.signIn("inventor1", "inventor1");
 		
+		super.clickOnMenu("Inventor", "My components");
+		super.checkListingExists();
+		super.sortListing(0, "asc");
+		super.clickOnListingRecord(0);
+		
+		super.checkFormExists();
+		super.checkNotSubmitExists("Delete");
+		
+		super.signOut();
+				
 	}
 		
 }

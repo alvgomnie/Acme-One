@@ -1,0 +1,3 @@
+timestamp,test-class,test-method,time,description,result
+"2022-05-18 00:24:52.021","inventor.item.InventorItemCreateTest","inventorListTools",20785,""[1] testIndex=0, name=Televition Samsung, type=COMPONENT, code=PPP-999-P, technology=Samsung, description=A tv made from Samsung!, retailPrice=EUR 350.00, link=https://www.mi.com/es, published=false"","OK"
+"2022-05-18 00:25:05.669","inventor.item.InventorItemCreateTest","inventorListTools",12946,""[2] testIndex=1, name=Twitter, type=TOOL, code=TTT-000-T, technology=Twitter, description=A tool to bring easier communication among parners!, retailPrice=GBP 5.0, link=https://discord.com/, published=false"","Expected value 'Twitter' in input box 'name', but 'Televition Samsung' was found"

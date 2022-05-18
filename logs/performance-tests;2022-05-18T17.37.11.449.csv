@@ -1,0 +1,3 @@
+timestamp,test-class,test-method,time,description,result
+"2022-05-18 17:36:20.615","inventor.item.InventorItemDeleteTest","negativeDeleteItem",18095,""negativeDeleteItem()"","OK"
+"2022-05-18 17:36:30.835","inventor.item.InventorItemDeleteTest","positiveDeleteItem",9635,""positiveDeleteItem()"","OK"

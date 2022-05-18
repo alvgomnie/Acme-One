@@ -1,0 +1,4 @@
+timestamp,test-class,test-method,time,description,result
+"2022-05-18 11:02:22.99","inventor.item.InventorItemUpdateTest","inventorCreateItemPositive",24448,""[1] testIndex=0, name=PlayStation 5, type=TOOL, code=HFV-543-P, technology=Sony, description=Enjoy Playing Games, retailPrice=EUR 500.00, link=https://www.playstation.com/es-es/, published=false"","OK"
+"2022-05-18 11:02:35.751","inventor.item.InventorItemUpdateTest","inventorCreateItemNegative",12078,""[1] testIndex=0, name=null, type=TOOL, code=null, technology=null, description=null, retailPrice=EUR 500.00, link=https://www.playstation.com/es-es/, published=false"","OK"
+"2022-05-18 11:02:36.463","inventor.item.InventorItemUpdateTest","hackingTest",1,""hackingTest()"","OK"

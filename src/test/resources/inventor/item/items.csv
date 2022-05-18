@@ -1,0 +1,3 @@
+testIndex,name,type,code,technology,description,retail-price,link,published
+0,Televition Samsung,COMPONENT,PPP-999-P,Samsung,A tv made from Samsung!,EUR 350.00,https://www.mi.com/es,false
+1,Twitter,TOOL,TTT-000-T,Twitter,A tool to bring easier communication among parners!,GBP 5.00,https://discord.com/,false

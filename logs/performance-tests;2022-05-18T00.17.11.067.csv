@@ -1,0 +1,3 @@
+timestamp,test-class,test-method,time,description,result
+"2022-05-18 00:12:58.251","inventor.item.InventorItemCreateTest","inventorListTools",20266,""[1] testIndex=0, name=Televition Samsung, type=COMPONENT, code=PPP-999-P, technology=Samsung, description=A tv made from Samsung!, retailPrice=EUR 350.00, link=https://www.mi.com/es, published=false"","OK"
+"2022-05-18 00:13:10.073","inventor.item.InventorItemCreateTest","inventorListTools",11115,""[2] testIndex=1, name=Twitter, type=TOOL, code=TTT-000-T, technology=Twitter, description=A tool to bring easier communication among parners!, retailPrice=GBP 5.0, link=https://discord.com/, published=false"","Record index 1 is out of range"

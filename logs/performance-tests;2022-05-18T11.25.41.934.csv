@@ -1,0 +1,4 @@
+timestamp,test-class,test-method,time,description,result
+"2022-05-18 11:21:13.066","inventor.item.InventorItemPublishTest","positivePublishItem",24367,""positivePublishItem()"","OK"
+"2022-05-18 11:21:26.263","inventor.item.InventorItemPublishTest","positivePublishNegativeItem",12451,""positivePublishNegativeItem()"","OK"
+"2022-05-18 11:21:26.986","inventor.item.InventorItemPublishTest","hackingTest",1,""hackingTest()"","OK"

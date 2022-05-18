@@ -1,2 +1,0 @@
-timestamp,test-class,test-method,time,description,result
-"2022-05-17 23:52:15.281","inventor.item.InventorItemCreateTest","inventorListTools",16848,""[1] testIndex=0, name=Televition Samsung, type=COMPONENT, code=PPP-999-P, technology=Samsung, description=A tv made from Samsung!, retailPrice=EUR 350.0, link=https://www.mi.com/es, published=false"","Cannot find 'By.xpath: //a[@class='btn btn-dark' and normalize-space()='Create']'"

@@ -41,7 +41,7 @@ public class AuthenticatedCurrencyShowService implements AbstractShowService<Aut
 		assert entity != null;
 		assert model != null;
 
-		request.unbind(entity, model, "name", "isDefault", "isAccepted");
+		request.unbind(entity, model, "name", "onDefault", "accepted");
 
 	}
 	

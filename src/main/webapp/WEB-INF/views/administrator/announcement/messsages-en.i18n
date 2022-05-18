@@ -1,0 +1,6 @@
+administrator.announcement.form.label.body = Body
+administrator.announcement.form.label.title = Title
+administrator.announcement.form.label.critical = Critical
+administrator.announcement.form.label.link = Link
+administrator.announcement.form.label.creationMoment = Creation Moment
+administrator.announcement.form.label.confirmation = Confirmation

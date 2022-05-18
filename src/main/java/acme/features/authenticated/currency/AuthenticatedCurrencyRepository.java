@@ -11,7 +11,7 @@ import acme.framework.repositories.AbstractRepository;
 @Repository
 public interface AuthenticatedCurrencyRepository extends AbstractRepository {
 
-	@Query("SELECT c FROM Currency c WHERE c.isAccepted = 1")
+	@Query("SELECT c FROM Currency c WHERE c.accepted = 1")
 	Collection<Currency> findCurrencies();
 	
 	@Query("SELECT c FROM Currency c WHERE c.id=:id")

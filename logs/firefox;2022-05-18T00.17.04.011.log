@@ -1,0 +1,20 @@
+1652825538380	geckodriver	INFO	Listening on 127.0.0.1:30547
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\alvar\\AppData\\Local\\Temp\\rust_mozprofilelmyL3M\\search.json.mozlz4", (void 0)))
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://localhost:8081"
+console.warn: LoginRecipesJ: "getRecipes: faalling back to a synchronovus message for:" "http://localhosaScript error:t resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+:8081"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchJraonous message for:" "http://localhvaScriost:8081"
+pt error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipesJav: falling aScript berack to a synchroror: rneoussou mesrsage for:" "http://lcoe://gre/mcoalhostd:ules/LoginManag8081"
+erParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://localhost:8081"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling backJavaScript error: resource://gre/module to a s/LoginManagerParent.jsm, line 136: Typesynchronous mesErrorsage for::" "http://localhost:8081"
+ gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://localhost:8081"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back toJavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136:  a syncThypeError: gRecipeManager is null
+ronous message for:" "http://localhost:8081"
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+

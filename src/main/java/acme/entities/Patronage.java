@@ -7,6 +7,7 @@ import javax.persistence.Entity;
 import javax.persistence.ManyToOne;
 import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
+import javax.persistence.Transient;
 import javax.validation.Valid;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
@@ -54,6 +55,9 @@ public class Patronage extends AbstractEntity{
 	@NotNull
 	protected Date finishingDate;
 	
+	@Temporal(TemporalType.TIMESTAMP)
+	protected Date timeLapse;
+	
 	@URL
 	protected String link;
 	
@@ -66,5 +70,12 @@ public class Patronage extends AbstractEntity{
 	@Valid
 	@ManyToOne(optional=false)
 	protected Inventor inventor;
+	
+	// Derived Methods
+	
+	@Transient
+	protected void getTimeLapse() {
+		this.timeLapse = new Date(this.finishingDate.getTime() - this.startingDate.getTime());
+	}
 
 }

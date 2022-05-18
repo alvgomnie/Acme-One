@@ -19,9 +19,9 @@ public class Currency extends AbstractEntity {
 	protected String name;
 	
 	@NotNull
-	protected Boolean isDefault;
+	protected Boolean onDefault;
 
 	@NotNull
-	protected Boolean isAccepted;
+	protected Boolean accepted;
 
 }

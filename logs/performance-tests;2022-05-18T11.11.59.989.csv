@@ -1,0 +1,2 @@
+timestamp,test-class,test-method,time,description,result
+"2022-05-18 11:11:25.426","inventor.item.InventorItemPublishTest","positivePublishItem",22610,""positivePublishItem()"","Cannot find 'By.name: publish'"

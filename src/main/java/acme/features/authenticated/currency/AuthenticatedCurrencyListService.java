@@ -41,7 +41,7 @@ public class AuthenticatedCurrencyListService implements AbstractListService<Aut
 		assert entity != null;
 		assert model != null;
 
-		request.unbind(entity, model, "name", "isDefault");
+		request.unbind(entity, model, "name", "onDefault");
 	}
 
 }

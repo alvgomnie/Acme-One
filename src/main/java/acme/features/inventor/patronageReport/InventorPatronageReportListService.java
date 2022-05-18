@@ -29,14 +29,10 @@ public class InventorPatronageReportListService implements AbstractListService<I
 		assert request != null;
 
 		Collection<PatronageReport> result;
-		//final Principal principal;
 		
 		final int accountId = request.getPrincipal().getAccountId();
 		final int inventorId = this.repository.findInventorByUserAccountId(accountId).getId();
 		result=this.repository.findPatronagesReportByInventorId(inventorId); 
-		
-//		principal = request.getPrincipal();
-//		result = this.repository.findPatronagesReportByInventorId(principal.getAccountId());
 
 		return result;
 	}
@@ -47,7 +43,7 @@ public class InventorPatronageReportListService implements AbstractListService<I
 		assert entity != null;
 		assert model != null;
 
-		request.unbind(entity, model, "automaticSeqNumber", "creationMoment", "memorandum", "link");
+		request.unbind(entity, model, "automaticSeqNum", "creationMoment", "memorandum", "link");
 	}
 
 }

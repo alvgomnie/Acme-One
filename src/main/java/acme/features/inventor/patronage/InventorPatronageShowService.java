@@ -1,11 +1,14 @@
 package acme.features.inventor.patronage;
 
+import java.util.Date;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import acme.entities.Patronage;
 import acme.framework.components.models.Model;
 import acme.framework.controllers.Request;
+import acme.framework.entities.Principal;
 import acme.framework.services.AbstractShowService;
 import acme.roles.Inventor;
 
@@ -18,7 +21,22 @@ public class InventorPatronageShowService implements AbstractShowService<Invento
 	@Override
 	public boolean authorise(final Request<Patronage> request) {
 		assert request != null;
-		return true;
+
+		boolean result;
+		int id;
+		Patronage patronage;
+		Inventor inventor;
+		Principal principal;
+
+		id = request.getModel().getInteger("id");
+		patronage = this.repository.findPatronageById(id);
+		
+		principal = request.getPrincipal();
+		inventor = patronage.getInventor();
+		
+		result = inventor.getUserAccount().getId() == principal.getAccountId();
+
+		return result;
 	}
 	
 	@Override
@@ -30,7 +48,10 @@ public class InventorPatronageShowService implements AbstractShowService<Invento
 
 		id = request.getModel().getInteger("id");
 		result = this.repository.findPatronageById(id);
-
+		
+		result.setTimeLapse(new Date(result.getFinishingDate().getTime()-result.getStartingDate().getTime()));
+		
+		this.repository.save(result);
 		return result;
 	}
 	
@@ -40,8 +61,8 @@ public class InventorPatronageShowService implements AbstractShowService<Invento
 		assert entity != null;
 		assert model != null;
 		
-		request.unbind(entity, model, "status", "code", "legalStuff", "budget", "startingDate", "finishingDate", "link",
-				"patron.name", "patron.company", "patron.statement", "patron.link");
+		request.unbind(entity, model, "status", "code", "legalStuff", "budget", "startingDate", "finishingDate", 
+			"link", "timeLapse", "patron.name", "patron.company", "patron.statement", "patron.link");
 	}
 	
 	

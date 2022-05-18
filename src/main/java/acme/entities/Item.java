@@ -57,6 +57,9 @@ public class Item extends AbstractEntity{
 	@ManyToOne(optional=false)
 	protected Inventor inventor;
 	
+	@NotNull
+	protected Boolean published;
+	
 	
 	public static boolean positiveMoney(final Money m) {
 		return m.getAmount()>=0;

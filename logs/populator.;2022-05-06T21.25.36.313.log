@@ -1,0 +1,1051 @@
+2022-05-06 21:25:21.753 INFO  [acme.Launcher@main] Starting Launcher using Java 1.8.0_221 on LAPTOP-3FUPSK0H with PID 12244 (C:\Users\34657\Desktop\Workspace-22.0\Frameworks\Acme-Framework-22.5\target\classes started by 34657 in C:\Users\34657\Desktop\Workspace-22.0\Starters\Acme-One) 
+2022-05-06 21:25:21.755 DEBUG [acme.Launcher@main] Running with Spring Boot v2.4.2, Spring v5.3.3 
+2022-05-06 21:25:21.757 INFO  [acme.Launcher@main] The following profiles are active: development,populator 
+2022-05-06 21:25:25.793 DEBUG [org.apache.jasper.servlet.JasperInitializer@main] Initializing Jasper for context [application] 
+2022-05-06 21:25:31.990 DEBUG [org.apache.jasper.servlet.JspServlet@main] Scratch dir for the JSP engine is: [C:\Users\34657\AppData\Local\Temp\tomcat.8083.5476389189068587141\work\Tomcat\localhost\acme-one-3.0] 
+2022-05-06 21:25:31.990 DEBUG [org.apache.jasper.servlet.JspServlet@main] IMPORTANT: Do not modify the generated servlets 
+2022-05-06 21:25:32.013 INFO  [acme.Launcher@main] Started Launcher in 11.219 seconds (JVM running for 12.299) 
+2022-05-06 21:25:32.023 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/34657/Desktop/Workspace-22.0/Starters/Acme-One/target/test-classes/' 
+2022-05-06 21:25:32.024 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/34657/Desktop/Workspace-22.0/Starters/Acme-One/target/classes/' 
+2022-05-06 21:25:32.024 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/34657/Desktop/Workspace-22.0/Frameworks/Acme-Framework-22.5/target/classes/' 
+2022-05-06 21:25:32.024 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/34657/Desktop/Workspace-22.0/Frameworks/Acme-Framework-22.5/target/test-classes/' 
+2022-05-06 21:25:32.024 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/34657/.m2/repository/org/springframework/boot/spring-boot-starter-tomcat/2.4.2/spring-boot-starter-tomcat-2.4.2.jar' 
+2022-05-06 21:25:32.024 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/34657/.m2/repository/jakarta/annotation/jakarta.annotation-api/1.3.5/jakarta.annotation-api-1.3.5.jar' 
+2022-05-06 21:25:32.025 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/34657/.m2/repository/org/apache/tomcat/embed/tomcat-embed-core/9.0.41/tomcat-embed-core-9.0.41.jar' 
+2022-05-06 21:25:32.025 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/34657/.m2/repository/org/glassfish/jakarta.el/3.0.3/jakarta.el-3.0.3.jar' 
+2022-05-06 21:25:32.025 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/34657/.m2/repository/org/apache/tomcat/embed/tomcat-embed-websocket/9.0.41/tomcat-embed-websocket-9.0.41.jar' 
+2022-05-06 21:25:32.025 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/34657/.m2/repository/org/apache/tomcat/embed/tomcat-embed-jasper/9.0.41/tomcat-embed-jasper-9.0.41.jar' 
+2022-05-06 21:25:32.025 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/34657/.m2/repository/org/apache/tomcat/embed/tomcat-embed-el/9.0.41/tomcat-embed-el-9.0.41.jar' 
+2022-05-06 21:25:32.027 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/34657/.m2/repository/org/eclipse/jdt/ecj/3.18.0/ecj-3.18.0.jar' 
+2022-05-06 21:25:32.027 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/34657/.m2/repository/javax/servlet/jstl/1.2/jstl-1.2.jar' 
+2022-05-06 21:25:32.028 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/34657/.m2/repository/org/springframework/boot/spring-boot-starter-test/2.4.2/spring-boot-starter-test-2.4.2.jar' 
+2022-05-06 21:25:32.028 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/34657/.m2/repository/org/springframework/boot/spring-boot-starter/2.4.2/spring-boot-starter-2.4.2.jar' 
+2022-05-06 21:25:32.028 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/34657/.m2/repository/org/springframework/boot/spring-boot/2.4.2/spring-boot-2.4.2.jar' 
+2022-05-06 21:25:32.028 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/34657/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/2.4.2/spring-boot-autoconfigure-2.4.2.jar' 
+2022-05-06 21:25:32.029 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/34657/.m2/repository/org/springframework/boot/spring-boot-starter-logging/2.4.2/spring-boot-starter-logging-2.4.2.jar' 
+2022-05-06 21:25:32.029 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/34657/.m2/repository/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar' 
+2022-05-06 21:25:32.029 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/34657/.m2/repository/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar' 
+2022-05-06 21:25:32.029 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/34657/.m2/repository/org/apache/logging/log4j/log4j-to-slf4j/2.13.3/log4j-to-slf4j-2.13.3.jar' 
+2022-05-06 21:25:32.029 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/34657/.m2/repository/org/apache/logging/log4j/log4j-api/2.13.3/log4j-api-2.13.3.jar' 
+2022-05-06 21:25:32.030 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/34657/.m2/repository/org/slf4j/jul-to-slf4j/1.7.30/jul-to-slf4j-1.7.30.jar' 
+2022-05-06 21:25:32.030 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/34657/.m2/repository/org/yaml/snakeyaml/1.27/snakeyaml-1.27.jar' 
+2022-05-06 21:25:32.030 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/34657/.m2/repository/org/springframework/boot/spring-boot-test/2.4.2/spring-boot-test-2.4.2.jar' 
+2022-05-06 21:25:32.030 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/34657/.m2/repository/org/springframework/boot/spring-boot-test-autoconfigure/2.4.2/spring-boot-test-autoconfigure-2.4.2.jar' 
+2022-05-06 21:25:32.030 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/34657/.m2/repository/com/jayway/jsonpath/json-path/2.4.0/json-path-2.4.0.jar' 
+2022-05-06 21:25:32.031 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/34657/.m2/repository/net/minidev/json-smart/2.3/json-smart-2.3.jar' 
+2022-05-06 21:25:32.031 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/34657/.m2/repository/net/minidev/accessors-smart/1.2/accessors-smart-1.2.jar' 
+2022-05-06 21:25:32.031 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/34657/.m2/repository/org/ow2/asm/asm/5.0.4/asm-5.0.4.jar' 
+2022-05-06 21:25:32.031 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/34657/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3/jakarta.xml.bind-api-2.3.3.jar' 
+2022-05-06 21:25:32.032 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/34657/.m2/repository/jakarta/activation/jakarta.activation-api/1.2.2/jakarta.activation-api-1.2.2.jar' 
+2022-05-06 21:25:32.032 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/34657/.m2/repository/org/assertj/assertj-core/3.18.1/assertj-core-3.18.1.jar' 
+2022-05-06 21:25:32.032 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/34657/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar' 
+2022-05-06 21:25:32.032 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/34657/.m2/repository/org/junit/jupiter/junit-jupiter/5.7.0/junit-jupiter-5.7.0.jar' 
+2022-05-06 21:25:32.033 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/34657/.m2/repository/org/mockito/mockito-core/3.6.28/mockito-core-3.6.28.jar' 
+2022-05-06 21:25:32.033 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/34657/.m2/repository/net/bytebuddy/byte-buddy-agent/1.10.19/byte-buddy-agent-1.10.19.jar' 
+2022-05-06 21:25:32.033 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/34657/.m2/repository/org/objenesis/objenesis/3.1/objenesis-3.1.jar' 
+2022-05-06 21:25:32.033 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/34657/.m2/repository/org/mockito/mockito-junit-jupiter/3.6.28/mockito-junit-jupiter-3.6.28.jar' 
+2022-05-06 21:25:32.033 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/34657/.m2/repository/org/skyscreamer/jsonassert/1.5.0/jsonassert-1.5.0.jar' 
+2022-05-06 21:25:32.034 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/34657/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar' 
+2022-05-06 21:25:32.034 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/34657/.m2/repository/org/springframework/spring-core/5.3.3/spring-core-5.3.3.jar' 
+2022-05-06 21:25:32.034 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/34657/.m2/repository/org/springframework/spring-jcl/5.3.3/spring-jcl-5.3.3.jar' 
+2022-05-06 21:25:32.035 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/34657/.m2/repository/org/springframework/spring-test/5.3.3/spring-test-5.3.3.jar' 
+2022-05-06 21:25:32.035 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/34657/.m2/repository/org/xmlunit/xmlunit-core/2.7.0/xmlunit-core-2.7.0.jar' 
+2022-05-06 21:25:32.035 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/34657/.m2/repository/org/springframework/boot/spring-boot-starter-security/2.4.2/spring-boot-starter-security-2.4.2.jar' 
+2022-05-06 21:25:32.035 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/34657/.m2/repository/org/springframework/spring-aop/5.3.3/spring-aop-5.3.3.jar' 
+2022-05-06 21:25:32.035 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/34657/.m2/repository/org/springframework/security/spring-security-web/5.4.2/spring-security-web-5.4.2.jar' 
+2022-05-06 21:25:32.036 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/34657/.m2/repository/org/springframework/security/spring-security-core/5.4.2/spring-security-core-5.4.2.jar' 
+2022-05-06 21:25:32.036 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/34657/.m2/repository/org/springframework/spring-beans/5.3.3/spring-beans-5.3.3.jar' 
+2022-05-06 21:25:32.036 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/34657/.m2/repository/org/springframework/spring-context/5.3.3/spring-context-5.3.3.jar' 
+2022-05-06 21:25:32.036 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/34657/.m2/repository/org/springframework/spring-expression/5.3.3/spring-expression-5.3.3.jar' 
+2022-05-06 21:25:32.036 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/34657/.m2/repository/org/springframework/spring-web/5.3.3/spring-web-5.3.3.jar' 
+2022-05-06 21:25:32.037 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/34657/.m2/repository/org/springframework/security/spring-security-config/5.4.2/spring-security-config-5.4.2.jar' 
+2022-05-06 21:25:32.037 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/34657/.m2/repository/org/springframework/security/spring-security-taglibs/5.4.2/spring-security-taglibs-5.4.2.jar' 
+2022-05-06 21:25:32.037 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/34657/.m2/repository/org/springframework/security/spring-security-acl/5.4.2/spring-security-acl-5.4.2.jar' 
+2022-05-06 21:25:32.037 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/34657/.m2/repository/org/springframework/spring-jdbc/5.3.3/spring-jdbc-5.3.3.jar' 
+2022-05-06 21:25:32.037 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/34657/.m2/repository/org/springframework/spring-tx/5.3.3/spring-tx-5.3.3.jar' 
+2022-05-06 21:25:32.037 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/34657/.m2/repository/org/springframework/boot/spring-boot-starter-web/2.4.2/spring-boot-starter-web-2.4.2.jar' 
+2022-05-06 21:25:32.038 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/34657/.m2/repository/org/springframework/boot/spring-boot-starter-json/2.4.2/spring-boot-starter-json-2.4.2.jar' 
+2022-05-06 21:25:32.038 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/34657/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.11.4/jackson-databind-2.11.4.jar' 
+2022-05-06 21:25:32.038 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/34657/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.11.4/jackson-annotations-2.11.4.jar' 
+2022-05-06 21:25:32.038 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/34657/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.11.4/jackson-core-2.11.4.jar' 
+2022-05-06 21:25:32.039 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/34657/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.11.4/jackson-datatype-jdk8-2.11.4.jar' 
+2022-05-06 21:25:32.039 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/34657/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.11.4/jackson-datatype-jsr310-2.11.4.jar' 
+2022-05-06 21:25:32.039 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/34657/.m2/repository/com/fasterxml/jackson/module/jackson-module-parameter-names/2.11.4/jackson-module-parameter-names-2.11.4.jar' 
+2022-05-06 21:25:32.039 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/34657/.m2/repository/org/springframework/spring-webmvc/5.3.3/spring-webmvc-5.3.3.jar' 
+2022-05-06 21:25:32.040 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/34657/.m2/repository/org/apache/tiles/tiles-jsp/3.0.8/tiles-jsp-3.0.8.jar' 
+2022-05-06 21:25:32.040 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/34657/.m2/repository/org/apache/tiles/tiles-servlet/3.0.8/tiles-servlet-3.0.8.jar' 
+2022-05-06 21:25:32.040 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/34657/.m2/repository/org/apache/tiles/tiles-core/3.0.8/tiles-core-3.0.8.jar' 
+2022-05-06 21:25:32.041 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/34657/.m2/repository/commons-digester/commons-digester/2.0/commons-digester-2.0.jar' 
+2022-05-06 21:25:32.041 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/34657/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.30/jcl-over-slf4j-1.7.30.jar' 
+2022-05-06 21:25:32.041 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/34657/.m2/repository/org/apache/tiles/tiles-request-servlet/1.0.7/tiles-request-servlet-1.0.7.jar' 
+2022-05-06 21:25:32.041 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/34657/.m2/repository/org/apache/tiles/tiles-template/3.0.8/tiles-template-3.0.8.jar' 
+2022-05-06 21:25:32.041 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/34657/.m2/repository/org/apache/tiles/tiles-api/3.0.8/tiles-api-3.0.8.jar' 
+2022-05-06 21:25:32.042 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/34657/.m2/repository/org/apache/tiles/tiles-autotag-core-runtime/1.2/tiles-autotag-core-runtime-1.2.jar' 
+2022-05-06 21:25:32.042 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/34657/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar' 
+2022-05-06 21:25:32.043 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/34657/.m2/repository/org/apache/tiles/tiles-request-jsp/1.0.7/tiles-request-jsp-1.0.7.jar' 
+2022-05-06 21:25:32.043 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/34657/.m2/repository/org/apache/tiles/tiles-request-api/1.0.7/tiles-request-api-1.0.7.jar' 
+2022-05-06 21:25:32.043 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/34657/.m2/repository/org/springframework/boot/spring-boot-starter-data-jpa/2.4.2/spring-boot-starter-data-jpa-2.4.2.jar' 
+2022-05-06 21:25:32.043 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/34657/.m2/repository/org/springframework/boot/spring-boot-starter-aop/2.4.2/spring-boot-starter-aop-2.4.2.jar' 
+2022-05-06 21:25:32.044 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/34657/.m2/repository/org/aspectj/aspectjweaver/1.9.6/aspectjweaver-1.9.6.jar' 
+2022-05-06 21:25:32.044 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/34657/.m2/repository/org/springframework/boot/spring-boot-starter-jdbc/2.4.2/spring-boot-starter-jdbc-2.4.2.jar' 
+2022-05-06 21:25:32.044 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/34657/.m2/repository/jakarta/transaction/jakarta.transaction-api/1.3.3/jakarta.transaction-api-1.3.3.jar' 
+2022-05-06 21:25:32.045 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/34657/.m2/repository/jakarta/persistence/jakarta.persistence-api/2.2.3/jakarta.persistence-api-2.2.3.jar' 
+2022-05-06 21:25:32.045 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/34657/.m2/repository/org/hibernate/hibernate-core/5.4.27.Final/hibernate-core-5.4.27.Final.jar' 
+2022-05-06 21:25:32.045 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/34657/.m2/repository/org/jboss/logging/jboss-logging/3.4.1.Final/jboss-logging-3.4.1.Final.jar' 
+2022-05-06 21:25:32.045 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/34657/.m2/repository/org/javassist/javassist/3.27.0-GA/javassist-3.27.0-GA.jar' 
+2022-05-06 21:25:32.046 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/34657/.m2/repository/antlr/antlr/2.7.7/antlr-2.7.7.jar' 
+2022-05-06 21:25:32.046 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/34657/.m2/repository/org/jboss/jandex/2.1.3.Final/jandex-2.1.3.Final.jar' 
+2022-05-06 21:25:32.046 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/34657/.m2/repository/com/fasterxml/classmate/1.5.1/classmate-1.5.1.jar' 
+2022-05-06 21:25:32.046 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/34657/.m2/repository/org/dom4j/dom4j/2.1.3/dom4j-2.1.3.jar' 
+2022-05-06 21:25:32.046 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/34657/.m2/repository/org/hibernate/common/hibernate-commons-annotations/5.1.2.Final/hibernate-commons-annotations-5.1.2.Final.jar' 
+2022-05-06 21:25:32.046 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/34657/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.3/jaxb-runtime-2.3.3.jar' 
+2022-05-06 21:25:32.046 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/34657/.m2/repository/org/glassfish/jaxb/txw2/2.3.3/txw2-2.3.3.jar' 
+2022-05-06 21:25:32.047 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/34657/.m2/repository/com/sun/istack/istack-commons-runtime/3.0.11/istack-commons-runtime-3.0.11.jar' 
+2022-05-06 21:25:32.047 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/34657/.m2/repository/com/sun/activation/jakarta.activation/1.2.2/jakarta.activation-1.2.2.jar' 
+2022-05-06 21:25:32.047 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/34657/.m2/repository/org/springframework/data/spring-data-jpa/2.4.3/spring-data-jpa-2.4.3.jar' 
+2022-05-06 21:25:32.047 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/34657/.m2/repository/org/springframework/data/spring-data-commons/2.4.3/spring-data-commons-2.4.3.jar' 
+2022-05-06 21:25:32.047 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/34657/.m2/repository/org/springframework/spring-orm/5.3.3/spring-orm-5.3.3.jar' 
+2022-05-06 21:25:32.047 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/34657/.m2/repository/org/springframework/spring-aspects/5.3.3/spring-aspects-5.3.3.jar' 
+2022-05-06 21:25:32.047 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/34657/.m2/repository/org/springframework/boot/spring-boot-starter-validation/2.4.2/spring-boot-starter-validation-2.4.2.jar' 
+2022-05-06 21:25:32.047 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/34657/.m2/repository/org/hibernate/validator/hibernate-validator/6.1.7.Final/hibernate-validator-6.1.7.Final.jar' 
+2022-05-06 21:25:32.048 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/34657/.m2/repository/jakarta/validation/jakarta.validation-api/2.0.2/jakarta.validation-api-2.0.2.jar' 
+2022-05-06 21:25:32.048 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/34657/.m2/repository/mysql/mysql-connector-java/8.0.22/mysql-connector-java-8.0.22.jar' 
+2022-05-06 21:25:32.048 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/34657/.m2/repository/com/zaxxer/HikariCP/3.4.5/HikariCP-3.4.5.jar' 
+2022-05-06 21:25:32.048 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/34657/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.7.0/junit-jupiter-engine-5.7.0.jar' 
+2022-05-06 21:25:32.048 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/34657/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar' 
+2022-05-06 21:25:32.049 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/34657/.m2/repository/org/junit/platform/junit-platform-engine/1.7.0/junit-platform-engine-1.7.0.jar' 
+2022-05-06 21:25:32.049 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/34657/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.7.0/junit-jupiter-api-5.7.0.jar' 
+2022-05-06 21:25:32.049 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/34657/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar' 
+2022-05-06 21:25:32.049 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/34657/.m2/repository/org/junit/platform/junit-platform-commons/1.7.0/junit-platform-commons-1.7.0.jar' 
+2022-05-06 21:25:32.049 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/34657/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.7.0/junit-jupiter-params-5.7.0.jar' 
+2022-05-06 21:25:32.049 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/34657/.m2/repository/org/junit/platform/junit-platform-launcher/1.7.0/junit-platform-launcher-1.7.0.jar' 
+2022-05-06 21:25:32.050 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/34657/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar' 
+2022-05-06 21:25:32.050 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/34657/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar' 
+2022-05-06 21:25:32.050 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/34657/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar' 
+2022-05-06 21:25:32.051 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/34657/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar' 
+2022-05-06 21:25:32.051 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/34657/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar' 
+2022-05-06 21:25:32.051 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/34657/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar' 
+2022-05-06 21:25:32.051 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/34657/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar' 
+2022-05-06 21:25:32.051 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/34657/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar' 
+2022-05-06 21:25:32.051 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/34657/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar' 
+2022-05-06 21:25:32.051 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/34657/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar' 
+2022-05-06 21:25:32.052 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/34657/.m2/repository/net/bytebuddy/byte-buddy/1.10.19/byte-buddy-1.10.19.jar' 
+2022-05-06 21:25:32.052 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/34657/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar' 
+2022-05-06 21:25:32.052 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/34657/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar' 
+2022-05-06 21:25:32.052 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/34657/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar' 
+2022-05-06 21:25:32.052 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/34657/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar' 
+2022-05-06 21:25:32.053 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/34657/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar' 
+2022-05-06 21:25:32.053 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/34657/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar' 
+2022-05-06 21:25:32.053 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/34657/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar' 
+2022-05-06 21:25:32.053 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/34657/.m2/repository/com/squareup/okhttp3/okhttp/3.14.9/okhttp-3.14.9.jar' 
+2022-05-06 21:25:32.053 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/34657/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar' 
+2022-05-06 21:25:32.053 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/34657/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar' 
+2022-05-06 21:25:32.053 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/34657/.m2/repository/org/apache/commons/commons-text/1.8/commons-text-1.8.jar' 
+2022-05-06 21:25:32.053 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/34657/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar' 
+2022-05-06 21:25:32.054 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/34657/.m2/repository/commons-cli/commons-cli/1.4/commons-cli-1.4.jar' 
+2022-05-06 21:25:32.054 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/34657/.m2/repository/org/projectlombok/lombok/1.18.16/lombok-1.18.16.jar' 
+2022-05-06 21:25:32.054 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/34657/.m2/repository/com/opencsv/opencsv/5.4/opencsv-5.4.jar' 
+2022-05-06 21:25:32.054 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/34657/.m2/repository/commons-beanutils/commons-beanutils/1.9.4/commons-beanutils-1.9.4.jar' 
+2022-05-06 21:25:32.054 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/34657/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar' 
+2022-05-06 21:25:32.054 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/34657/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar' 
+2022-05-06 21:25:32.054 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/34657/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar' 
+2022-05-06 21:25:32.054 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/34657/Desktop/Workspace-22.0/Tools/IDEs/eclipse-jee-2021-12-R/configuration/org.eclipse.osgi/418/0/.cp/lib/javaagent-shaded.jar' 
+2022-05-06 21:25:32.318 DEBUG [acme.Launcher@main] Found entity class 'acme.entities.Announcement 
+2022-05-06 21:25:32.320 DEBUG [acme.Launcher@main] Found entity class 'acme.entities.Chirp 
+2022-05-06 21:25:32.320 DEBUG [acme.Launcher@main] Found entity class 'acme.entities.Currency 
+2022-05-06 21:25:32.320 DEBUG [acme.Launcher@main] Found entity class 'acme.entities.Item 
+2022-05-06 21:25:32.321 DEBUG [acme.Launcher@main] Found entity class 'acme.entities.Patronage 
+2022-05-06 21:25:32.321 DEBUG [acme.Launcher@main] Found entity class 'acme.entities.PatronageReport 
+2022-05-06 21:25:32.321 DEBUG [acme.Launcher@main] Found entity class 'acme.entities.Quantity 
+2022-05-06 21:25:32.321 DEBUG [acme.Launcher@main] Found entity class 'acme.entities.Spam 
+2022-05-06 21:25:32.321 DEBUG [acme.Launcher@main] Found entity class 'acme.entities.Toolkit 
+2022-05-06 21:25:32.321 DEBUG [acme.Launcher@main] Found entity class 'acme.roles.Consumer 
+2022-05-06 21:25:32.321 DEBUG [acme.Launcher@main] Found entity class 'acme.roles.Inventor 
+2022-05-06 21:25:32.321 DEBUG [acme.Launcher@main] Found entity class 'acme.roles.Patron 
+2022-05-06 21:25:32.321 DEBUG [acme.Launcher@main] Found entity class 'acme.roles.Provider 
+2022-05-06 21:25:32.322 DEBUG [acme.Launcher@main] Found entity class 'acme.framework.entities.UserAccount 
+2022-05-06 21:25:32.322 DEBUG [acme.Launcher@main] Found entity class 'acme.framework.roles.Administrator 
+2022-05-06 21:25:32.322 DEBUG [acme.Launcher@main] Found entity class 'acme.framework.roles.Anonymous 
+2022-05-06 21:25:32.322 DEBUG [acme.Launcher@main] Found entity class 'acme.framework.roles.Any 
+2022-05-06 21:25:32.322 DEBUG [acme.Launcher@main] Found entity class 'acme.framework.roles.Authenticated 
+2022-05-06 21:25:32.336 INFO  [acme.Launcher@main] Populating (sample data) 
+2022-05-06 21:25:32.338 INFO  [acme.framework.components.database.DatabasePopulator@main] Building database schema 
+2022-05-06 21:25:32.422 DEBUG [acme.framework.components.database.DatabaseUtil@main] Starting new transaction. 
+2022-05-06 21:25:32.435 DEBUG [acme.framework.components.database.DatabaseUtil@main] Executing command 'set transaction isolation level read uncommitted;'. 
+2022-05-06 21:25:32.454 DEBUG [acme.framework.components.database.DatabaseUtil@main] Starting transaction '729965698'. 
+2022-05-06 21:25:32.455 DEBUG [acme.framework.components.database.DatabaseUtil@main] Creating command batch. 
+2022-05-06 21:25:32.455 DEBUG [acme.framework.components.database.DatabaseUtil@main] Adding command 'set foreign_key_checks=0' to batch. 
+2022-05-06 21:25:32.455 DEBUG [acme.framework.components.database.DatabaseUtil@main] Adding command 'drop table if exists administrator' to batch. 
+2022-05-06 21:25:32.455 DEBUG [acme.framework.components.database.DatabaseUtil@main] Adding command 'drop table if exists announcement' to batch. 
+2022-05-06 21:25:32.455 DEBUG [acme.framework.components.database.DatabaseUtil@main] Adding command 'drop table if exists anonymous' to batch. 
+2022-05-06 21:25:32.455 DEBUG [acme.framework.components.database.DatabaseUtil@main] Adding command 'drop table if exists any' to batch. 
+2022-05-06 21:25:32.455 DEBUG [acme.framework.components.database.DatabaseUtil@main] Adding command 'drop table if exists authenticated' to batch. 
+2022-05-06 21:25:32.455 DEBUG [acme.framework.components.database.DatabaseUtil@main] Adding command 'drop table if exists chirp' to batch. 
+2022-05-06 21:25:32.455 DEBUG [acme.framework.components.database.DatabaseUtil@main] Adding command 'drop table if exists consumer' to batch. 
+2022-05-06 21:25:32.456 DEBUG [acme.framework.components.database.DatabaseUtil@main] Adding command 'drop table if exists currency' to batch. 
+2022-05-06 21:25:32.456 DEBUG [acme.framework.components.database.DatabaseUtil@main] Adding command 'drop table if exists hibernate_sequence' to batch. 
+2022-05-06 21:25:32.456 DEBUG [acme.framework.components.database.DatabaseUtil@main] Adding command 'drop table if exists inventor' to batch. 
+2022-05-06 21:25:32.456 DEBUG [acme.framework.components.database.DatabaseUtil@main] Adding command 'drop table if exists item' to batch. 
+2022-05-06 21:25:32.456 DEBUG [acme.framework.components.database.DatabaseUtil@main] Adding command 'drop table if exists patron' to batch. 
+2022-05-06 21:25:32.456 DEBUG [acme.framework.components.database.DatabaseUtil@main] Adding command 'drop table if exists patronage' to batch. 
+2022-05-06 21:25:32.456 DEBUG [acme.framework.components.database.DatabaseUtil@main] Adding command 'drop table if exists patronage_report' to batch. 
+2022-05-06 21:25:32.456 DEBUG [acme.framework.components.database.DatabaseUtil@main] Adding command 'drop table if exists provider' to batch. 
+2022-05-06 21:25:32.456 DEBUG [acme.framework.components.database.DatabaseUtil@main] Adding command 'drop table if exists quantity' to batch. 
+2022-05-06 21:25:32.456 DEBUG [acme.framework.components.database.DatabaseUtil@main] Adding command 'drop table if exists spam' to batch. 
+2022-05-06 21:25:32.456 DEBUG [acme.framework.components.database.DatabaseUtil@main] Adding command 'drop table if exists toolkit' to batch. 
+2022-05-06 21:25:32.457 DEBUG [acme.framework.components.database.DatabaseUtil@main] Adding command 'drop table if exists user_account' to batch. 
+2022-05-06 21:25:32.457 DEBUG [acme.framework.components.database.DatabaseUtil@main] Adding command 'set foreign_key_checks=1' to batch. 
+2022-05-06 21:25:32.457 DEBUG [acme.framework.components.database.DatabaseUtil@main] Submitting batch for execution. 
+2022-05-06 21:25:32.716 DEBUG [acme.framework.components.database.DatabaseUtil@main] Committing transaction '729965698'. 
+2022-05-06 21:25:32.731 DEBUG [acme.framework.components.database.DatabaseUtil@main] Starting new transaction. 
+2022-05-06 21:25:32.732 DEBUG [acme.framework.components.database.DatabaseUtil@main] Executing command 'set transaction isolation level read uncommitted;'. 
+2022-05-06 21:25:32.732 DEBUG [acme.framework.components.database.DatabaseUtil@main] Starting transaction '1814893134'. 
+2022-05-06 21:25:32.732 DEBUG [acme.framework.components.database.DatabaseUtil@main] Creating command batch. 
+2022-05-06 21:25:32.732 DEBUG [acme.framework.components.database.DatabaseUtil@main] Adding command 'set foreign_key_checks=0' to batch. 
+2022-05-06 21:25:32.732 DEBUG [acme.framework.components.database.DatabaseUtil@main] Adding command 'create table administrator (id integer not null, version integer not null, user_account_id integer, primary key (id)) engine=InnoDB' to batch. 
+2022-05-06 21:25:32.733 DEBUG [acme.framework.components.database.DatabaseUtil@main] Adding command 'create table announcement (id integer not null, version integer not null, body varchar(255), creation_moment datetime, critical bit not null, link varchar(255), title varchar(255), primary key (id)) engine=InnoDB' to batch. 
+2022-05-06 21:25:32.733 DEBUG [acme.framework.components.database.DatabaseUtil@main] Adding command 'create table anonymous (id integer not null, version integer not null, user_account_id integer, primary key (id)) engine=InnoDB' to batch. 
+2022-05-06 21:25:32.733 DEBUG [acme.framework.components.database.DatabaseUtil@main] Adding command 'create table any (id integer not null, version integer not null, user_account_id integer, primary key (id)) engine=InnoDB' to batch. 
+2022-05-06 21:25:32.733 DEBUG [acme.framework.components.database.DatabaseUtil@main] Adding command 'create table authenticated (id integer not null, version integer not null, user_account_id integer, primary key (id)) engine=InnoDB' to batch. 
+2022-05-06 21:25:32.733 DEBUG [acme.framework.components.database.DatabaseUtil@main] Adding command 'create table chirp (id integer not null, version integer not null, author varchar(255), body varchar(255), email varchar(255), moment datetime, title varchar(255), primary key (id)) engine=InnoDB' to batch. 
+2022-05-06 21:25:32.733 DEBUG [acme.framework.components.database.DatabaseUtil@main] Adding command 'create table consumer (id integer not null, version integer not null, user_account_id integer, company varchar(255), sector varchar(255), primary key (id)) engine=InnoDB' to batch. 
+2022-05-06 21:25:32.733 DEBUG [acme.framework.components.database.DatabaseUtil@main] Adding command 'create table currency (id integer not null, version integer not null, accepted bit, name varchar(255), on_default bit, primary key (id)) engine=InnoDB' to batch. 
+2022-05-06 21:25:32.734 DEBUG [acme.framework.components.database.DatabaseUtil@main] Adding command 'create table hibernate_sequence (next_val bigint) engine=InnoDB' to batch. 
+2022-05-06 21:25:32.734 DEBUG [acme.framework.components.database.DatabaseUtil@main] Adding command 'insert into hibernate_sequence values ( 1 )' to batch. 
+2022-05-06 21:25:32.734 DEBUG [acme.framework.components.database.DatabaseUtil@main] Adding command 'create table inventor (id integer not null, version integer not null, user_account_id integer, company varchar(255), link varchar(255), statement varchar(255), primary key (id)) engine=InnoDB' to batch. 
+2022-05-06 21:25:32.734 DEBUG [acme.framework.components.database.DatabaseUtil@main] Adding command 'create table item (id integer not null, version integer not null, code varchar(255), description varchar(255), link varchar(255), name varchar(255), retail_price_amount double precision, retail_price_currency varchar(255), technology varchar(255), type integer, inventor_id integer not null, primary key (id)) engine=InnoDB' to batch. 
+2022-05-06 21:25:32.734 DEBUG [acme.framework.components.database.DatabaseUtil@main] Adding command 'create table patron (id integer not null, version integer not null, user_account_id integer, company varchar(255), link varchar(255), statement varchar(255), primary key (id)) engine=InnoDB' to batch. 
+2022-05-06 21:25:32.734 DEBUG [acme.framework.components.database.DatabaseUtil@main] Adding command 'create table patronage (id integer not null, version integer not null, budget_amount double precision, budget_currency varchar(255), code varchar(255), finishing_date datetime, legal_stuff varchar(255), link varchar(255), starting_date datetime, status integer, time_lapse datetime, inventor_id integer not null, patron_id integer not null, primary key (id)) engine=InnoDB' to batch. 
+2022-05-06 21:25:32.734 DEBUG [acme.framework.components.database.DatabaseUtil@main] Adding command 'create table patronage_report (id integer not null, version integer not null, automatic_seq_num varchar(255), creation_moment datetime, link varchar(255), memorandum varchar(255), inventor_id integer not null, patronage_id integer not null, primary key (id)) engine=InnoDB' to batch. 
+2022-05-06 21:25:32.735 DEBUG [acme.framework.components.database.DatabaseUtil@main] Adding command 'create table provider (id integer not null, version integer not null, user_account_id integer, company varchar(255), sector varchar(255), primary key (id)) engine=InnoDB' to batch. 
+2022-05-06 21:25:32.735 DEBUG [acme.framework.components.database.DatabaseUtil@main] Adding command 'create table quantity (id integer not null, version integer not null, amount integer, item_id integer, toolkit_id integer not null, primary key (id)) engine=InnoDB' to batch. 
+2022-05-06 21:25:32.735 DEBUG [acme.framework.components.database.DatabaseUtil@main] Adding command 'create table spam (id integer not null, version integer not null, spam_term varchar(255), strong bit, threshold integer, primary key (id)) engine=InnoDB' to batch. 
+2022-05-06 21:25:32.735 DEBUG [acme.framework.components.database.DatabaseUtil@main] Adding command 'create table toolkit (id integer not null, version integer not null, assembly_notes varchar(255), code varchar(255), description varchar(255), link varchar(255), publish bit, title varchar(255), item_id integer not null, primary key (id)) engine=InnoDB' to batch. 
+2022-05-06 21:25:32.735 DEBUG [acme.framework.components.database.DatabaseUtil@main] Adding command 'create table user_account (id integer not null, version integer not null, enabled bit not null, identity blob, password varchar(255), username varchar(255), primary key (id)) engine=InnoDB' to batch. 
+2022-05-06 21:25:32.735 DEBUG [acme.framework.components.database.DatabaseUtil@main] Adding command 'alter table item add constraint UK_6cgogdarkq48dlg1lbnv4q1oq unique (code)' to batch. 
+2022-05-06 21:25:32.735 DEBUG [acme.framework.components.database.DatabaseUtil@main] Adding command 'alter table patronage add constraint UK_7s289l63ihnn85qwyna5cqbfh unique (code)' to batch. 
+2022-05-06 21:25:32.735 DEBUG [acme.framework.components.database.DatabaseUtil@main] Adding command 'alter table toolkit add constraint UK_qvml9bbjdvicrw1wt0e1bej3c unique (code)' to batch. 
+2022-05-06 21:25:32.735 DEBUG [acme.framework.components.database.DatabaseUtil@main] Adding command 'alter table user_account add constraint UK_castjbvpeeus0r8lbpehiu0e4 unique (username)' to batch. 
+2022-05-06 21:25:32.736 DEBUG [acme.framework.components.database.DatabaseUtil@main] Adding command 'alter table administrator add constraint FK_2a5vcjo3stlfcwadosjfq49l1 foreign key (user_account_id) references user_account (id)' to batch. 
+2022-05-06 21:25:32.736 DEBUG [acme.framework.components.database.DatabaseUtil@main] Adding command 'alter table anonymous add constraint FK_6lnbc6fo3om54vugoh8icg78m foreign key (user_account_id) references user_account (id)' to batch. 
+2022-05-06 21:25:32.736 DEBUG [acme.framework.components.database.DatabaseUtil@main] Adding command 'alter table any add constraint FK_26yflnlk4xrrxtkiwkag1l7lf foreign key (user_account_id) references user_account (id)' to batch. 
+2022-05-06 21:25:32.736 DEBUG [acme.framework.components.database.DatabaseUtil@main] Adding command 'alter table authenticated add constraint FK_h52w0f3wjoi68b63wv9vwon57 foreign key (user_account_id) references user_account (id)' to batch. 
+2022-05-06 21:25:32.736 DEBUG [acme.framework.components.database.DatabaseUtil@main] Adding command 'alter table consumer add constraint FK_6cyha9f1wpj0dpbxrrjddrqed foreign key (user_account_id) references user_account (id)' to batch. 
+2022-05-06 21:25:32.736 DEBUG [acme.framework.components.database.DatabaseUtil@main] Adding command 'alter table inventor add constraint FK_2upmsx50p5pou2l4uy8trxor6 foreign key (user_account_id) references user_account (id)' to batch. 
+2022-05-06 21:25:32.736 DEBUG [acme.framework.components.database.DatabaseUtil@main] Adding command 'alter table item add constraint FKaq1a05jpovg1rv6q65awp7ho1 foreign key (inventor_id) references inventor (id)' to batch. 
+2022-05-06 21:25:32.736 DEBUG [acme.framework.components.database.DatabaseUtil@main] Adding command 'alter table patron add constraint FK_8xx5nujhuio3advxc2freyu65 foreign key (user_account_id) references user_account (id)' to batch. 
+2022-05-06 21:25:32.736 DEBUG [acme.framework.components.database.DatabaseUtil@main] Adding command 'alter table patronage add constraint FKgkbt6mel1m6joiypsbc2ko6mi foreign key (inventor_id) references inventor (id)' to batch. 
+2022-05-06 21:25:32.736 DEBUG [acme.framework.components.database.DatabaseUtil@main] Adding command 'alter table patronage add constraint FK7d5o2dlu1d9orplkn5g91lsgc foreign key (patron_id) references patron (id)' to batch. 
+2022-05-06 21:25:32.736 DEBUG [acme.framework.components.database.DatabaseUtil@main] Adding command 'alter table patronage_report add constraint FK1xh66osfnqv3tgmen2s08di6c foreign key (inventor_id) references inventor (id)' to batch. 
+2022-05-06 21:25:32.737 DEBUG [acme.framework.components.database.DatabaseUtil@main] Adding command 'alter table patronage_report add constraint FKli7rh2qb2q6bjix6b8o2dpt41 foreign key (patronage_id) references patronage (id)' to batch. 
+2022-05-06 21:25:32.737 DEBUG [acme.framework.components.database.DatabaseUtil@main] Adding command 'alter table provider add constraint FK_b1gwnjqm6ggy9yuiqm0o4rlmd foreign key (user_account_id) references user_account (id)' to batch. 
+2022-05-06 21:25:32.737 DEBUG [acme.framework.components.database.DatabaseUtil@main] Adding command 'alter table quantity add constraint FK6v7ckbce1j36j4b7mubnk66bx foreign key (item_id) references item (id)' to batch. 
+2022-05-06 21:25:32.737 DEBUG [acme.framework.components.database.DatabaseUtil@main] Adding command 'alter table quantity add constraint FKr1l7hfxuemn7o9d0qi4kawlmg foreign key (toolkit_id) references toolkit (id)' to batch. 
+2022-05-06 21:25:32.737 DEBUG [acme.framework.components.database.DatabaseUtil@main] Adding command 'alter table toolkit add constraint FK6pj93yoje97rrjbn16go1cdrs foreign key (item_id) references item (id)' to batch. 
+2022-05-06 21:25:32.737 DEBUG [acme.framework.components.database.DatabaseUtil@main] Adding command 'set foreign_key_checks=1' to batch. 
+2022-05-06 21:25:32.737 DEBUG [acme.framework.components.database.DatabaseUtil@main] Submitting batch for execution. 
+2022-05-06 21:25:33.599 DEBUG [acme.framework.components.database.DatabaseUtil@main] Committing transaction '1814893134'. 
+2022-05-06 21:25:33.602 INFO  [acme.framework.components.database.DatabasePopulator@main] Reading entities from 'classpath:/WEB-INF/resources/initial-data' 
+2022-05-06 21:25:33.607 DEBUG [acme.framework.components.database.Dataset@main] Reading dataset from 'C:\Users\34657\Desktop\Workspace-22.0\Starters\Acme-One\target\classes\WEB-INF\resources\initial-data\administrator.csv' 
+2022-05-06 21:25:33.794 DEBUG [acme.framework.components.database.Dataset@main] Reading mapping '{key:user-account=user-account-administrator-01, key=administrator-01}' from 'C:\Users\34657\Desktop\Workspace-22.0\Starters\Acme-One\target\classes\WEB-INF\resources\initial-data\administrator.csv' 
+2022-05-06 21:25:33.796 DEBUG [acme.framework.components.database.Dataset@main] Reading dataset from 'C:\Users\34657\Desktop\Workspace-22.0\Starters\Acme-One\target\classes\WEB-INF\resources\initial-data\anonymous.csv' 
+2022-05-06 21:25:33.797 DEBUG [acme.framework.components.database.Dataset@main] Reading mapping '{key:user-account=user-account-anonymous-01, key=anonymous-01}' from 'C:\Users\34657\Desktop\Workspace-22.0\Starters\Acme-One\target\classes\WEB-INF\resources\initial-data\anonymous.csv' 
+2022-05-06 21:25:33.798 DEBUG [acme.framework.components.database.Dataset@main] Reading dataset from 'C:\Users\34657\Desktop\Workspace-22.0\Starters\Acme-One\target\classes\WEB-INF\resources\initial-data\currency.csv' 
+2022-05-06 21:25:33.799 DEBUG [acme.framework.components.database.Dataset@main] Reading mapping '{name=EUR, accepted=true, on-default=true, key=currency-01}' from 'C:\Users\34657\Desktop\Workspace-22.0\Starters\Acme-One\target\classes\WEB-INF\resources\initial-data\currency.csv' 
+2022-05-06 21:25:33.799 DEBUG [acme.framework.components.database.Dataset@main] Reading mapping '{name=GBP, accepted=true, on-default=false, key=currency-02}' from 'C:\Users\34657\Desktop\Workspace-22.0\Starters\Acme-One\target\classes\WEB-INF\resources\initial-data\currency.csv' 
+2022-05-06 21:25:33.800 DEBUG [acme.framework.components.database.Dataset@main] Reading mapping '{name=USD, accepted=true, on-default=false, key=currency-03}' from 'C:\Users\34657\Desktop\Workspace-22.0\Starters\Acme-One\target\classes\WEB-INF\resources\initial-data\currency.csv' 
+2022-05-06 21:25:33.803 DEBUG [acme.framework.components.database.Dataset@main] Reading dataset from 'C:\Users\34657\Desktop\Workspace-22.0\Starters\Acme-One\target\classes\WEB-INF\resources\initial-data\inventor.csv' 
+2022-05-06 21:25:33.805 DEBUG [acme.framework.components.database.Dataset@main] Reading mapping '{key:user-account=user-account-inventor-01, statement=1, link=http://www.twitter.com, company=Acme-One, key=inventor-01}' from 'C:\Users\34657\Desktop\Workspace-22.0\Starters\Acme-One\target\classes\WEB-INF\resources\initial-data\inventor.csv' 
+2022-05-06 21:25:33.805 DEBUG [acme.framework.components.database.Dataset@main] Reading mapping '{key:user-account=user-account-inventor-02, statement=2, link=http://www.twitter.com, company=Acme-One, key=inventor-02}' from 'C:\Users\34657\Desktop\Workspace-22.0\Starters\Acme-One\target\classes\WEB-INF\resources\initial-data\inventor.csv' 
+2022-05-06 21:25:33.806 DEBUG [acme.framework.components.database.Dataset@main] Reading mapping '{key:user-account=user-account-inventor-03, statement=3, link=http://www.twitter.com, company=Acme-One, key=inventor-03}' from 'C:\Users\34657\Desktop\Workspace-22.0\Starters\Acme-One\target\classes\WEB-INF\resources\initial-data\inventor.csv' 
+2022-05-06 21:25:33.806 DEBUG [acme.framework.components.database.Dataset@main] Reading mapping '{key:user-account=user-account-inventor-04, statement=4, link=http://www.twitter.com, company=Acme-One, key=inventor-04}' from 'C:\Users\34657\Desktop\Workspace-22.0\Starters\Acme-One\target\classes\WEB-INF\resources\initial-data\inventor.csv' 
+2022-05-06 21:25:33.806 DEBUG [acme.framework.components.database.Dataset@main] Reading dataset from 'C:\Users\34657\Desktop\Workspace-22.0\Starters\Acme-One\target\classes\WEB-INF\resources\initial-data\patron.csv' 
+2022-05-06 21:25:33.808 DEBUG [acme.framework.components.database.Dataset@main] Reading mapping '{key:user-account=user-account-patron-01, statement=1, link=http://www.twitter.com, company=Acme-One, key=patron-01}' from 'C:\Users\34657\Desktop\Workspace-22.0\Starters\Acme-One\target\classes\WEB-INF\resources\initial-data\patron.csv' 
+2022-05-06 21:25:33.808 DEBUG [acme.framework.components.database.Dataset@main] Reading mapping '{key:user-account=user-account-patron-02, statement=2, link=http://www.twitter.com, company=Acme-One, key=patron-02}' from 'C:\Users\34657\Desktop\Workspace-22.0\Starters\Acme-One\target\classes\WEB-INF\resources\initial-data\patron.csv' 
+2022-05-06 21:25:33.808 DEBUG [acme.framework.components.database.Dataset@main] Reading mapping '{key:user-account=user-account-patron-03, statement=3, link=http://www.twitter.com, company=Acme-One, key=patron-03}' from 'C:\Users\34657\Desktop\Workspace-22.0\Starters\Acme-One\target\classes\WEB-INF\resources\initial-data\patron.csv' 
+2022-05-06 21:25:33.809 DEBUG [acme.framework.components.database.Dataset@main] Reading mapping '{key:user-account=user-account-patron-04, statement=4, link=http://www.twitter.com, company=Acme-One, key=patron-04}' from 'C:\Users\34657\Desktop\Workspace-22.0\Starters\Acme-One\target\classes\WEB-INF\resources\initial-data\patron.csv' 
+2022-05-06 21:25:33.809 DEBUG [acme.framework.components.database.Dataset@main] Reading dataset from 'C:\Users\34657\Desktop\Workspace-22.0\Starters\Acme-One\target\classes\WEB-INF\resources\initial-data\provider.csv' 
+2022-05-06 21:25:33.811 DEBUG [acme.framework.components.database.Dataset@main] Reading mapping '{key:user-account=user-account-provider-01, company=Terra Nets, S.A., sector=Internet, key=provider-01}' from 'C:\Users\34657\Desktop\Workspace-22.0\Starters\Acme-One\target\classes\WEB-INF\resources\initial-data\provider.csv' 
+2022-05-06 21:25:33.812 DEBUG [acme.framework.components.database.Dataset@main] Reading mapping '{key:user-account=user-account-provider-02, company=GitHub, sector=Internet, key=provider-02}' from 'C:\Users\34657\Desktop\Workspace-22.0\Starters\Acme-One\target\classes\WEB-INF\resources\initial-data\provider.csv' 
+2022-05-06 21:25:33.812 DEBUG [acme.framework.components.database.Dataset@main] Reading dataset from 'C:\Users\34657\Desktop\Workspace-22.0\Starters\Acme-One\target\classes\WEB-INF\resources\initial-data\spam.csv' 
+2022-05-06 21:25:33.816 DEBUG [acme.framework.components.database.Dataset@main] Reading mapping '{strong=true, threshold=10, key=spam-01, spam-term=sex}' from 'C:\Users\34657\Desktop\Workspace-22.0\Starters\Acme-One\target\classes\WEB-INF\resources\initial-data\spam.csv' 
+2022-05-06 21:25:33.816 DEBUG [acme.framework.components.database.Dataset@main] Reading mapping '{strong=true, threshold=10, key=spam-02, spam-term=sexo}' from 'C:\Users\34657\Desktop\Workspace-22.0\Starters\Acme-One\target\classes\WEB-INF\resources\initial-data\spam.csv' 
+2022-05-06 21:25:33.816 DEBUG [acme.framework.components.database.Dataset@main] Reading mapping '{strong=true, threshold=10, key=spam-03, spam-term=hardcore}' from 'C:\Users\34657\Desktop\Workspace-22.0\Starters\Acme-One\target\classes\WEB-INF\resources\initial-data\spam.csv' 
+2022-05-06 21:25:33.816 DEBUG [acme.framework.components.database.Dataset@main] Reading mapping '{strong=true, threshold=10, key=spam-04, spam-term=duro}' from 'C:\Users\34657\Desktop\Workspace-22.0\Starters\Acme-One\target\classes\WEB-INF\resources\initial-data\spam.csv' 
+2022-05-06 21:25:33.817 DEBUG [acme.framework.components.database.Dataset@main] Reading mapping '{strong=true, threshold=10, key=spam-05, spam-term=viagra}' from 'C:\Users\34657\Desktop\Workspace-22.0\Starters\Acme-One\target\classes\WEB-INF\resources\initial-data\spam.csv' 
+2022-05-06 21:25:33.817 DEBUG [acme.framework.components.database.Dataset@main] Reading mapping '{strong=true, threshold=10, key=spam-06, spam-term=cialis}' from 'C:\Users\34657\Desktop\Workspace-22.0\Starters\Acme-One\target\classes\WEB-INF\resources\initial-data\spam.csv' 
+2022-05-06 21:25:33.817 DEBUG [acme.framework.components.database.Dataset@main] Reading mapping '{strong=false, threshold=25, key=spam-07, spam-term=sexy}' from 'C:\Users\34657\Desktop\Workspace-22.0\Starters\Acme-One\target\classes\WEB-INF\resources\initial-data\spam.csv' 
+2022-05-06 21:25:33.817 DEBUG [acme.framework.components.database.Dataset@main] Reading mapping '{strong=false, threshold=25, key=spam-08, spam-term=sensual}' from 'C:\Users\34657\Desktop\Workspace-22.0\Starters\Acme-One\target\classes\WEB-INF\resources\initial-data\spam.csv' 
+2022-05-06 21:25:33.817 DEBUG [acme.framework.components.database.Dataset@main] Reading mapping '{strong=false, threshold=25, key=spam-09, spam-term=nigeria}' from 'C:\Users\34657\Desktop\Workspace-22.0\Starters\Acme-One\target\classes\WEB-INF\resources\initial-data\spam.csv' 
+2022-05-06 21:25:33.817 DEBUG [acme.framework.components.database.Dataset@main] Reading mapping '{strong=false, threshold=25, key=spam-10, spam-term=you've won}' from 'C:\Users\34657\Desktop\Workspace-22.0\Starters\Acme-One\target\classes\WEB-INF\resources\initial-data\spam.csv' 
+2022-05-06 21:25:33.818 DEBUG [acme.framework.components.database.Dataset@main] Reading mapping '{strong=false, threshold=25, key=spam-11, spam-term=has ganado}' from 'C:\Users\34657\Desktop\Workspace-22.0\Starters\Acme-One\target\classes\WEB-INF\resources\initial-data\spam.csv' 
+2022-05-06 21:25:33.818 DEBUG [acme.framework.components.database.Dataset@main] Reading mapping '{strong=false, threshold=25, key=spam-12, spam-term=one million}' from 'C:\Users\34657\Desktop\Workspace-22.0\Starters\Acme-One\target\classes\WEB-INF\resources\initial-data\spam.csv' 
+2022-05-06 21:25:33.818 DEBUG [acme.framework.components.database.Dataset@main] Reading mapping '{strong=false, threshold=25, key=spam-13, spam-term=un millón}' from 'C:\Users\34657\Desktop\Workspace-22.0\Starters\Acme-One\target\classes\WEB-INF\resources\initial-data\spam.csv' 
+2022-05-06 21:25:33.819 DEBUG [acme.framework.components.database.Dataset@main] Reading dataset from 'C:\Users\34657\Desktop\Workspace-22.0\Starters\Acme-One\target\classes\WEB-INF\resources\initial-data\user-account.csv' 
+2022-05-06 21:25:33.820 DEBUG [acme.framework.components.database.Dataset@main] Reading mapping '{password=HIDDEN-PASSWORD, identity=UserIdentity{name: 'John', surname: 'Doe', email: 'john.doe@acme.com'}, key=user-account-anonymous-01, enabled=false, username=anonymous}' from 'C:\Users\34657\Desktop\Workspace-22.0\Starters\Acme-One\target\classes\WEB-INF\resources\initial-data\user-account.csv' 
+2022-05-06 21:25:33.821 DEBUG [acme.framework.components.database.Dataset@main] Reading mapping '{password=administrator, identity=UserIdentity{name: 'Administrator', surname: 'Acme', email: 'administrator@acme.com'}, key=user-account-administrator-01, enabled=true, username=administrator}' from 'C:\Users\34657\Desktop\Workspace-22.0\Starters\Acme-One\target\classes\WEB-INF\resources\initial-data\user-account.csv' 
+2022-05-06 21:25:33.821 DEBUG [acme.framework.components.database.Dataset@main] Reading mapping '{password=patron1, identity=UserIdentity{name: 'P1', surname: 'Acme', email: 'p1@acme.com'}, key=user-account-patron-01, enabled=true, username=patron1}' from 'C:\Users\34657\Desktop\Workspace-22.0\Starters\Acme-One\target\classes\WEB-INF\resources\initial-data\user-account.csv' 
+2022-05-06 21:25:33.821 DEBUG [acme.framework.components.database.Dataset@main] Reading mapping '{password=patron2, identity=UserIdentity{name: 'P2', surname: 'Acme', email: 'p2@acme.com'}, key=user-account-patron-02, enabled=true, username=patron2}' from 'C:\Users\34657\Desktop\Workspace-22.0\Starters\Acme-One\target\classes\WEB-INF\resources\initial-data\user-account.csv' 
+2022-05-06 21:25:33.822 DEBUG [acme.framework.components.database.Dataset@main] Reading mapping '{password=patron3, identity=UserIdentity{name: 'P3', surname: 'Acme', email: 'p3@acme.com'}, key=user-account-patron-03, enabled=true, username=patron3}' from 'C:\Users\34657\Desktop\Workspace-22.0\Starters\Acme-One\target\classes\WEB-INF\resources\initial-data\user-account.csv' 
+2022-05-06 21:25:33.823 DEBUG [acme.framework.components.database.Dataset@main] Reading mapping '{password=patron4, identity=UserIdentity{name: 'P4', surname: 'Acme', email: 'p4@acme.com'}, key=user-account-patron-04, enabled=true, username=patron4}' from 'C:\Users\34657\Desktop\Workspace-22.0\Starters\Acme-One\target\classes\WEB-INF\resources\initial-data\user-account.csv' 
+2022-05-06 21:25:33.823 DEBUG [acme.framework.components.database.Dataset@main] Reading mapping '{password=inventor1, identity=UserIdentity{name: 'I1', surname: 'Acme', email: 'i1@acme.com'}, key=user-account-inventor-01, enabled=true, username=inventor1}' from 'C:\Users\34657\Desktop\Workspace-22.0\Starters\Acme-One\target\classes\WEB-INF\resources\initial-data\user-account.csv' 
+2022-05-06 21:25:33.823 DEBUG [acme.framework.components.database.Dataset@main] Reading mapping '{password=inventor2, identity=UserIdentity{name: 'I2', surname: 'Acme', email: 'i2@acme.com'}, key=user-account-inventor-02, enabled=true, username=inventor2}' from 'C:\Users\34657\Desktop\Workspace-22.0\Starters\Acme-One\target\classes\WEB-INF\resources\initial-data\user-account.csv' 
+2022-05-06 21:25:33.824 DEBUG [acme.framework.components.database.Dataset@main] Reading mapping '{password=inventor3, identity=UserIdentity{name: 'I3', surname: 'Acme', email: 'i3@acme.com'}, key=user-account-inventor-03, enabled=true, username=inventor3}' from 'C:\Users\34657\Desktop\Workspace-22.0\Starters\Acme-One\target\classes\WEB-INF\resources\initial-data\user-account.csv' 
+2022-05-06 21:25:33.825 DEBUG [acme.framework.components.database.Dataset@main] Reading mapping '{password=inventor4, identity=UserIdentity{name: 'I4', surname: 'Acme', email: 'i4@acme.com'}, key=user-account-inventor-04, enabled=true, username=inventor4}' from 'C:\Users\34657\Desktop\Workspace-22.0\Starters\Acme-One\target\classes\WEB-INF\resources\initial-data\user-account.csv' 
+2022-05-06 21:25:33.825 DEBUG [acme.framework.components.database.Dataset@main] Reading mapping '{password=consumer1, identity=UserIdentity{name: 'C1', surname: 'Acme', email: 'c1@acme.com'}, key=user-account-consumer-01, enabled=true, username=consumer1}' from 'C:\Users\34657\Desktop\Workspace-22.0\Starters\Acme-One\target\classes\WEB-INF\resources\initial-data\user-account.csv' 
+2022-05-06 21:25:33.825 DEBUG [acme.framework.components.database.Dataset@main] Reading mapping '{password=consumer2, identity=UserIdentity{name: 'C2', surname: 'Acme', email: 'c2@acme.com'}, key=user-account-consumer-02, enabled=true, username=consumer2}' from 'C:\Users\34657\Desktop\Workspace-22.0\Starters\Acme-One\target\classes\WEB-INF\resources\initial-data\user-account.csv' 
+2022-05-06 21:25:33.825 DEBUG [acme.framework.components.database.Dataset@main] Reading mapping '{password=provider1, identity=UserIdentity{name: 'PR1', surname: 'Acme', email: 'pr1@acme.com'}, key=user-account-provider-01, enabled=true, username=provider1}' from 'C:\Users\34657\Desktop\Workspace-22.0\Starters\Acme-One\target\classes\WEB-INF\resources\initial-data\user-account.csv' 
+2022-05-06 21:25:33.826 DEBUG [acme.framework.components.database.Dataset@main] Reading mapping '{password=provider2, identity=UserIdentity{name: 'PR2', surname: 'Acme', email: 'pr2@acme.com'}, key=user-account-provider-02, enabled=true, username=provider2}' from 'C:\Users\34657\Desktop\Workspace-22.0\Starters\Acme-One\target\classes\WEB-INF\resources\initial-data\user-account.csv' 
+2022-05-06 21:25:33.826 DEBUG [acme.framework.components.database.EntityWeb@main] Setting attributes of entities of class acme.entities.Spam 
+2022-05-06 21:25:33.854 DEBUG [acme.framework.components.database.EntityWeb@main] Setting attributes of entities of class acme.roles.Patron 
+2022-05-06 21:25:33.864 DEBUG [acme.framework.components.database.EntityWeb@main] Setting attributes of entities of class acme.framework.roles.Administrator 
+2022-05-06 21:25:33.864 DEBUG [acme.framework.components.database.EntityWeb@main] Setting attributes of entities of class acme.roles.Inventor 
+2022-05-06 21:25:33.875 DEBUG [acme.framework.components.database.EntityWeb@main] Setting attributes of entities of class acme.entities.Currency 
+2022-05-06 21:25:33.883 DEBUG [acme.framework.components.database.EntityWeb@main] Setting attributes of entities of class acme.framework.roles.Anonymous 
+2022-05-06 21:25:33.884 DEBUG [acme.framework.components.database.EntityWeb@main] Setting attributes of entities of class acme.roles.Provider 
+2022-05-06 21:25:33.890 DEBUG [acme.framework.components.database.EntityWeb@main] Setting attributes of entities of class acme.framework.entities.UserAccount 
+2022-05-06 21:25:34.182 DEBUG [acme.framework.components.database.EntityWeb@main] Linking entities of class acme.entities.Spam 
+2022-05-06 21:25:34.182 DEBUG [acme.framework.components.database.EntityWeb@main] Linking entities of class acme.roles.Patron 
+2022-05-06 21:25:34.183 DEBUG [acme.framework.components.database.EntityWeb@main] Linking entities of class acme.framework.roles.Administrator 
+2022-05-06 21:25:34.187 DEBUG [acme.framework.components.database.EntityWeb@main] Linking entities of class acme.roles.Inventor 
+2022-05-06 21:25:34.188 DEBUG [acme.framework.components.database.EntityWeb@main] Linking entities of class acme.entities.Currency 
+2022-05-06 21:25:34.188 DEBUG [acme.framework.components.database.EntityWeb@main] Linking entities of class acme.framework.roles.Anonymous 
+2022-05-06 21:25:34.192 DEBUG [acme.framework.components.database.EntityWeb@main] Linking entities of class acme.roles.Provider 
+2022-05-06 21:25:34.192 DEBUG [acme.framework.components.database.EntityWeb@main] Linking entities of class acme.framework.entities.UserAccount 
+2022-05-06 21:25:34.192 INFO  [acme.framework.components.database.DatabasePopulator@main] Reading entities from 'classpath:/WEB-INF/resources/sample-data' 
+2022-05-06 21:25:34.194 DEBUG [acme.framework.components.database.Dataset@main] Reading dataset from 'C:\Users\34657\Desktop\Workspace-22.0\Starters\Acme-One\target\classes\WEB-INF\resources\sample-data\announcement.csv' 
+2022-05-06 21:25:34.195 DEBUG [acme.framework.components.database.Dataset@main] Reading mapping '{critical=true, creationMoment=2020/12/26 00:00, link=http://www.google.com, title=Anuncio 1, body=Anuncio, key=announcement-01}' from 'C:\Users\34657\Desktop\Workspace-22.0\Starters\Acme-One\target\classes\WEB-INF\resources\sample-data\announcement.csv' 
+2022-05-06 21:25:34.195 DEBUG [acme.framework.components.database.Dataset@main] Reading mapping '{critical=true, creationMoment=2022/04/08 20:00, link=http://www.google.com, title=Anuncio 2, body=Anuncio, key=announcement-02}' from 'C:\Users\34657\Desktop\Workspace-22.0\Starters\Acme-One\target\classes\WEB-INF\resources\sample-data\announcement.csv' 
+2022-05-06 21:25:34.195 DEBUG [acme.framework.components.database.Dataset@main] Reading dataset from 'C:\Users\34657\Desktop\Workspace-22.0\Starters\Acme-One\target\classes\WEB-INF\resources\sample-data\chirp.csv' 
+2022-05-06 21:25:34.196 DEBUG [acme.framework.components.database.Dataset@main] Reading mapping '{author=ejemplo, title=ejemplo, body=ejemplo, key=chirp-01, email=ejemplo01@acme.com, moment=2022/04/21 21:00}' from 'C:\Users\34657\Desktop\Workspace-22.0\Starters\Acme-One\target\classes\WEB-INF\resources\sample-data\chirp.csv' 
+2022-05-06 21:25:34.196 DEBUG [acme.framework.components.database.Dataset@main] Reading mapping '{author=Don Chirp, title=My Chirp, body=Hola sot un Chirp!, key=chirp-02, email=creadordechirps@email.com, moment=2022/04/05 22:30}' from 'C:\Users\34657\Desktop\Workspace-22.0\Starters\Acme-One\target\classes\WEB-INF\resources\sample-data\chirp.csv' 
+2022-05-06 21:25:34.196 DEBUG [acme.framework.components.database.Dataset@main] Reading dataset from 'C:\Users\34657\Desktop\Workspace-22.0\Starters\Acme-One\target\classes\WEB-INF\resources\sample-data\consumer.csv' 
+2022-05-06 21:25:34.197 DEBUG [acme.framework.components.database.Dataset@main] Reading mapping '{key:user-account=user-account-consumer-01, company=Acme-One, sector=Agrícola, key=consumer-01}' from 'C:\Users\34657\Desktop\Workspace-22.0\Starters\Acme-One\target\classes\WEB-INF\resources\sample-data\consumer.csv' 
+2022-05-06 21:25:34.198 DEBUG [acme.framework.components.database.Dataset@main] Reading mapping '{key:user-account=user-account-consumer-02, company=Acme-One, sector=Educación, key=consumer-02}' from 'C:\Users\34657\Desktop\Workspace-22.0\Starters\Acme-One\target\classes\WEB-INF\resources\sample-data\consumer.csv' 
+2022-05-06 21:25:34.198 DEBUG [acme.framework.components.database.Dataset@main] Reading dataset from 'C:\Users\34657\Desktop\Workspace-22.0\Starters\Acme-One\target\classes\WEB-INF\resources\sample-data\item.csv' 
+2022-05-06 21:25:34.199 DEBUG [acme.framework.components.database.Dataset@main] Reading mapping '{key:inventor=inventor-01, code=DEF-484-C, link=https://www.mi.com/es, description=A tv made from Xiaomi!, technology=Xiaomi, type=COMPONENT, retail-price=EUR 350.0, name=Televition Xiaomi, key=item-01}' from 'C:\Users\34657\Desktop\Workspace-22.0\Starters\Acme-One\target\classes\WEB-INF\resources\sample-data\item.csv' 
+2022-05-06 21:25:34.199 DEBUG [acme.framework.components.database.Dataset@main] Reading mapping '{key:inventor=inventor-02, code=DSC-455-H, link=https://discord.com/, description=A tool to bring easier communication among parners!, technology=discord, type=TOOL, retail-price=GBP 5.0, name=Discord, key=item-02}' from 'C:\Users\34657\Desktop\Workspace-22.0\Starters\Acme-One\target\classes\WEB-INF\resources\sample-data\item.csv' 
+2022-05-06 21:25:34.199 DEBUG [acme.framework.components.database.Dataset@main] Reading dataset from 'C:\Users\34657\Desktop\Workspace-22.0\Starters\Acme-One\target\classes\WEB-INF\resources\sample-data\patronage-report.csv' 
+2022-05-06 21:25:34.200 DEBUG [acme.framework.components.database.Dataset@main] Reading mapping '{key:inventor=inventor-01, key:patronage=patronage-01, link=https://www.nano.com, creation-moment=2021/12/01 12:00, memorandum=Patronage accepted!, key=patronage-report-01, automatic-seq-num=AAA-101-A:0001}' from 'C:\Users\34657\Desktop\Workspace-22.0\Starters\Acme-One\target\classes\WEB-INF\resources\sample-data\patronage-report.csv' 
+2022-05-06 21:25:34.200 DEBUG [acme.framework.components.database.Dataset@main] Reading mapping '{key:inventor=inventor-02, key:patronage=patronage-02, link=https://www.ham.com, creation-moment=2020/12/01 12:00, memorandum=Patronage denied!, key=patronage-report-02, automatic-seq-num=BBB-202-B:0002}' from 'C:\Users\34657\Desktop\Workspace-22.0\Starters\Acme-One\target\classes\WEB-INF\resources\sample-data\patronage-report.csv' 
+2022-05-06 21:25:34.200 DEBUG [acme.framework.components.database.Dataset@main] Reading dataset from 'C:\Users\34657\Desktop\Workspace-22.0\Starters\Acme-One\target\classes\WEB-INF\resources\sample-data\patronage.csv' 
+2022-05-06 21:25:34.200 DEBUG [acme.framework.components.database.Dataset@main] Reading mapping '{finishingDate=2022/03/24 13:00, key:inventor=inventor-01, code=KIL-788-A, link=https://www.starjam.com, key:patron=patron-01, startingDate=2022/03/14 13:00, key=patronage-01, status=ACCEPTED, legalStuff=Absolutely legal, budget=EUR 450.0}' from 'C:\Users\34657\Desktop\Workspace-22.0\Starters\Acme-One\target\classes\WEB-INF\resources\sample-data\patronage.csv' 
+2022-05-06 21:25:34.201 DEBUG [acme.framework.components.database.Dataset@main] Reading mapping '{finishingDate=2021/06/16 17:45, key:inventor=inventor-01, code=HJJ-712-P, link=https://www.plum.com, key:patron=patron-02, startingDate=2021/06/06 17:45, key=patronage-02, status=PROPOSED, legalStuff=Totally illegal, budget=EUR 150.0}' from 'C:\Users\34657\Desktop\Workspace-22.0\Starters\Acme-One\target\classes\WEB-INF\resources\sample-data\patronage.csv' 
+2022-05-06 21:25:34.201 DEBUG [acme.framework.components.database.Dataset@main] Reading dataset from 'C:\Users\34657\Desktop\Workspace-22.0\Starters\Acme-One\target\classes\WEB-INF\resources\sample-data\toolkit.csv' 
+2022-05-06 21:25:34.202 DEBUG [acme.framework.components.database.Dataset@main] Reading mapping '{assemblyNotes=ejemplo, code=AAA-000, publish=true, link=http://www.google.com, description=Toolkit 1, title=1, key=toolkit-01, key:item=item-01}' from 'C:\Users\34657\Desktop\Workspace-22.0\Starters\Acme-One\target\classes\WEB-INF\resources\sample-data\toolkit.csv' 
+2022-05-06 21:25:34.202 DEBUG [acme.framework.components.database.Dataset@main] Reading mapping '{assemblyNotes=ejemplo, code=BBB-111, publish=true, link=http://www.google.com, description=Toolkit 2, title=2, key=toolkit-02, key:item=item-01}' from 'C:\Users\34657\Desktop\Workspace-22.0\Starters\Acme-One\target\classes\WEB-INF\resources\sample-data\toolkit.csv' 
+2022-05-06 21:25:34.202 DEBUG [acme.framework.components.database.EntityWeb@main] Setting attributes of entities of class acme.entities.Announcement 
+2022-05-06 21:25:34.219 DEBUG [acme.framework.configuration.ExtendedMessageSource@main] Loading properties [C:\Users\34657\Desktop\Workspace-22.0\Starters\Acme-One\target\classes\WEB-INF\views\administrator\dashboard\messsages-en.i18n] with encoding 'utf-8' 
+2022-05-06 21:25:34.221 DEBUG [acme.framework.configuration.ExtendedMessageSource@main] Loading properties [C:\Users\34657\Desktop\Workspace-22.0\Starters\Acme-One\target\classes\WEB-INF\views\administrator\system-configuration\messsages-en.i18n] with encoding 'utf-8' 
+2022-05-06 21:25:34.222 DEBUG [acme.framework.configuration.ExtendedMessageSource@main] Loading properties [C:\Users\34657\Desktop\Workspace-22.0\Starters\Acme-One\target\classes\WEB-INF\views\administrator\user-account\messages-en.i18n] with encoding 'utf-8' 
+2022-05-06 21:25:34.223 DEBUG [acme.framework.configuration.ExtendedMessageSource@main] Loading properties [C:\Users\34657\Desktop\Workspace-22.0\Starters\Acme-One\target\classes\WEB-INF\views\anonymous\user-account\mesagges-en.i18n] with encoding 'utf-8' 
+2022-05-06 21:25:34.224 DEBUG [acme.framework.configuration.ExtendedMessageSource@main] Loading properties [C:\Users\34657\Desktop\Workspace-22.0\Starters\Acme-One\target\classes\WEB-INF\views\any\chirp\mesagges-en.i18n] with encoding 'utf-8' 
+2022-05-06 21:25:34.225 DEBUG [acme.framework.configuration.ExtendedMessageSource@main] Loading properties [C:\Users\34657\Desktop\Workspace-22.0\Starters\Acme-One\target\classes\WEB-INF\views\any\item\mesagges-en.i18n] with encoding 'utf-8' 
+2022-05-06 21:25:34.225 DEBUG [acme.framework.configuration.ExtendedMessageSource@main] Loading properties [C:\Users\34657\Desktop\Workspace-22.0\Starters\Acme-One\target\classes\WEB-INF\views\any\toolkit\mesagges-en.i18n] with encoding 'utf-8' 
+2022-05-06 21:25:34.226 DEBUG [acme.framework.configuration.ExtendedMessageSource@main] Loading properties [C:\Users\34657\Desktop\Workspace-22.0\Starters\Acme-One\target\classes\WEB-INF\views\any\user-account\mesagges-en.i18n] with encoding 'utf-8' 
+2022-05-06 21:25:34.226 DEBUG [acme.framework.configuration.ExtendedMessageSource@main] Loading properties [C:\Users\34657\Desktop\Workspace-22.0\Starters\Acme-One\target\classes\WEB-INF\views\authenticated\announcement\messsages-en.i18n] with encoding 'utf-8' 
+2022-05-06 21:25:34.227 DEBUG [acme.framework.configuration.ExtendedMessageSource@main] Loading properties [C:\Users\34657\Desktop\Workspace-22.0\Starters\Acme-One\target\classes\WEB-INF\views\authenticated\consumer\messsages-en.i18n] with encoding 'utf-8' 
+2022-05-06 21:25:34.228 DEBUG [acme.framework.configuration.ExtendedMessageSource@main] Loading properties [C:\Users\34657\Desktop\Workspace-22.0\Starters\Acme-One\target\classes\WEB-INF\views\authenticated\currency\messsages-en.i18n] with encoding 'utf-8' 
+2022-05-06 21:25:34.228 DEBUG [acme.framework.configuration.ExtendedMessageSource@main] Loading properties [C:\Users\34657\Desktop\Workspace-22.0\Starters\Acme-One\target\classes\WEB-INF\views\authenticated\provider\messsages-en.i18n] with encoding 'utf-8' 
+2022-05-06 21:25:34.229 DEBUG [acme.framework.configuration.ExtendedMessageSource@main] Loading properties [C:\Users\34657\Desktop\Workspace-22.0\Starters\Acme-One\target\classes\WEB-INF\views\authenticated\spam\messsages-en.i18n] with encoding 'utf-8' 
+2022-05-06 21:25:34.230 DEBUG [acme.framework.configuration.ExtendedMessageSource@main] Loading properties [C:\Users\34657\Desktop\Workspace-22.0\Starters\Acme-One\target\classes\WEB-INF\views\fragments\banner-en.i18n] with encoding 'utf-8' 
+2022-05-06 21:25:34.231 DEBUG [acme.framework.configuration.ExtendedMessageSource@main] Loading properties [C:\Users\34657\Desktop\Workspace-22.0\Starters\Acme-One\target\classes\WEB-INF\views\fragments\company-en.i18n] with encoding 'utf-8' 
+2022-05-06 21:25:34.232 DEBUG [acme.framework.configuration.ExtendedMessageSource@main] Loading properties [C:\Users\34657\Desktop\Workspace-22.0\Starters\Acme-One\target\classes\WEB-INF\views\fragments\footer-en.i18n] with encoding 'utf-8' 
+2022-05-06 21:25:34.233 DEBUG [acme.framework.configuration.ExtendedMessageSource@main] Loading properties [C:\Users\34657\Desktop\Workspace-22.0\Starters\Acme-One\target\classes\WEB-INF\views\fragments\license-en.i18n] with encoding 'utf-8' 
+2022-05-06 21:25:34.234 DEBUG [acme.framework.configuration.ExtendedMessageSource@main] Loading properties [C:\Users\34657\Desktop\Workspace-22.0\Starters\Acme-One\target\classes\WEB-INF\views\fragments\menu-en.i18n] with encoding 'utf-8' 
+2022-05-06 21:25:34.235 DEBUG [acme.framework.configuration.ExtendedMessageSource@main] Loading properties [C:\Users\34657\Desktop\Workspace-22.0\Starters\Acme-One\target\classes\WEB-INF\views\fragments\messsages-en.i18n] with encoding 'utf-8' 
+2022-05-06 21:25:34.236 DEBUG [acme.framework.configuration.ExtendedMessageSource@main] Loading properties [C:\Users\34657\Desktop\Workspace-22.0\Starters\Acme-One\target\classes\WEB-INF\views\fragments\title-en.i18n] with encoding 'utf-8' 
+2022-05-06 21:25:34.237 DEBUG [acme.framework.configuration.ExtendedMessageSource@main] Loading properties [C:\Users\34657\Desktop\Workspace-22.0\Starters\Acme-One\target\classes\WEB-INF\views\fragments\welcome-en.i18n] with encoding 'utf-8' 
+2022-05-06 21:25:34.237 DEBUG [acme.framework.configuration.ExtendedMessageSource@main] Loading properties [C:\Users\34657\Desktop\Workspace-22.0\Starters\Acme-One\target\classes\WEB-INF\views\inventor\item\messagges-en.i18n] with encoding 'utf-8' 
+2022-05-06 21:25:34.238 DEBUG [acme.framework.configuration.ExtendedMessageSource@main] Loading properties [C:\Users\34657\Desktop\Workspace-22.0\Starters\Acme-One\target\classes\WEB-INF\views\inventor\patronage\messsages-en.i18n] with encoding 'utf-8' 
+2022-05-06 21:25:34.238 DEBUG [acme.framework.configuration.ExtendedMessageSource@main] Loading properties [C:\Users\34657\Desktop\Workspace-22.0\Starters\Acme-One\target\classes\WEB-INF\views\inventor\patronage-report\messsages-en.i18n] with encoding 'utf-8' 
+2022-05-06 21:25:34.240 DEBUG [acme.framework.configuration.ExtendedMessageSource@main] Loading properties [C:\Users\34657\Desktop\Workspace-22.0\Starters\Acme-One\target\classes\WEB-INF\views\inventor\toolkit\messsages-en.i18n] with encoding 'utf-8' 
+2022-05-06 21:25:34.240 DEBUG [acme.framework.configuration.ExtendedMessageSource@main] Loading properties [C:\Users\34657\Desktop\Workspace-22.0\Starters\Acme-One\target\classes\WEB-INF\views\master\defaults-en.i18n] with encoding 'utf-8' 
+2022-05-06 21:25:34.241 DEBUG [acme.framework.configuration.ExtendedMessageSource@main] Loading properties [C:\Users\34657\Desktop\Workspace-22.0\Starters\Acme-One\target\classes\WEB-INF\views\master\master-en.i18n] with encoding 'utf-8' 
+2022-05-06 21:25:34.242 DEBUG [acme.framework.configuration.ExtendedMessageSource@main] Loading properties [C:\Users\34657\Desktop\Workspace-22.0\Starters\Acme-One\target\classes\WEB-INF\views\master\throwables-en.i18n] with encoding 'utf-8' 
+2022-05-06 21:25:34.242 DEBUG [acme.framework.configuration.ExtendedMessageSource@main] Loading properties [C:\Users\34657\Desktop\Workspace-22.0\Starters\Acme-One\target\classes\WEB-INF\views\master\validation-en.i18n] with encoding 'utf-8' 
+2022-05-06 21:25:34.243 DEBUG [acme.framework.configuration.ExtendedMessageSource@main] Loading properties [C:\Users\34657\Desktop\Workspace-22.0\Starters\Acme-One\target\classes\WEB-INF\views\patron\dashboard\messsages-en.i18n] with encoding 'utf-8' 
+2022-05-06 21:25:34.244 DEBUG [acme.framework.configuration.ExtendedMessageSource@main] Loading properties [C:\Users\34657\Desktop\Workspace-22.0\Starters\Acme-One\target\classes\WEB-INF\views\patron\inventor\messsages-en.i18n] with encoding 'utf-8' 
+2022-05-06 21:25:34.244 DEBUG [acme.framework.configuration.ExtendedMessageSource@main] Loading properties [C:\Users\34657\Desktop\Workspace-22.0\Starters\Acme-One\target\classes\WEB-INF\views\patron\patronage\messsages-en.i18n] with encoding 'utf-8' 
+2022-05-06 21:25:34.245 DEBUG [acme.framework.configuration.ExtendedMessageSource@main] Loading properties [C:\Users\34657\Desktop\Workspace-22.0\Starters\Acme-One\target\classes\WEB-INF\views\patron\patronage-report\messsages-en.i18n] with encoding 'utf-8' 
+2022-05-06 21:25:34.248 DEBUG [acme.framework.components.database.EntityWeb@main] Setting attributes of entities of class acme.entities.Chirp 
+2022-05-06 21:25:34.254 DEBUG [acme.framework.components.database.EntityWeb@main] Setting attributes of entities of class acme.roles.Consumer 
+2022-05-06 21:25:34.258 DEBUG [acme.framework.components.database.EntityWeb@main] Setting attributes of entities of class acme.entities.Toolkit 
+2022-05-06 21:25:34.263 DEBUG [acme.framework.components.database.EntityWeb@main] Setting attributes of entities of class acme.entities.Item 
+2022-05-06 21:25:34.269 DEBUG [acme.framework.components.database.EntityWeb@main] Setting attributes of entities of class acme.entities.Patronage 
+2022-05-06 21:25:34.276 DEBUG [acme.framework.components.database.EntityWeb@main] Setting attributes of entities of class acme.entities.PatronageReport 
+2022-05-06 21:25:34.281 DEBUG [acme.framework.components.database.EntityWeb@main] Linking entities of class acme.entities.Announcement 
+2022-05-06 21:25:34.282 DEBUG [acme.framework.components.database.EntityWeb@main] Linking entities of class acme.entities.Chirp 
+2022-05-06 21:25:34.282 DEBUG [acme.framework.components.database.EntityWeb@main] Linking entities of class acme.roles.Consumer 
+2022-05-06 21:25:34.282 DEBUG [acme.framework.components.database.EntityWeb@main] Linking entities of class acme.entities.Toolkit 
+2022-05-06 21:25:34.282 DEBUG [acme.framework.components.database.EntityWeb@main] Linking entities of class acme.entities.Item 
+2022-05-06 21:25:34.282 DEBUG [acme.framework.components.database.EntityWeb@main] Linking entities of class acme.entities.Patronage 
+2022-05-06 21:25:34.283 DEBUG [acme.framework.components.database.EntityWeb@main] Linking entities of class acme.entities.PatronageReport 
+2022-05-06 21:25:34.283 INFO  [acme.framework.components.database.DatabasePopulator@main] Validating your entities 
+2022-05-06 21:25:34.341 DEBUG [acme.framework.components.database.DatabasePopulator@main] Validating 'acme.entities.Announcement@announcement-02' ... PASS 
+2022-05-06 21:25:34.370 DEBUG [acme.framework.components.database.DatabasePopulator@main] Validating 'acme.roles.Patron@patron-01' ... PASS 
+2022-05-06 21:25:34.371 DEBUG [acme.framework.components.database.DatabasePopulator@main] Validating 'acme.roles.Patron@patron-02' ... PASS 
+2022-05-06 21:25:34.373 DEBUG [acme.framework.components.database.DatabasePopulator@main] Validating 'acme.roles.Patron@patron-03' ... PASS 
+2022-05-06 21:25:34.374 DEBUG [acme.framework.components.database.DatabasePopulator@main] Validating 'acme.entities.Announcement@announcement-01' ... PASS 
+2022-05-06 21:25:34.382 DEBUG [acme.framework.components.database.DatabasePopulator@main] Validating 'acme.entities.Chirp@chirp-02' ... PASS 
+2022-05-06 21:25:34.384 DEBUG [acme.framework.components.database.DatabasePopulator@main] Validating 'acme.roles.Patron@patron-04' ... PASS 
+2022-05-06 21:25:34.387 DEBUG [acme.framework.components.database.DatabasePopulator@main] Validating 'acme.framework.roles.Administrator@administrator-01' ... PASS 
+2022-05-06 21:25:34.388 DEBUG [acme.framework.components.database.DatabasePopulator@main] Validating 'acme.entities.Chirp@chirp-01' ... PASS 
+2022-05-06 21:25:34.395 DEBUG [acme.framework.components.database.DatabasePopulator@main] Validating 'acme.entities.Spam@spam-01' ... PASS 
+2022-05-06 21:25:34.397 DEBUG [acme.framework.components.database.DatabasePopulator@main] Validating 'acme.entities.Spam@spam-02' ... PASS 
+2022-05-06 21:25:34.398 DEBUG [acme.framework.components.database.DatabasePopulator@main] Validating 'acme.entities.Spam@spam-03' ... PASS 
+2022-05-06 21:25:34.400 DEBUG [acme.framework.components.database.DatabasePopulator@main] Validating 'acme.framework.entities.UserAccount@user-account-patron-01' ... PASS 
+2022-05-06 21:25:34.402 DEBUG [acme.framework.components.database.DatabasePopulator@main] Validating 'acme.framework.entities.UserAccount@user-account-patron-02' ... PASS 
+2022-05-06 21:25:34.403 DEBUG [acme.framework.components.database.DatabasePopulator@main] Validating 'acme.entities.Spam@spam-08' ... PASS 
+2022-05-06 21:25:34.403 DEBUG [acme.framework.components.database.DatabasePopulator@main] Validating 'acme.entities.Spam@spam-09' ... PASS 
+2022-05-06 21:25:34.404 DEBUG [acme.framework.components.database.DatabasePopulator@main] Validating 'acme.entities.Spam@spam-04' ... PASS 
+2022-05-06 21:25:34.405 DEBUG [acme.framework.components.database.DatabasePopulator@main] Validating 'acme.entities.Spam@spam-05' ... PASS 
+2022-05-06 21:25:34.405 DEBUG [acme.framework.components.database.DatabasePopulator@main] Validating 'acme.entities.Spam@spam-06' ... PASS 
+2022-05-06 21:25:34.406 DEBUG [acme.framework.components.database.DatabasePopulator@main] Validating 'acme.entities.Spam@spam-07' ... PASS 
+2022-05-06 21:25:34.407 DEBUG [acme.framework.components.database.DatabasePopulator@main] Validating 'acme.framework.entities.UserAccount@user-account-anonymous-01' ... PASS 
+2022-05-06 21:25:34.408 DEBUG [acme.framework.components.database.DatabasePopulator@main] Validating 'acme.framework.entities.UserAccount@user-account-inventor-03' ... PASS 
+2022-05-06 21:25:34.409 DEBUG [acme.framework.components.database.DatabasePopulator@main] Validating 'acme.framework.entities.UserAccount@user-account-inventor-02' ... PASS 
+2022-05-06 21:25:34.410 DEBUG [acme.framework.components.database.DatabasePopulator@main] Validating 'acme.framework.entities.UserAccount@user-account-inventor-04' ... PASS 
+2022-05-06 21:25:34.411 DEBUG [acme.framework.components.database.DatabasePopulator@main] Validating 'acme.framework.entities.UserAccount@user-account-consumer-01' ... PASS 
+2022-05-06 21:25:34.412 DEBUG [acme.framework.components.database.DatabasePopulator@main] Validating 'acme.framework.entities.UserAccount@user-account-consumer-02' ... PASS 
+2022-05-06 21:25:34.413 DEBUG [acme.framework.components.database.DatabasePopulator@main] Validating 'acme.entities.Spam@spam-11' ... PASS 
+2022-05-06 21:25:34.413 DEBUG [acme.framework.components.database.DatabasePopulator@main] Validating 'acme.entities.Spam@spam-12' ... PASS 
+2022-05-06 21:25:34.414 DEBUG [acme.framework.components.database.DatabasePopulator@main] Validating 'acme.entities.Spam@spam-13' ... PASS 
+2022-05-06 21:25:34.414 DEBUG [acme.framework.components.database.DatabasePopulator@main] Validating 'acme.entities.Spam@spam-10' ... PASS 
+2022-05-06 21:25:34.418 DEBUG [acme.framework.components.database.DatabasePopulator@main] Validating 'acme.framework.roles.Anonymous@anonymous-01' ... PASS 
+2022-05-06 21:25:34.419 DEBUG [acme.framework.components.database.DatabasePopulator@main] Validating 'acme.framework.entities.UserAccount@user-account-inventor-01' ... PASS 
+2022-05-06 21:25:34.438 DEBUG [acme.framework.components.database.DatabasePopulator@main] Validating 'acme.entities.Toolkit@toolkit-01' ... PASS 
+2022-05-06 21:25:34.441 DEBUG [acme.framework.components.database.DatabasePopulator@main] Validating 'acme.entities.Toolkit@toolkit-02' ... PASS 
+2022-05-06 21:25:34.453 DEBUG [acme.framework.components.database.DatabasePopulator@main] Validating 'acme.entities.PatronageReport@patronage-report-01' ... PASS 
+2022-05-06 21:25:34.457 DEBUG [acme.framework.components.database.DatabasePopulator@main] Validating 'acme.entities.PatronageReport@patronage-report-02' ... PASS 
+2022-05-06 21:25:34.460 DEBUG [acme.framework.components.database.DatabasePopulator@main] Validating 'acme.entities.Currency@currency-02' ... PASS 
+2022-05-06 21:25:34.461 DEBUG [acme.framework.components.database.DatabasePopulator@main] Validating 'acme.framework.entities.UserAccount@user-account-administrator-01' ... PASS 
+2022-05-06 21:25:34.461 DEBUG [acme.framework.components.database.DatabasePopulator@main] Validating 'acme.entities.Currency@currency-03' ... PASS 
+2022-05-06 21:25:34.462 DEBUG [acme.framework.components.database.DatabasePopulator@main] Validating 'acme.entities.Currency@currency-01' ... PASS 
+2022-05-06 21:25:34.463 DEBUG [acme.framework.components.database.DatabasePopulator@main] Validating 'acme.framework.entities.UserAccount@user-account-provider-02' ... PASS 
+2022-05-06 21:25:34.463 DEBUG [acme.framework.components.database.DatabasePopulator@main] Validating 'acme.framework.entities.UserAccount@user-account-provider-01' ... PASS 
+2022-05-06 21:25:34.467 DEBUG [acme.framework.components.database.DatabasePopulator@main] Validating 'acme.roles.Provider@provider-01' ... PASS 
+2022-05-06 21:25:34.470 DEBUG [acme.framework.components.database.DatabasePopulator@main] Validating 'acme.entities.Patronage@patronage-01' ... PASS 
+2022-05-06 21:25:34.471 DEBUG [acme.framework.components.database.DatabasePopulator@main] Validating 'acme.roles.Provider@provider-02' ... PASS 
+2022-05-06 21:25:34.473 DEBUG [acme.framework.components.database.DatabasePopulator@main] Validating 'acme.entities.Patronage@patronage-02' ... PASS 
+2022-05-06 21:25:34.475 DEBUG [acme.framework.components.database.DatabasePopulator@main] Validating 'acme.entities.Item@item-01' ... PASS 
+2022-05-06 21:25:34.476 DEBUG [acme.framework.components.database.DatabasePopulator@main] Validating 'acme.entities.Item@item-02' ... PASS 
+2022-05-06 21:25:34.477 DEBUG [acme.framework.components.database.DatabasePopulator@main] Validating 'acme.framework.entities.UserAccount@user-account-patron-03' ... PASS 
+2022-05-06 21:25:34.478 DEBUG [acme.framework.components.database.DatabasePopulator@main] Validating 'acme.framework.entities.UserAccount@user-account-patron-04' ... PASS 
+2022-05-06 21:25:34.480 DEBUG [acme.framework.components.database.DatabasePopulator@main] Validating 'acme.roles.Consumer@consumer-02' ... PASS 
+2022-05-06 21:25:34.481 DEBUG [acme.framework.components.database.DatabasePopulator@main] Validating 'acme.roles.Consumer@consumer-01' ... PASS 
+2022-05-06 21:25:34.482 DEBUG [acme.framework.components.database.DatabasePopulator@main] Validating 'acme.roles.Inventor@inventor-04' ... PASS 
+2022-05-06 21:25:34.482 DEBUG [acme.framework.components.database.DatabasePopulator@main] Validating 'acme.roles.Inventor@inventor-02' ... PASS 
+2022-05-06 21:25:34.483 DEBUG [acme.framework.components.database.DatabasePopulator@main] Validating 'acme.roles.Inventor@inventor-03' ... PASS 
+2022-05-06 21:25:34.484 DEBUG [acme.framework.components.database.DatabasePopulator@main] Validating 'acme.roles.Inventor@inventor-01' ... PASS 
+2022-05-06 21:25:34.484 INFO  [acme.framework.components.database.DatabasePopulator@main] Sorting your entity classes 
+2022-05-06 21:25:34.485 DEBUG [acme.framework.components.database.DatabasePopulator@main] Best topological order for your entity clazzes: 
+2022-05-06 21:25:34.485 DEBUG [acme.framework.components.database.DatabasePopulator@main] - acme.framework.entities.UserAccount 
+2022-05-06 21:25:34.485 DEBUG [acme.framework.components.database.DatabasePopulator@main] - acme.roles.Patron 
+2022-05-06 21:25:34.485 DEBUG [acme.framework.components.database.DatabasePopulator@main] - acme.framework.roles.Administrator 
+2022-05-06 21:25:34.485 DEBUG [acme.framework.components.database.DatabasePopulator@main] - acme.roles.Inventor 
+2022-05-06 21:25:34.485 DEBUG [acme.framework.components.database.DatabasePopulator@main] - acme.entities.Patronage 
+2022-05-06 21:25:34.485 DEBUG [acme.framework.components.database.DatabasePopulator@main] - acme.entities.PatronageReport 
+2022-05-06 21:25:34.485 DEBUG [acme.framework.components.database.DatabasePopulator@main] - acme.framework.roles.Anonymous 
+2022-05-06 21:25:34.485 DEBUG [acme.framework.components.database.DatabasePopulator@main] - acme.roles.Provider 
+2022-05-06 21:25:34.485 DEBUG [acme.framework.components.database.DatabasePopulator@main] - acme.entities.Announcement 
+2022-05-06 21:25:34.486 DEBUG [acme.framework.components.database.DatabasePopulator@main] - acme.entities.Spam 
+2022-05-06 21:25:34.486 DEBUG [acme.framework.components.database.DatabasePopulator@main] - acme.entities.Chirp 
+2022-05-06 21:25:34.486 DEBUG [acme.framework.components.database.DatabasePopulator@main] - acme.roles.Consumer 
+2022-05-06 21:25:34.486 DEBUG [acme.framework.components.database.DatabasePopulator@main] - acme.entities.Item 
+2022-05-06 21:25:34.486 DEBUG [acme.framework.components.database.DatabasePopulator@main] - acme.entities.Toolkit 
+2022-05-06 21:25:34.486 DEBUG [acme.framework.components.database.DatabasePopulator@main] - acme.entities.Currency 
+2022-05-06 21:25:34.486 INFO  [acme.framework.components.database.DatabasePopulator@main] Persisting your entities 
+2022-05-06 21:25:34.486 DEBUG [acme.framework.components.database.DatabaseUtil@main] Starting new transaction. 
+2022-05-06 21:25:34.487 DEBUG [acme.framework.components.database.DatabaseUtil@main] Executing command 'set transaction isolation level read uncommitted;'. 
+2022-05-06 21:25:34.488 DEBUG [acme.framework.components.database.DatabaseUtil@main] Starting transaction '413481120'. 
+2022-05-06 21:25:34.488 DEBUG [acme.framework.components.database.DatabasePopulator@main] Persising entities of clazz 'acme.framework.entities.UserAccount' 
+2022-05-06 21:25:34.511 DEBUG [org.hibernate.SQL@main] select next_val as id_val from hibernate_sequence for update 
+2022-05-06 21:25:34.527 DEBUG [org.hibernate.SQL@main] update hibernate_sequence set next_val= ? where next_val=? 
+2022-05-06 21:25:34.569 DEBUG [acme.framework.components.database.DatabaseUtil@main] Persisting entity UserAccount(username=anonymous) 
+2022-05-06 21:25:34.570 DEBUG [org.hibernate.SQL@main] select next_val as id_val from hibernate_sequence for update 
+2022-05-06 21:25:34.571 DEBUG [org.hibernate.SQL@main] update hibernate_sequence set next_val= ? where next_val=? 
+2022-05-06 21:25:34.573 DEBUG [acme.framework.components.database.DatabaseUtil@main] Persisting entity UserAccount(username=inventor3) 
+2022-05-06 21:25:34.574 DEBUG [org.hibernate.SQL@main] select next_val as id_val from hibernate_sequence for update 
+2022-05-06 21:25:34.575 DEBUG [org.hibernate.SQL@main] update hibernate_sequence set next_val= ? where next_val=? 
+2022-05-06 21:25:34.578 DEBUG [acme.framework.components.database.DatabaseUtil@main] Persisting entity UserAccount(username=inventor2) 
+2022-05-06 21:25:34.578 DEBUG [org.hibernate.SQL@main] select next_val as id_val from hibernate_sequence for update 
+2022-05-06 21:25:34.579 DEBUG [org.hibernate.SQL@main] update hibernate_sequence set next_val= ? where next_val=? 
+2022-05-06 21:25:34.582 DEBUG [acme.framework.components.database.DatabaseUtil@main] Persisting entity UserAccount(username=inventor4) 
+2022-05-06 21:25:34.582 DEBUG [org.hibernate.SQL@main] select next_val as id_val from hibernate_sequence for update 
+2022-05-06 21:25:34.583 DEBUG [org.hibernate.SQL@main] update hibernate_sequence set next_val= ? where next_val=? 
+2022-05-06 21:25:34.586 DEBUG [acme.framework.components.database.DatabaseUtil@main] Persisting entity UserAccount(username=administrator) 
+2022-05-06 21:25:34.587 DEBUG [org.hibernate.SQL@main] select next_val as id_val from hibernate_sequence for update 
+2022-05-06 21:25:34.587 DEBUG [org.hibernate.SQL@main] update hibernate_sequence set next_val= ? where next_val=? 
+2022-05-06 21:25:34.601 DEBUG [acme.framework.components.database.DatabaseUtil@main] Persisting entity UserAccount(username=patron3) 
+2022-05-06 21:25:34.602 DEBUG [org.hibernate.SQL@main] select next_val as id_val from hibernate_sequence for update 
+2022-05-06 21:25:34.602 DEBUG [org.hibernate.SQL@main] update hibernate_sequence set next_val= ? where next_val=? 
+2022-05-06 21:25:34.605 DEBUG [acme.framework.components.database.DatabaseUtil@main] Persisting entity UserAccount(username=consumer1) 
+2022-05-06 21:25:34.606 DEBUG [org.hibernate.SQL@main] select next_val as id_val from hibernate_sequence for update 
+2022-05-06 21:25:34.606 DEBUG [org.hibernate.SQL@main] update hibernate_sequence set next_val= ? where next_val=? 
+2022-05-06 21:25:34.609 DEBUG [acme.framework.components.database.DatabaseUtil@main] Persisting entity UserAccount(username=patron4) 
+2022-05-06 21:25:34.610 DEBUG [org.hibernate.SQL@main] select next_val as id_val from hibernate_sequence for update 
+2022-05-06 21:25:34.611 DEBUG [org.hibernate.SQL@main] update hibernate_sequence set next_val= ? where next_val=? 
+2022-05-06 21:25:34.616 DEBUG [acme.framework.components.database.DatabaseUtil@main] Persisting entity UserAccount(username=consumer2) 
+2022-05-06 21:25:34.617 DEBUG [org.hibernate.SQL@main] select next_val as id_val from hibernate_sequence for update 
+2022-05-06 21:25:34.618 DEBUG [org.hibernate.SQL@main] update hibernate_sequence set next_val= ? where next_val=? 
+2022-05-06 21:25:34.621 DEBUG [acme.framework.components.database.DatabaseUtil@main] Persisting entity UserAccount(username=provider2) 
+2022-05-06 21:25:34.622 DEBUG [org.hibernate.SQL@main] select next_val as id_val from hibernate_sequence for update 
+2022-05-06 21:25:34.622 DEBUG [org.hibernate.SQL@main] update hibernate_sequence set next_val= ? where next_val=? 
+2022-05-06 21:25:34.626 DEBUG [acme.framework.components.database.DatabaseUtil@main] Persisting entity UserAccount(username=provider1) 
+2022-05-06 21:25:34.626 DEBUG [org.hibernate.SQL@main] select next_val as id_val from hibernate_sequence for update 
+2022-05-06 21:25:34.627 DEBUG [org.hibernate.SQL@main] update hibernate_sequence set next_val= ? where next_val=? 
+2022-05-06 21:25:34.633 DEBUG [acme.framework.components.database.DatabaseUtil@main] Persisting entity UserAccount(username=patron1) 
+2022-05-06 21:25:34.634 DEBUG [org.hibernate.SQL@main] select next_val as id_val from hibernate_sequence for update 
+2022-05-06 21:25:34.635 DEBUG [org.hibernate.SQL@main] update hibernate_sequence set next_val= ? where next_val=? 
+2022-05-06 21:25:34.638 DEBUG [acme.framework.components.database.DatabaseUtil@main] Persisting entity UserAccount(username=patron2) 
+2022-05-06 21:25:34.639 DEBUG [org.hibernate.SQL@main] select next_val as id_val from hibernate_sequence for update 
+2022-05-06 21:25:34.640 DEBUG [org.hibernate.SQL@main] update hibernate_sequence set next_val= ? where next_val=? 
+2022-05-06 21:25:34.644 DEBUG [acme.framework.components.database.DatabaseUtil@main] Persisting entity UserAccount(username=inventor1) 
+2022-05-06 21:25:34.644 DEBUG [acme.framework.components.database.DatabasePopulator@main] Persising entities of clazz 'acme.roles.Patron' 
+2022-05-06 21:25:34.645 DEBUG [org.hibernate.SQL@main] select next_val as id_val from hibernate_sequence for update 
+2022-05-06 21:25:34.648 DEBUG [org.hibernate.SQL@main] update hibernate_sequence set next_val= ? where next_val=? 
+2022-05-06 21:25:34.653 DEBUG [acme.framework.components.database.DatabaseUtil@main] Persisting entity UserRole(userAccount=UserAccount(username=patron1)) 
+2022-05-06 21:25:34.654 DEBUG [org.hibernate.SQL@main] select next_val as id_val from hibernate_sequence for update 
+2022-05-06 21:25:34.655 DEBUG [org.hibernate.SQL@main] update hibernate_sequence set next_val= ? where next_val=? 
+2022-05-06 21:25:34.657 DEBUG [acme.framework.components.database.DatabaseUtil@main] Persisting entity UserRole(userAccount=UserAccount(username=patron2)) 
+2022-05-06 21:25:34.657 DEBUG [org.hibernate.SQL@main] select next_val as id_val from hibernate_sequence for update 
+2022-05-06 21:25:34.658 DEBUG [org.hibernate.SQL@main] update hibernate_sequence set next_val= ? where next_val=? 
+2022-05-06 21:25:34.660 DEBUG [acme.framework.components.database.DatabaseUtil@main] Persisting entity UserRole(userAccount=UserAccount(username=patron3)) 
+2022-05-06 21:25:34.661 DEBUG [org.hibernate.SQL@main] select next_val as id_val from hibernate_sequence for update 
+2022-05-06 21:25:34.663 DEBUG [org.hibernate.SQL@main] update hibernate_sequence set next_val= ? where next_val=? 
+2022-05-06 21:25:34.666 DEBUG [acme.framework.components.database.DatabaseUtil@main] Persisting entity UserRole(userAccount=UserAccount(username=patron4)) 
+2022-05-06 21:25:34.666 DEBUG [acme.framework.components.database.DatabasePopulator@main] Persising entities of clazz 'acme.framework.roles.Administrator' 
+2022-05-06 21:25:34.666 DEBUG [org.hibernate.SQL@main] select next_val as id_val from hibernate_sequence for update 
+2022-05-06 21:25:34.667 DEBUG [org.hibernate.SQL@main] update hibernate_sequence set next_val= ? where next_val=? 
+2022-05-06 21:25:34.669 DEBUG [acme.framework.components.database.DatabaseUtil@main] Persisting entity UserRole(userAccount=UserAccount(username=administrator)) 
+2022-05-06 21:25:34.670 DEBUG [acme.framework.components.database.DatabasePopulator@main] Persising entities of clazz 'acme.roles.Inventor' 
+2022-05-06 21:25:34.670 DEBUG [org.hibernate.SQL@main] select next_val as id_val from hibernate_sequence for update 
+2022-05-06 21:25:34.671 DEBUG [org.hibernate.SQL@main] update hibernate_sequence set next_val= ? where next_val=? 
+2022-05-06 21:25:34.673 DEBUG [acme.framework.components.database.DatabaseUtil@main] Persisting entity UserRole(userAccount=UserAccount(username=inventor4)) 
+2022-05-06 21:25:34.674 DEBUG [org.hibernate.SQL@main] select next_val as id_val from hibernate_sequence for update 
+2022-05-06 21:25:34.674 DEBUG [org.hibernate.SQL@main] update hibernate_sequence set next_val= ? where next_val=? 
+2022-05-06 21:25:34.677 DEBUG [acme.framework.components.database.DatabaseUtil@main] Persisting entity UserRole(userAccount=UserAccount(username=inventor2)) 
+2022-05-06 21:25:34.678 DEBUG [org.hibernate.SQL@main] select next_val as id_val from hibernate_sequence for update 
+2022-05-06 21:25:34.679 DEBUG [org.hibernate.SQL@main] update hibernate_sequence set next_val= ? where next_val=? 
+2022-05-06 21:25:34.682 DEBUG [acme.framework.components.database.DatabaseUtil@main] Persisting entity UserRole(userAccount=UserAccount(username=inventor3)) 
+2022-05-06 21:25:34.682 DEBUG [org.hibernate.SQL@main] select next_val as id_val from hibernate_sequence for update 
+2022-05-06 21:25:34.683 DEBUG [org.hibernate.SQL@main] update hibernate_sequence set next_val= ? where next_val=? 
+2022-05-06 21:25:34.685 DEBUG [acme.framework.components.database.DatabaseUtil@main] Persisting entity UserRole(userAccount=UserAccount(username=inventor1)) 
+2022-05-06 21:25:34.685 DEBUG [acme.framework.components.database.DatabasePopulator@main] Persising entities of clazz 'acme.entities.Patronage' 
+2022-05-06 21:25:34.686 DEBUG [org.hibernate.SQL@main] select next_val as id_val from hibernate_sequence for update 
+2022-05-06 21:25:34.686 DEBUG [org.hibernate.SQL@main] update hibernate_sequence set next_val= ? where next_val=? 
+2022-05-06 21:25:34.689 DEBUG [acme.framework.components.database.DatabaseUtil@main] Persisting entity acme.entities.Patronage{id=24, version=0} 
+2022-05-06 21:25:34.690 DEBUG [org.hibernate.SQL@main] select next_val as id_val from hibernate_sequence for update 
+2022-05-06 21:25:34.690 DEBUG [org.hibernate.SQL@main] update hibernate_sequence set next_val= ? where next_val=? 
+2022-05-06 21:25:34.693 DEBUG [acme.framework.components.database.DatabaseUtil@main] Persisting entity acme.entities.Patronage{id=25, version=0} 
+2022-05-06 21:25:34.693 DEBUG [acme.framework.components.database.DatabasePopulator@main] Persising entities of clazz 'acme.entities.PatronageReport' 
+2022-05-06 21:25:34.694 DEBUG [org.hibernate.SQL@main] select next_val as id_val from hibernate_sequence for update 
+2022-05-06 21:25:34.694 DEBUG [org.hibernate.SQL@main] update hibernate_sequence set next_val= ? where next_val=? 
+2022-05-06 21:25:34.697 DEBUG [acme.framework.components.database.DatabaseUtil@main] Persisting entity acme.entities.PatronageReport{id=26, version=0} 
+2022-05-06 21:25:34.697 DEBUG [org.hibernate.SQL@main] select next_val as id_val from hibernate_sequence for update 
+2022-05-06 21:25:34.698 DEBUG [org.hibernate.SQL@main] update hibernate_sequence set next_val= ? where next_val=? 
+2022-05-06 21:25:34.700 DEBUG [acme.framework.components.database.DatabaseUtil@main] Persisting entity acme.entities.PatronageReport{id=27, version=0} 
+2022-05-06 21:25:34.701 DEBUG [acme.framework.components.database.DatabasePopulator@main] Persising entities of clazz 'acme.framework.roles.Anonymous' 
+2022-05-06 21:25:34.701 DEBUG [org.hibernate.SQL@main] select next_val as id_val from hibernate_sequence for update 
+2022-05-06 21:25:34.702 DEBUG [org.hibernate.SQL@main] update hibernate_sequence set next_val= ? where next_val=? 
+2022-05-06 21:25:34.704 DEBUG [acme.framework.components.database.DatabaseUtil@main] Persisting entity UserRole(userAccount=UserAccount(username=anonymous)) 
+2022-05-06 21:25:34.704 DEBUG [acme.framework.components.database.DatabasePopulator@main] Persising entities of clazz 'acme.roles.Provider' 
+2022-05-06 21:25:34.704 DEBUG [org.hibernate.SQL@main] select next_val as id_val from hibernate_sequence for update 
+2022-05-06 21:25:34.705 DEBUG [org.hibernate.SQL@main] update hibernate_sequence set next_val= ? where next_val=? 
+2022-05-06 21:25:34.707 DEBUG [acme.framework.components.database.DatabaseUtil@main] Persisting entity UserRole(userAccount=UserAccount(username=provider1)) 
+2022-05-06 21:25:34.708 DEBUG [org.hibernate.SQL@main] select next_val as id_val from hibernate_sequence for update 
+2022-05-06 21:25:34.708 DEBUG [org.hibernate.SQL@main] update hibernate_sequence set next_val= ? where next_val=? 
+2022-05-06 21:25:34.711 DEBUG [acme.framework.components.database.DatabaseUtil@main] Persisting entity UserRole(userAccount=UserAccount(username=provider2)) 
+2022-05-06 21:25:34.712 DEBUG [acme.framework.components.database.DatabasePopulator@main] Persising entities of clazz 'acme.entities.Announcement' 
+2022-05-06 21:25:34.712 DEBUG [org.hibernate.SQL@main] select next_val as id_val from hibernate_sequence for update 
+2022-05-06 21:25:34.714 DEBUG [org.hibernate.SQL@main] update hibernate_sequence set next_val= ? where next_val=? 
+2022-05-06 21:25:34.717 DEBUG [acme.framework.components.database.DatabaseUtil@main] Persisting entity acme.entities.Announcement{id=31, version=0} 
+2022-05-06 21:25:34.717 DEBUG [org.hibernate.SQL@main] select next_val as id_val from hibernate_sequence for update 
+2022-05-06 21:25:34.718 DEBUG [org.hibernate.SQL@main] update hibernate_sequence set next_val= ? where next_val=? 
+2022-05-06 21:25:34.720 DEBUG [acme.framework.components.database.DatabaseUtil@main] Persisting entity acme.entities.Announcement{id=32, version=0} 
+2022-05-06 21:25:34.720 DEBUG [acme.framework.components.database.DatabasePopulator@main] Persising entities of clazz 'acme.entities.Spam' 
+2022-05-06 21:25:34.721 DEBUG [org.hibernate.SQL@main] select next_val as id_val from hibernate_sequence for update 
+2022-05-06 21:25:34.721 DEBUG [org.hibernate.SQL@main] update hibernate_sequence set next_val= ? where next_val=? 
+2022-05-06 21:25:34.724 DEBUG [acme.framework.components.database.DatabaseUtil@main] Persisting entity acme.entities.Spam{id=33, version=0} 
+2022-05-06 21:25:34.724 DEBUG [org.hibernate.SQL@main] select next_val as id_val from hibernate_sequence for update 
+2022-05-06 21:25:34.725 DEBUG [org.hibernate.SQL@main] update hibernate_sequence set next_val= ? where next_val=? 
+2022-05-06 21:25:34.727 DEBUG [acme.framework.components.database.DatabaseUtil@main] Persisting entity acme.entities.Spam{id=34, version=0} 
+2022-05-06 21:25:34.728 DEBUG [org.hibernate.SQL@main] select next_val as id_val from hibernate_sequence for update 
+2022-05-06 21:25:34.730 DEBUG [org.hibernate.SQL@main] update hibernate_sequence set next_val= ? where next_val=? 
+2022-05-06 21:25:34.735 DEBUG [acme.framework.components.database.DatabaseUtil@main] Persisting entity acme.entities.Spam{id=35, version=0} 
+2022-05-06 21:25:34.736 DEBUG [org.hibernate.SQL@main] select next_val as id_val from hibernate_sequence for update 
+2022-05-06 21:25:34.737 DEBUG [org.hibernate.SQL@main] update hibernate_sequence set next_val= ? where next_val=? 
+2022-05-06 21:25:34.742 DEBUG [acme.framework.components.database.DatabaseUtil@main] Persisting entity acme.entities.Spam{id=36, version=0} 
+2022-05-06 21:25:34.743 DEBUG [org.hibernate.SQL@main] select next_val as id_val from hibernate_sequence for update 
+2022-05-06 21:25:34.745 DEBUG [org.hibernate.SQL@main] update hibernate_sequence set next_val= ? where next_val=? 
+2022-05-06 21:25:34.748 DEBUG [acme.framework.components.database.DatabaseUtil@main] Persisting entity acme.entities.Spam{id=37, version=0} 
+2022-05-06 21:25:34.748 DEBUG [org.hibernate.SQL@main] select next_val as id_val from hibernate_sequence for update 
+2022-05-06 21:25:34.749 DEBUG [org.hibernate.SQL@main] update hibernate_sequence set next_val= ? where next_val=? 
+2022-05-06 21:25:34.751 DEBUG [acme.framework.components.database.DatabaseUtil@main] Persisting entity acme.entities.Spam{id=38, version=0} 
+2022-05-06 21:25:34.752 DEBUG [org.hibernate.SQL@main] select next_val as id_val from hibernate_sequence for update 
+2022-05-06 21:25:34.753 DEBUG [org.hibernate.SQL@main] update hibernate_sequence set next_val= ? where next_val=? 
+2022-05-06 21:25:34.757 DEBUG [acme.framework.components.database.DatabaseUtil@main] Persisting entity acme.entities.Spam{id=39, version=0} 
+2022-05-06 21:25:34.758 DEBUG [org.hibernate.SQL@main] select next_val as id_val from hibernate_sequence for update 
+2022-05-06 21:25:34.764 DEBUG [org.hibernate.SQL@main] update hibernate_sequence set next_val= ? where next_val=? 
+2022-05-06 21:25:34.769 DEBUG [acme.framework.components.database.DatabaseUtil@main] Persisting entity acme.entities.Spam{id=40, version=0} 
+2022-05-06 21:25:34.770 DEBUG [org.hibernate.SQL@main] select next_val as id_val from hibernate_sequence for update 
+2022-05-06 21:25:34.771 DEBUG [org.hibernate.SQL@main] update hibernate_sequence set next_val= ? where next_val=? 
+2022-05-06 21:25:34.774 DEBUG [acme.framework.components.database.DatabaseUtil@main] Persisting entity acme.entities.Spam{id=41, version=0} 
+2022-05-06 21:25:34.775 DEBUG [org.hibernate.SQL@main] select next_val as id_val from hibernate_sequence for update 
+2022-05-06 21:25:34.781 DEBUG [org.hibernate.SQL@main] update hibernate_sequence set next_val= ? where next_val=? 
+2022-05-06 21:25:34.787 DEBUG [acme.framework.components.database.DatabaseUtil@main] Persisting entity acme.entities.Spam{id=42, version=0} 
+2022-05-06 21:25:34.788 DEBUG [org.hibernate.SQL@main] select next_val as id_val from hibernate_sequence for update 
+2022-05-06 21:25:34.791 DEBUG [org.hibernate.SQL@main] update hibernate_sequence set next_val= ? where next_val=? 
+2022-05-06 21:25:34.796 DEBUG [acme.framework.components.database.DatabaseUtil@main] Persisting entity acme.entities.Spam{id=43, version=0} 
+2022-05-06 21:25:34.797 DEBUG [org.hibernate.SQL@main] select next_val as id_val from hibernate_sequence for update 
+2022-05-06 21:25:34.798 DEBUG [org.hibernate.SQL@main] update hibernate_sequence set next_val= ? where next_val=? 
+2022-05-06 21:25:34.802 DEBUG [acme.framework.components.database.DatabaseUtil@main] Persisting entity acme.entities.Spam{id=44, version=0} 
+2022-05-06 21:25:34.802 DEBUG [org.hibernate.SQL@main] select next_val as id_val from hibernate_sequence for update 
+2022-05-06 21:25:34.803 DEBUG [org.hibernate.SQL@main] update hibernate_sequence set next_val= ? where next_val=? 
+2022-05-06 21:25:34.805 DEBUG [acme.framework.components.database.DatabaseUtil@main] Persisting entity acme.entities.Spam{id=45, version=0} 
+2022-05-06 21:25:34.805 DEBUG [acme.framework.components.database.DatabasePopulator@main] Persising entities of clazz 'acme.entities.Chirp' 
+2022-05-06 21:25:34.806 DEBUG [org.hibernate.SQL@main] select next_val as id_val from hibernate_sequence for update 
+2022-05-06 21:25:34.807 DEBUG [org.hibernate.SQL@main] update hibernate_sequence set next_val= ? where next_val=? 
+2022-05-06 21:25:34.809 DEBUG [acme.framework.components.database.DatabaseUtil@main] Persisting entity acme.entities.Chirp{id=46, version=0} 
+2022-05-06 21:25:34.809 DEBUG [org.hibernate.SQL@main] select next_val as id_val from hibernate_sequence for update 
+2022-05-06 21:25:34.812 DEBUG [org.hibernate.SQL@main] update hibernate_sequence set next_val= ? where next_val=? 
+2022-05-06 21:25:34.814 DEBUG [acme.framework.components.database.DatabaseUtil@main] Persisting entity acme.entities.Chirp{id=47, version=0} 
+2022-05-06 21:25:34.814 DEBUG [acme.framework.components.database.DatabasePopulator@main] Persising entities of clazz 'acme.roles.Consumer' 
+2022-05-06 21:25:34.815 DEBUG [org.hibernate.SQL@main] select next_val as id_val from hibernate_sequence for update 
+2022-05-06 21:25:34.815 DEBUG [org.hibernate.SQL@main] update hibernate_sequence set next_val= ? where next_val=? 
+2022-05-06 21:25:34.817 DEBUG [acme.framework.components.database.DatabaseUtil@main] Persisting entity UserRole(userAccount=UserAccount(username=consumer2)) 
+2022-05-06 21:25:34.818 DEBUG [org.hibernate.SQL@main] select next_val as id_val from hibernate_sequence for update 
+2022-05-06 21:25:34.818 DEBUG [org.hibernate.SQL@main] update hibernate_sequence set next_val= ? where next_val=? 
+2022-05-06 21:25:34.821 DEBUG [acme.framework.components.database.DatabaseUtil@main] Persisting entity UserRole(userAccount=UserAccount(username=consumer1)) 
+2022-05-06 21:25:34.821 DEBUG [acme.framework.components.database.DatabasePopulator@main] Persising entities of clazz 'acme.entities.Item' 
+2022-05-06 21:25:34.822 DEBUG [org.hibernate.SQL@main] select next_val as id_val from hibernate_sequence for update 
+2022-05-06 21:25:34.822 DEBUG [org.hibernate.SQL@main] update hibernate_sequence set next_val= ? where next_val=? 
+2022-05-06 21:25:34.825 DEBUG [acme.framework.components.database.DatabaseUtil@main] Persisting entity acme.entities.Item{id=50, version=0} 
+2022-05-06 21:25:34.825 DEBUG [org.hibernate.SQL@main] select next_val as id_val from hibernate_sequence for update 
+2022-05-06 21:25:34.826 DEBUG [org.hibernate.SQL@main] update hibernate_sequence set next_val= ? where next_val=? 
+2022-05-06 21:25:34.831 DEBUG [acme.framework.components.database.DatabaseUtil@main] Persisting entity acme.entities.Item{id=51, version=0} 
+2022-05-06 21:25:34.831 DEBUG [acme.framework.components.database.DatabasePopulator@main] Persising entities of clazz 'acme.entities.Toolkit' 
+2022-05-06 21:25:34.832 DEBUG [org.hibernate.SQL@main] select next_val as id_val from hibernate_sequence for update 
+2022-05-06 21:25:34.833 DEBUG [org.hibernate.SQL@main] update hibernate_sequence set next_val= ? where next_val=? 
+2022-05-06 21:25:34.835 DEBUG [acme.framework.components.database.DatabaseUtil@main] Persisting entity acme.entities.Toolkit{id=52, version=0} 
+2022-05-06 21:25:34.836 DEBUG [org.hibernate.SQL@main] select next_val as id_val from hibernate_sequence for update 
+2022-05-06 21:25:34.836 DEBUG [org.hibernate.SQL@main] update hibernate_sequence set next_val= ? where next_val=? 
+2022-05-06 21:25:34.839 DEBUG [acme.framework.components.database.DatabaseUtil@main] Persisting entity acme.entities.Toolkit{id=53, version=0} 
+2022-05-06 21:25:34.839 DEBUG [acme.framework.components.database.DatabasePopulator@main] Persising entities of clazz 'acme.entities.Currency' 
+2022-05-06 21:25:34.839 DEBUG [org.hibernate.SQL@main] select next_val as id_val from hibernate_sequence for update 
+2022-05-06 21:25:34.840 DEBUG [org.hibernate.SQL@main] update hibernate_sequence set next_val= ? where next_val=? 
+2022-05-06 21:25:34.842 DEBUG [acme.framework.components.database.DatabaseUtil@main] Persisting entity acme.entities.Currency{id=54, version=0} 
+2022-05-06 21:25:34.843 DEBUG [org.hibernate.SQL@main] select next_val as id_val from hibernate_sequence for update 
+2022-05-06 21:25:34.843 DEBUG [org.hibernate.SQL@main] update hibernate_sequence set next_val= ? where next_val=? 
+2022-05-06 21:25:34.846 DEBUG [acme.framework.components.database.DatabaseUtil@main] Persisting entity acme.entities.Currency{id=55, version=0} 
+2022-05-06 21:25:34.846 DEBUG [org.hibernate.SQL@main] select next_val as id_val from hibernate_sequence for update 
+2022-05-06 21:25:34.847 DEBUG [org.hibernate.SQL@main] update hibernate_sequence set next_val= ? where next_val=? 
+2022-05-06 21:25:34.852 DEBUG [acme.framework.components.database.DatabaseUtil@main] Persisting entity acme.entities.Currency{id=56, version=0} 
+2022-05-06 21:25:34.853 DEBUG [acme.framework.components.database.DatabaseUtil@main] Committing transaction '413481120'. 
+2022-05-06 21:25:34.881 DEBUG [org.hibernate.SQL@main] insert into user_account (version, enabled, identity, password, username, id) values (?, ?, ?, ?, ?, ?) 
+2022-05-06 21:25:34.884 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [1] as [INTEGER] - [0] 
+2022-05-06 21:25:34.886 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [2] as [BOOLEAN] - [false] 
+2022-05-06 21:25:34.887 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [3] as [BLOB] - [DefaultUserIdentity(name=John, surname=Doe, email=john.doe@acme.com)] 
+2022-05-06 21:25:34.890 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [4] as [VARCHAR] - [$2a$05$nRlpDp/u.MEL/jNZ3i6NOeXOJ3.rfRuI0ZRBtJPkXSwweDZxUYRfq] 
+2022-05-06 21:25:34.890 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [5] as [VARCHAR] - [anonymous] 
+2022-05-06 21:25:34.890 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [6] as [INTEGER] - [1] 
+2022-05-06 21:25:34.897 DEBUG [org.hibernate.SQL@main] insert into user_account (version, enabled, identity, password, username, id) values (?, ?, ?, ?, ?, ?) 
+2022-05-06 21:25:34.897 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [1] as [INTEGER] - [0] 
+2022-05-06 21:25:34.897 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [2] as [BOOLEAN] - [true] 
+2022-05-06 21:25:34.897 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [3] as [BLOB] - [DefaultUserIdentity(name=I3, surname=Acme, email=i3@acme.com)] 
+2022-05-06 21:25:34.897 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [4] as [VARCHAR] - [$2a$05$LCb3aMA00EDFeXGosiMj.OFfWC8SN0QtN5CgW60Me/KsZoZ4HL5Ku] 
+2022-05-06 21:25:34.898 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [5] as [VARCHAR] - [inventor3] 
+2022-05-06 21:25:34.898 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [6] as [INTEGER] - [2] 
+2022-05-06 21:25:34.899 DEBUG [org.hibernate.SQL@main] insert into user_account (version, enabled, identity, password, username, id) values (?, ?, ?, ?, ?, ?) 
+2022-05-06 21:25:34.899 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [1] as [INTEGER] - [0] 
+2022-05-06 21:25:34.899 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [2] as [BOOLEAN] - [true] 
+2022-05-06 21:25:34.899 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [3] as [BLOB] - [DefaultUserIdentity(name=I2, surname=Acme, email=i2@acme.com)] 
+2022-05-06 21:25:34.899 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [4] as [VARCHAR] - [$2a$05$NPwPQxpoMVBNqSP52jx7Yu3OTUADf9oWPhcnv99JCZ4qAFkiEDK8q] 
+2022-05-06 21:25:34.899 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [5] as [VARCHAR] - [inventor2] 
+2022-05-06 21:25:34.899 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [6] as [INTEGER] - [3] 
+2022-05-06 21:25:34.904 DEBUG [org.hibernate.SQL@main] insert into user_account (version, enabled, identity, password, username, id) values (?, ?, ?, ?, ?, ?) 
+2022-05-06 21:25:34.904 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [1] as [INTEGER] - [0] 
+2022-05-06 21:25:34.905 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [2] as [BOOLEAN] - [true] 
+2022-05-06 21:25:34.905 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [3] as [BLOB] - [DefaultUserIdentity(name=I4, surname=Acme, email=i4@acme.com)] 
+2022-05-06 21:25:34.905 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [4] as [VARCHAR] - [$2a$05$KWppxgboIodQAUJDUdeVZew7uRSTBuX7sXt.xvBCa7VeHf2h/xuDG] 
+2022-05-06 21:25:34.905 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [5] as [VARCHAR] - [inventor4] 
+2022-05-06 21:25:34.905 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [6] as [INTEGER] - [4] 
+2022-05-06 21:25:34.906 DEBUG [org.hibernate.SQL@main] insert into user_account (version, enabled, identity, password, username, id) values (?, ?, ?, ?, ?, ?) 
+2022-05-06 21:25:34.906 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [1] as [INTEGER] - [0] 
+2022-05-06 21:25:34.906 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [2] as [BOOLEAN] - [true] 
+2022-05-06 21:25:34.906 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [3] as [BLOB] - [DefaultUserIdentity(name=Administrator, surname=Acme, email=administrator@acme.com)] 
+2022-05-06 21:25:34.907 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [4] as [VARCHAR] - [$2a$05$ifRlUwKebGFrci2vMwovle2XE0/UEKqKvR4NgiBZzMrN9M9KDm0M6] 
+2022-05-06 21:25:34.907 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [5] as [VARCHAR] - [administrator] 
+2022-05-06 21:25:34.907 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [6] as [INTEGER] - [5] 
+2022-05-06 21:25:34.908 DEBUG [org.hibernate.SQL@main] insert into user_account (version, enabled, identity, password, username, id) values (?, ?, ?, ?, ?, ?) 
+2022-05-06 21:25:34.908 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [1] as [INTEGER] - [0] 
+2022-05-06 21:25:34.908 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [2] as [BOOLEAN] - [true] 
+2022-05-06 21:25:34.908 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [3] as [BLOB] - [DefaultUserIdentity(name=P3, surname=Acme, email=p3@acme.com)] 
+2022-05-06 21:25:34.909 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [4] as [VARCHAR] - [$2a$05$P4kcg130cz7wTcH/9PN6/ev1I/sQDWO9MMNLYjUutkZWBMILQwR8a] 
+2022-05-06 21:25:34.909 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [5] as [VARCHAR] - [patron3] 
+2022-05-06 21:25:34.909 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [6] as [INTEGER] - [6] 
+2022-05-06 21:25:34.910 DEBUG [org.hibernate.SQL@main] insert into user_account (version, enabled, identity, password, username, id) values (?, ?, ?, ?, ?, ?) 
+2022-05-06 21:25:34.910 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [1] as [INTEGER] - [0] 
+2022-05-06 21:25:34.910 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [2] as [BOOLEAN] - [true] 
+2022-05-06 21:25:34.910 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [3] as [BLOB] - [DefaultUserIdentity(name=C1, surname=Acme, email=c1@acme.com)] 
+2022-05-06 21:25:34.911 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [4] as [VARCHAR] - [$2a$05$1fiFUppGtuZrUeqmo2/E3Opo4j0C6YqfoC3KwUEIdxSjQdu4AXeKG] 
+2022-05-06 21:25:34.911 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [5] as [VARCHAR] - [consumer1] 
+2022-05-06 21:25:34.911 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [6] as [INTEGER] - [7] 
+2022-05-06 21:25:34.912 DEBUG [org.hibernate.SQL@main] insert into user_account (version, enabled, identity, password, username, id) values (?, ?, ?, ?, ?, ?) 
+2022-05-06 21:25:34.912 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [1] as [INTEGER] - [0] 
+2022-05-06 21:25:34.912 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [2] as [BOOLEAN] - [true] 
+2022-05-06 21:25:34.912 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [3] as [BLOB] - [DefaultUserIdentity(name=P4, surname=Acme, email=p4@acme.com)] 
+2022-05-06 21:25:34.913 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [4] as [VARCHAR] - [$2a$05$nroJnIGq1VPb82/ifuvCU.4h.l8MAbuilMXw/yBzNuFolNRTJopAa] 
+2022-05-06 21:25:34.913 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [5] as [VARCHAR] - [patron4] 
+2022-05-06 21:25:34.913 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [6] as [INTEGER] - [8] 
+2022-05-06 21:25:34.914 DEBUG [org.hibernate.SQL@main] insert into user_account (version, enabled, identity, password, username, id) values (?, ?, ?, ?, ?, ?) 
+2022-05-06 21:25:34.914 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [1] as [INTEGER] - [0] 
+2022-05-06 21:25:34.914 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [2] as [BOOLEAN] - [true] 
+2022-05-06 21:25:34.914 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [3] as [BLOB] - [DefaultUserIdentity(name=C2, surname=Acme, email=c2@acme.com)] 
+2022-05-06 21:25:34.915 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [4] as [VARCHAR] - [$2a$05$qmyEgvsuBU4c81kGJFfbIewnKVT3M9zAnU21bQHeJx7Csizz645Jq] 
+2022-05-06 21:25:34.915 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [5] as [VARCHAR] - [consumer2] 
+2022-05-06 21:25:34.915 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [6] as [INTEGER] - [9] 
+2022-05-06 21:25:34.916 DEBUG [org.hibernate.SQL@main] insert into user_account (version, enabled, identity, password, username, id) values (?, ?, ?, ?, ?, ?) 
+2022-05-06 21:25:34.916 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [1] as [INTEGER] - [0] 
+2022-05-06 21:25:34.916 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [2] as [BOOLEAN] - [true] 
+2022-05-06 21:25:34.916 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [3] as [BLOB] - [DefaultUserIdentity(name=PR2, surname=Acme, email=pr2@acme.com)] 
+2022-05-06 21:25:34.916 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [4] as [VARCHAR] - [$2a$05$AFYByYNZodH.w2ipxBuZ2.K/ywSZBj.qqGn7VltjjDvqqVHFNGSzu] 
+2022-05-06 21:25:34.917 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [5] as [VARCHAR] - [provider2] 
+2022-05-06 21:25:34.917 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [6] as [INTEGER] - [10] 
+2022-05-06 21:25:34.918 DEBUG [org.hibernate.SQL@main] insert into user_account (version, enabled, identity, password, username, id) values (?, ?, ?, ?, ?, ?) 
+2022-05-06 21:25:34.918 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [1] as [INTEGER] - [0] 
+2022-05-06 21:25:34.918 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [2] as [BOOLEAN] - [true] 
+2022-05-06 21:25:34.918 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [3] as [BLOB] - [DefaultUserIdentity(name=PR1, surname=Acme, email=pr1@acme.com)] 
+2022-05-06 21:25:34.918 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [4] as [VARCHAR] - [$2a$05$.O7V/yHEcOzHhM149UMjJuqM8OHvv030rG2SbZ0Bql2fHo6gjagy.] 
+2022-05-06 21:25:34.918 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [5] as [VARCHAR] - [provider1] 
+2022-05-06 21:25:34.918 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [6] as [INTEGER] - [11] 
+2022-05-06 21:25:34.919 DEBUG [org.hibernate.SQL@main] insert into user_account (version, enabled, identity, password, username, id) values (?, ?, ?, ?, ?, ?) 
+2022-05-06 21:25:34.920 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [1] as [INTEGER] - [0] 
+2022-05-06 21:25:34.920 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [2] as [BOOLEAN] - [true] 
+2022-05-06 21:25:34.920 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [3] as [BLOB] - [DefaultUserIdentity(name=P1, surname=Acme, email=p1@acme.com)] 
+2022-05-06 21:25:34.920 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [4] as [VARCHAR] - [$2a$05$GPWGPaCq42ecYVS7/3rDgew0ul.Z6aeCWe/DivzT2TeDmSXI0vXBC] 
+2022-05-06 21:25:34.920 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [5] as [VARCHAR] - [patron1] 
+2022-05-06 21:25:34.920 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [6] as [INTEGER] - [12] 
+2022-05-06 21:25:34.921 DEBUG [org.hibernate.SQL@main] insert into user_account (version, enabled, identity, password, username, id) values (?, ?, ?, ?, ?, ?) 
+2022-05-06 21:25:34.921 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [1] as [INTEGER] - [0] 
+2022-05-06 21:25:34.922 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [2] as [BOOLEAN] - [true] 
+2022-05-06 21:25:34.922 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [3] as [BLOB] - [DefaultUserIdentity(name=P2, surname=Acme, email=p2@acme.com)] 
+2022-05-06 21:25:34.922 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [4] as [VARCHAR] - [$2a$05$gd3TChPlIXPIYtja5apOheYxGwPKW8TdcFcwHR9KQjZ75RUn5ndfS] 
+2022-05-06 21:25:34.922 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [5] as [VARCHAR] - [patron2] 
+2022-05-06 21:25:34.922 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [6] as [INTEGER] - [13] 
+2022-05-06 21:25:34.923 DEBUG [org.hibernate.SQL@main] insert into user_account (version, enabled, identity, password, username, id) values (?, ?, ?, ?, ?, ?) 
+2022-05-06 21:25:34.923 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [1] as [INTEGER] - [0] 
+2022-05-06 21:25:34.923 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [2] as [BOOLEAN] - [true] 
+2022-05-06 21:25:34.924 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [3] as [BLOB] - [DefaultUserIdentity(name=I1, surname=Acme, email=i1@acme.com)] 
+2022-05-06 21:25:34.924 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [4] as [VARCHAR] - [$2a$05$6Zv2D9/hiKf2PFjyU4UE/elfHyml5NnZ7aKrXjNddU.Wgtr4ECIta] 
+2022-05-06 21:25:34.924 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [5] as [VARCHAR] - [inventor1] 
+2022-05-06 21:25:34.924 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [6] as [INTEGER] - [14] 
+2022-05-06 21:25:34.925 DEBUG [org.hibernate.SQL@main] insert into patron (version, user_account_id, company, link, statement, id) values (?, ?, ?, ?, ?, ?) 
+2022-05-06 21:25:34.925 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [1] as [INTEGER] - [0] 
+2022-05-06 21:25:34.925 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [2] as [INTEGER] - [12] 
+2022-05-06 21:25:34.926 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [3] as [VARCHAR] - [Acme-One] 
+2022-05-06 21:25:34.926 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [4] as [VARCHAR] - [http://www.twitter.com] 
+2022-05-06 21:25:34.926 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [5] as [VARCHAR] - [1] 
+2022-05-06 21:25:34.926 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [6] as [INTEGER] - [15] 
+2022-05-06 21:25:34.930 DEBUG [org.hibernate.SQL@main] insert into patron (version, user_account_id, company, link, statement, id) values (?, ?, ?, ?, ?, ?) 
+2022-05-06 21:25:34.930 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [1] as [INTEGER] - [0] 
+2022-05-06 21:25:34.930 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [2] as [INTEGER] - [13] 
+2022-05-06 21:25:34.930 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [3] as [VARCHAR] - [Acme-One] 
+2022-05-06 21:25:34.930 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [4] as [VARCHAR] - [http://www.twitter.com] 
+2022-05-06 21:25:34.930 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [5] as [VARCHAR] - [2] 
+2022-05-06 21:25:34.930 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [6] as [INTEGER] - [16] 
+2022-05-06 21:25:34.931 DEBUG [org.hibernate.SQL@main] insert into patron (version, user_account_id, company, link, statement, id) values (?, ?, ?, ?, ?, ?) 
+2022-05-06 21:25:34.931 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [1] as [INTEGER] - [0] 
+2022-05-06 21:25:34.932 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [2] as [INTEGER] - [6] 
+2022-05-06 21:25:34.932 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [3] as [VARCHAR] - [Acme-One] 
+2022-05-06 21:25:34.932 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [4] as [VARCHAR] - [http://www.twitter.com] 
+2022-05-06 21:25:34.932 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [5] as [VARCHAR] - [3] 
+2022-05-06 21:25:34.932 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [6] as [INTEGER] - [17] 
+2022-05-06 21:25:34.932 DEBUG [org.hibernate.SQL@main] insert into patron (version, user_account_id, company, link, statement, id) values (?, ?, ?, ?, ?, ?) 
+2022-05-06 21:25:34.933 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [1] as [INTEGER] - [0] 
+2022-05-06 21:25:34.933 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [2] as [INTEGER] - [8] 
+2022-05-06 21:25:34.933 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [3] as [VARCHAR] - [Acme-One] 
+2022-05-06 21:25:34.933 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [4] as [VARCHAR] - [http://www.twitter.com] 
+2022-05-06 21:25:34.933 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [5] as [VARCHAR] - [4] 
+2022-05-06 21:25:34.933 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [6] as [INTEGER] - [18] 
+2022-05-06 21:25:34.934 DEBUG [org.hibernate.SQL@main] insert into administrator (version, user_account_id, id) values (?, ?, ?) 
+2022-05-06 21:25:34.934 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [1] as [INTEGER] - [0] 
+2022-05-06 21:25:34.934 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [2] as [INTEGER] - [5] 
+2022-05-06 21:25:34.934 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [3] as [INTEGER] - [19] 
+2022-05-06 21:25:34.937 DEBUG [org.hibernate.SQL@main] insert into inventor (version, user_account_id, company, link, statement, id) values (?, ?, ?, ?, ?, ?) 
+2022-05-06 21:25:34.937 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [1] as [INTEGER] - [0] 
+2022-05-06 21:25:34.938 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [2] as [INTEGER] - [4] 
+2022-05-06 21:25:34.938 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [3] as [VARCHAR] - [Acme-One] 
+2022-05-06 21:25:34.938 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [4] as [VARCHAR] - [http://www.twitter.com] 
+2022-05-06 21:25:34.938 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [5] as [VARCHAR] - [4] 
+2022-05-06 21:25:34.938 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [6] as [INTEGER] - [20] 
+2022-05-06 21:25:34.941 DEBUG [org.hibernate.SQL@main] insert into inventor (version, user_account_id, company, link, statement, id) values (?, ?, ?, ?, ?, ?) 
+2022-05-06 21:25:34.941 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [1] as [INTEGER] - [0] 
+2022-05-06 21:25:34.941 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [2] as [INTEGER] - [3] 
+2022-05-06 21:25:34.941 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [3] as [VARCHAR] - [Acme-One] 
+2022-05-06 21:25:34.942 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [4] as [VARCHAR] - [http://www.twitter.com] 
+2022-05-06 21:25:34.942 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [5] as [VARCHAR] - [2] 
+2022-05-06 21:25:34.942 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [6] as [INTEGER] - [21] 
+2022-05-06 21:25:34.943 DEBUG [org.hibernate.SQL@main] insert into inventor (version, user_account_id, company, link, statement, id) values (?, ?, ?, ?, ?, ?) 
+2022-05-06 21:25:34.943 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [1] as [INTEGER] - [0] 
+2022-05-06 21:25:34.943 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [2] as [INTEGER] - [2] 
+2022-05-06 21:25:34.943 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [3] as [VARCHAR] - [Acme-One] 
+2022-05-06 21:25:34.943 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [4] as [VARCHAR] - [http://www.twitter.com] 
+2022-05-06 21:25:34.944 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [5] as [VARCHAR] - [3] 
+2022-05-06 21:25:34.944 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [6] as [INTEGER] - [22] 
+2022-05-06 21:25:34.944 DEBUG [org.hibernate.SQL@main] insert into inventor (version, user_account_id, company, link, statement, id) values (?, ?, ?, ?, ?, ?) 
+2022-05-06 21:25:34.945 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [1] as [INTEGER] - [0] 
+2022-05-06 21:25:34.945 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [2] as [INTEGER] - [14] 
+2022-05-06 21:25:34.945 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [3] as [VARCHAR] - [Acme-One] 
+2022-05-06 21:25:34.945 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [4] as [VARCHAR] - [http://www.twitter.com] 
+2022-05-06 21:25:34.945 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [5] as [VARCHAR] - [1] 
+2022-05-06 21:25:34.945 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [6] as [INTEGER] - [23] 
+2022-05-06 21:25:34.946 DEBUG [org.hibernate.SQL@main] insert into patronage (version, budget_amount, budget_currency, code, finishing_date, inventor_id, legal_stuff, link, patron_id, starting_date, status, time_lapse, id) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) 
+2022-05-06 21:25:34.947 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [1] as [INTEGER] - [0] 
+2022-05-06 21:25:34.948 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [2] as [DOUBLE] - [450.0] 
+2022-05-06 21:25:34.948 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [3] as [VARCHAR] - [EUR] 
+2022-05-06 21:25:34.949 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [4] as [VARCHAR] - [KIL-788-A] 
+2022-05-06 21:25:34.950 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [5] as [TIMESTAMP] - [Thu Mar 24 13:00:00 CET 2022] 
+2022-05-06 21:25:34.952 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [6] as [INTEGER] - [23] 
+2022-05-06 21:25:34.952 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [7] as [VARCHAR] - [Absolutely legal] 
+2022-05-06 21:25:34.953 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [8] as [VARCHAR] - [https://www.starjam.com] 
+2022-05-06 21:25:34.953 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [9] as [INTEGER] - [15] 
+2022-05-06 21:25:34.953 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [10] as [TIMESTAMP] - [Mon Mar 14 13:00:00 CET 2022] 
+2022-05-06 21:25:34.953 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [11] as [INTEGER] - [1] 
+2022-05-06 21:25:34.953 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [12] as [TIMESTAMP] - [null] 
+2022-05-06 21:25:34.953 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [13] as [INTEGER] - [24] 
+2022-05-06 21:25:34.957 DEBUG [org.hibernate.SQL@main] insert into patronage (version, budget_amount, budget_currency, code, finishing_date, inventor_id, legal_stuff, link, patron_id, starting_date, status, time_lapse, id) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) 
+2022-05-06 21:25:34.958 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [1] as [INTEGER] - [0] 
+2022-05-06 21:25:34.958 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [2] as [DOUBLE] - [150.0] 
+2022-05-06 21:25:34.958 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [3] as [VARCHAR] - [EUR] 
+2022-05-06 21:25:34.958 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [4] as [VARCHAR] - [HJJ-712-P] 
+2022-05-06 21:25:34.958 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [5] as [TIMESTAMP] - [Wed Jun 16 17:45:00 CEST 2021] 
+2022-05-06 21:25:34.958 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [6] as [INTEGER] - [23] 
+2022-05-06 21:25:34.958 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [7] as [VARCHAR] - [Totally illegal] 
+2022-05-06 21:25:34.958 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [8] as [VARCHAR] - [https://www.plum.com] 
+2022-05-06 21:25:34.959 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [9] as [INTEGER] - [16] 
+2022-05-06 21:25:34.959 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [10] as [TIMESTAMP] - [Sun Jun 06 17:45:00 CEST 2021] 
+2022-05-06 21:25:34.959 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [11] as [INTEGER] - [0] 
+2022-05-06 21:25:34.959 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [12] as [TIMESTAMP] - [null] 
+2022-05-06 21:25:34.959 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [13] as [INTEGER] - [25] 
+2022-05-06 21:25:34.960 DEBUG [org.hibernate.SQL@main] insert into patronage_report (version, automatic_seq_num, creation_moment, inventor_id, link, memorandum, patronage_id, id) values (?, ?, ?, ?, ?, ?, ?, ?) 
+2022-05-06 21:25:34.960 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [1] as [INTEGER] - [0] 
+2022-05-06 21:25:34.960 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [2] as [VARCHAR] - [AAA-101-A:0001] 
+2022-05-06 21:25:34.960 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [3] as [TIMESTAMP] - [Wed Dec 01 12:00:00 CET 2021] 
+2022-05-06 21:25:34.961 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [4] as [INTEGER] - [23] 
+2022-05-06 21:25:34.961 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [5] as [VARCHAR] - [https://www.nano.com] 
+2022-05-06 21:25:34.961 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [6] as [VARCHAR] - [Patronage accepted!] 
+2022-05-06 21:25:34.961 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [7] as [INTEGER] - [24] 
+2022-05-06 21:25:34.961 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [8] as [INTEGER] - [26] 
+2022-05-06 21:25:34.964 DEBUG [org.hibernate.SQL@main] insert into patronage_report (version, automatic_seq_num, creation_moment, inventor_id, link, memorandum, patronage_id, id) values (?, ?, ?, ?, ?, ?, ?, ?) 
+2022-05-06 21:25:34.965 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [1] as [INTEGER] - [0] 
+2022-05-06 21:25:34.965 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [2] as [VARCHAR] - [BBB-202-B:0002] 
+2022-05-06 21:25:34.965 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [3] as [TIMESTAMP] - [Tue Dec 01 12:00:00 CET 2020] 
+2022-05-06 21:25:34.965 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [4] as [INTEGER] - [21] 
+2022-05-06 21:25:34.965 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [5] as [VARCHAR] - [https://www.ham.com] 
+2022-05-06 21:25:34.965 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [6] as [VARCHAR] - [Patronage denied!] 
+2022-05-06 21:25:34.965 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [7] as [INTEGER] - [25] 
+2022-05-06 21:25:34.965 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [8] as [INTEGER] - [27] 
+2022-05-06 21:25:34.966 DEBUG [org.hibernate.SQL@main] insert into anonymous (version, user_account_id, id) values (?, ?, ?) 
+2022-05-06 21:25:34.966 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [1] as [INTEGER] - [0] 
+2022-05-06 21:25:34.966 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [2] as [INTEGER] - [1] 
+2022-05-06 21:25:34.966 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [3] as [INTEGER] - [28] 
+2022-05-06 21:25:34.970 DEBUG [org.hibernate.SQL@main] insert into provider (version, user_account_id, company, sector, id) values (?, ?, ?, ?, ?) 
+2022-05-06 21:25:34.970 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [1] as [INTEGER] - [0] 
+2022-05-06 21:25:34.971 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [2] as [INTEGER] - [11] 
+2022-05-06 21:25:34.971 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [3] as [VARCHAR] - [Terra Nets, S.A.] 
+2022-05-06 21:25:34.971 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [4] as [VARCHAR] - [Internet] 
+2022-05-06 21:25:34.971 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [5] as [INTEGER] - [29] 
+2022-05-06 21:25:34.974 DEBUG [org.hibernate.SQL@main] insert into provider (version, user_account_id, company, sector, id) values (?, ?, ?, ?, ?) 
+2022-05-06 21:25:34.974 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [1] as [INTEGER] - [0] 
+2022-05-06 21:25:34.974 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [2] as [INTEGER] - [10] 
+2022-05-06 21:25:34.975 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [3] as [VARCHAR] - [GitHub] 
+2022-05-06 21:25:34.975 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [4] as [VARCHAR] - [Internet] 
+2022-05-06 21:25:34.975 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [5] as [INTEGER] - [30] 
+2022-05-06 21:25:34.976 DEBUG [org.hibernate.SQL@main] insert into announcement (version, body, creation_moment, critical, link, title, id) values (?, ?, ?, ?, ?, ?, ?) 
+2022-05-06 21:25:34.976 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [1] as [INTEGER] - [0] 
+2022-05-06 21:25:34.976 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [2] as [VARCHAR] - [Anuncio] 
+2022-05-06 21:25:34.976 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [3] as [TIMESTAMP] - [Fri Apr 08 20:00:00 CEST 2022] 
+2022-05-06 21:25:34.977 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [4] as [BOOLEAN] - [true] 
+2022-05-06 21:25:34.977 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [5] as [VARCHAR] - [http://www.google.com] 
+2022-05-06 21:25:34.977 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [6] as [VARCHAR] - [Anuncio 2] 
+2022-05-06 21:25:34.977 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [7] as [INTEGER] - [31] 
+2022-05-06 21:25:34.980 DEBUG [org.hibernate.SQL@main] insert into announcement (version, body, creation_moment, critical, link, title, id) values (?, ?, ?, ?, ?, ?, ?) 
+2022-05-06 21:25:34.980 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [1] as [INTEGER] - [0] 
+2022-05-06 21:25:34.981 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [2] as [VARCHAR] - [Anuncio] 
+2022-05-06 21:25:34.981 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [3] as [TIMESTAMP] - [Sat Dec 26 00:00:00 CET 2020] 
+2022-05-06 21:25:34.981 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [4] as [BOOLEAN] - [true] 
+2022-05-06 21:25:34.981 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [5] as [VARCHAR] - [http://www.google.com] 
+2022-05-06 21:25:34.981 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [6] as [VARCHAR] - [Anuncio 1] 
+2022-05-06 21:25:34.981 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [7] as [INTEGER] - [32] 
+2022-05-06 21:25:34.982 DEBUG [org.hibernate.SQL@main] insert into spam (version, spam_term, strong, threshold, id) values (?, ?, ?, ?, ?) 
+2022-05-06 21:25:34.982 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [1] as [INTEGER] - [0] 
+2022-05-06 21:25:34.982 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [2] as [VARCHAR] - [has ganado] 
+2022-05-06 21:25:34.982 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [3] as [BOOLEAN] - [false] 
+2022-05-06 21:25:34.983 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [4] as [INTEGER] - [25] 
+2022-05-06 21:25:34.983 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [5] as [INTEGER] - [33] 
+2022-05-06 21:25:34.986 DEBUG [org.hibernate.SQL@main] insert into spam (version, spam_term, strong, threshold, id) values (?, ?, ?, ?, ?) 
+2022-05-06 21:25:34.986 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [1] as [INTEGER] - [0] 
+2022-05-06 21:25:34.986 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [2] as [VARCHAR] - [sex] 
+2022-05-06 21:25:34.986 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [3] as [BOOLEAN] - [true] 
+2022-05-06 21:25:34.986 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [4] as [INTEGER] - [10] 
+2022-05-06 21:25:34.986 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [5] as [INTEGER] - [34] 
+2022-05-06 21:25:34.987 DEBUG [org.hibernate.SQL@main] insert into spam (version, spam_term, strong, threshold, id) values (?, ?, ?, ?, ?) 
+2022-05-06 21:25:34.987 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [1] as [INTEGER] - [0] 
+2022-05-06 21:25:34.987 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [2] as [VARCHAR] - [one million] 
+2022-05-06 21:25:34.988 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [3] as [BOOLEAN] - [false] 
+2022-05-06 21:25:34.988 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [4] as [INTEGER] - [25] 
+2022-05-06 21:25:34.988 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [5] as [INTEGER] - [35] 
+2022-05-06 21:25:34.988 DEBUG [org.hibernate.SQL@main] insert into spam (version, spam_term, strong, threshold, id) values (?, ?, ?, ?, ?) 
+2022-05-06 21:25:34.989 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [1] as [INTEGER] - [0] 
+2022-05-06 21:25:34.989 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [2] as [VARCHAR] - [sexo] 
+2022-05-06 21:25:34.989 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [3] as [BOOLEAN] - [true] 
+2022-05-06 21:25:34.989 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [4] as [INTEGER] - [10] 
+2022-05-06 21:25:34.989 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [5] as [INTEGER] - [36] 
+2022-05-06 21:25:34.990 DEBUG [org.hibernate.SQL@main] insert into spam (version, spam_term, strong, threshold, id) values (?, ?, ?, ?, ?) 
+2022-05-06 21:25:34.990 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [1] as [INTEGER] - [0] 
+2022-05-06 21:25:34.990 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [2] as [VARCHAR] - [un millón] 
+2022-05-06 21:25:34.990 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [3] as [BOOLEAN] - [false] 
+2022-05-06 21:25:34.990 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [4] as [INTEGER] - [25] 
+2022-05-06 21:25:34.990 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [5] as [INTEGER] - [37] 
+2022-05-06 21:25:34.991 DEBUG [org.hibernate.SQL@main] insert into spam (version, spam_term, strong, threshold, id) values (?, ?, ?, ?, ?) 
+2022-05-06 21:25:34.991 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [1] as [INTEGER] - [0] 
+2022-05-06 21:25:34.991 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [2] as [VARCHAR] - [hardcore] 
+2022-05-06 21:25:34.991 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [3] as [BOOLEAN] - [true] 
+2022-05-06 21:25:34.991 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [4] as [INTEGER] - [10] 
+2022-05-06 21:25:34.991 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [5] as [INTEGER] - [38] 
+2022-05-06 21:25:34.992 DEBUG [org.hibernate.SQL@main] insert into spam (version, spam_term, strong, threshold, id) values (?, ?, ?, ?, ?) 
+2022-05-06 21:25:34.993 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [1] as [INTEGER] - [0] 
+2022-05-06 21:25:34.993 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [2] as [VARCHAR] - [you've won] 
+2022-05-06 21:25:34.993 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [3] as [BOOLEAN] - [false] 
+2022-05-06 21:25:34.993 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [4] as [INTEGER] - [25] 
+2022-05-06 21:25:34.993 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [5] as [INTEGER] - [39] 
+2022-05-06 21:25:34.994 DEBUG [org.hibernate.SQL@main] insert into spam (version, spam_term, strong, threshold, id) values (?, ?, ?, ?, ?) 
+2022-05-06 21:25:34.994 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [1] as [INTEGER] - [0] 
+2022-05-06 21:25:34.994 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [2] as [VARCHAR] - [sensual] 
+2022-05-06 21:25:34.994 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [3] as [BOOLEAN] - [false] 
+2022-05-06 21:25:34.994 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [4] as [INTEGER] - [25] 
+2022-05-06 21:25:34.995 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [5] as [INTEGER] - [40] 
+2022-05-06 21:25:34.995 DEBUG [org.hibernate.SQL@main] insert into spam (version, spam_term, strong, threshold, id) values (?, ?, ?, ?, ?) 
+2022-05-06 21:25:34.995 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [1] as [INTEGER] - [0] 
+2022-05-06 21:25:34.995 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [2] as [VARCHAR] - [nigeria] 
+2022-05-06 21:25:34.995 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [3] as [BOOLEAN] - [false] 
+2022-05-06 21:25:34.996 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [4] as [INTEGER] - [25] 
+2022-05-06 21:25:34.996 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [5] as [INTEGER] - [41] 
+2022-05-06 21:25:34.996 DEBUG [org.hibernate.SQL@main] insert into spam (version, spam_term, strong, threshold, id) values (?, ?, ?, ?, ?) 
+2022-05-06 21:25:34.996 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [1] as [INTEGER] - [0] 
+2022-05-06 21:25:34.996 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [2] as [VARCHAR] - [duro] 
+2022-05-06 21:25:34.996 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [3] as [BOOLEAN] - [true] 
+2022-05-06 21:25:34.996 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [4] as [INTEGER] - [10] 
+2022-05-06 21:25:34.996 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [5] as [INTEGER] - [42] 
+2022-05-06 21:25:34.997 DEBUG [org.hibernate.SQL@main] insert into spam (version, spam_term, strong, threshold, id) values (?, ?, ?, ?, ?) 
+2022-05-06 21:25:34.997 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [1] as [INTEGER] - [0] 
+2022-05-06 21:25:34.997 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [2] as [VARCHAR] - [viagra] 
+2022-05-06 21:25:34.997 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [3] as [BOOLEAN] - [true] 
+2022-05-06 21:25:34.997 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [4] as [INTEGER] - [10] 
+2022-05-06 21:25:34.998 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [5] as [INTEGER] - [43] 
+2022-05-06 21:25:34.998 DEBUG [org.hibernate.SQL@main] insert into spam (version, spam_term, strong, threshold, id) values (?, ?, ?, ?, ?) 
+2022-05-06 21:25:34.998 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [1] as [INTEGER] - [0] 
+2022-05-06 21:25:34.999 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [2] as [VARCHAR] - [cialis] 
+2022-05-06 21:25:34.999 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [3] as [BOOLEAN] - [true] 
+2022-05-06 21:25:34.999 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [4] as [INTEGER] - [10] 
+2022-05-06 21:25:34.999 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [5] as [INTEGER] - [44] 
+2022-05-06 21:25:34.999 DEBUG [org.hibernate.SQL@main] insert into spam (version, spam_term, strong, threshold, id) values (?, ?, ?, ?, ?) 
+2022-05-06 21:25:35 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [1] as [INTEGER] - [0] 
+2022-05-06 21:25:35 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [2] as [VARCHAR] - [sexy] 
+2022-05-06 21:25:35 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [3] as [BOOLEAN] - [false] 
+2022-05-06 21:25:35 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [4] as [INTEGER] - [25] 
+2022-05-06 21:25:35 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [5] as [INTEGER] - [45] 
+2022-05-06 21:25:35.001 DEBUG [org.hibernate.SQL@main] insert into chirp (version, author, body, email, moment, title, id) values (?, ?, ?, ?, ?, ?, ?) 
+2022-05-06 21:25:35.001 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [1] as [INTEGER] - [0] 
+2022-05-06 21:25:35.001 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [2] as [VARCHAR] - [Don Chirp] 
+2022-05-06 21:25:35.002 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [3] as [VARCHAR] - [Hola sot un Chirp!] 
+2022-05-06 21:25:35.002 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [4] as [VARCHAR] - [creadordechirps@email.com] 
+2022-05-06 21:25:35.002 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [5] as [TIMESTAMP] - [Tue Apr 05 22:30:00 CEST 2022] 
+2022-05-06 21:25:35.002 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [6] as [VARCHAR] - [My Chirp] 
+2022-05-06 21:25:35.002 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [7] as [INTEGER] - [46] 
+2022-05-06 21:25:35.005 DEBUG [org.hibernate.SQL@main] insert into chirp (version, author, body, email, moment, title, id) values (?, ?, ?, ?, ?, ?, ?) 
+2022-05-06 21:25:35.005 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [1] as [INTEGER] - [0] 
+2022-05-06 21:25:35.005 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [2] as [VARCHAR] - [ejemplo] 
+2022-05-06 21:25:35.005 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [3] as [VARCHAR] - [ejemplo] 
+2022-05-06 21:25:35.005 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [4] as [VARCHAR] - [ejemplo01@acme.com] 
+2022-05-06 21:25:35.005 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [5] as [TIMESTAMP] - [Thu Apr 21 21:00:00 CEST 2022] 
+2022-05-06 21:25:35.006 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [6] as [VARCHAR] - [ejemplo] 
+2022-05-06 21:25:35.006 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [7] as [INTEGER] - [47] 
+2022-05-06 21:25:35.007 DEBUG [org.hibernate.SQL@main] insert into consumer (version, user_account_id, company, sector, id) values (?, ?, ?, ?, ?) 
+2022-05-06 21:25:35.007 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [1] as [INTEGER] - [0] 
+2022-05-06 21:25:35.007 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [2] as [INTEGER] - [9] 
+2022-05-06 21:25:35.007 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [3] as [VARCHAR] - [Acme-One] 
+2022-05-06 21:25:35.007 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [4] as [VARCHAR] - [Educación] 
+2022-05-06 21:25:35.007 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [5] as [INTEGER] - [48] 
+2022-05-06 21:25:35.011 DEBUG [org.hibernate.SQL@main] insert into consumer (version, user_account_id, company, sector, id) values (?, ?, ?, ?, ?) 
+2022-05-06 21:25:35.011 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [1] as [INTEGER] - [0] 
+2022-05-06 21:25:35.011 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [2] as [INTEGER] - [7] 
+2022-05-06 21:25:35.011 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [3] as [VARCHAR] - [Acme-One] 
+2022-05-06 21:25:35.011 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [4] as [VARCHAR] - [Agrícola] 
+2022-05-06 21:25:35.011 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [5] as [INTEGER] - [49] 
+2022-05-06 21:25:35.012 DEBUG [org.hibernate.SQL@main] insert into item (version, code, description, inventor_id, link, name, retail_price_amount, retail_price_currency, technology, type, id) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) 
+2022-05-06 21:25:35.012 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [1] as [INTEGER] - [0] 
+2022-05-06 21:25:35.012 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [2] as [VARCHAR] - [DEF-484-C] 
+2022-05-06 21:25:35.013 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [3] as [VARCHAR] - [A tv made from Xiaomi!] 
+2022-05-06 21:25:35.013 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [4] as [INTEGER] - [23] 
+2022-05-06 21:25:35.013 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [5] as [VARCHAR] - [https://www.mi.com/es] 
+2022-05-06 21:25:35.013 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [6] as [VARCHAR] - [Televition Xiaomi] 
+2022-05-06 21:25:35.013 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [7] as [DOUBLE] - [350.0] 
+2022-05-06 21:25:35.013 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [8] as [VARCHAR] - [EUR] 
+2022-05-06 21:25:35.013 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [9] as [VARCHAR] - [Xiaomi] 
+2022-05-06 21:25:35.013 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [10] as [INTEGER] - [1] 
+2022-05-06 21:25:35.013 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [11] as [INTEGER] - [50] 
+2022-05-06 21:25:35.016 DEBUG [org.hibernate.SQL@main] insert into item (version, code, description, inventor_id, link, name, retail_price_amount, retail_price_currency, technology, type, id) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) 
+2022-05-06 21:25:35.017 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [1] as [INTEGER] - [0] 
+2022-05-06 21:25:35.017 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [2] as [VARCHAR] - [DSC-455-H] 
+2022-05-06 21:25:35.017 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [3] as [VARCHAR] - [A tool to bring easier communication among parners!] 
+2022-05-06 21:25:35.017 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [4] as [INTEGER] - [21] 
+2022-05-06 21:25:35.017 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [5] as [VARCHAR] - [https://discord.com/] 
+2022-05-06 21:25:35.017 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [6] as [VARCHAR] - [Discord] 
+2022-05-06 21:25:35.017 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [7] as [DOUBLE] - [5.0] 
+2022-05-06 21:25:35.017 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [8] as [VARCHAR] - [GBP] 
+2022-05-06 21:25:35.017 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [9] as [VARCHAR] - [discord] 
+2022-05-06 21:25:35.017 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [10] as [INTEGER] - [0] 
+2022-05-06 21:25:35.018 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [11] as [INTEGER] - [51] 
+2022-05-06 21:25:35.018 DEBUG [org.hibernate.SQL@main] insert into toolkit (version, assembly_notes, code, description, item_id, link, publish, title, id) values (?, ?, ?, ?, ?, ?, ?, ?, ?) 
+2022-05-06 21:25:35.019 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [1] as [INTEGER] - [0] 
+2022-05-06 21:25:35.019 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [2] as [VARCHAR] - [ejemplo] 
+2022-05-06 21:25:35.019 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [3] as [VARCHAR] - [AAA-000] 
+2022-05-06 21:25:35.019 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [4] as [VARCHAR] - [Toolkit 1] 
+2022-05-06 21:25:35.019 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [5] as [INTEGER] - [50] 
+2022-05-06 21:25:35.019 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [6] as [VARCHAR] - [http://www.google.com] 
+2022-05-06 21:25:35.019 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [7] as [BOOLEAN] - [true] 
+2022-05-06 21:25:35.019 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [8] as [VARCHAR] - [1] 
+2022-05-06 21:25:35.019 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [9] as [INTEGER] - [52] 
+2022-05-06 21:25:35.023 DEBUG [org.hibernate.SQL@main] insert into toolkit (version, assembly_notes, code, description, item_id, link, publish, title, id) values (?, ?, ?, ?, ?, ?, ?, ?, ?) 
+2022-05-06 21:25:35.024 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [1] as [INTEGER] - [0] 
+2022-05-06 21:25:35.024 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [2] as [VARCHAR] - [ejemplo] 
+2022-05-06 21:25:35.024 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [3] as [VARCHAR] - [BBB-111] 
+2022-05-06 21:25:35.024 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [4] as [VARCHAR] - [Toolkit 2] 
+2022-05-06 21:25:35.024 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [5] as [INTEGER] - [50] 
+2022-05-06 21:25:35.024 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [6] as [VARCHAR] - [http://www.google.com] 
+2022-05-06 21:25:35.024 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [7] as [BOOLEAN] - [true] 
+2022-05-06 21:25:35.025 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [8] as [VARCHAR] - [2] 
+2022-05-06 21:25:35.025 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [9] as [INTEGER] - [53] 
+2022-05-06 21:25:35.026 DEBUG [org.hibernate.SQL@main] insert into currency (version, accepted, name, on_default, id) values (?, ?, ?, ?, ?) 
+2022-05-06 21:25:35.026 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [1] as [INTEGER] - [0] 
+2022-05-06 21:25:35.026 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [2] as [BOOLEAN] - [true] 
+2022-05-06 21:25:35.026 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [3] as [VARCHAR] - [GBP] 
+2022-05-06 21:25:35.026 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [4] as [BOOLEAN] - [false] 
+2022-05-06 21:25:35.026 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [5] as [INTEGER] - [54] 
+2022-05-06 21:25:35.029 DEBUG [org.hibernate.SQL@main] insert into currency (version, accepted, name, on_default, id) values (?, ?, ?, ?, ?) 
+2022-05-06 21:25:35.030 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [1] as [INTEGER] - [0] 
+2022-05-06 21:25:35.030 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [2] as [BOOLEAN] - [true] 
+2022-05-06 21:25:35.030 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [3] as [VARCHAR] - [USD] 
+2022-05-06 21:25:35.030 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [4] as [BOOLEAN] - [false] 
+2022-05-06 21:25:35.030 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [5] as [INTEGER] - [55] 
+2022-05-06 21:25:35.030 DEBUG [org.hibernate.SQL@main] insert into currency (version, accepted, name, on_default, id) values (?, ?, ?, ?, ?) 
+2022-05-06 21:25:35.031 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [1] as [INTEGER] - [0] 
+2022-05-06 21:25:35.031 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [2] as [BOOLEAN] - [true] 
+2022-05-06 21:25:35.031 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [3] as [VARCHAR] - [EUR] 
+2022-05-06 21:25:35.031 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [4] as [BOOLEAN] - [true] 
+2022-05-06 21:25:35.031 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [5] as [INTEGER] - [56] 
+2022-05-06 21:25:36.289 INFO  [acme.framework.configuration.ShutdownConfiguration@main] The system is shutting down... 
+2022-05-06 21:25:36.312 DEBUG [acme.Launcher@main] Exit code = 0 

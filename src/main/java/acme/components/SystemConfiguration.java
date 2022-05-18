@@ -20,7 +20,7 @@ public class SystemConfiguration {
 	protected static final List<String> strongSpamTermsTranslate = Arrays.asList("sex", "hard core", "viagra", "cialis");
 	
 	@NotBlank
-	protected static final Double strongSpamTreshold = 0.1;
+	protected static final Double strongSpamThreshold = 0.1;
 	
 	@NotBlank
 	protected static final List<String> weakSpamTermsList= Arrays.asList("sexy", "nigeria", "you´ve won", "one million");

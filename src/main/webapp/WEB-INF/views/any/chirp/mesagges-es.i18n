@@ -3,3 +3,14 @@ any.chirp.list.label.author = Autor
 any.chirp.list.label.moment = Fecha
 any.chirp.list.label.body = Cuerpo
 any.chirp.list.label.email = Correo
+
+any.chirp.list.button.create = Nuevo Chirp
+
+any.chirp.form.title = Título
+any.chirp.form.label.author = Autor
+any.chirp.form.label.body = Cuerpo
+any.chirp.form.label.email = Correo
+
+any.chirp.form.button.create = Crear Chirp
+any.chirp.form.label.confirm = Confirmar que quieres crear un nuevo Chirp
+any.chirp.form.error.must-confirm = Se debe confirmar

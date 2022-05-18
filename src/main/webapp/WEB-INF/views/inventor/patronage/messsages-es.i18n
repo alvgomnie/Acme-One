@@ -1,11 +1,24 @@
-inventor.patronages.list.label.status = Estado
-inventor.patronages.list.label.code= Codigo
-inventor.patronages.list.label.legalStuff= Cosas legales
-inventor.patronages.list.label.budget=Presupuesto
-inventor.patronages.list.label.startingDate=Fecha de inicio
-inventor.patronages.list.label.finishingDate=Fecha de fin
-inventor.patronages.list.label.link= Link
+inventor.patronages.form.label.status = Estado
+inventor.patronages.form.label.update-status = Cambiar Estado:
+inventor.patronages.form.label.code= Codigo
+inventor.patronages.form.label.legalStuff= Información legales
+inventor.patronages.form.label.budget=Presupuesto
+inventor.patronages.form.label.startingDate=Fecha de inicio
+inventor.patronages.form.label.finishingDate=Fecha de fin
+inventor.patronages.form.label.timeLapse=Lapso de tiempo
+inventor.patronages.form.label.link= Link
 
-inventor.patronages.patron.list.label.company=Compañia
-inventor.patronages.patron.list.label.statement=Declaración
-inventor.patronages.patron.list.label.optionalLink=Link
+inventor.patronages.patron.form.label.company=Compañia
+inventor.patronages.patron.form.label.statement=Declaración
+inventor.patronages.patron.form.label.link=Link
+
+inventor.patronages.list.label.status = Estado
+inventor.patronages.list.label.code = Código
+inventor.patronages.list.label.legalStuff = Información legal
+inventor.patronages.list.label.budget = Presupuesto
+inventor.patronages.list.label.startingDate = Fecha de Inicio
+inventor.patronages.list.label.finishingDate = Fecha de Fin
+inventor.patronages.list.label.timeLapse=Lapso de tiempo
+inventor.patronages.list.label.link = Link
+
+inventor.patronages.form.button.update = Actualizar

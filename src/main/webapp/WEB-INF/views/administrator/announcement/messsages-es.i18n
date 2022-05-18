@@ -1,0 +1,6 @@
+administrator.announcement.form.label.body = Cuerpo
+administrator.announcement.form.label.title = Título
+administrator.announcement.form.label.critical = Crítico
+administrator.announcement.form.label.link = Link
+administrator.announcement.form.label.creationMoment = Fecha de Creación
+administrator.announcement.form.label.confirmation = Confirmación 

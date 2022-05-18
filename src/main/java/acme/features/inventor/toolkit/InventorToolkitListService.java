@@ -34,7 +34,7 @@ public class InventorToolkitListService implements AbstractListService<Inventor,
 		
 		principal = request.getPrincipal();
 		
-		result = this.repository.findToolkitsByInventorId(principal.getAccountId());
+		result = this.repository.findToolkitsByInventorId(principal.getActiveRoleId());
 		
 		return result;
 	}

@@ -29,6 +29,7 @@ master.menu.anonymous.link.miggavmar = 09215199L: Gaviro Martínez, Miguel
 master.menu.administrator = Administrator
 master.menu.administrator.dashboard = Dashboard
 master.menu.administrator.user-accounts = User accounts
+master.menu.administrator.announcement = Create an announcement
 master.menu.administrator.populate-initial = Populate DB (initial)
 master.menu.administrator.populate-sample = Populate DB (samples)
 master.menu.administrator.shut-down = Shut down
@@ -57,6 +58,10 @@ master.menu.user-account.provider = Provider data
 master.menu.user-account.become-provider = Become a provider
 master.menu.user-account.consumer = Consumer data
 master.menu.user-account.become-consumer = Become a consumer
+master.menu.user-account.inventor = Inventor data
+master.menu.user-account.become-inventor = Become an inventor
+master.menu.user-account.patron = Patron data
+master.menu.user-account.become-patron = Become a patron
 master.menu.user-account.announcements.list = Announcement
 
 # master.menu.authenticated ###################################################
@@ -90,4 +95,5 @@ master.menu.inventor.components-link = My components
 master.menu.inventor.tools-link = My tools
 master.menu.inventor.toolkit = Toolkits
 master.menu.inventor.patronages = Patronages
-master.menu.inventor.patronageReport = Patronage Report
+master.menu.inventor.patronageReport-list = Patronage Report
+master.menu.inventor.patronageReport-create = Create a Patronage Report

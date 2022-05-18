@@ -45,7 +45,7 @@ public class InventorItemUpdateService implements AbstractUpdateService<Inventor
 		assert entity != null;
 		assert errors != null;
 		
-		request.bind(entity, errors, "name", "retailPrice", "type");
+		request.bind(entity, errors, "name", "code", "technology", "description", "retailPrice", "type", "link");
 		
 	}
 
@@ -56,7 +56,7 @@ public class InventorItemUpdateService implements AbstractUpdateService<Inventor
 		assert entity != null;
 		assert model != null;
 		
-		request.unbind(entity, model, "name", "code", "technology", "description", "retailPrice", "type", "link");
+		request.unbind(entity, model, "name", "code", "technology", "description", "retailPrice", "type", "link", "published");
 		
 	}
 

@@ -46,7 +46,7 @@ public class InventorItemDeleteService implements AbstractDeleteService<Inventor
 		assert entity != null;
 		assert errors != null;
 
-		request.bind(entity, errors, "name", "type", "code", "technology", "description", "retailPrice", "link", "published");		
+		request.bind(entity, errors, "name", "type", "code", "technology", "description", "retailPrice", "link");		
 		
 	}
 	

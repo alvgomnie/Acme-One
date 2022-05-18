@@ -1,4 +1,2 @@
 timestamp,test-class,test-method,time,description,result
-"2022-05-18 00:31:27.795","inventor.item.InventorItemCreateTest","inventorCreateItemPositive",23108,""[1] testIndex=0, name=Televition Samsung, type=COMPONENT, code=PPP-999-P, technology=Samsung, description=A tv made from Samsung!, retailPrice=EUR 350.00, link=https://www.mi.com/es, published=false"","OK"
-"2022-05-18 00:31:45.098","inventor.item.InventorItemCreateTest","inventorCreateItemPositive",16415,""[2] testIndex=1, name=Twitter, type=TOOL, code=TTT-000-T, technology=Twitter, description=A tool to bring easier communication among parners!, retailPrice=GBP 5.00, link=https://discord.com/, published=false"","OK"
-"2022-05-18 00:32:00.182","inventor.item.InventorItemCreateTest","inventorCreateItemNegative",14371,""[1] testIndex=0, name=null, type=COMPONENT, code=code, technology=Samsung, description=null, retailPrice=EUR 350.00, link=https://www.mi.com/es, published=false"","OK"
+"2022-05-18 11:26:11.818","inventor.item.InventorItemDeleteTest","positiveDeleteItem",15686,""positiveDeleteItem()"","Errors were unexpected, but found"

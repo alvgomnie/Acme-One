@@ -1,0 +1,5 @@
+timestamp,test-class,test-method,time,description,result
+"2022-05-18 10:26:30.042","inventor.item.InventorItemCreateTest","inventorCreateItemPositive",20439,""[1] testIndex=0, name=Televition Samsung, type=COMPONENT, code=PPP-999-P, technology=Samsung, description=A tv made from Samsung!, retailPrice=EUR 350.00, link=https://www.mi.com/es, published=false"","OK"
+"2022-05-18 10:26:44.002","inventor.item.InventorItemCreateTest","inventorCreateItemPositive",13208,""[2] testIndex=1, name=Twitter, type=TOOL, code=TTT-000-T, technology=Twitter, description=A tool to bring easier communication among parners!, retailPrice=GBP 5.00, link=https://discord.com/, published=false"","OK"
+"2022-05-18 10:26:56.969","inventor.item.InventorItemCreateTest","inventorCreateItemNegative",12395,""[1] testIndex=0, name=null, type=COMPONENT, code=code, technology=Samsung, description=null, retailPrice=EUR 350.00, link=https://www.mi.com/es, published=false"","OK"
+"2022-05-18 10:27:16.224","inventor.item.InventorItemCreateTest","hackingTest",18606,""hackingTest()"","OK"

@@ -7,10 +7,10 @@ import org.junit.jupiter.params.provider.CsvFileSource;
 
 import acme.testing.TestHarness;
 
-public class InventorItemCreateTest extends TestHarness{
-	
+public class InventorItemUpdateTest extends TestHarness{
+
 	@ParameterizedTest
-	@CsvFileSource(resources = "/inventor/item/items.csv", encoding = "utf-8", numLinesToSkip = 1)
+	@CsvFileSource(resources = "/inventor/item/updateItem.csv", encoding = "utf-8", numLinesToSkip = 1)
 	@Order(10)
 	public void inventorCreateItemPositive(final int testIndex, final String name, final String type,
 		final String code, final String technology, final String description,
@@ -18,10 +18,12 @@ public class InventorItemCreateTest extends TestHarness{
 		
 		super.signIn("inventor2", "inventor2");
 		
-		super.clickOnMenu("Inventor", "My components");
+		super.clickOnMenu("Inventor", "My tools");
 		super.checkListingExists();
+		super.sortListing(0, "asc");
+		super.clickOnListingRecord(testIndex);
+		super.checkFormExists();
 		
-		super.clickOnButton("Create");
 		super.fillInputBoxIn("name", name);
 		super.fillInputBoxIn("type", type);
 		super.fillInputBoxIn("code", code);
@@ -30,21 +32,13 @@ public class InventorItemCreateTest extends TestHarness{
 		super.fillInputBoxIn("retailPrice", retailPrice);
 		super.fillInputBoxIn("link", link);
 		super.fillInputBoxIn("published", published);
-		super.clickOnSubmit("Create");
+		super.clickOnSubmit("Update");
 		
-		if(type.equals("COMPONENT")) {
-			super.clickOnMenu("Inventor", "My components");
-			super.checkListingExists();
-			super.sortListing(0, "asc");
-			super.clickOnListingRecord(testIndex);
-		}
-		else {
-			super.clickOnMenu("Inventor", "My tools");
-			super.checkListingExists();
-			super.sortListing(0, "asc");
-			super.clickOnListingRecord(testIndex);
-		}
-				
+		super.clickOnMenu("Inventor", "My tools");
+		super.checkListingExists();
+		super.sortListing(0, "asc");
+		super.clickOnListingRecord(testIndex);
+		
 		super.checkFormExists();
 		super.checkInputBoxHasValue("name", name);
 		super.checkInputBoxHasValue("type", type);
@@ -54,10 +48,13 @@ public class InventorItemCreateTest extends TestHarness{
 		super.checkInputBoxHasValue("retailPrice", retailPrice);
 		super.checkInputBoxHasValue("published", published);
 		super.checkInputBoxHasValue("link", link);		
+		
+		super.signOut();
+		
 	}
 	
 	@ParameterizedTest
-	@CsvFileSource(resources = "/inventor/item/negativeItem.csv", encoding = "utf-8", numLinesToSkip = 1)
+	@CsvFileSource(resources = "/inventor/item/updateNegativeItem.csv", encoding = "utf-8", numLinesToSkip = 1)
 	@Order(20)
 	public void inventorCreateItemNegative(final int testIndex, final String name, final String type,
 		final String code, final String technology, final String description,
@@ -65,10 +62,12 @@ public class InventorItemCreateTest extends TestHarness{
 		
 		super.signIn("inventor2", "inventor2");
 		
-		super.clickOnMenu("Inventor", "My components");
+		super.clickOnMenu("Inventor", "My tools");
 		super.checkListingExists();
+		super.sortListing(0, "asc");
+		super.clickOnListingRecord(testIndex);
+		super.checkFormExists();
 		
-		super.clickOnButton("Create");
 		super.fillInputBoxIn("name", name);
 		super.fillInputBoxIn("type", type);
 		super.fillInputBoxIn("code", code);
@@ -77,7 +76,7 @@ public class InventorItemCreateTest extends TestHarness{
 		super.fillInputBoxIn("retailPrice", retailPrice);
 		super.fillInputBoxIn("link", link);
 		super.fillInputBoxIn("published", published);
-		super.clickOnSubmit("Create");
+		super.clickOnSubmit("Update");
 		
 		super.checkErrorsExist();
 		
@@ -88,21 +87,8 @@ public class InventorItemCreateTest extends TestHarness{
 	@Test
 	@Order(30)
 	public void hackingTest() {
-		
-		super.checkNotLinkExists("Account");
-		super.navigate("/inventor/item/create");
-		super.checkPanicExists();
-		
-		super.signIn("administrator", "administrator");
-		super.navigate("/inventor/item/create");
-		super.checkPanicExists();
-		super.signOut();
-		
-		super.signIn("provider1", "provider1");
-		super.navigate("/inventor/item/create");
-		super.checkPanicExists();
-		super.signOut();
-		
+		//El framework no permite actualmente realizar un hackingTest. Manualmente sería:
+			//Iniciar sesión con otro inventor (4 por ejemplo)
+			//Acceder a la url del item con su id
 	}
-
 }

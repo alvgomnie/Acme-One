@@ -1,2 +1,0 @@
-timestamp,test-class,test-method,time,description,result
-"2022-05-18 00:17:44.126","inventor.item.InventorComponentListTest","inventorListComponents",19181,""[1] testIndex=0, name=Televition Xiaomi, price=EUR 350.00, type=COMPONENT, code=DEF-484-C, technology=Xiaomi, description=A tv made from Xiaomi!, link=https://www.mi.com/es"","OK"

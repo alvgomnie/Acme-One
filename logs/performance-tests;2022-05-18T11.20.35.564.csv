@@ -1,2 +1,0 @@
-timestamp,test-class,test-method,time,description,result
-"2022-05-18 11:12:39.612","inventor.item.InventorItemPublishTest","positivePublishItem",25787,""positivePublishItem()"","OK"

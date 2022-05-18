@@ -1,2 +1,0 @@
-timestamp,test-class,test-method,time,description,result
-"2022-05-18 00:05:15.08","inventor.item.InventorItemCreateTest","inventorListTools",20755,""[1] testIndex=0, name=Televition Samsung, type=COMPONENT, code=PPP-999-P, technology=Samsung, description=A tv made from Samsung!, retailPrice=EUR 350.00, link=https://www.mi.com/es, published=false"","A form was expected, but doesn't exist"

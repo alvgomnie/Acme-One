@@ -1,2 +1,0 @@
-timestamp,test-class,test-method,time,description,result
-"2022-05-18 11:08:47.926","inventor.item.InventorItemPublishTest","positivePublishItem",11642,""positivePublishItem()"","Record index 0 is out of range"

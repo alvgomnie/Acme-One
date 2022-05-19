@@ -1,3 +1,5 @@
 timestamp,test-class,test-method,time,description,result
-"2022-05-18 18:35:29.498","userAccount.CreateAndBecomePatronTest","createUserAndBecomeInventor",29505,""[1] textIndex=0, username=test01, password=test01, name=Test, surname=Inventor, email=inventor@test.com"","OK"
-"2022-05-18 18:35:45.995","userAccount.CreateAndBecomePatronTest","createUserAndBecomeInventorNegative",15827,""[1] textIndex=0, username=test02, password=test02, name=Test, surname=Negative, email=error@test.com"","OK"
+"2022-05-19 11:57:33.597","any.chirp.AnyChirpCreateTest","createPositiveChirp",34050,""[1] testIndex=0, title=01, author=test1, moment=2022/05/18 21:00, body=ejemplo, email=ejemplo01@acme.com"","OK"
+"2022-05-19 11:57:53.608","any.chirp.AnyChirpCreateTest","createPositiveChirp",18935,""[2] testIndex=1, title=02, author=test2, moment=2022/05/05 22:30, body=ejemplo, email=creadordechirps@email.com"","OK"
+"2022-05-19 11:58:09.799","any.chirp.AnyChirpCreateTest","negativeTest",15104,""[1] recordIndex=0, title=01, author=test1, body=2022/05/18/90 21:00, email=ejemplo"","OK"
+"2022-05-19 11:58:27.739","any.chirp.AnyChirpCreateTest","negativeTest",17102,""[2] recordIndex=1, title=02, author=test2, body=2022/05/05 22:30, email=ejemplo"","OK"

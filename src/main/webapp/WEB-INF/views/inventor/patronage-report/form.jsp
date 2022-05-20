@@ -9,6 +9,15 @@
 	<acme:input-textbox code="inventor.patronageReport.form.label.memorandum" path="memorandum"/>
 	<acme:input-url code="inventor.patronageReport.form.label.link" path="link"/>
 	
-	<acme:input-checkbox code="inventor.patronageReport.form.label.confirmation" path="confirmation"/>	
-	<acme:submit test="${command == 'create'}" code="inventor.patronageReport.form.button.create" action="/inventor/patronage-report/create"/>
+	<acme:input-select code="inventor.patronageReport.list.label.patronage" path="patronageId">
+		<jstl:forEach items="${patronages}" var="patronage">
+			<acme:input-option code="${patronage.getCode()}" value="${patronage.getId()}" selected="${patronage.getId() == patronageId}"/>
+		</jstl:forEach>
+	</acme:input-select>
+	
+	<acme:input-checkbox code="inventor.patronageReport.form.label.confirmation" path="confirmation"/>
+	
+	<jstl:if test="${command == 'create'}">
+		<acme:submit code="inventor.patronageReport.form.button.create" action="/inventor/patronage-report/create"/>
+	</jstl:if>
 </acme:form>

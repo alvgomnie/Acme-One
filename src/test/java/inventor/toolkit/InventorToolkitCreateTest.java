@@ -27,8 +27,9 @@ public class InventorToolkitCreateTest extends TestHarness{
 		super.fillInputBoxIn("link", link);
 		super.clickOnSubmit("Create");
 		
-		super.checkColumnHasValue(recordIndex, 1, code);
-		super.clickOnListingRecord(recordIndex);
+		super.checkListingExists();
+		super.sortListing(0, "asc");
+		super.clickOnListingRecord(recordIndex+1);
 		
 		super.checkFormExists();
 		

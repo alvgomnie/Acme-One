@@ -51,6 +51,7 @@ public class Toolkit extends AbstractEntity{
 	@NotNull
 	@Valid
 	@ManyToOne(optional = false)
+	@OnDelete(action = OnDeleteAction.CASCADE)
 	protected Inventor inventor;
 
 	

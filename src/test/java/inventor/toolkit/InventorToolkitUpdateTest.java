@@ -65,7 +65,7 @@ public class InventorToolkitUpdateTest extends TestHarness{
 		super.fillInputBoxIn("assemblyNotes", assemblyNotes);
 		super.fillInputBoxIn("publish", publish);
 		super.fillInputBoxIn("link", link);
-		super.clickOnSubmit("Create");
+		super.clickOnSubmit("Update");
 		
 		super.checkErrorsExist();
 	

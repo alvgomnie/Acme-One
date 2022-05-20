@@ -1,8 +1,3 @@
 timestamp,test-class,test-method,time,description,result
-"2022-05-20 18:25:39.942","inventor.toolkit.InventorToolkitCreateTest","positiveTest",10824,""[1] recordIndex=0, code=BBB-000, title=01, description=This is a description, assemblyNotes=ejemplo, publish=false, link=http://www.google.com"","OK"
-"2022-05-20 18:25:49.24","inventor.toolkit.InventorToolkitCreateTest","positiveTest",9048,""[2] recordIndex=1, code=CCC-000, title=02, description=This is a description, assemblyNotes=ejemplo, publish=false, link=http://www.google.com"","OK"
-"2022-05-20 18:25:58.496","inventor.toolkit.InventorToolkitCreateTest","positiveTest",9017,""[3] recordIndex=2, code=DDD-000, title=03, description=This is a description, assemblyNotes=ejemplo, publish=false, link=http://www.google.com"","OK"
-"2022-05-20 18:26:07.776","inventor.toolkit.InventorToolkitCreateTest","positiveTest",9029,""[4] recordIndex=3, code=EEE-000, title=04, description=This is a description, assemblyNotes=ejemplo, publish=false, link=http://www.google.com"","OK"
-"2022-05-20 18:26:15.913","inventor.toolkit.InventorToolkitCreateTest","negativeTest",7870,""[1] recordIndex=0, code=fail code, title=05, description=This is a description, assemblyNotes=ejemplo, publish=false, link=http://www.google.com"","OK"
-"2022-05-20 18:26:24.037","inventor.toolkit.InventorToolkitCreateTest","negativeTest",7870,""[2] recordIndex=1, code=CCC-000, title=06, description=This is a description, assemblyNotes=ejemplo, publish=false, link=fail link"","OK"
-"2022-05-20 18:26:37.209","inventor.toolkit.InventorToolkitCreateTest","hackingTest",12935,""hackingTest()"","OK"
+"2022-05-20 20:47:58.948","inventor.toolkit.InventorToolkitDeleteTest","positiveDeleteToolkit",24642,""positiveDeleteToolkit()"","OK"
+"2022-05-20 20:48:06.428","inventor.toolkit.InventorToolkitDeleteTest","negativeDeleteToolkit",6855,""negativeDeleteToolkit()"","Record index 0 is out of range"

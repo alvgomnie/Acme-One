@@ -8,7 +8,7 @@
 	<acme:input-textbox code="inventor.toolkit.form.label.title" path="title"/>
 	<acme:input-textarea code="inventor.toolkit.form.label.description" path="description"/>
 	<acme:input-textarea code="inventor.toolkit.form.label.assemblyNotes" path="assemblyNotes"/>
-	<acme:input-select code="inventor.item.list.label.publish" path="publish">
+	<acme:input-select code="inventor.toolkit.list.label.publish" path="publish">
 		<acme:input-option code="true" value="true" selected="${publish == true}"/>
 		<acme:input-option code="false" value="false" selected="${publish == false }"/>
 	</acme:input-select>
@@ -30,7 +30,11 @@
 		
 	</jstl:choose>
 	
-	<acme:button code="inventor.toolkit.form.button.item" action="/inventor/item/list-by-toolkitId?toolkitId=${toolkitId}"/>
+	<jstl:if test="${command != 'create'}">
+		<acme:button code="inventor.toolkit.form.button.item" action="/inventor/item/list-by-toolkit?id=${id}"/>
+	</jstl:if>
+	
+	
 		
 		
 </acme:form>

@@ -6,6 +6,8 @@ inventor.toolkit.form.label.publish=Publicado
 inventor.toolkit.form.label.link=Link
 
 inventor.toolkit.list.button.create = Crear
+inventor.toolkit.form.button.item = Items
+
 
 inventor.toolkit.list.label.code= Código
 inventor.toolkit.list.label.title=Título

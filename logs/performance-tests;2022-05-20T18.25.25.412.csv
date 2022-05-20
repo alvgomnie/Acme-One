@@ -1,0 +1,2 @@
+timestamp,test-class,test-method,time,description,result
+"2022-05-20 18:25:02.401","inventor.toolkit.InventorToolkitCreateTest","positiveTest",7599,""[1] recordIndex=0, code=BBB-000, title=01, description=This is a description, assemblyNotes=ejemplo, publish=false, link=http://www.google.com"","Expected value 'BBB-000' in input box 'code', but 'AAA-000' was found"

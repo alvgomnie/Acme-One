@@ -1,0 +1,3 @@
+timestamp,test-class,test-method,time,description,result
+"2022-05-20 18:18:47.822","inventor.toolkit.InventorToolkitCreateTest","positiveTest",6813,""[1] recordIndex=0, code=BBB-000, title=01, description=This is a description, assemblyNotes=ejemplo, publish=false, link=http://www.google.com"","Expected value 'BBB-000' in attribute 1 of record 0, but found '1'"
+"2022-05-20 18:18:52.309","inventor.toolkit.InventorToolkitCreateTest","positiveTest",4241,""[2] recordIndex=1, code=CCC-000, title=02, description=This is a description, assemblyNotes=ejemplo, publish=false, link=http://www.google.com"","Cannot find 'By.name: link'"

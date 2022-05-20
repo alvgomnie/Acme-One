@@ -1,0 +1,30 @@
+timestamp,simple-path,time
+"2022-05-18 20:45:30.592","/master/welcome",17467
+"2022-05-18 20:45:32.314","/master/welcome",1616
+"2022-05-18 20:45:42.542","/master/sign-in",9653
+"2022-05-18 20:45:45.574","/master/welcome",2164
+"2022-05-18 20:45:53.565","/inventor/toolkit/list",7257
+"2022-05-18 20:45:59.8","/inventor/toolkit/create",6178
+"2022-05-18 20:46:03.139","/inventor/toolkit/create",2128
+"2022-05-18 20:46:06.415","/master/welcome",1161
+"2022-05-18 20:46:07.944","/master/welcome",1491
+"2022-05-18 20:46:09.654","/master/sign-in",1120
+"2022-05-18 20:46:12.568","/master/welcome",1659
+"2022-05-18 20:46:15.015","/inventor/toolkit/list",1774
+"2022-05-18 20:46:17.129","/inventor/toolkit/create",2065
+"2022-05-18 20:46:20.316","/inventor/toolkit/create",2084
+"2022-05-18 20:46:23.513","/master/welcome",1140
+"2022-05-18 20:46:24.926","/master/welcome",1375
+"2022-05-18 20:46:27.091","/master/sign-in",1607
+"2022-05-18 20:46:29.442","/master/welcome",1123
+"2022-05-18 20:46:31.148","/inventor/toolkit/list",1561
+"2022-05-18 20:46:33.508","/inventor/toolkit/create",1596
+"2022-05-18 20:46:37.311","/inventor/toolkit/create",1565
+"2022-05-18 20:46:40.641","/master/welcome",1271
+"2022-05-18 20:46:41.909","/master/welcome",1235
+"2022-05-18 20:46:43.54","/master/sign-in",1069
+"2022-05-18 20:46:45.894","/master/welcome",1573
+"2022-05-18 20:46:48.147","/inventor/toolkit/list",1626
+"2022-05-18 20:46:49.776","/inventor/toolkit/create",1568
+"2022-05-18 20:46:52.963","/inventor/toolkit/create",2109
+

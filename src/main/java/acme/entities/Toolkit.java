@@ -48,11 +48,6 @@ public class Toolkit extends AbstractEntity{
 	
 	@NotNull
 	@Valid
-	@ManyToOne(optional=false)
-	protected Item item;
-	
-	@NotNull
-	@Valid
 	@ManyToOne(optional = false)
 	protected Inventor inventor;
 	

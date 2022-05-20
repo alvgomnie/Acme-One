@@ -30,7 +30,11 @@
 		
 	</jstl:choose>
 	
-	<acme:button code="inventor.toolkit.form.button.item" action="/inventor/item/list-by-toolkitId?toolkitId=${toolkitId}"/>
+	<jstl:if test="${command != 'create'}">
+		<acme:button code="inventor.toolkit.form.button.item" action="/inventor/item/list-by-toolkit?id=${id}"/>
+	</jstl:if>
+	
+	
 		
 		
 </acme:form>

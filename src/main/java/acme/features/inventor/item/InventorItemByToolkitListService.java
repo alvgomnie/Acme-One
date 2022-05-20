@@ -12,7 +12,7 @@ import acme.framework.services.AbstractListService;
 import acme.roles.Inventor;
 
 @Service
-public class InventorItemListService implements AbstractListService<Inventor, Item>{
+public class InventorItemByToolkitListService implements AbstractListService<Inventor, Item>{
 	
 	// Internal state ---------------------------------------------------------
 
@@ -35,9 +35,11 @@ public class InventorItemListService implements AbstractListService<Inventor, It
 		
 		assert request != null;
 		
-		final int getId = request.getPrincipal().getActiveRoleId();
 		Collection<Item> result;
-		result = this.repository.findItemsByInventorId(getId);
+		int id;
+		
+		id = request.getModel().getInteger("id");
+		result = this.repository.findItemsByToolkitId(id);
 		
 		return result;
 		
@@ -53,7 +55,7 @@ public class InventorItemListService implements AbstractListService<Inventor, It
 		request.unbind(entity, model, "name", "type", "retailPrice", "published");
 		
 	}
-	
 		
+			
 
 }

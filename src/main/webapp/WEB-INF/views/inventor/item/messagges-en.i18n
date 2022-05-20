@@ -13,6 +13,7 @@ inventor.item.form.label.retailPrice = Price
 inventor.item.form.label.link = Link
 inventor.item.form.label.published = Published
 
+inventor.item.form.button.create = Create
 inventor.item.form.button.update = Update
 inventor.item.form.button.delete = Delete
 inventor.item.form.button.publish = Publish

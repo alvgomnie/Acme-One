@@ -35,7 +35,7 @@ public class InventorItemListService implements AbstractListService<Inventor, It
 		
 		assert request != null;
 		
-		final Integer getId = request.getPrincipal().getActiveRoleId();
+		final int getId = request.getPrincipal().getActiveRoleId();
 		Collection<Item> result;
 		result = this.repository.findItemsByInventorId(getId);
 		

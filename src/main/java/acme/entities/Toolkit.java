@@ -14,6 +14,7 @@ import org.hibernate.validator.constraints.Length;
 import org.hibernate.validator.constraints.URL;
 
 import acme.framework.entities.AbstractEntity;
+import acme.roles.Inventor;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -49,8 +50,8 @@ public class Toolkit extends AbstractEntity{
 	
 	@NotNull
 	@Valid
-	@ManyToOne(optional=false)
-	@OnDelete(action = OnDeleteAction.CASCADE)
-	protected Item item;
+	@ManyToOne(optional = false)
+	protected Inventor inventor;
+
 	
 }

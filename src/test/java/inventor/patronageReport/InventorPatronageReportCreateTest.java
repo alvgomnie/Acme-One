@@ -21,6 +21,7 @@ public class InventorPatronageReportCreateTest extends TestHarness {
 		super.fillInputBoxIn("creationMoment", creationMoment);
 		super.fillInputBoxIn("memorandum", memorandum);
 		super.fillInputBoxIn("link", link);
+		super.fillInputBoxIn("confirmation", "true");
 		super.clickOnSubmit("Create Patronage Report");
 		
 		super.clickOnMenu("Inventor", "Patronage Report");
@@ -54,6 +55,7 @@ public class InventorPatronageReportCreateTest extends TestHarness {
 		super.fillInputBoxIn("creationMoment", creationMoment);
 		super.fillInputBoxIn("memorandum", memorandum);
 		super.fillInputBoxIn("link", link);
+		super.fillInputBoxIn("confirmation", "true");
 		super.clickOnSubmit("Create Patronage Report");
 		
 		super.checkErrorsExist();

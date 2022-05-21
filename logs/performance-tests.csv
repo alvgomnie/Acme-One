@@ -1,3 +1,3 @@
 timestamp,test-class,test-method,time,description,result
-"2022-05-21 21:32:35.77","inventor.patronage.InventorPatronageProposeTest","positiveTest",16023,""[1] recordIndex=0, status=PROPOSED, code=KIL-788-A, legalStuff=Absolutely legal, budget=EUR 450.00, startingDate=2022/03/14 13:00, finishingDate=2022/03/24 13:00, link=https://www.starjam.com"","OK"
-"2022-05-21 21:32:49.608","inventor.patronage.InventorPatronageProposeTest","negativeTest",13173,""[1] recordIndex=0, status=PROPOSED, code=KIL-788-A, legalStuff=Absolutely legal, budget=EUR 450.00, startingDate=2022/03/14 13:00, finishingDate=2022/03/24 13:00, link=https://www.starjam.com"","OK"
+"2022-05-21 22:42:41.168","administrator.announcement.AdministratorAnnouncementCreateTest","positiveTest",14464,""[1] recordIndex=0, title=Anuncio 1, date=2020/12/26 00:00, body=Anuncio, link=http://www.google.com"","OK"
+"2022-05-21 22:42:49.185","administrator.announcement.AdministratorAnnouncementCreateTest","negativeTest",7573,""[1] recordIndex=0, title=null, date=2022/04/08 20:00, body=Anuncio, link=http://www.google.com"","OK"

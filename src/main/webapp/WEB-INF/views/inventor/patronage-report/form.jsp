@@ -15,9 +15,11 @@
 		</jstl:forEach>
 	</acme:input-select>
 	
-	<acme:input-checkbox code="inventor.patronageReport.form.label.confirmation" path="confirmation"/>
-	
-	<jstl:if test="${command == 'create'}">
-		<acme:submit code="inventor.patronageReport.form.button.create" action="/inventor/patronage-report/create"/>
-	</jstl:if>
+	<jstl:choose>
+		<jstl:when test="${command == 'create'}">
+			<acme:input-checkbox code="inventor.patronageReport.form.label.confirmation" path="confirmation"/>
+			<acme:submit code="inventor.patronageReport.form.button.create" action="/inventor/patronage-report/create"/>
+		</jstl:when>
+	</jstl:choose>
+
 </acme:form>

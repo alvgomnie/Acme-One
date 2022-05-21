@@ -1,3 +1,6 @@
 timestamp,test-class,test-method,time,description,result
-"2022-05-20 20:47:58.948","inventor.toolkit.InventorToolkitDeleteTest","positiveDeleteToolkit",24642,""positiveDeleteToolkit()"","OK"
-"2022-05-20 20:48:06.428","inventor.toolkit.InventorToolkitDeleteTest","negativeDeleteToolkit",6855,""negativeDeleteToolkit()"","Record index 0 is out of range"
+"2022-05-21 20:25:52.127","inventor.patronageReport.InventorPatronageReportCreateTest","positiveTest",13678,""[1] recordIndex=0, automaticSeqNum=AAA-101-A:0001, creationMoment=2021/12/01 12:00, memorandum=Patronage accepted!, link=https://www.nano.com"","OK"
+"2022-05-21 20:26:02.39","inventor.patronageReport.InventorPatronageReportCreateTest","positiveTest",9870,""[2] recordIndex=1, automaticSeqNum=BBB-202-B:0002, creationMoment=2021/12/01 12:00, memorandum=Patronage denied!, link=https://www.ham.com"","OK"
+"2022-05-21 20:26:09.976","inventor.patronageReport.InventorPatronageReportCreateTest","negativeTest",7218,""[1] recordIndex=0, automaticSeqNum=negative-code, creationMoment=2021/12/01 12:00, memorandum=Patronage accepted!, link=https://www.nano.com"","OK"
+"2022-05-21 20:26:17.488","inventor.patronageReport.InventorPatronageReportCreateTest","negativeTest",7129,""[2] recordIndex=1, automaticSeqNum=DDD-504-D:0001, creationMoment=2021/12/01 12:00, memorandum=Patronage accepted!, link=https://www.nano.com"","OK"
+"2022-05-21 20:26:32.289","inventor.patronageReport.InventorPatronageReportCreateTest","hackingTest",14406,""hackingTest()"","OK"

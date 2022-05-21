@@ -1,2 +1,0 @@
-timestamp,test-class,test-method,time,description,result
-"2022-04-21 21:36:48.134","any.toolkit.AnyToolkitListTest","administratorListComponents",9441,""[1] testIndex=0, title=toolkit-01, code=AAA-000, description=1, assemblyNotes=Toolkit 1, link=ejemplo, itemName=true"","Cannot find 'By.xpath: //div[@id='mainMenu']/ul/li[a[normalize-space()='Toolkits']]/div[contains(@class, 'dropdown-menu')]/a[normalize-space()='List of Toolkits']'"

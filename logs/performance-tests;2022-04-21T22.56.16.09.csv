@@ -1,4 +1,0 @@
-timestamp,test-class,test-method,time,description,result
-"2022-04-21 22:54:39.441","authenticated.currency.AuthenticatedCurrencyListTest","authenticatedListCurrency",10473,""[1] testIndex=0, name=currency-01, byDefault=EUR"","Expected value 'currency-01' in attribute 0 of record 0, but found 'EUR'"
-"2022-04-21 22:54:45.336","authenticated.currency.AuthenticatedCurrencyListTest","authenticatedListCurrency",5185,""[2] testIndex=1, name=currency-02, byDefault=GBP"","Expected value 'currency-02' in attribute 0 of record 1, but found 'GBP'"
-"2022-04-21 22:54:51.514","authenticated.currency.AuthenticatedCurrencyListTest","authenticatedListCurrency",5451,""[3] testIndex=2, name=currency-03, byDefault=USD"","Expected value 'currency-03' in attribute 0 of record 2, but found 'USD'"

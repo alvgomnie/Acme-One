@@ -1,2 +1,0 @@
-timestamp,test-class,test-method,time,description,result
-"2022-04-22 18:41:17.383","inventor.toolkit.InventorToolkitListCSVTest","positiveTest",11853,""[1] recordIndex=0, code=AAA-000, title=1, description=Toolkit 1, assemblyNotes=ejemplo, publish=false, link=http://www.google.com"","OK"

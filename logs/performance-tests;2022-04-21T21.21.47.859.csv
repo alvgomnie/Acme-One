@@ -1,3 +1,0 @@
-timestamp,test-class,test-method,time,description,result
-"2022-04-21 18:44:02.609","any.item.AnyToolListTest","administratorListComponents",10101,""[1] testIndex=0, name=Discord, type=TOOL"","OK"
-"2022-04-21 18:44:05.26","any.item.AnyToolListTest","anonymousListComponents",2194,""[1] testIndex=0, name=Discord, type=TOOL"","OK"

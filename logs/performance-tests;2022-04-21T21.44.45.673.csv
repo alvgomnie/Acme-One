@@ -1,3 +1,0 @@
-timestamp,test-class,test-method,time,description,result
-"2022-04-21 21:37:59.395","any.toolkit.AnyToolkitListTest","administratorListComponents",10314,""[1] testIndex=0, title=toolkit-01, code=AAA-000, description=1, assemblyNotes=Toolkit 1, link=ejemplo, itemName=true"","Expected value 'toolkit-01' in attribute 0 of record 0, but found '1'"
-"2022-04-21 21:38:06.039","any.toolkit.AnyToolkitListTest","administratorListComponents",5728,""[2] testIndex=1, title=toolkit-02, code=BBB-111, description=2, assemblyNotes=Toolkit 2, link=ejemplo, itemName=true"","Expected value 'toolkit-02' in attribute 0 of record 1, but found '2'"

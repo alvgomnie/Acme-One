@@ -6,6 +6,9 @@ import javax.validation.Valid;
 import javax.validation.constraints.Min;
 import javax.validation.constraints.NotNull;
 
+import org.hibernate.annotations.OnDelete;
+import org.hibernate.annotations.OnDeleteAction;
+
 import acme.framework.entities.AbstractEntity;
 import lombok.Getter;
 import lombok.Setter;
@@ -23,10 +26,12 @@ public class Quantity extends AbstractEntity{
 	@ManyToOne(optional = true)
 	@Valid
 	@NotNull
+	@OnDelete(action = OnDeleteAction.CASCADE)
 	protected Item item;
 	
 	@NotNull
 	@Valid
 	@ManyToOne(optional=false)
+	@OnDelete(action = OnDeleteAction.CASCADE)
 	protected Toolkit toolkit;
 }

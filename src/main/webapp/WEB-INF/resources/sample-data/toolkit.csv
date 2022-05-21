@@ -1,4 +1,4 @@
-key,code,title,description,assemblyNotes,publish,link,key:item
-toolkit-01,AAA-000,1,Toolkit 1,ejemplo,true,http://www.google.com,item-01
-toolkit-02,BBB-111,2,Toolkit 2,ejemplo,true,http://www.google.com,item-01
-toolkit-03,CCC-222,3,Toolkit 3,ejemplo,true,http://www.google.com,item-02
+key,code,title,description,assemblyNotes,publish,link,key:inventor
+toolkit-01,AAA-000,1,Toolkit 1,ejemplo,false,http://www.google.com,inventor-01
+toolkit-02,BBB-111,2,Toolkit 2,ejemplo,true,http://www.google.com,inventor-02
+toolkit-03,CCC-222,3,Toolkit 3,ejemplo,true,http://www.google.com,inventor-03

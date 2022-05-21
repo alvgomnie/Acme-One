@@ -1,5 +1,0 @@
-timestamp,test-class,test-method,time,description,result
-"2022-04-21 18:23:50.874","any.item.AnyComponentListTest","administratorListComponents",6251,""[1] testIndex=0, name=Televition Xiaomi, code=COMPONENT, technology=DEF-484-C, description=Xiaomi, link=A tv made from Xiaomi!"","Column 2 in record 0 is out of range"
-"2022-04-21 18:23:54.656","any.item.AnyComponentListTest","administratorListComponents",3403,""[2] testIndex=1, name=Discord, code=TOOL, technology=DSC-455-H, description=discord, link=A tool to bring easier communication among parners!"","Record index 1 is out of range"
-"2022-04-21 18:23:56.548","any.item.AnyComponentListTest","anonymousListComponents",1509,""[1] testIndex=0, name=Televition Xiaomi, code=COMPONENT, technology=DEF-484-C, description=Xiaomi, link=A tv made from Xiaomi!"","Column 2 in record 0 is out of range"
-"2022-04-21 18:23:58.15","any.item.AnyComponentListTest","anonymousListComponents",1000,""[2] testIndex=1, name=Discord, code=TOOL, technology=DSC-455-H, description=discord, link=A tool to bring easier communication among parners!"","Record index 1 is out of range"

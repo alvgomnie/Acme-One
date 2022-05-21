@@ -1,2 +1,0 @@
-timestamp,test-class,test-method,time,description,result
-"2022-04-25 18:48:40.895","inventor.patronageReport.InventorPatronageReportShowCSVTest","positiveTest",15552,""[1] recordIndex=0, automaticSeqNumber=null, creationMoment=2021/12/01 12:00, memorandum=Patronage accepted!, link=https://www.nano.com"","A form was expected, but doesn't exist"

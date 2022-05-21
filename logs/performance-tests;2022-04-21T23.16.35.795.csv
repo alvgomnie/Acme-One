@@ -1,2 +1,0 @@
-timestamp,test-class,test-method,time,description,result
-"2022-04-21 23:15:52.498","inventor.item.InventorToolsListTest","inventorListTools",15642,""[1] testIndex=0, name=Discord, price=GBP 5.00, type=TOOL"","Cannot find 'By.name: price'"

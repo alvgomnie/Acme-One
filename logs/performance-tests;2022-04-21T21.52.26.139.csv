@@ -1,2 +1,0 @@
-timestamp,test-class,test-method,time,description,result
-"2022-04-21 21:51:00.15","any.toolkit.AnyToolkitListTest","administratorListComponents",17718,""[1] testIndex=0, title=1, code=AAA-000, description=Toolkit 1, assemblyNotes=ejemplo, link=http://www.google.com, itemName=Televition Xiaomi"","Cannot find 'By.id: list'"

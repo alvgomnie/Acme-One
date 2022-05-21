@@ -1,3 +1,0 @@
-timestamp,test-class,test-method,time,description,result
-"2022-04-21 21:56:16.985","any.item.AnyComponentListTest","administratorListComponents",20546,""[1] testIndex=0, name=Televition Xiaomi, type=COMPONENT"","OK"
-"2022-04-21 21:56:22.138","any.item.AnyComponentListTest","anonymousListComponents",4472,""[1] testIndex=0, name=Televition Xiaomi, type=COMPONENT"","OK"

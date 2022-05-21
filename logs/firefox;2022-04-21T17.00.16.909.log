@@ -1,5 +1,0 @@
-1650553104960	geckodriver	INFO	Listening on 127.0.0.1:22401
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\alvar\\AppData\\Local\\Temp\\rust_mozprofileqpPbax\\search.json.mozlz4", (void 0)))
-
-###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_CommitBrowsingContextTransaction) Channel closing: too late to send/recv, messages will be lost
-

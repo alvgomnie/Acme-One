@@ -1,3 +1,0 @@
-timestamp,test-class,test-method,time,description,result
-"2022-04-22 16:37:12.745","authenticated.currency.AuthenticatedCurrencyListTest","authenticatedListCurrency",7538,""[1] testIndex=0, name=EUR, byDefault=true"","Cannot find 'By.name: byDefault'"
-"2022-04-22 16:37:19.289","authenticated.currency.AuthenticatedCurrencyListTest","authenticatedListCurrency",6270,""[2] testIndex=1, name=GBP, byDefault=false"","Cannot find 'By.name: byDefault'"

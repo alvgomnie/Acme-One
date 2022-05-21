@@ -1,2 +1,0 @@
-timestamp,test-class,test-method,time,description,result
-"2022-04-21 22:32:02.258","authenticated.announcement.AuthenticatedAnnouncementListTest","anonymousListAnnouncements",42,""[1] testIndex=0, title=Anuncio 2, date=2022/04/08 20:00"","No ParameterResolver registered for parameter [final java.lang.String description] in method [public void authenticated.announcement.AuthenticatedAnnouncementListTest.anonymousListAnnouncements(int,java.lang.String,java.lang.String,java.lang.String)]."

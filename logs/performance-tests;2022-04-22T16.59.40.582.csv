@@ -1,3 +1,0 @@
-timestamp,test-class,test-method,time,description,result
-"2022-04-22 16:58:23.767","inventor.item.InventorToolsListTest","inventorListTools",12,""[1] testIndex=0, name=Discord, price=GBP 5.00, type=TOOL"","No ParameterResolver registered for parameter [final java.lang.String code] in method [public void inventor.item.InventorToolsListTest.inventorListTools(int,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)]."
-"2022-04-22 16:58:30.281","inventor.item.InventorComponentListTest","inventorListComponents",5471,""[1] testIndex=0, name=Televition Xiaomi, price=EUR 350.00, type=COMPONENT, code=DEF-484-C, technology=Xiaomi, description=A tv made from Xiaomi!, link=https://www.mi.com/es"","OK"

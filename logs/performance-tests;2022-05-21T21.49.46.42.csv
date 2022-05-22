@@ -1,4 +1,0 @@
-timestamp,test-class,test-method,time,description,result
-"2022-05-21 21:48:31.293","patron.patronage.PatronPatronagesCreateTest","positivePatronageTest",11388,""[1] recordIndex=0, status=ACCEPTED, code=ABC-123-F, legalStuff=Absolutely legal, budget=EUR 450.00, link=https://www.starjam.com"","Expected value 'ABC-123-F' in input box 'code', but 'KIL-788-A' was found"
-"2022-05-21 21:48:37.559","patron.patronage.PatronPatronagesCreateTest","negativePatronageTest",5814,""[1] recordIndex=0, status=ACCEPTED, code=ABC-123-F, legalStuff=Absolutely legal, budget=EUR 450.00, link=null"","OK"
-"2022-05-21 21:48:40.43","patron.patronage.PatronPatronagesCreateTest","hackingTest",2379,""hackingTest()"","OK"

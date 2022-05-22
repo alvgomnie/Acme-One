@@ -20,7 +20,7 @@ public class PatronPatronagesDeleteTest extends TestHarness{
 		super.clickOnListingRecord(recordIndex);
 		super.clickOnSubmit("Delete");
 		super.checkNotErrorsExist();
-		super.checkListingEmpty();
+		super.checkNotListingEmpty();
 		super.signOut();
 	}
 	

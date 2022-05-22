@@ -1,3 +1,0 @@
-timestamp,test-class,test-method,time,description,result
-"2022-05-21 21:59:54.293","patron.patronage.PatronPatronagesDeleteTest","positivePatronageTest",9416,""[1] recordIndex=0"","Cannot find 'By.xpath: //button[@type='submit' and normalize-space()='Delete']'"
-"2022-05-21 21:59:57.259","patron.patronage.PatronPatronagesDeleteTest","hackingTest",2553,""hackingTest()"","OK"

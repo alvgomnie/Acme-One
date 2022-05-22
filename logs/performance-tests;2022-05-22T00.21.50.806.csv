@@ -1,4 +1,0 @@
-timestamp,test-class,test-method,time,description,result
-"2022-05-22 00:11:48.798","patron.patronage.PatronPatronagesUpdateTest","positivePatronageTest",14877,""[1] recordIndex=0, status=ACCEPTED, code=ABC-123-F, legalStuff=Absolutely legal, budget=EUR 450.00, link=https://www.starjam.com"","OK"
-"2022-05-22 00:11:56.163","patron.patronage.PatronPatronagesUpdateTest","negativePatronageTest",6996,""[1] recordIndex=0, status=ACCEPTED, code=null, legalStuff=Absolutely legal, budget=EUR 450.00, link=https://www.starjam.com"","Cannot find 'By.xpath: //button[@type='submit' and normalize-space()='Update']'"
-"2022-05-22 00:11:59.073","patron.patronage.PatronPatronagesUpdateTest","hackingTest",2536,""hackingTest()"","OK"

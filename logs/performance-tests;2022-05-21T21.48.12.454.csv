@@ -1,4 +1,0 @@
-timestamp,test-class,test-method,time,description,result
-"2022-05-21 21:46:37.967","patron.patronage.PatronPatronagesCreateTest","positivePatronageTest",11093,""[1] recordIndex=0, status=ACCEPTED, code=KIL-788-A, legalStuff=Absolutely legal, budget=EUR 450.00, link=https://www.starjam.com"","Cannot find 'By.id: list'"
-"2022-05-21 21:46:44.506","patron.patronage.PatronPatronagesCreateTest","negativePatronageTest",6139,""[1] recordIndex=0, status=ACCEPTED, code=KIL-788-A, legalStuff=Absolutely legal, budget=EUR 450.00, link=null"","OK"
-"2022-05-21 21:46:47.228","patron.patronage.PatronPatronagesCreateTest","hackingTest",2384,""hackingTest()"","OK"

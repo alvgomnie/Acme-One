@@ -11,17 +11,17 @@ public class InventorPatronageReportListCSVTest extends TestHarness{
 	@ParameterizedTest
 	@CsvFileSource(resources = "/inventor/patronageReport/patronageReportTest.csv", encoding = "utf-8", numLinesToSkip = 1)
 	@Order(10)
-	public void positiveTest(final int recordIndex, final String automaticSeqNumber, final String creationMoment, final String memorandum, final String link) {
+	public void positiveTest(final int recordIndex, final String automaticSeqNum, final String creationMoment, final String memorandum, final String link) {
 		super.signIn("inventor1", "inventor1");
 
 		super.clickOnMenu("Inventor", "Patronage Report");
 		super.checkListingExists();
 		super.sortListing(0, "asc");
 		
-		super.checkColumnHasValue(0, 0, automaticSeqNumber);
-		super.checkColumnHasValue(0, 1, creationMoment);
-		super.checkColumnHasValue(0, 2, memorandum);
-		super.checkColumnHasValue(0, 3, link);
+		super.checkColumnHasValue(recordIndex, 0, automaticSeqNum);
+		super.checkColumnHasValue(recordIndex, 1, creationMoment);
+		super.checkColumnHasValue(recordIndex, 2, memorandum);
+		super.checkColumnHasValue(recordIndex, 3, link);
 
 		super.signOut();
 	}

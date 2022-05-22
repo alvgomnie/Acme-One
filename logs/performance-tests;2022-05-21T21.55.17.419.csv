@@ -1,4 +1,0 @@
-timestamp,test-class,test-method,time,description,result
-"2022-05-21 21:53:04.029","patron.patronage.PatronPatronagesCreateTest","positivePatronageTest",14540,""[1] recordIndex=0, status=ACCEPTED, code=ABC-123-F, legalStuff=Absolutely legal, budget=EUR 450.00, link=https://www.starjam.com"","OK"
-"2022-05-21 21:53:13.297","patron.patronage.PatronPatronagesCreateTest","negativePatronageTest",8919,""[1] recordIndex=0, status=ACCEPTED, code=ABC-123-J, legalStuff=Absolutely legal, budget=EUR 450.00, link=null"","Errors were expected, but not found"
-"2022-05-21 21:53:16.156","patron.patronage.PatronPatronagesCreateTest","hackingTest",2511,""hackingTest()"","OK"

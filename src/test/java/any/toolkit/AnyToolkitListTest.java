@@ -24,7 +24,6 @@ public class AnyToolkitListTest extends TestHarness {
 		super.checkColumnHasValue(testIndex, 2, description);
 		super.checkColumnHasValue(testIndex, 3, assemblyNotes);
 		super.checkColumnHasValue(testIndex, 4, link);
-		super.checkColumnHasValue(testIndex, 5, item);
 		
 		super.clickOnListingRecord(testIndex);
 		
@@ -34,8 +33,6 @@ public class AnyToolkitListTest extends TestHarness {
 		super.checkInputBoxHasValue("description", description);
 		super.checkInputBoxHasValue("assemblyNotes", assemblyNotes);
 		super.checkInputBoxHasValue("link", link);
-		super.checkInputBoxHasValue("item.name", item);
-		super.checkInputBoxHasValue("item.retailPrice", price);
 		
 
 	}
@@ -58,7 +55,6 @@ public class AnyToolkitListTest extends TestHarness {
 		super.checkColumnHasValue(testIndex, 2, description);
 		super.checkColumnHasValue(testIndex, 3, assemblyNotes);
 		super.checkColumnHasValue(testIndex, 4, link);
-		super.checkColumnHasValue(testIndex, 5, item);
 		
 		super.clickOnListingRecord(testIndex);
 		
@@ -68,8 +64,6 @@ public class AnyToolkitListTest extends TestHarness {
 		super.checkInputBoxHasValue("description", description);
 		super.checkInputBoxHasValue("assemblyNotes", assemblyNotes);
 		super.checkInputBoxHasValue("link", link);
-		super.checkInputBoxHasValue("item.name", item);
-		super.checkInputBoxHasValue("item.retailPrice", price);
 		
 		super.signOut();
 

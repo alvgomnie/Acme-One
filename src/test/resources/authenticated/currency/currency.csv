@@ -1,4 +1,4 @@
 testIndex,name,by-default,by-accepted
-0,"EUR",true,true
-1,"GBP",false,true
-2,"USD",false,true
+0,"EUR","true","true"
+1,"GBP","false","true"
+2,"USD","false","true"

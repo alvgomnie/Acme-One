@@ -1,0 +1,20 @@
+timestamp,simple-path,time
+"2022-05-21 21:55:24.772","/master/welcome",5212
+"2022-05-21 21:55:25.314","/master/welcome",465
+"2022-05-21 21:55:27.666","/master/sign-in",2286
+"2022-05-21 21:55:29.158","/master/welcome",598
+"2022-05-21 21:55:30.511","/patron/patronage/list",1171
+"2022-05-21 21:55:32.225","/patron/patronage/create",1637
+"2022-05-21 21:55:35.291","/patron/patronage/list",609
+"2022-05-21 21:55:36.13","/patron/patronage/show",584
+"2022-05-21 21:55:36.935","/master/welcome",313
+"2022-05-21 21:55:37.576","/master/welcome",575
+"2022-05-21 21:55:39.999","/master/welcome",305
+"2022-05-21 21:55:40.471","/master/welcome",396
+"2022-05-21 21:55:41.091","/master/sign-in",559
+"2022-05-21 21:55:42.606","/master/welcome",578
+"2022-05-21 21:55:43.331","/patron/patronage/list",567
+"2022-05-21 21:55:43.98","/patron/patronage/create",586
+"2022-05-21 21:55:45.927","/patron/patronage/create",602
+"2022-05-21 21:55:46.358","/master/welcome",358
+"2022-05-21 21:55:48.877","/patron/patronage/create",457

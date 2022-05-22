@@ -1,0 +1,4 @@
+timestamp,test-class,test-method,time,description,result
+"2022-05-22 03:14:38.1","authenticated.systemConfiguration.SystemConfigurationUpdateTest","positiveSystemConfigurationTest",7640,""[1] strongSpamTreshold=system-configuration, weakSpamTreshold=15"","Cannot find 'By.name: Strong Spam Treshold'"
+"2022-05-22 03:14:43.682","authenticated.systemConfiguration.SystemConfigurationUpdateTest","negativeSystemConfigurationTest",5185,""[1] strongSpamTreshold=system-configuration, weakSpamTreshold=1000"","Cannot find 'By.name: Strong Spam Treshold'"
+"2022-05-22 03:14:46.745","authenticated.systemConfiguration.SystemConfigurationUpdateTest","hackingTest",2676,""hackingTest()"","OK"

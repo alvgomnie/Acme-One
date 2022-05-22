@@ -14,3 +14,5 @@
 	<acme:list-column code="patron.patronages.list.label.link" path="link"/>
 	
 </acme:list> 
+
+<acme:button code="patron.patronage.list.button.create" action="/patron/patronage/create"/>

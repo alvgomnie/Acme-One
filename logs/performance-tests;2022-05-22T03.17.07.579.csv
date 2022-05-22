@@ -1,0 +1,4 @@
+timestamp,test-class,test-method,time,description,result
+"2022-05-22 03:15:42.644","authenticated.systemConfiguration.SystemConfigurationUpdateTest","positiveSystemConfigurationTest",8342,""[1] strongSpamTreshold=system-configuration, weakSpamTreshold=15"","Cannot find 'By.xpath: //button[@type='submit' and normalize-space()='Update']'"
+"2022-05-22 03:15:48.89","authenticated.systemConfiguration.SystemConfigurationUpdateTest","negativeSystemConfigurationTest",5836,""[1] strongSpamTreshold=system-configuration, weakSpamTreshold=1000"","Cannot find 'By.xpath: //button[@type='submit' and normalize-space()='Update']'"
+"2022-05-22 03:15:51.939","authenticated.systemConfiguration.SystemConfigurationUpdateTest","hackingTest",2600,""hackingTest()"","OK"

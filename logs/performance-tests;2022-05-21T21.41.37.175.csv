@@ -1,0 +1,3 @@
+timestamp,test-class,test-method,time,description,result
+"2022-05-21 21:39:28.576","patron.patronage.PatronPatronagesCreateTest","positivePatronageTest",11888,""[1] recordIndex=0, code=KIL-788-A, budget=Absolutely legal, link=EUR 450.00, legalStuff=https://www.starjam.com"","Cannot find 'By.id: list'"
+"2022-05-21 21:39:31.529","patron.patronage.PatronPatronagesCreateTest","hackingTest",2574,""hackingTest()"","OK"

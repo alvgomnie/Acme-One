@@ -1,3 +1,3 @@
-testIndex,title,code,description,assemblyNotes,link
-0,2,BBB-111,2,Toolkit 2,ejemplo,true,http://www.google.com
-1,3,CCC-222,3,Toolkit 3,ejemplo,true,http://www.google.com
+testIndex,code,title,description,assemblyNotes,link
+0,2,BBB-111,Toolkit 2,ejemplo,http://www.google.com
+1,3,CCC-222,Toolkit 3,ejemplo,http://www.google.com

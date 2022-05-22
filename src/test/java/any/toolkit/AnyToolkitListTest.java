@@ -12,8 +12,7 @@ public class AnyToolkitListTest extends TestHarness {
 	@CsvFileSource(resources = "/any/toolkit/toolkit.csv", encoding = "utf-8", numLinesToSkip = 1)
 	@Order(10)
 	public void anonymousListComponents(final int testIndex, final String title, final String code,
-		final String description, final String assemblyNotes, final String link, final String item, 
-		final String price) {
+		final String description, final String assemblyNotes, final String link) {
 		
 		super.clickOnMenu("Toolkits", "List of Toolkits");
 		super.checkListingExists();
@@ -41,8 +40,7 @@ public class AnyToolkitListTest extends TestHarness {
 	@CsvFileSource(resources = "/any/toolkit/toolkit.csv", encoding = "utf-8", numLinesToSkip = 1)
 	@Order(10)
 	public void administratorListComponents(final int testIndex, final String title, final String code,
-		final String description, final String assemblyNotes, final String link, final String item, 
-		final String price) {
+		final String description, final String assemblyNotes, final String link) {
 		
 		super.signIn("administrator", "administrator");
 			

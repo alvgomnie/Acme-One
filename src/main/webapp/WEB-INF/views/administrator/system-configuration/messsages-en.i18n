@@ -1,8 +1,11 @@
-administrator.system-configuration.form.label.defaultCurrency = Default Currency
-administrator.system-configuration.form.label.acceptedCurrenciesList = Accepted Currencies List
-administrator.system-configuration.form.label.strongSpamTermsList = Strong Spam Terms List
-administrator.system-configuration.form.label.strongSpamTermsTranslate = Strong Spam Terms Translate
+administrator.system-configuration.form.label.systemCurrency = System Currency
+administrator.system-configuration.form.label.acceptedCurrencies = Accepted Currencies
+administrator.system-configuration.form.label.strongSpamTerms = Strong Spam Terms
+administrator.system-configuration.form.label.weakSpamTerms = Weak Spam Terms
 administrator.system-configuration.form.label.strongSpamTreshold = Strong Spam Treshold
-administrator.system-configuration.form.label.weakSpamTermsList = Weak Spam Terms List
-administrator.system-configuration.form.label.weakSpamTermsTranslate = Weak Spam Terms Translate
-administrator.system-configuration.form.label.weakSpamThreshold = Weak Spam Threshold
+administrator.system-configuration.form.label.weakSpamTreshold = Weak Spam Treshold
+
+administrator.system-configuration.form.button.update = Update
+
+administrator.system-configuration.form.error.strongSpamTreshold = The value must be beetween 0 and 100
+administrator.system-configuration.form.error.weakSpamTreshold = The value must be beetween 0 and 100

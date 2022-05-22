@@ -1,0 +1,3 @@
+timestamp,test-class,test-method,time,description,result
+"2022-05-21 22:00:48.988","patron.patronage.PatronPatronagesDeleteTest","positivePatronageTest",16398,""[1] recordIndex=0"","OK"
+"2022-05-21 22:00:52.005","patron.patronage.PatronPatronagesDeleteTest","hackingTest",2607,""hackingTest()"","OK"

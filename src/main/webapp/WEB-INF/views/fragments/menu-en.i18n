@@ -29,6 +29,7 @@ master.menu.anonymous.link.miggavmar = 09215199L: Gaviro Martínez, Miguel
 master.menu.administrator = Administrator
 master.menu.administrator.dashboard = Dashboard
 master.menu.administrator.user-accounts = User accounts
+master.menu.administrator.system-configuration = System Configuration
 master.menu.administrator.announcement = Create an announcement
 master.menu.administrator.populate-initial = Populate DB (initial)
 master.menu.administrator.populate-sample = Populate DB (samples)

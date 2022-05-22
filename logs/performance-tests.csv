@@ -1,3 +1,4 @@
 timestamp,test-class,test-method,time,description,result
-"2022-05-21 22:42:41.168","administrator.announcement.AdministratorAnnouncementCreateTest","positiveTest",14464,""[1] recordIndex=0, title=Anuncio 1, date=2020/12/26 00:00, body=Anuncio, link=http://www.google.com"","OK"
-"2022-05-21 22:42:49.185","administrator.announcement.AdministratorAnnouncementCreateTest","negativeTest",7573,""[1] recordIndex=0, title=null, date=2022/04/08 20:00, body=Anuncio, link=http://www.google.com"","OK"
+"2022-05-22 03:19:02.907","authenticated.systemConfiguration.SystemConfigurationUpdateTest","positiveSystemConfigurationTest",11594,""[1] strongSpamTreshold=15, weakSpamTreshold=28"","OK"
+"2022-05-22 03:19:07.623","authenticated.systemConfiguration.SystemConfigurationUpdateTest","negativeSystemConfigurationTest",4337,""[1] strongSpamTreshold=1000, weakSpamTreshold=1000"","OK"
+"2022-05-22 03:19:10.737","authenticated.systemConfiguration.SystemConfigurationUpdateTest","hackingTest",2728,""hackingTest()"","OK"

@@ -1,18 +1,20 @@
 timestamp,simple-path,time
-"2022-05-22 03:18:51.311","/master/welcome",5609
-"2022-05-22 03:18:51.827","/master/welcome",450
-"2022-05-22 03:18:54.594","/master/sign-in",2707
-"2022-05-22 03:18:55.997","/master/welcome",597
-"2022-05-22 03:18:57.284","/administrator/system-configuration/show",1102
-"2022-05-22 03:18:58.862","/master/welcome",597
-"2022-05-22 03:18:59.597","/administrator/system-configuration/show",592
-"2022-05-22 03:19:00.199","/master/welcome",411
-"2022-05-22 03:19:00.848","/master/welcome",581
-"2022-05-22 03:19:03.284","/master/welcome",312
-"2022-05-22 03:19:03.709","/master/welcome",385
-"2022-05-22 03:19:04.362","/master/sign-in",558
-"2022-05-22 03:19:05.863","/master/welcome",579
-"2022-05-22 03:19:06.59","/administrator/system-configuration/show",565
-"2022-05-22 03:19:07.596","/administrator/system-configuration/update",595
-"2022-05-22 03:19:08.007","/master/welcome",330
-"2022-05-22 03:19:10.727","/patron/patronage/create",654
+"2022-05-21 22:42:26.702","/master/welcome",5089
+"2022-05-21 22:42:27.239","/master/welcome",474
+"2022-05-21 22:42:29.511","/master/sign-in",2181
+"2022-05-21 22:42:30.802","/master/welcome",577
+"2022-05-21 22:42:32.558","/administrator/announcement/create",1604
+"2022-05-21 22:42:35.072","/master/welcome",568
+"2022-05-21 22:42:36.303","/authenticated/announcement/list",1086
+"2022-05-21 22:42:37.889","/authenticated/announcement/show",1088
+"2022-05-21 22:42:38.522","/master/welcome",414
+"2022-05-21 22:42:39.132","/master/welcome",551
+"2022-05-21 22:42:41.611","/master/welcome",381
+"2022-05-21 22:42:42.006","/master/welcome",364
+"2022-05-21 22:42:42.629","/master/sign-in",563
+"2022-05-21 22:42:43.912","/master/welcome",578
+"2022-05-21 22:42:44.622","/administrator/announcement/create",553
+"2022-05-21 22:42:46.097","/administrator/announcement/create",563
+"2022-05-21 22:42:46.525","/master/welcome",379
+"2022-05-21 22:42:47.15","/master/welcome",561
+

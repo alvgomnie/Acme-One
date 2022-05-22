@@ -277,4 +277,4 @@
 2022-05-22 03:12:44.980 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-6] PathInfo: null 
 2022-05-22 03:12:44.981 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-6] RealPath: C:\Users\Anita\Desktop\Javier\Workspace-22.0\Projects\Acme-One\target\classes\WEB-INF\views\administrator\system-configuration\form.jsp 
 2022-05-22 03:12:44.981 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-6] RequestURI: /acme-one-3.0/WEB-INF/views/master/page.jsp 
-2022-05-22 03:12:44.981 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-6] QueryString: null 
+2022-05-22 03:12:44.981 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-6] QueryString: 

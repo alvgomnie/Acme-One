@@ -1,2 +1,0 @@
-timestamp,test-class,test-method,time,description,result
-"2022-05-23 18:53:40.722","authenticated.announcement.AuthenticatedAnnouncementListTest","anonymousListAnnouncements",7992,""[1] testIndex=0, creationMoment=2022/05/23 18:00, title=Anuncio 2, body=Anuncio, link=http://www.google.com"","OK"

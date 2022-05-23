@@ -5,5 +5,5 @@
 
 <acme:list>
 	<acme:list-column code="authenticated.currency.list.label.name" path="name" width="80%"/>
-	<acme:list-column code="authenticated.currency.list.label.isDefault" path="isDefault" width="20%"/>
+	<acme:list-column code="authenticated.currency.list.label.onDefault" path="onDefault" width="20%"/>
 </acme:list> 

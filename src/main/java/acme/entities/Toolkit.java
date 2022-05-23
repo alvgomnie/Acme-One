@@ -55,4 +55,7 @@ public class Toolkit extends AbstractEntity{
 	protected Inventor inventor;
 
 	
+	@ManyToOne
+	protected Item item;
+	
 }

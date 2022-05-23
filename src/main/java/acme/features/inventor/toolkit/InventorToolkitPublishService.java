@@ -1,9 +1,13 @@
 package acme.features.inventor.toolkit;
 
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import acme.entities.Item;
 import acme.entities.Toolkit;
+import acme.features.inventor.item.InventorItemRepository;
 import acme.framework.components.models.Model;
 import acme.framework.controllers.Errors;
 import acme.framework.controllers.Request;
@@ -16,6 +20,11 @@ public class InventorToolkitPublishService implements AbstractUpdateService<Inve
 	@Autowired
 	protected InventorToolkitRepository repository;
 
+	
+	@Autowired
+	protected InventorItemRepository itemRepository;
+	
+	
 	@Override
 	public boolean authorise(final Request<Toolkit> request) {
 		assert request != null;
@@ -37,6 +46,7 @@ public class InventorToolkitPublishService implements AbstractUpdateService<Inve
 		assert request != null;
 		assert entity != null;
 		assert errors != null;
+		entity.setItem(this.itemRepository.findItemById(Integer.valueOf(request.getModel().getAttribute("itemId").toString())));
 		request.bind(entity, errors, "code", "title", "description", "assemblyNotes", "link", "publish");
 	}
 
@@ -45,6 +55,8 @@ public class InventorToolkitPublishService implements AbstractUpdateService<Inve
 		assert request != null;
 		assert entity != null;
 		assert model!=null;
+		final List<Item> li = this.itemRepository.findAllItem();
+		model.setAttribute("allItems", li);
 		request.unbind(entity, model, "code", "title", "description", "assemblyNotes", "link", "publish");
 	}
 

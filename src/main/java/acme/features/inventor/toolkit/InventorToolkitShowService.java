@@ -4,6 +4,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import acme.entities.Toolkit;
+import acme.features.inventor.item.InventorItemRepository;
 import acme.framework.components.models.Model;
 import acme.framework.controllers.Request;
 import acme.framework.services.AbstractShowService;
@@ -14,6 +15,10 @@ public class InventorToolkitShowService implements AbstractShowService<Inventor,
 
 	@Autowired
 	protected InventorToolkitRepository repository;
+	
+
+	@Autowired
+	protected InventorItemRepository itemRepository;
 
 	@Override
 	public boolean authorise(final Request<Toolkit> request) {
@@ -39,7 +44,9 @@ public class InventorToolkitShowService implements AbstractShowService<Inventor,
 		assert request != null;
 		assert entity != null;
 		assert model != null;
-		
+		model.setAttribute("toolkitId", entity.getId());
+		model.setAttribute("items", this.itemRepository.findAllItem());
+		model.setAttribute("itemId", entity.getItem().getId());
 		request.unbind(entity, model, "code", "title", "description", "assemblyNotes", "publish", "link");
 		
 	}

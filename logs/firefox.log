@@ -1,17 +1,5 @@
-1653320620531	geckodriver	INFO	Listening on 127.0.0.1:27726
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\34657\\AppData\\Local\\Temp\\rust_mozprofileWxzLAB\\search.json.mozlz4", (void 0)))
+1653324800723	geckodriver	INFO	Listening on 127.0.0.1:20533
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\34657\\AppData\\Local\\Temp\\rust_mozprofilePoHD6K\\search.json.mozlz4", (void 0)))
 console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://localhost:8081"
-console.warn: LoginRecipes: "getRecipJavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
-es: falling back to a synchronous message for:" "http://localhost:8081"
-console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "httJavaScript error: resource://grep/modules/:L/ogi/nManalocalhost:808gerPare1"nt.jsm, 
-line 136: TypeError: gRecipeManager is null
 console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://localhost:8081"
 JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
-console.warn: LoginRecipes: "getRecipes: falling back to a synchronoJavaScript eus message rrofr: reor:" "hsourcttp://e://gre/modules/localhLogost:80inM81"anag
-erParent.jsm, line 136: TypeError: gRecipeManager is null
-console.warn: LoginRecipes: "getRecipJavaScript erroes: falling r: resource:/b/gre/modulack toes a sy/LoginMnachronounagerParent.js messasgme, line 136: Typ for:" eError: "httgRecipeManagp://loer calhosis nullt:80
-81"
-[Parent 8440, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
-
-###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
-

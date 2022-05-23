@@ -1,4 +1,2 @@
 timestamp,test-class,test-method,time,description,result
-"2022-05-23 17:44:00.147","authenticated.currency.AuthenticatedCurrencyListTest","authenticatedListCurrency",7496,""[1] testIndex=0, name=EUR, onDefault=true, accepted=true"","OK"
-"2022-05-23 17:44:05.07","authenticated.currency.AuthenticatedCurrencyListTest","authenticatedListCurrency",4491,""[2] testIndex=1, name=GBP, onDefault=false, accepted=true"","OK"
-"2022-05-23 17:44:10.029","authenticated.currency.AuthenticatedCurrencyListTest","authenticatedListCurrency",4481,""[3] testIndex=2, name=USD, onDefault=false, accepted=true"","OK"
+"2022-05-23 18:53:40.722","authenticated.announcement.AuthenticatedAnnouncementListTest","anonymousListAnnouncements",7992,""[1] testIndex=0, creationMoment=2022/05/23 18:00, title=Anuncio 2, body=Anuncio, link=http://www.google.com"","OK"

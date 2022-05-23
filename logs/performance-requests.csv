@@ -1,19 +1,7 @@
 timestamp,simple-path,time
-"2022-05-23 17:43:52.649","/master/welcome",5135
-"2022-05-23 17:43:53.26","/master/welcome",567
-"2022-05-23 17:43:55.594","/master/sign-in",2261
-"2022-05-23 17:43:56.883","/master/welcome",584
-"2022-05-23 17:43:58.151","/authenticated/currency/list",1118
-"2022-05-23 17:43:59.945","/authenticated/currency/show",1079
-"2022-05-23 17:44:00.578","/master/welcome",372
-"2022-05-23 17:44:00.989","/master/welcome",374
-"2022-05-23 17:44:01.61","/master/sign-in",562
-"2022-05-23 17:44:02.88","/master/welcome",565
-"2022-05-23 17:44:03.598","/authenticated/currency/list",563
-"2022-05-23 17:44:04.866","/authenticated/currency/show",555
-"2022-05-23 17:44:05.547","/master/welcome",429
-"2022-05-23 17:44:05.961","/master/welcome",378
-"2022-05-23 17:44:06.578","/master/sign-in",558
-"2022-05-23 17:44:07.829","/master/welcome",563
-"2022-05-23 17:44:08.546","/authenticated/currency/list",560
-"2022-05-23 17:44:09.826","/authenticated/currency/show",561
+"2022-05-23 18:53:32.728","/master/welcome",4753
+"2022-05-23 18:53:33.297","/master/welcome",519
+"2022-05-23 18:53:35.66","/master/sign-in",2302
+"2022-05-23 18:53:36.915","/master/welcome",579
+"2022-05-23 18:53:38.682","/authenticated/announcement/list",1612
+"2022-05-23 18:53:40.489","/authenticated/announcement/show",1083

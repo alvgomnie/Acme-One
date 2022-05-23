@@ -9,7 +9,7 @@ import acme.testing.TestHarness;
 public class InventorPatronageShowCSVTest extends TestHarness{
 	
 	@ParameterizedTest
-	@CsvFileSource(resources = "/inventor/patronageTest.csv", encoding = "utf-8", numLinesToSkip = 1)
+	@CsvFileSource(resources = "/inventor/patronage/patronageTest.csv", encoding = "utf-8", numLinesToSkip = 1)
 	@Order(10)
 	public void positiveTest(final int recordIndex, final String status, final String code, final String legalStuff, final String budget, final String startingDate, final String finishingDate, final String link, final String company, final String statement, final String linkPatron) {
 		super.signIn("inventor1", "inventor1");

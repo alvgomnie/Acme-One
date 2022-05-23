@@ -1,5 +1,6 @@
 package acme.features.inventor.patronageReport;
 
+import java.util.Collection;
 import java.util.Date;
 import java.util.Random;
 
@@ -8,6 +9,7 @@ import org.springframework.stereotype.Service;
 
 import acme.entities.Patronage;
 import acme.entities.PatronageReport;
+import acme.features.inventor.patronage.InventorPatronageRepository;
 import acme.framework.components.models.Model;
 import acme.framework.controllers.Errors;
 import acme.framework.controllers.Request;
@@ -19,6 +21,9 @@ public class InventorPatronageReportCreateService implements AbstractCreateServi
 	
 	@Autowired
 	protected InventorPatronageReportRepository repository;
+	
+	@Autowired
+	protected InventorPatronageRepository patronageRepository;
 	
 	@Override
 	public boolean authorise(final Request<PatronageReport> request) {
@@ -32,8 +37,9 @@ public class InventorPatronageReportCreateService implements AbstractCreateServi
 		assert request != null;
 		assert entity != null;
 		assert errors != null;
-
-		request.bind(entity, errors, "automaticSeqNum", "creationMoment", "memorandum", "link");
+		
+		entity.setPatronage(this.patronageRepository.findPatronageById(Integer.valueOf(request.getModel().getAttribute("patronageId").toString())));
+		request.bind(entity, errors, "automaticSeqNum", "creationMoment", "memorandum", "link", "confirmation");
 	}
 	
 	@Override
@@ -41,9 +47,14 @@ public class InventorPatronageReportCreateService implements AbstractCreateServi
 		assert request != null;
 		assert entity != null;
 		assert model != null;
+		
+		final Integer inventorId = request.getPrincipal().getActiveRoleId();
+		final Collection<Patronage> patronages= this.patronageRepository.findPatronagesByInventorId(inventorId);
+		model.setAttribute("patronages", patronages);
+		model.setAttribute("confirmation", false);
 
 		request.unbind(entity, model, "automaticSeqNum", "creationMoment", "memorandum", "link");
-		model.setAttribute("confirmation", false);
+		
 	}
 	
 	@Override
@@ -53,15 +64,15 @@ public class InventorPatronageReportCreateService implements AbstractCreateServi
 		PatronageReport result;
 		
 		final Date moment = new Date(System.currentTimeMillis() - 5);
+		final Inventor inventor = this.repository.findInventorById(request.getPrincipal().getActiveRoleId());
 		final String seqNum = this.generateAutomaticSeqNum();
 
 		result = new PatronageReport();
 		result.setAutomaticSeqNum(seqNum);
 		result.setCreationMoment(moment);
+		result.setInventor(inventor);
 		result.setMemorandum("");
 		result.setLink("http://");
-		result.setPatronage(new Patronage());
-		result.setInventor(this.repository.findInventorByUserAccountId(request.getPrincipal().getAccountId()));
 
 		return result;
 	}

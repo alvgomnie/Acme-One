@@ -1,2 +1,0 @@
-timestamp,test-class,test-method,time,description,result
-"2022-04-22 18:13:55.283","inventor.patronage.InventorPatronageListCSVTest","positiveTest",8561,""[1] recordIndex=0, status=ACCEPTED, code=KIL-788-A, legalStuff=Absolutely legal, budget=EUR 450.0, startingDate=2022/03/14 13:00, finishingDate=2022/03/24 13:00, link=https://www.starjam.com"","Expected value 'EUR 450.0' in input box 'budget', but 'EUR 450.00' was found"

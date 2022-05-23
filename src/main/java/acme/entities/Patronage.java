@@ -11,7 +11,6 @@ import javax.persistence.Transient;
 import javax.validation.Valid;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
-import javax.validation.constraints.Past;
 import javax.validation.constraints.Pattern;
 
 import org.hibernate.validator.constraints.Length;
@@ -48,7 +47,6 @@ public class Patronage extends AbstractEntity{
 	
 	@Temporal(TemporalType.TIMESTAMP)
 	@NotNull
-	@Past
 	protected Date startingDate;
 	
 	@Temporal(TemporalType.TIMESTAMP)
@@ -60,6 +58,8 @@ public class Patronage extends AbstractEntity{
 	
 	@URL
 	protected String link;
+	
+	protected boolean published;
 	
 	@NotNull
 	@Valid

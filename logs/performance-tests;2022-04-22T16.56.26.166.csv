@@ -1,2 +1,0 @@
-timestamp,test-class,test-method,time,description,result
-"2022-04-22 16:52:48.818","inventor.item.InventorComponentListTest","inventorListTools",3995,""[1] testIndex=0, name=Televition Xiaomi, price=EUR 350.0, type=COMPONENT"","Expected value 'EUR 350.0' in attribute 1 of record 0, but found 'EUR 350.00'"

@@ -1,2 +1,2 @@
-testIndex,title,date,body,link
-0,Anuncio 2,2022/04/08 20:00,Anuncio,http://www.google.com
+testIndex,creationMoment,title,body,critical,link
+0,2022/05/23 18:00,Anuncio 2,Anuncio,http://www.google.com

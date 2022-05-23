@@ -1,3 +1,4 @@
-key,status,code,legalStuff,budget,startingDate,finishingDate,link,key:patron,key:inventor
-patronage-01,ACCEPTED,KIL-788-A,Absolutely legal,"EUR 450.0","2022/03/14 13:00","2022/03/24 13:00",https://www.starjam.com,patron-01,inventor-01
-patronage-02,PROPOSED,HJJ-712-P,Totally illegal,"EUR 150.0","2021/06/06 17:45","2021/06/16 17:45",https://www.plum.com,patron-02,inventor-01
+key,status,code,legalStuff,budget,startingDate,finishingDate,link,published,key:patron,key:inventor
+patronage-01,ACCEPTED,KIL-788-A,Absolutely legal,"EUR 450.0","2022/03/14 13:00","2022/03/24 13:00",https://www.starjam.com,true,patron-01,inventor-01
+patronage-02,PROPOSED,HJJ-712-P,Totally illegal,"EUR 150.0","2021/06/06 17:45","2021/06/16 17:45",https://www.plum.com,false,patron-02,inventor-01
+patronage-03,PROPOSED,BBC-321-F,Illegal,"EUR 120.0","2022/06/06 17:45","2022/07/16 17:45",https://www.plum.com,false,patron-02,inventor-01

@@ -1,6 +1,7 @@
 package acme.features.inventor.item;
 
 import java.util.Collection;
+import java.util.List;
 
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;
@@ -26,5 +27,11 @@ public interface InventorItemRepository extends AbstractRepository{
 	
 	@Query("SELECT i FROM Inventor i WHERE i.id=:id")
 	Inventor findInventorById(int id);
+	
+	@Query("SELECT q.item FROM Quantity q WHERE q.toolkit.id=:id")
+	Collection<Item> findItemsByToolkitId(int id);
+	
+	@Query("select i from Item i")
+	List<Item> findAllItem();
 
 }

@@ -1,5 +1,0 @@
-timestamp,test-class,test-method,time,description,result
-"2022-04-25 18:44:19.448","any.toolkit.AnyToolkitListTest","administratorListComponents",22183,""[1] testIndex=0, title=1, code=AAA-000, description=Toolkit 1, assemblyNotes=ejemplo, link=http://www.google.com, item=Televition Xiaomi, price=EUR 350.00"","OK"
-"2022-04-25 18:44:34.692","any.toolkit.AnyToolkitListTest","administratorListComponents",14585,""[2] testIndex=1, title=2, code=BBB-111, description=Toolkit 2, assemblyNotes=ejemplo, link=http://www.google.com, item=Televition Xiaomi, price=EUR 350.00"","OK"
-"2022-04-25 18:44:41.79","any.toolkit.AnyToolkitListTest","anonymousListComponents",6484,""[1] testIndex=0, title=1, code=AAA-000, description=Toolkit 1, assemblyNotes=ejemplo, link=http://www.google.com, item=Televition Xiaomi, price=EUR 350.00"","OK"
-"2022-04-25 18:44:48.774","any.toolkit.AnyToolkitListTest","anonymousListComponents",6260,""[2] testIndex=1, title=2, code=BBB-111, description=Toolkit 2, assemblyNotes=ejemplo, link=http://www.google.com, item=Televition Xiaomi, price=EUR 350.00"","OK"

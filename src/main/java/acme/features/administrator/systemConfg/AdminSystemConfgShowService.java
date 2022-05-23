@@ -6,19 +6,19 @@ import org.springframework.stereotype.Service;
 import acme.components.SystemConfiguration;
 import acme.framework.components.models.Model;
 import acme.framework.controllers.Request;
+import acme.framework.roles.Administrator;
 import acme.framework.services.AbstractShowService;
-import acme.roles.Patron;
 
 @Service
-public class AdminSystemConfgShowService implements AbstractShowService<Patron, SystemConfiguration> {
+public class AdminSystemConfgShowService implements AbstractShowService<Administrator, SystemConfiguration> {
 
 	@Autowired
 	protected AdminSystemConfgRepository repository;
 
-
 	@Override
 	public boolean authorise(final Request<SystemConfiguration> request) {
 		assert request != null;
+			
 		return true;
 	}
 
@@ -27,10 +27,8 @@ public class AdminSystemConfgShowService implements AbstractShowService<Patron, 
 		assert request != null;
 
 		SystemConfiguration result;
-		int id;
+		result = this.repository.findSystemConfiguration();
 
-		id = request.getModel().getInteger("id");
-		result = this.repository.findOneSystemConfiguration(id);
 		return result;
 	}
 
@@ -40,8 +38,8 @@ public class AdminSystemConfgShowService implements AbstractShowService<Patron, 
 		assert entity != null;
 		assert model != null;
 
-		request.unbind(entity, model, "defaultCurrency", "acceptedCurrenciesList","strongSpamTermsList",
-			"strongSpamTermsTranslate", "strongSpamTreshold", "weakSpamTermsList", "weakSpamTermsTranslate", "weakSpamThreshold" );
-		
+		request.unbind(entity, model, "systemCurrency", "acceptedCurrencies", "strongSpamTerms",
+										"weakSpamTerms", "strongSpamTreshold", "weakSpamTreshold");
 	}
+
 }

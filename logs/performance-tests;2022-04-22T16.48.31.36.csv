@@ -1,2 +1,0 @@
-timestamp,test-class,test-method,time,description,result
-"2022-04-22 16:48:02.568","inventor.item.InventorComponentListTest","inventorListTools",5691,""[1] testIndex=0, name=Televition Xiaomi, price=COMPONENT, type=DEF-484-C"","Record index 0 is out of range"

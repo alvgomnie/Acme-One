@@ -1,5 +1,0 @@
-timestamp,test-class,test-method,time,description,result
-"2022-04-22 12:04:59.559","any.chirp.AnyChirpListTest","administratorListComponents",6104,""[1] testIndex=0, title=ejemplo, author=ejemplo, moment=2022/03/20 21:00, body=ejemplo, email=ejemplo01@acme.com"","Expected value 'ejemplo' in attribute 0 of record 0, but found 'My Chirp'"
-"2022-04-22 12:05:03.461","any.chirp.AnyChirpListTest","administratorListComponents",3492,""[2] testIndex=1, title=My Chirp, author=Don Chirp, moment=2022/04/05 22:30, body=Hola sot un Chirp!, email=creadordechirps@email.com"","Record index 1 is out of range"
-"2022-04-22 12:05:04.944","any.chirp.AnyChirpListTest","anonymousListComponents",1084,""[1] testIndex=0, title=ejemplo, author=ejemplo, moment=2022/03/20 21:00, body=ejemplo, email=ejemplo01@acme.com"","Expected value 'ejemplo' in attribute 0 of record 0, but found 'My Chirp'"
-"2022-04-22 12:05:06.33","any.chirp.AnyChirpListTest","anonymousListComponents",1005,""[2] testIndex=1, title=My Chirp, author=Don Chirp, moment=2022/04/05 22:30, body=Hola sot un Chirp!, email=creadordechirps@email.com"","Record index 1 is out of range"

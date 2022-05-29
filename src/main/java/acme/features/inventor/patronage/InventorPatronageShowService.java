@@ -62,7 +62,7 @@ public class InventorPatronageShowService implements AbstractShowService<Invento
 		assert model != null;
 		
 		request.unbind(entity, model, "status", "code", "legalStuff", "budget", "startingDate", "finishingDate", 
-			"link", "timeLapse", "patron.name", "patron.company", "patron.statement", "patron.link");
+			"link", "patron.name", "patron.company", "patron.statement", "patron.link");
 	}
 	
 	

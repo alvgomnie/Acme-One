@@ -1,0 +1,18 @@
+patron.chimpum.list.label.title = Title
+patron.chimpum.list.label.budget = Budget
+patron.chimpum.list.label.creationMoment = Creation Moment
+
+patron.chimpum.list.button.create = Create
+
+patron.chimpum.form.label.title = Title
+patron.chimpum.form.label.code = Code
+patron.chimpum.form.label.description = Description
+patron.chimpum.form.label.budget = Budget
+patron.chimpum.form.label.creationMoment = Creation Moment
+patron.chimpum.form.label.finishingDate = Finishing Date
+patron.chimpum.form.label.link = Link
+patron.chimpum.form.label.item.type = Artefact
+
+patron.chimpum.form.button.create = Create
+patron.chimpum.form.button.update = Update
+patron.chimpum.form.button.delete = Delete

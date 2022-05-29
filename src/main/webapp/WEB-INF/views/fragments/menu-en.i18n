@@ -49,6 +49,7 @@ master.menu.consumer.favourite-link = Favourite link
 
 master.menu.patron = Patron
 master.menu.patron.patronages = Patronages
+master.menu.patron.chimpum = Chimpum
 master.menu.patron.patronageReport = Patronage Report
 
 # master.menu.user-account ####################################################
@@ -95,6 +96,7 @@ master.menu.inventor = Inventor
 master.menu.inventor.components-link = My components
 master.menu.inventor.tools-link = My tools
 master.menu.inventor.toolkit = Toolkits
+master.menu.inventor.chimpum = Chimpum
 master.menu.inventor.patronages = Patronages
 master.menu.inventor.patronageReport-list = Patronage Report
 master.menu.inventor.patronageReport-create = Create a Patronage Report

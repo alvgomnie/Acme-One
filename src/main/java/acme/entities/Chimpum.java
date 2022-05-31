@@ -5,7 +5,6 @@ import java.util.Date;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.ManyToOne;
-import javax.persistence.OneToOne;
 import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
 import javax.persistence.Transient;
@@ -66,7 +65,7 @@ public class Chimpum extends AbstractEntity{
 	
 	@NotNull
 	@Valid
-	@OneToOne(optional=false)
+	@ManyToOne(optional=false)
 	@OnDelete(action = OnDeleteAction.CASCADE)
 	protected Item item;
 	

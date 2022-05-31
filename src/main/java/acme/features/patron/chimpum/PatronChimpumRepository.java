@@ -35,5 +35,11 @@ public interface PatronChimpumRepository extends AbstractRepository{
 	
 	@Query("SELECT c FROM Chimpum c where c.creationMoment > :deadline")
 	Collection<Chimpum> findRecentChimpum(Date deadline);
+	
+	@Query("SELECT c.item FROM Chimpum c WHERE c.item is not null AND c.item.type = 0")
+	List<Item> findToolWithChimpum();
+	
+	@Query("SELECT c.item FROM Chimpum c WHERE c.item is not null AND c.item.type = 1")
+	List<Item> findComponentWithChimpum();
 
 }

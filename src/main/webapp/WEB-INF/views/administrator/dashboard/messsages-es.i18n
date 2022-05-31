@@ -14,3 +14,10 @@ administrator.dashboard.form.label.minBudgetPatronagesByStatus = Minimum budget 
 administrator.dashboard.form.label.maxRetailPriceComponentByTechAndCurrency = Maximum retail price of components grouped by technology and currency
 administrator.dashboard.form.label.maxRetailPriceToolByCurrency = Maximum retail price of tools grouped by currency
 administrator.dashboard.form.label.maxBudgetPatronagesByStatus = Maximum budget of patronage by patronage status
+
+
+administrator.dashboard.form.label.ratio = Ratio de herramientas y componentes con chimpum
+administrator.dashboard.form.label.averageBudgetByCurrency = Media del presupuesto de chimpum 
+administrator.dashboard.form.label.deviationBudgetByCurrency = Desviacion del presupuesto de chimpum 
+administrator.dashboard.form.label.minBudgetByCurrency = Minimo del presupuesto de chimpum 
+administrator.dashboard.form.label.maxBudgetPatronagesByStatus = Maximp del presupuesto de chimpum 

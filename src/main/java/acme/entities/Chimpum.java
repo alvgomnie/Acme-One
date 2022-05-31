@@ -65,7 +65,7 @@ public class Chimpum extends AbstractEntity{
 	
 	@NotNull
 	@Valid
-	@ManyToOne(optional=false)
+	@ManyToOne(optional=true)
 	@OnDelete(action = OnDeleteAction.CASCADE)
 	protected Item item;
 	

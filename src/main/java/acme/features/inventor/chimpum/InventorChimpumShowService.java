@@ -49,10 +49,11 @@ public class InventorChimpumShowService implements AbstractShowService<Inventor,
 		items = this.repository.findAllItems();
 		
 		request.unbind(entity, model, "title", "code", "description", "budget", "creationMoment", "finishingDate",  
-			"link", "item.type");	
+			"link"//, "item.type"
+			);	
 		
 		model.setAttribute("items", items);
-		model.setAttribute("itemType", entity.getItem().getType());
+		//model.setAttribute("itemType", entity.getItem().getType());
 	}
 
 	

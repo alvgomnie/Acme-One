@@ -10,6 +10,7 @@ import org.springframework.stereotype.Service;
 import acme.entities.Chimpum;
 import acme.framework.components.models.Model;
 import acme.framework.controllers.Request;
+import acme.framework.entities.Principal;
 import acme.framework.services.AbstractListService;
 import acme.roles.Inventor;
 
@@ -40,7 +41,12 @@ public class InventorChimpumListService implements AbstractListService<Inventor,
 		calendar.add(Calendar.MONTH, -1);
 		deadline = calendar.getTime();
 		
-		result = this.repository.findRecentChimpum(deadline);
+		
+		Principal principal;
+
+		principal = request.getPrincipal();
+		
+		result = this.repository.findRecentChimpum(deadline, principal.getActiveRoleId());
 		
 		return result;
 	}

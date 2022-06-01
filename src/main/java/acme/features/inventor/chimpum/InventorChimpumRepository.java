@@ -33,8 +33,8 @@ public interface InventorChimpumRepository extends AbstractRepository{
 	@Query("SELECT i FROM Item i")
 	List<Item> findAllItems();
 	
-	@Query("SELECT c FROM Chimpum c where c.creationMoment > :deadline")
-	Collection<Chimpum> findRecentChimpum(Date deadline);
+	@Query("SELECT c FROM Chimpum c where c.creationMoment > :deadline and c.item is not null and c.item.inventor.id = :id")
+	Collection<Chimpum> findRecentChimpum(Date deadline, int id);
 	
 	@Query("SELECT c.item FROM Chimpum c WHERE c.item is not null AND c.item.type = 0")
 	List<Item> findToolWithChimpum();

@@ -1,3 +1,5 @@
 key,title,code,description,budget,creationMoment,finishingDate,link,key:patron,key:inventor,key:item
 chimpum-01,My Chimpum!,22-05-29,My first chimpum,EUR 450.00,"2022/05/21 13:00","2022/05/29 00:00",https://www.starjam.com,patron-01,inventor-01,item-01
-chimpum-02,My Chimpum v2!,22-05-28,My second chimpum,EUR 150.00,"2022/05/21 17:45","2022/05/28 00:00",https://www.plum.com,patron-01,inventor-01,item-02
+chimpum-02,My Chimpum v2!,22-05-28,My second chimpum,EUR 150.00,"2022/05/21 17:45","2022/05/28 00:00",https://www.plum.com,patron-02,inventor-02,item-02
+chimpum-03,My Chimpum v3!,22-06-01,My third chimpum,EUR 450.00,"2022/06/01 13:30","2022/06/09 00:00",https://www.starjam.com,patron-01,inventor-01,item-03
+chimpum-04,My Chimpum v4!,22-05-31,My fourth chimpum,EUR 150.00,"2022/06/01 13:35","2022/06/08 00:00",https://www.plum.com,patron-02,inventor-02,item-04

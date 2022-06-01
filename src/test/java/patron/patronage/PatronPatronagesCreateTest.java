@@ -8,7 +8,6 @@ import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvFileSource;
 
-import acme.entities.PatronageStatus;
 import acme.testing.TestHarness;
 
 public class PatronPatronagesCreateTest extends TestHarness{
@@ -31,7 +30,7 @@ public class PatronPatronagesCreateTest extends TestHarness{
 		super.clickOnMenu("Patron", "Patronages");
 		super.checkListingExists();
 		super.clickOnButton("Create");
-		super.fillInputBoxIn("status", PatronageStatus.ACCEPTED.toString());
+		super.fillInputBoxIn("status", status);
 		super.fillInputBoxIn("code", code);
 		super.fillInputBoxIn("legalStuff", legalStuff);
 		super.fillInputBoxIn("budget", budget);
@@ -61,7 +60,7 @@ public class PatronPatronagesCreateTest extends TestHarness{
 		
 		super.clickOnMenu("Patron", "Patronages");
 		super.clickOnButton("Create");
-		super.fillInputBoxIn("status", PatronageStatus.ACCEPTED.toString());
+		super.fillInputBoxIn("status", status);
 		super.fillInputBoxIn("code", code);
 		super.fillInputBoxIn("legalStuff", legalStuff);
 		super.fillInputBoxIn("budget", budget);

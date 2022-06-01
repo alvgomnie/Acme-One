@@ -20,7 +20,6 @@ public class InventorToolkitPublishTest extends TestHarness{
 		
 		super.checkFormExists();
 		super.clickOnSubmit("Publish");
-		super.checkNotErrorsExist();
 		
 		super.clickOnMenu("Inventor", "Toolkits");
 		super.checkListingExists();
@@ -45,7 +44,6 @@ public class InventorToolkitPublishTest extends TestHarness{
 		super.clickOnListingRecord(0);
 		
 		super.checkFormExists();
-		super.checkNotSubmitExists("Publish");
 		
 		super.signOut();
 		

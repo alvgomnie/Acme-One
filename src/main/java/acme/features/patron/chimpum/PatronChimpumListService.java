@@ -36,11 +36,12 @@ public class PatronChimpumListService implements AbstractListService<Patron, Chi
 		Date deadline;
 		Collection<Chimpum> result;
 		
+		final int id = request.getPrincipal().getActiveRoleId();
 		calendar = Calendar.getInstance();
 		calendar.add(Calendar.MONTH, -1);
 		deadline = calendar.getTime();
 		
-		result = this.repository.findRecentChimpum(deadline);
+		result = this.repository.findRecentChimpum(deadline, id);
 		
 		return result;
 	}

@@ -13,11 +13,11 @@ import acme.features.inventor.chimpum.InventorChimpumRepository;
 import acme.forms.AdminDashboard;
 import acme.framework.components.models.Model;
 import acme.framework.controllers.Request;
+import acme.framework.roles.Administrator;
 import acme.framework.services.AbstractShowService;
-import acme.roles.Patron;
 
 @Service
-public class AdminDashboardShowService implements AbstractShowService<Patron, AdminDashboard>{
+public class AdminDashboardShowService implements AbstractShowService<Administrator, AdminDashboard>{
 
 	@Autowired
 	protected AdminDashboardRepository repository;

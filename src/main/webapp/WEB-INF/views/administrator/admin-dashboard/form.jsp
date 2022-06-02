@@ -58,7 +58,7 @@
       />
     </th>
     <td>
-      <acme:print value="${totalNumberOfTools}" />
+      <acme:print value="${totalNTools}" />
     </td>
   </tr>
   <tr>

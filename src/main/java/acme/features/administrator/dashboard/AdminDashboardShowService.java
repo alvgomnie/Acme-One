@@ -75,7 +75,7 @@ public class AdminDashboardShowService implements AbstractShowService<Administra
 		totalNTools = this.repository.totalNTools();
 		totalNPatronages = this.repository.totalNPatronages();
 		
-		totalNPatronagesByStatus = this.repository.totalNPatronagesByStatus().stream().collect(Collectors.toMap(x-> (PatronageStatus)x[0],x->((Double)x[1]).intValue()));
+		totalNPatronagesByStatus = this.repository.totalNPatronagesByStatus().stream().collect(Collectors.toMap(x-> (PatronageStatus)x[0],x->((Long)x[1]).intValue()));
 		
 		averageRetailPriceComponentsByTechAndCurrency = this.repository.averageRetailPriceComponentsByTechAndCurrency().stream()
 			.collect(Collectors.toMap(x->Pair.of((String)x[0], (String)x[1]), x->(Double) x[2]));

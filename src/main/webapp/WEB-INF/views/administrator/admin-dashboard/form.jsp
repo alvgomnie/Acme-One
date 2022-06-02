@@ -3,41 +3,6 @@
 <%@taglib prefix="jstl" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@taglib prefix="acme" uri="urn:jsptagdir:/WEB-INF/tags"%>
 
-<acme:form>
-	<acme:input-textbox code="administrator.dashboard.form.label.totalNComponents" path="totalNComponents"/>
-	<acme:input-textbox code="administrator.dashboard.form.label.totalNTools" path="totalNTools"/>
-	<acme:input-textbox code="administrator.dashboard.form.label.totalNPatronages" path=""/>
-	<acme:input-textbox code="administrator.dashboard.form.label.totalNPatronagesByStatus" path=""/>
-	<acme:input-textbox code="administrator.dashboard.form.label.averageRetailPriceComponentsByTechAndCurrency" path=""/>
-	<acme:input-textbox code="" path=""/>
-	<acme:input-textbox code="" path=""/>
-	<acme:input-textbox code="" path=""/>
-	<acme:input-textbox code="" path=""/>
-	<acme:input-textbox code="" path=""/>
-	<acme:input-textbox code="" path=""/>
-	<acme:input-textbox code="" path=""/>
-	<acme:input-textbox code="" path=""/>
-	<acme:input-textbox code="" path=""/>
-	<acme:input-textbox code="" path=""/>
-	<acme:input-textbox code="" path=""/>
-	
-	
-	
-	<acme:input-textbox code="" path="ratio"/>
-	<acme:input-textbox code="" path=""/>
-	<acme:input-textbox code="" path=""/>
-	<acme:input-textbox code="" path=""/>
-	<acme:input-textbox code="" path=""/>
-	
-	
-	
-	
-	
-
-</acme:form>
-
-
-
 
 <table class="table table-sm">
 
@@ -274,6 +239,12 @@
       </jstl:forEach>
     </td>
   </tr>
+  
+  
+  
+  
+  
+  
   
   <!-- ------------------------------ Control check ----------------------- -->
   <tr>

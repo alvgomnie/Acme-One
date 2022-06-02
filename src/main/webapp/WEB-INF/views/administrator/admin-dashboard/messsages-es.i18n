@@ -20,4 +20,4 @@ administrator.dashboard.form.label.ratio = Ratio de herramientas y componentes c
 administrator.dashboard.form.label.averageBudgetByCurrency = Media del presupuesto de chimpum 
 administrator.dashboard.form.label.deviationBudgetByCurrency = Desviacion del presupuesto de chimpum 
 administrator.dashboard.form.label.minBudgetByCurrency = Minimo del presupuesto de chimpum 
-administrator.dashboard.form.label.maxBudgetPatronagesByStatus = Maximp del presupuesto de chimpum 
+administrator.dashboard.form.label.maxBudgetByCurrency = Maximp del presupuesto de chimpum 

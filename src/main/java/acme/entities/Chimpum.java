@@ -63,21 +63,21 @@ public class Chimpum extends AbstractEntity{
 	@URL
 	private String link;
 	
-	@NotNull
+	//@NotNull
 	@Valid
 	@ManyToOne(optional=true)
 	@OnDelete(action = OnDeleteAction.CASCADE)
 	protected Item item;
 	
-	@NotNull
+	//@NotNull
 	@Valid
-	@ManyToOne(optional=false)
+	@ManyToOne(optional=true)
 	@OnDelete(action = OnDeleteAction.CASCADE)
 	protected Inventor inventor;
 	
-	@NotNull
+	//@NotNull
 	@Valid
-	@ManyToOne(optional=false)
+	@ManyToOne(optional=true)
 	@OnDelete(action = OnDeleteAction.CASCADE)
 	protected Patron patron;
 	

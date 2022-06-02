@@ -1,6 +1,6 @@
 package acme.features.inventor.chimpum;
 
-import java.util.List;
+import java.util.Collection;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -11,6 +11,7 @@ import acme.features.inventor.item.InventorItemRepository;
 import acme.framework.components.models.Model;
 import acme.framework.controllers.Errors;
 import acme.framework.controllers.Request;
+import acme.framework.entities.Principal;
 import acme.framework.services.AbstractCreateService;
 import acme.roles.Inventor;
 
@@ -31,31 +32,36 @@ public class InventorChimpumCreateService implements AbstractCreateService<Inven
 		return true;
 	}
 
+
 	@Override
 	public void bind(final Request<Chimpum> request, final Chimpum entity, final Errors errors) {
-
 		assert request != null;
 		assert entity != null;
 		assert errors != null;
-		
 		entity.setItem(this.itemRepository.findItemById(Integer.valueOf(request.getModel().getAttribute("itemId").toString())));
-
-		request.bind(entity, errors, "title", "code", "description", "budget", "creationMoment", "finishingDate", "link");
-		
+		request.bind(entity, errors,  "title", "code", "description", "budget", "creationMoment", "finishingDate", "link");
 	}
 
 	@Override
 	public void unbind(final Request<Chimpum> request, final Chimpum entity, final Model model) {
-
 		assert request != null;
 		assert entity != null;
-		assert model != null;
+		assert model!=null;
 		
-		final List<Item> items = this.itemRepository.findAllItem();
-		model.setAttribute("items", items);
+		Principal principal;
 
-		request.unbind(entity, model, "title", "code", "description", "budget", "creationMoment", "finishingDate", "link");
+		principal = request.getPrincipal();
 		
+		//si es tool
+		final Collection<Item> li = this.itemRepository.findToolsByInventorId(principal.getActiveRoleId());
+		model.setAttribute("items", li);
+		
+//		//si es component
+//		final Collection<Item> li = this.itemRepository.findComponentsByInventorId(principal.getActiveRoleId());
+//		model.setAttribute("allItems", li);
+		
+		
+		request.unbind(entity, model,  "title", "code", "description", "budget", "creationMoment", "finishingDate", "link");
 	}
 
 	@Override

@@ -49,7 +49,9 @@
 		<acme:menu-option code="master.menu.administrator" access="hasRole('Administrator')">
 			<acme:menu-suboption code="master.menu.administrator.user-accounts" action="/administrator/user-account/list"/>
 			<acme:menu-suboption code="master.menu.administrator.system-configuration" action="/administrator/system-configuration/show"/>
-			<acme:menu-separator/>
+			
+			<acme:menu-suboption code="master.menu.administrator.dashboard" action="/administrator/admin-dashboard/show"/>
+			<acme:menu-separator/> 
 			<acme:menu-suboption code="master.menu.administrator.announcement" action="/administrator/announcement/create"/>
 			<acme:menu-suboption code="master.menu.administrator.populate-initial" action="/administrator/populate-initial"/>
 			<acme:menu-suboption code="master.menu.administrator.populate-sample" action="/administrator/populate-sample"/>			
@@ -65,6 +67,7 @@
 			<acme:menu-suboption code="master.menu.inventor.components-link" action="/inventor/item/list-my-components"/>
 			<acme:menu-suboption code="master.menu.inventor.tools-link" action="/inventor/item/list-my-tools"/>
 			<acme:menu-suboption code = "master.menu.inventor.toolkit" action = "/inventor/toolkit/list"/>
+			<acme:menu-suboption code = "master.menu.inventor.chimpum" action = "/inventor/chimpum/list"/>
 			<acme:menu-separator/>
 			<acme:menu-suboption code = "master.menu.inventor.patronageReport-create" action="/inventor/patronage-report/create"/>
 			<acme:menu-suboption code = "master.menu.inventor.patronages" action = "/inventor/patronage/list"/>
@@ -77,6 +80,7 @@
 		
 		<acme:menu-option code="master.menu.patron" access="hasRole('Patron')">
 			<acme:menu-suboption code="master.menu.patron.patronages" action="/patron/patronage/list"/>
+			<acme:menu-suboption code = "master.menu.patron.chimpum" action = "/patron/chimpum/list"/>
 			<acme:menu-suboption code="master.menu.patron.patronageReport" action="/patron/patronage-report/list"/>
 		</acme:menu-option>
 	</acme:menu-left>

@@ -1,0 +1,21 @@
+patron.chimpum.list.label.title = Título
+patron.chimpum.list.label.budget = Presupuesto
+patron.chimpum.list.label.creationMoment = Momento de Creación
+
+patron.chimpum.list.button.create = Crear
+
+patron.chimpum.form.label.title = Título
+patron.chimpum.form.label.code = Código
+patron.chimpum.form.label.description = Descripción
+patron.chimpum.form.label.budget = Presupuesto
+patron.chimpum.form.label.creationMoment = Momento de Creación
+patron.chimpum.form.label.finishingDate = Fecha de Fin
+patron.chimpum.form.label.link = Link
+patron.chimpum.form.label.item.type = Artefacto
+
+patron.chimpum.form.button.create = Crear
+patron.chimpum.form.button.update = Actualizar
+patron.chimpum.form.button.delete = Borrar
+
+patron.chimpum.form.label.item.name = Artículo Asociado
+patron.chimpum.list.label.item-name = Nuevo Artículo Para Asociar

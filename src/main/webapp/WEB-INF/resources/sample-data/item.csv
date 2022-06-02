@@ -2,3 +2,10 @@ key,name,type,code,technology,description,retail-price,link,key:inventor,publish
 item-01,Televition Xiaomi,COMPONENT,DEF-484-C,Xiaomi,A tv made from Xiaomi!,EUR 350.0,https://www.mi.com/es,inventor-01,true
 item-02,Discord,TOOL,DSC-455-H,discord,A tool to bring easier communication among parners!,GBP 5.0,https://discord.com/,inventor-02,false
 item-03,Item Prueba,TOOL,PRU-003-X,Xiaomi,Un item de prueba,EUR 250.0,https://www.mi.com/es,inventor-01,false
+item-04,Sony,COMPONENT,SNY-314-L,sony,A tool to bring easier communication among parners!,GBP 5.0,https://sony.com/,inventor-02,false
+item-05,Item Prueba 2,TOOL,PRU-004-X,Xiaomi,Un item de prueba,EUR 250.0,https://www.mi.com/es,inventor-01,false
+item-06,Item Prueba 3,TOOL,PRU-005-K,Xiaomi,Un item de prueba,EUR 250.0,https://www.mi.com/es,inventor-01,false
+item-07,Item Prueba 4,TOOL,PRU-006-M,Xiaomi,Un item de prueba,EUR 250.0,https://www.mi.com/es,inventor-01,false
+item-08,Movil Xiaomi,COMPONENT,DEF-559-C,Xiaomi,A tv made from Xiaomi!,EUR 350.0,https://www.mi.com/es,inventor-01,true
+item-09,Watch Xiaomi,COMPONENT,DEF-667-G,Xiaomi,A tv made from Xiaomi!,EUR 350.0,https://www.mi.com/es,inventor-01,true
+item-10,Prueba Xiaomi,COMPONENT,DEF-030-B,Xiaomi,A tv made from Xiaomi!,EUR 350.0,https://www.mi.com/es,inventor-01,true

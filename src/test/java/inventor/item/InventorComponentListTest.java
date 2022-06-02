@@ -11,8 +11,8 @@ public class InventorComponentListTest extends TestHarness{
 	@ParameterizedTest
 	@CsvFileSource(resources = "/inventor/item/component.csv", encoding = "utf-8", numLinesToSkip = 1)
 	@Order(10)
-	public void inventorListComponents(final int testIndex, final String name, final String price, final String type, final String code,
-		final String technology, final String description, final String link) {
+	public void inventorListComponents(final int testIndex, final String name, final String type, final String code,
+		final String technology, final String description, final String price, final String link) {
 	
 		super.signIn("inventor1", "inventor1");
 		
@@ -28,11 +28,11 @@ public class InventorComponentListTest extends TestHarness{
 				
 		super.checkFormExists();
 		super.checkInputBoxHasValue("name", name);
-		super.checkInputBoxHasValue("retailPrice", price);
 		super.checkInputBoxHasValue("type", type);
 		super.checkInputBoxHasValue("code", code);
 		super.checkInputBoxHasValue("technology", technology);
 		super.checkInputBoxHasValue("description", description);
+		super.checkInputBoxHasValue("retailPrice", price);
 		super.checkInputBoxHasValue("link", link);
 		
 	}

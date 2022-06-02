@@ -14,7 +14,7 @@ public class InventorItemCreateTest extends TestHarness{
 	@Order(10)
 	public void inventorCreateItemPositive(final int testIndex, final String name, final String type,
 		final String code, final String technology, final String description,
-		final String retailPrice, final String link, final String published) {
+		final String retailPrice, final String link) {
 		
 		super.signIn("inventor2", "inventor2");
 		
@@ -29,14 +29,13 @@ public class InventorItemCreateTest extends TestHarness{
 		super.fillInputBoxIn("description", description);
 		super.fillInputBoxIn("retailPrice", retailPrice);
 		super.fillInputBoxIn("link", link);
-		super.fillInputBoxIn("published", published);
 		super.clickOnSubmit("Create");
 		
 		if(type.equals("COMPONENT")) {
 			super.clickOnMenu("Inventor", "My components");
 			super.checkListingExists();
 			super.sortListing(0, "asc");
-			super.clickOnListingRecord(testIndex);
+			super.clickOnListingRecord(testIndex+1);
 		}
 		else {
 			super.clickOnMenu("Inventor", "My tools");
@@ -52,7 +51,6 @@ public class InventorItemCreateTest extends TestHarness{
 		super.checkInputBoxHasValue("technology", technology);
 		super.checkInputBoxHasValue("description", description);
 		super.checkInputBoxHasValue("retailPrice", retailPrice);
-		super.checkInputBoxHasValue("published", published);
 		super.checkInputBoxHasValue("link", link);		
 	}
 	
@@ -61,7 +59,7 @@ public class InventorItemCreateTest extends TestHarness{
 	@Order(20)
 	public void inventorCreateItemNegative(final int testIndex, final String name, final String type,
 		final String code, final String technology, final String description,
-		final String retailPrice, final String link, final String published) {
+		final String retailPrice, final String link) {
 		
 		super.signIn("inventor2", "inventor2");
 		
@@ -76,7 +74,6 @@ public class InventorItemCreateTest extends TestHarness{
 		super.fillInputBoxIn("description", description);
 		super.fillInputBoxIn("retailPrice", retailPrice);
 		super.fillInputBoxIn("link", link);
-		super.fillInputBoxIn("published", published);
 		super.clickOnSubmit("Create");
 		
 		super.checkErrorsExist();

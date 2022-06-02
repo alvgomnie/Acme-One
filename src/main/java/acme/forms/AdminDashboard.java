@@ -38,6 +38,14 @@ public class AdminDashboard implements Serializable{
 	Map<Pair<String,String>,Double> maxRetailPriceComponentByTechAndCurrency;
 	Map<String,Double> maxRetailPriceToolByCurrency;
 	Map<PatronageStatus,Double> maxBudgetPatronagesByStatus;
+	
+	//CC
+	
+	Double ratio;
+	Map<String,Double>  averageBudgetByCurrency;
+	Map<String,Double>  deviationBudgetByCurrency;
+	Map<String,Double>  minBudgetByCurrency;
+	Map<String,Double>  maxBudgetByCurrency;
 
 
 

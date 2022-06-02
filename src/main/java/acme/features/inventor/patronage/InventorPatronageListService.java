@@ -44,7 +44,7 @@ public class InventorPatronageListService implements AbstractListService<Invento
 		assert model != null;
 			
 		request.unbind(entity, model, "status", "code", "legalStuff", "budget", "startingDate","finishingDate", 
-			"timeLapse", "link");
+			"link");
 			
 	}
 }

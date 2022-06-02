@@ -8,10 +8,10 @@ import org.springframework.stereotype.Controller;
 
 import acme.forms.AdminDashboard;
 import acme.framework.controllers.AbstractController;
-import acme.roles.Patron;
+import acme.framework.roles.Administrator;
 
 @Controller
-public class AdminDashboardController extends AbstractController<Patron, AdminDashboard> {
+public class AdminDashboardController extends AbstractController<Administrator, AdminDashboard> {
 
 	
 	@Autowired

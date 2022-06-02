@@ -8,17 +8,31 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import acme.entities.PatronageStatus;
+import acme.features.any.item.AnyItemRepository;
+import acme.features.inventor.chimpum.InventorChimpumRepository;
 import acme.forms.AdminDashboard;
 import acme.framework.components.models.Model;
 import acme.framework.controllers.Request;
+import acme.framework.roles.Administrator;
 import acme.framework.services.AbstractShowService;
-import acme.roles.Patron;
 
 @Service
-public class AdminDashboardShowService implements AbstractShowService<Patron, AdminDashboard>{
+public class AdminDashboardShowService implements AbstractShowService<Administrator, AdminDashboard>{
 
 	@Autowired
 	protected AdminDashboardRepository repository;
+	
+	@Autowired
+	protected AnyItemRepository itemRepository;
+	
+	
+	//si es inventor
+	@Autowired
+	protected InventorChimpumRepository chimpumRepository;
+	
+	//si es patron
+//	@Autowired
+//	protected PatronChimpumRepository chimpumRepository;
 	
 	@Override
 	public boolean authorise(final Request<AdminDashboard> request) {
@@ -61,7 +75,7 @@ public class AdminDashboardShowService implements AbstractShowService<Patron, Ad
 		totalNTools = this.repository.totalNTools();
 		totalNPatronages = this.repository.totalNPatronages();
 		
-		totalNPatronagesByStatus = this.repository.totalNPatronagesByStatus().stream().collect(Collectors.toMap(x-> (PatronageStatus)x[0],x->((Double)x[1]).intValue()));
+		totalNPatronagesByStatus = this.repository.totalNPatronagesByStatus().stream().collect(Collectors.toMap(x-> (PatronageStatus)x[0],x->((Long)x[1]).intValue()));
 		
 		averageRetailPriceComponentsByTechAndCurrency = this.repository.averageRetailPriceComponentsByTechAndCurrency().stream()
 			.collect(Collectors.toMap(x->Pair.of((String)x[0], (String)x[1]), x->(Double) x[2]));
@@ -111,6 +125,41 @@ public class AdminDashboardShowService implements AbstractShowService<Patron, Ad
 		adminDashboard.setMaxRetailPriceToolByCurrency(maxRetailPriceToolByCurrency);
 		
 		
+		//CC -------------------------------------------------------------------------------------------------------------
+
+		//si es tool
+//		final Double ratio = ((double)this.chimpumRepository.findToolWithChimpum().size()/(double)this.itemRepository.findAllComponents().size());
+		
+		//si es component
+		final Double ratio = ((double)this.chimpumRepository.findComponentWithChimpum().size()/(double)this.itemRepository.findAllComponents().size());
+		
+		final Map<String,Double> averageBudgetByCurrency;
+		final Map<String,Double> deviationBudgetByCurrency;
+		final Map<String,Double> minBudgetByCurrency;
+		final Map<String,Double> maxBudgetByCurrency;
+		
+		averageBudgetByCurrency = this.repository.averageBudgetByCurrency().stream()
+			.collect(Collectors.toMap(x->(String)x[0], x->(Double) x[1]));
+		
+		deviationBudgetByCurrency = this.repository.deviationBudgetByCurrency().stream()
+			.collect(Collectors.toMap(x->(String)x[0], x->(Double) x[1]));
+		
+		minBudgetByCurrency = this.repository.minBudgetByCurrency().stream()
+			.collect(Collectors.toMap(x->(String)x[0], x->(Double) x[1]));
+			
+		maxBudgetByCurrency = this.repository.maxBudgetByCurrency().stream()
+			.collect(Collectors.toMap(x->(String)x[0], x->(Double) x[1]));
+		
+		adminDashboard.setRatio(ratio);
+		adminDashboard.setAverageBudgetByCurrency(averageBudgetByCurrency);
+		adminDashboard.setDeviationBudgetByCurrency(deviationBudgetByCurrency);
+		adminDashboard.setMinBudgetByCurrency(minBudgetByCurrency);
+		adminDashboard.setMaxBudgetByCurrency(maxBudgetByCurrency);
+		
+		
+		
+		//----------------------------------------------------------------------------------------------------------------
+		
 		return adminDashboard;
 	}
 
@@ -124,7 +173,8 @@ public class AdminDashboardShowService implements AbstractShowService<Patron, Ad
 			"averageRetailPriceComponentsByTechAndCurrency","averageRetailPriceToolByCurrency","averageBudgetPatronagesByStatus",
 			"deviationRetailPriceComponentByTechAndCurrency","deviationRetailPriceToolByCurrency","deviationBudgetPatronagesByStatus",
 			"minRetailPriceComponentByTechAndCurrency","minRetailPriceToolByCurrency","minBudgetPatronagesByStatus",
-			"maxRetailPriceComponentByTechAndCurrency","maxRetailPriceToolByCurrency","maxBudgetPatronagesByStatus");
+			"maxRetailPriceComponentByTechAndCurrency","maxRetailPriceToolByCurrency","maxBudgetPatronagesByStatus",
+			"ratio", "averageBudgetByCurrency", "deviationBudgetByCurrency", "minBudgetByCurrency", "maxBudgetByCurrency");
 		
 	}
 

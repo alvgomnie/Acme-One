@@ -67,4 +67,21 @@ public interface AdminDashboardRepository extends AbstractRepository{
 	
 	
 	
+	//CC
+	
+	//average
+	@Query("select c.budget.currency, avg(c.budget.amount) from Chimpum c group by c.budget.currency")
+	List<Object[]> averageBudgetByCurrency();
+	
+	//deviation
+	@Query("select c.budget.currency, stddev(c.budget.amount) from Chimpum c group by c.budget.currency")
+	List<Object[]> deviationBudgetByCurrency();
+	
+	//minimum
+	@Query("select c.budget.currency, min(c.budget.amount) from Chimpum c group by c.budget.currency")
+	List<Object[]> minBudgetByCurrency();
+	
+	//maximum
+	@Query("select c.budget.currency, max(c.budget.amount) from Chimpum c group by c.budget.currency")
+	List<Object[]> maxBudgetByCurrency();
 }

@@ -14,7 +14,7 @@ public class InventorItemUpdateTest extends TestHarness{
 	@Order(10)
 	public void inventorCreateItemPositive(final int testIndex, final String name, final String type,
 		final String code, final String technology, final String description,
-		final String retailPrice, final String link, final String published) {
+		final String retailPrice, final String link) {
 		
 		super.signIn("inventor2", "inventor2");
 		
@@ -31,7 +31,6 @@ public class InventorItemUpdateTest extends TestHarness{
 		super.fillInputBoxIn("description", description);
 		super.fillInputBoxIn("retailPrice", retailPrice);
 		super.fillInputBoxIn("link", link);
-		super.fillInputBoxIn("published", published);
 		super.clickOnSubmit("Update");
 		
 		super.clickOnMenu("Inventor", "My tools");
@@ -46,7 +45,6 @@ public class InventorItemUpdateTest extends TestHarness{
 		super.checkInputBoxHasValue("technology", technology);
 		super.checkInputBoxHasValue("description", description);
 		super.checkInputBoxHasValue("retailPrice", retailPrice);
-		super.checkInputBoxHasValue("published", published);
 		super.checkInputBoxHasValue("link", link);		
 		
 		super.signOut();

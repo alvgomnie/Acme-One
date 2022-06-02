@@ -57,7 +57,7 @@ public class PatronPatronagesCreateService implements AbstractCreateService<Patr
 		inventors = this.repository.findAllInventors();
 		
 		request.unbind(entity, model, "code", "legalStuff", "budget", "startingDate",
-			"finishDate", "link", "published", "inventor", "inventor.company", "inventor.statement",
+			"finishingDate", "link", "published", "inventor", "inventor.company", "inventor.statement",
 			"inventor.link", "inventor.userAccount.username");
 		
 		model.setAttribute("inventors", inventors);

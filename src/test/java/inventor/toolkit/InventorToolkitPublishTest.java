@@ -26,7 +26,7 @@ public class InventorToolkitPublishTest extends TestHarness{
 		super.sortListing(0, "asc");
 		super.clickOnListingRecord(0);
 		
-		super.checkInputBoxHasValue("publish", "true");
+		super.checkInputBoxHasValue("publish", "false");
 		
 		super.signOut();
 		

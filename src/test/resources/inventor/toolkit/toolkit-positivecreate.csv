@@ -1,5 +1,5 @@
 recordIndex,code,title,description,assemblyNotes,publish,link
-0,BBB-000,01,This is a description,ejemplo,false,http://www.google.com
-1,CCC-000,02,This is a description,ejemplo,false,http://www.google.com
-2,DDD-000,03,This is a description,ejemplo,false,http://www.google.com
-3,EEE-000,04,This is a description,ejemplo,false,http://www.google.com
+0,BBB-000,01,This is a description,ejemplo,true,http://www.google.com
+1,CCC-000,02,This is a description,ejemplo,true,http://www.google.com
+2,DDD-000,03,This is a description,ejemplo,true,http://www.google.com
+3,EEE-000,04,This is a description,ejemplo,true,http://www.google.com

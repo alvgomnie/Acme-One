@@ -11,7 +11,7 @@ public class PatronChimpumListShowTest extends TestHarness{
 	@ParameterizedTest
 	@CsvFileSource(resources = "/patron/chimpum/chimpum.csv", encoding = "utf-8", numLinesToSkip = 1)
 	@Order(10)
-	public void positiveTest(final int recordIndex, final String title, final String code, final String description, final String budget, final String creationMoment, final String finishingDate, final String link, final String type) {
+	public void positiveTest(final int recordIndex, final String title, final String code, final String description, final String budget, final String creationMoment, final String finishingDate, final String link) {
 		super.signIn("patron1", "patron1");
 
 		super.clickOnMenu("Patron", "Chimpum");
@@ -32,8 +32,6 @@ public class PatronChimpumListShowTest extends TestHarness{
 		super.checkInputBoxHasValue("creationMoment", creationMoment);
 		super.checkInputBoxHasValue("finishingDate", finishingDate);
 		super.checkInputBoxHasValue("link", link);
-		
-		super.checkInputBoxHasValue("itemType", type);
 
 		super.signOut();
 	}

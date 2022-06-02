@@ -30,7 +30,7 @@ public class InventorToolkitCreateTest extends TestHarness{
 		super.clickOnMenu("Inventor", "Toolkits");
 		super.checkListingExists();
 		super.sortListing(0, "asc");
-		super.clickOnListingRecord(recordIndex+1);
+		super.clickOnListingRecord(recordIndex);
 		
 		super.checkFormExists();
 		

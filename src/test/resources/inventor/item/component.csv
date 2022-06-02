@@ -1,2 +1,2 @@
-testIndex,name,price,type,code,technology,description,link
-0,Televition Xiaomi,EUR 350.00,COMPONENT,DEF-484-C,Xiaomi,A tv made from Xiaomi!,https://www.mi.com/es
+testIndex,name,type,code,technology,description,price,link
+0,Movil Xiaomi,COMPONENT,DEF-559-C,Xiaomi,A tv made from Xiaomi!,EUR 350.00,https://www.mi.com/es

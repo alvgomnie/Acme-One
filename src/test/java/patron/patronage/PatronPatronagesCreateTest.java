@@ -25,7 +25,7 @@ public class PatronPatronagesCreateTest extends TestHarness{
 	@Order(10)
 	public void positivePatronageTest(final int recordIndex, final String status, final String code, final String legalStuff, final String budget, final String link) {
 		
-		super.signIn("patron3", "patron3");
+		super.signIn("patron2", "patron2");
 	
 		super.clickOnMenu("Patron", "Patronages");
 		super.checkListingExists();
@@ -39,7 +39,7 @@ public class PatronPatronagesCreateTest extends TestHarness{
 		super.fillInputBoxIn("link", link);
 		super.clickOnSubmit("Create");
 		
-		super.clickOnListingRecord(recordIndex);
+		super.clickOnListingRecord(recordIndex+2);
 		super.checkInputBoxHasValue("code", code);
 		super.checkInputBoxHasValue("legalStuff", legalStuff);
 		super.checkInputBoxHasValue("budget", budget);
@@ -56,7 +56,7 @@ public class PatronPatronagesCreateTest extends TestHarness{
 	public void negativePatronageTest(final int recordIndex, final String status, final String code, final String legalStuff, final String budget, final String link) {
 		
 		
-		super.signIn("patron3", "patron3");
+		super.signIn("patron2", "patron2");
 		
 		super.clickOnMenu("Patron", "Patronages");
 		super.clickOnButton("Create");

@@ -51,7 +51,7 @@ public class PatronChimpumUpdateTest extends TestHarness{
 	@ParameterizedTest
 	@CsvFileSource(resources = "/patron/chimpum/chimpumupdatenegative.csv", encoding = "utf-8", numLinesToSkip = 1)
 	@Order(20)
-	public void negativeTest(final int recordIndex, final String title, final String code, final String description, final String budget, final String creationMoment, final String finishingDate, final String link, final String name) {
+	public void negativeTest(final int recordIndex, final String title, final String code, final String description, final String budget, final String creationMoment, final String finishingDate, final String link) {
 		super.signIn("patron1", "patron1");
 
 		super.clickOnMenu("Patron", "Chimpum");

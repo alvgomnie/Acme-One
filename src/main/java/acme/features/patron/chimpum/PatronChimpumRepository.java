@@ -11,6 +11,7 @@ import acme.entities.Chimpum;
 import acme.entities.Item;
 import acme.framework.repositories.AbstractRepository;
 import acme.roles.Inventor;
+import acme.roles.Patron;
 
 @Repository
 public interface PatronChimpumRepository extends AbstractRepository{
@@ -22,7 +23,7 @@ public interface PatronChimpumRepository extends AbstractRepository{
 	Collection<Chimpum> findChimpumsByPatronId(int id);
 	
 	@Query("SELECT i FROM Patron i WHERE i.id=:id")
-	Inventor findPatronById(int id);
+	Patron findPatronById(int id);
 	
 	@Query("SELECT c FROM Chimpum c")
 	List<Chimpum> findAllChimpums();

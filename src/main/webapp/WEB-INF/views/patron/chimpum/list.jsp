@@ -9,6 +9,5 @@
 	<acme:list-column code="patron.chimpum.form.label.creationMoment" path="creationMoment"/>
 	
 </acme:list>
-<!--
-<acme:button code="patron.chimpum.list.button.create" action="/patron/item/create"/>
- -->
+
+<acme:button code="patron.chimpum.list.button.create" action="/patron/chimpum/create"/>

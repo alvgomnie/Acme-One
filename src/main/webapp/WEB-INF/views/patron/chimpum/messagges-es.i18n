@@ -16,3 +16,6 @@ patron.chimpum.form.label.item.type = Artefacto
 patron.chimpum.form.button.create = Crear
 patron.chimpum.form.button.update = Actualizar
 patron.chimpum.form.button.delete = Borrar
+
+patron.chimpum.form.label.item.name = Artículo Asociado
+patron.chimpum.list.label.item-name = Nuevo Artículo Para Asociar

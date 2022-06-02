@@ -11,8 +11,10 @@ patron.chimpum.form.label.budget = Budget
 patron.chimpum.form.label.creationMoment = Creation Moment
 patron.chimpum.form.label.finishingDate = Finishing Date
 patron.chimpum.form.label.link = Link
-patron.chimpum.form.label.item.type = Artefact
 
 patron.chimpum.form.button.create = Create
 patron.chimpum.form.button.update = Update
 patron.chimpum.form.button.delete = Delete
+
+patron.chimpum.form.label.item.name = Associated Item 
+patron.chimpum.list.label.item-name = New Item To Associate

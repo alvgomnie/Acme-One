@@ -17,7 +17,8 @@
 	</acme:input-select> --%>	
 	
 
-	<acme:input-select code="inventor.chimpum.list.label.item" path="itemId">
+    <acme:input-textbox code="inventor.chimpum.form.label.item.name" path="itemName" readonly= "true" />
+	<acme:input-select code="inventor.chimpum.list.label.item-name" path="itemId">
 		<jstl:forEach items="${items}" var="item">
 			<acme:input-option code="${item.getName()}" value="${item.getId()}" selected="${item.getId() == itemId }"/>
 		</jstl:forEach>

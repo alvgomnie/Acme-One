@@ -16,3 +16,7 @@ inventor.chimpum.form.label.item.type = Artefact
 inventor.chimpum.form.button.create = Create
 inventor.chimpum.form.button.update = Update
 inventor.chimpum.form.button.delete = Delete
+
+
+inventor.chimpum.form.label.item.name = Associated Item 
+inventor.chimpum.list.label.item-name = New Item To Associate

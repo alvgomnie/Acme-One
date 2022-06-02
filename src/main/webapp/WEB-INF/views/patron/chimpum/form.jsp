@@ -11,8 +11,26 @@
 	<acme:input-moment code="patron.chimpum.form.label.creationMoment" path="creationMoment"/>
 	<acme:input-moment code="patron.chimpum.form.label.finishingDate" path="finishingDate"/>
 	<acme:input-url code="patron.chimpum.form.label.link" path="link"/>
-	<acme:input-textbox code="patron.chimpum.form.label.item.type" path="itemType"/>
 	
+	
+	<acme:input-textbox code="patron.chimpum.form.label.item.name" path="itemName" readonly= "true" />
+	<acme:input-select code="patron.chimpum.list.label.item-name" path="itemId">
+		<jstl:forEach items="${items}" var="item">
+			<acme:input-option code="${item.getName()}" value="${item.getId()}" selected="${item.getId() == itemId }"/>
+		</jstl:forEach>
+	</acme:input-select>
+	
+
+	<jstl:choose>
+		<jstl:when test="${acme:anyOf(command, 'show, update, delete')}">
+			<acme:submit code="patron.chimpum.form.button.update" action="/patron/chimpum/update"/>
+			<acme:submit code="patron.chimpum.form.button.delete" action="/patron/chimpum/delete"/>
+		</jstl:when>	
+	
+		<jstl:when test="${command == 'create'}">
+			<acme:submit code="patron.chimpum.form.button.create" action="/patron/chimpum/create"/>
+		</jstl:when>
+	</jstl:choose>
 	<%--
 	<acme:input-select code="patron.chimpum.list.label.item" path="itemId">
 		<jstl:forEach items="${items}" var="item">

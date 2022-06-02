@@ -18,12 +18,15 @@ public class PatronChimpumController extends AbstractController<Patron, Chimpum>
 	@Autowired
 	protected PatronChimpumShowService showService;
 	
+	@Autowired
+	protected PatronChimpumUpdateService updateService;
+	
 	@PostConstruct
 	protected void initialise() {
 		super.addCommand("list", this.listService);
 		super.addCommand("show", this.showService);
 //		super.addCommand("create", this.createService);
-//		super.addCommand("update", this.updateService);
+		super.addCommand("update", this.updateService);
 //		super.addCommand("delete", this.deleteService);
 	}
 	
